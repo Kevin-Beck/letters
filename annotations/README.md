@@ -44,6 +44,9 @@ alongside them and point into them by quoting the exact words.
   - `probable`: strongly suggested, but not proven.
   - `speculative`: a reasoned guess (for example, a censored port worked out
     from the ship's known movements).
+- **images** (optional) is a list of `{"file": ..., "caption": ...}` pictures,
+  such as a photograph of a ship, shown with the entry wherever it is
+  linked. `file` is relative to the project folder.
 - Only `id`, `type`, `name`, `summary` and `confidence` are always present.
 
 ## Letter annotations (`letters/*.json`)

@@ -76,6 +76,9 @@ def main():
             errors.append(f"entity {eid}: bad confidence")
         if not e.get("summary"):
             errors.append(f"entity {eid}: missing summary")
+        for img in e.get("images", []):
+            if not (HERE.parent / img.get("file", "")).is_file():
+                errors.append(f"entity {eid}: image {img.get('file')!r} not found")
         for rel in e.get("see_also", []):
             if rel not in entities:
                 errors.append(f"entity {eid}: see_also {rel} not found")

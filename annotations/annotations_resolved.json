@@ -2772,6 +2772,12 @@
      "title": "uboat.net: USS LCI(L)-62",
      "url": "https://uboat.net/allies/warships/ship/20890.html"
     }
+   ],
+   "images": [
+    {
+     "file": "additional_context/LCI-62_troops.jpg",
+     "caption": "LCI(L)-62 landing troops of the 6th Infantry Division near Cape Opmarai, Dutch New Guinea, July 30, 1944, a few months after Tom went home (NavSource caption)"
+    }
    ]
   },
   "ship.prairie-state": {
@@ -4766,11 +4772,11 @@
     "text": "Time",
     "kind": "context",
     "entity": "culture.time-magazine",
-    "note": "Page 70 of Time, Nov. 30, 1942 has two short items that fit. 'Superlative for \"Snafu\"' explains the new service slang ('situation normal, all fouled up'), and 'Open Passage' reports the formal opening of the Alaska Highway. Tom most likely meant the Snafu piece: it matches his complaints about red tape at Solomons, and he used the word himself on Jan. 15, 1943.",
+    "note": "Tom meant 'Superlative for \"Snafu\"' on page 70 (shown here), a short piece explaining the new service slang: 'situation normal, all fouled up'. It fitted his complaints about red tape at Solomons, and he used the word himself on Jan. 15, 1943.",
     "images": [
      {
       "file": "additional_context/time_page_70.webp",
-      "caption": "Time, Nov. 30, 1942, page 70"
+      "caption": "Time, Nov. 30, 1942, page 70: 'Superlative for \"Snafu\"' (middle column)"
      }
     ]
    }
@@ -6557,11 +6563,10 @@
    {
     "id": "a7",
     "start": 3548,
-    "end": 3601,
-    "text": "[Morse-code-like dots and dashes typed at lower left]",
+    "end": 3598,
+    "text": "[Typed at lower left in Morse code: \"Love to all\"]",
     "kind": "transcription",
-    "note": "Perhaps a playful sign-off in Morse code; not decoded.",
-    "confidence": "speculative"
+    "note": "The dots and dashes spell out 'Love to all' in Morse code, repeating Tom's sign-off."
    }
   ],
   "1943-05-03_tom-to-mother.txt": [

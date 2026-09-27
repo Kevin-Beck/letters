@@ -519,7 +519,8 @@ One card element, reused for every annotation.
    - `dates`, if present;
    - a confidence label when the effective confidence isn't `confirmed`:
      "Probable" in amber, "Speculative" in orange;
-   - `summary`.
+   - `summary`;
+   - the entity's `images`, if any, as thumbnails like the note's.
 3. **Pinned cards only**, below the summary:
    - `detail`, if present;
    - **See also:** the names of the `see_also` entities as links. Clicking

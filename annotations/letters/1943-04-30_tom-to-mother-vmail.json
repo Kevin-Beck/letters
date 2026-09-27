@@ -54,11 +54,10 @@
   {
    "id": "a7",
    "quote": {
-    "exact": "[Morse-code-like dots and dashes typed at lower left]"
+    "exact": "[Typed at lower left in Morse code: \"Love to all\"]"
    },
    "kind": "transcription",
-   "note": "Perhaps a playful sign-off in Morse code; not decoded.",
-   "confidence": "speculative"
+   "note": "The dots and dashes spell out 'Love to all' in Morse code, repeating Tom's sign-off."
   }
  ]
 }
