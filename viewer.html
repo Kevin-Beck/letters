@@ -16679,9 +16679,9 @@ function buildTimeline() {
     const x1 = xOf(ev.start), x2 = xOf(ev.end) + PX_PER_DAY;
     const band = ev.end !== ev.start;
     const lx = band ? x1 + 4 : x1 + 10;
-    return { ev, x1, x2, band, lx, natural: Math.min(260, textWidth(ev.text, LABEL_FONT) + 6) };
+    return { ev, x1, x2, band, lx, natural: textWidth(ev.text, LABEL_FONT) + 6 };
   }).sort((a, b) => a.x1 - b.x1);
-  const MAX_ROWS = 4;
+  const MAX_ROWS = 12;
   for (const it of items) {
     let r = rows.findIndex((row) => row.end <= it.x1 - 4);
     if (r < 0 && rows.length < MAX_ROWS) r = rows.length;
@@ -16717,12 +16717,12 @@ function buildTimeline() {
   }
 
   // Letter lane: stack each circle in the lowest row with room.
-  const letterTop = serviceTop + serviceH + 10, DOT_ROW = 13;
+  const letterTop = serviceTop + serviceH + 10, DOT_ROW = 17;
   const lastX = [];
   for (const L of LETTERS) {
     if (!L.sort_date) continue;
     const x = xOf(L.sort_date);
-    let r = lastX.findIndex((lx) => lx <= x - 12);
+    let r = lastX.findIndex((lx) => lx <= x - 16);
     if (r < 0) r = lastX.length;
     lastX[r] = x;
     const dot = makeDot(L);

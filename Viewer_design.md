@@ -321,12 +321,12 @@ guarantees JavaScript string offsets equal the Python offsets.
   - a longer event is a shaded band covering its dates.
 - The label sits beside the flag or at the start of the band. Several
   one-day events are only days apart (Nov–Dec 1942), so labels are
-  **staggered** over up to four rows: each label goes in the lowest row
-  where it fits. When no row is free, it goes in the row where cutting the
-  label before it leaves the most text. Each label is cut short with an
-  ellipsis before the next event in its row, and is at most 260 px wide.
-  Labels have an opaque background so the flag poles from upper rows pass
-  behind them. Hovering shows the dates and full text in a tooltip.
+  **staggered** over as many rows as they need (7 with the current data, up
+  to a limit of 12): each label goes in the lowest row where it fits in
+  full, so no label overlaps another or is cut short. Only past the 12-row
+  limit is a label cut short with an ellipsis before the next event in its
+  row. Labels have an opaque background so the flag poles from upper rows
+  pass behind them. Hovering shows the dates and full text in a tooltip.
 
 **Letter lane** (below the service lane)
 - Each dated letter is a 10 px circle at `sort_date`:
@@ -334,7 +334,8 @@ guarantees JavaScript string offsets equal the Python offsets.
   - filled dark red for letters from other family members;
   - hollow, with the same outline colour, when `approximate` is true.
 - **Stacking:** letters are placed in `letters` order. Each circle goes in
-  the lowest row whose last circle is at least 12 px to its left. The lane
+  the lowest row whose last circle is at least 16 px to its left. Rows are
+  17 px apart, so circles never touch. The lane
   grows to fit the tallest stack.
 - **Undated letters** (no `sort_date`) are in a separate box at the right end of the
   timeline, labelled "Undated", with the same circle styles in one row.
