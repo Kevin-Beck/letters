@@ -16703,11 +16703,12 @@ function layoutLane(inner, items, top, laneCls) {
 const CONF_LABEL = { confirmed: "", probable: " (probable)", speculative: " (speculative)" };
 
 const LANES = ["World", "Where", "Service"];
-const laneShown = Object.fromEntries(LANES.map((n) => [n, true]));
+// Context lanes start hidden; the reader turns them on with the topbar buttons.
+const laneShown = Object.fromEntries(LANES.map((n) => [n, false]));
 try {
-  const saved = JSON.parse(localStorage.getItem("tbf1-hidden-lanes") || "[]");
-  for (const n of saved) if (n in laneShown) laneShown[n] = false;
-} catch (e) { /* storage unavailable: show every lane */ }
+  const saved = JSON.parse(localStorage.getItem("tbf1-shown-lanes") || "[]");
+  for (const n of saved) if (n in laneShown) laneShown[n] = true;
+} catch (e) { /* storage unavailable: hide every lane */ }
 
 function buildLaneToggles() {
   const box = $("lane-toggles");
@@ -16718,7 +16719,7 @@ function buildLaneToggles() {
       laneShown[name] = !laneShown[name];
       b.setAttribute("aria-pressed", String(laneShown[name]));
       try {
-        localStorage.setItem("tbf1-hidden-lanes", JSON.stringify(LANES.filter((n) => !laneShown[n])));
+        localStorage.setItem("tbf1-shown-lanes", JSON.stringify(LANES.filter((n) => laneShown[n])));
       } catch (e) { /* not remembered */ }
       buildTimeline();
       if (current >= 0) {
@@ -16757,7 +16758,7 @@ function buildTimeline() {
     tip: `${fmtSpan(loc.start, loc.end)}: ${loc.place}${CONF_LABEL[loc.confidence]}` + (loc.detail ? `. ${loc.detail}` : ""),
   })), "lane-where");
   addLane("Service", DATA.events.map((ev) => ({ ...ev, tip: `${fmtSpan(ev.start, ev.end)}: ${ev.text}` })), "lane-service");
-  inner.append(el("div", { class: "tl-lane-rule", style: `top:${top - GAP / 2}px` }));
+  if (lanes.length) inner.append(el("div", { class: "tl-lane-rule", style: `top:${top - GAP / 2}px` }));
 
   // Letter lane: stack each circle in the lowest row with room.
   const letterTop = top + 4, DOT_ROW = 17;

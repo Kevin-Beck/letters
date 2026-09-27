@@ -35,7 +35,8 @@ Safari, Edge) with no internet connection, installation or web server. Keep
 it in this folder, next to `scans/`, because it loads the scan images from
 there.
 
-- **Timeline** (top), in four rows:
+- **Timeline** (top). At first it shows only the Letters row; the World,
+  Where and Service rows add context when you turn them on:
   - **World**: major events of the war, for comparison.
   - **Where**: where Tom was. His letters from Feb. 1943 to spring 1944 were
     censored, so most of those places are worked out from clues and from
@@ -47,8 +48,9 @@ there.
     Click a dot to open that letter. Five undated family letters, which
     don't belong on the timeline, are left out of the viewer (see below).
 
-  The **World**, **Where** and **Service** buttons in the top bar hide or
-  show those rows.
+  The **World**, **Where** and **Service** buttons in the top bar show or
+  hide those rows. They start hidden, and your browser remembers which ones
+  you turned on.
 - **Scan** (left) and **transcript** (right). Scrolling the transcript turns
   the scan to the page you're reading. Click a page number to jump to it,
   and click the scan to see it full size.

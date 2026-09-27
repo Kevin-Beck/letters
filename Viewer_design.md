@@ -347,8 +347,9 @@ first three are drawn by the same code and differ only in colour:
 
 A dashed rule separates the rows. The label column on the left names each
 row. The **World**, **Where** and **Service** buttons in the top bar show or
-hide those rows. The choice is kept in `localStorage` (per browser), and the
-page works normally if storage is unavailable.
+hide those rows. All three start hidden, so at first the timeline shows only
+the letters. The rows the reader turns on are kept in `localStorage` (per
+browser), and the page works normally (rows hidden) if storage is unavailable.
 
 **Each row**
 - Each event is drawn at its dates:
@@ -612,11 +613,11 @@ straight from disk in current Chrome, Firefox and Safari:
       than images in `scans/` and `additional_context/`.
 - [ ] The timeline shows all 111 dated letters in date order (including the
       George letter placed at fall 1942), and no Undated box. Approximate
-      dates are hollow circles. All 20
+      dates are hollow circles. With all three context rows turned on, all 20
       world events, 30 locations and 16 service events are visible, and
       every label shows in full without overlapping another.
-- [ ] The World, Where and Service buttons hide and show their rows, and the
-      choice survives a reload.
+- [ ] The World, Where and Service rows start hidden on a first visit; their
+      buttons show and hide them, and the choice survives a reload.
 - [ ] Clicking any circle opens that letter, and the URL hash changes to its
       id.
 - [ ] Reloading the page reopens the same letter. Back and Forward move
