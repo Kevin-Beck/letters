@@ -5,7 +5,8 @@ Run from anywhere:  python3 tools/check_project.py
 
 Checks that
   - every scan, transcription and annotation file named in the index exists;
-  - every file in scans/ and delete/scans/ is named in the index exactly once;
+  - every file in scans/ is named in the index exactly once;
+  - each 'rescan' entry names a real page of its letter;
   - each transcription's "Source images" header lists exactly its letter's
     scans, and its page markers name only those scans;
   - the annotations still build (runs annotations/build_annotations.py).
@@ -42,10 +43,14 @@ def main():
         for n, p in enumerate(L["pages"], 1):
             if p["page"] != n or p["file"] != f"scans/{lid}_p{n:02d}.jpg":
                 errors.append(f"{lid}: page {n} is misnamed ({p['file']})")
-            for f in [p["file"]] + [d["file"] for d in p["duplicates"]]:
-                named[f] += 1
-                if not (ROOT / f).is_file():
-                    errors.append(f"{lid}: {f} missing")
+            named[p["file"]] += 1
+            if not (ROOT / p["file"]).is_file():
+                errors.append(f"{lid}: {p['file']} missing")
+        for r in L.get("rescan", []):
+            n = r.get("page", r.get("after_page"))
+            if r.get("type") not in index["rescan_types"] or not isinstance(n, int) \
+                    or not 1 <= n <= len(pages):
+                errors.append(f"{lid}: bad rescan entry {r}")
 
         txt_path = ROOT / L["transcription_file"]
         if not txt_path.is_file():
@@ -62,8 +67,7 @@ def main():
                 if name not in own:
                     errors.append(f"{lid}: page marker names {name}, not one of its scans")
 
-    on_disk = {str(p.relative_to(ROOT)) for d in ("scans", "delete/scans")
-               for p in (ROOT / d).iterdir() if p.is_file()}
+    on_disk = {f"scans/{p.name}" for p in (ROOT / "scans").iterdir() if p.is_file()}
     errors += [f"{f} is named {n} times in the index" for f, n in named.items() if n > 1]
     errors += [f"{f} is in the index but not on disk" for f in set(named) - on_disk]
     errors += [f"{f} is on disk but not in the index" for f in sorted(on_disk - set(named))]
@@ -85,8 +89,8 @@ def main():
         print(f"\n{len(errors)} problem(s).")
         sys.exit(1)
     n_pages = sum(len(L["pages"]) for L in letters)
-    n_dups = sum(len(p["duplicates"]) for L in letters for p in L["pages"])
-    print(f"OK: {len(letters)} letters, {n_pages} page scans, {n_dups} duplicates in delete/scans.")
+    n_rescan = sum(len(L.get("rescan", [])) for L in letters)
+    print(f"OK: {len(letters)} letters, {n_pages} page scans, {n_rescan} rescan items.")
     print(build.stdout.strip())
 
 

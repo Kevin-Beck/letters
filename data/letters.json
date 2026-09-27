@@ -8,14 +8,14 @@
   "annotations/": "Hover-text notes on people, ships, places and events",
   "data/letters.json": "This index",
   "photos/": "Family photographs (not letters)",
-  "delete/": "Duplicate scans and superseded drafts; safe to delete"
+  "delete/": "Duplicate scans and superseded drafts; safe to delete (not referenced by this index)"
  },
  "original_source_folders": [
   " (parent folder)",
   "TBF1Adobe/Adobe finished/",
   "TBF0defective/"
  ],
- "conventions": "Original spelling and grammar kept. [?] = uncertain reading; [crossed out] = struck-through text; [bracketed letters] = text lost at scan edge. Dates in YYYY-MM-DD; a date marked '(probable)' was inferred from content. File paths are relative to the project folder ('TBF1 Navy Letters'). Where the same page was scanned more than once, the highest-resolution scan (the cleaned-up Adobe scan when equal) is in scans/ and the others are in delete/scans/, listed under that page's 'duplicates'. Each page keeps its original filename in 'original_file'.",
+ "conventions": "Original spelling and grammar kept. [?] = uncertain reading; [crossed out] = struck-through text; [bracketed letters] = text lost at scan edge. Dates in YYYY-MM-DD; a date marked '(probable)' was inferred from content. File paths are relative to the project folder ('TBF1 Navy Letters'). Where the same page was scanned more than once, the highest-resolution scan (the cleaned-up Adobe scan when equal) is in scans/; the others were moved to delete/scans/ (see rename_log.csv). Each page keeps its original filename in 'original_file'.",
  "content_warning": "Several letters contain period racist, antisemitic and anti-Japanese language. It is transcribed verbatim as part of the historical record, and each affected letter carries a NOTE in its header.",
  "people": {
   "Tom": "Thomas Frazier Beck (b. Feb. 27, 1919, per letters). Karns City, PA. Penn State (commerce & finance); also studied at Pitt. V-7 midshipman at Columbia (John Jay Hall) July-Oct 1942; commissioned Ensign, USNR, Oct. 21, 1942. Amphibious Force: Solomons MD and Norfolk VA; LCI(L) 218 (Dec 1942 training); LCI(L) 345 (commissioned Jan 22, 1943, Houston); executive officer of USS LCI(L) 62 from Feb 3, 1943, in the South Pacific for about 13 months; back in the U.S. about Mar-Apr 1944; U.S. Naval Station, Grand Trunk Pier, Portland ME (1944-45); hospitalized for malaria about Apr-May 1945 (probably Portsmouth Naval Hospital).",
@@ -67,30 +67,14 @@
      "file": "scans/1942-07-02_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420702pg1.jpg",
      "width": 2183,
-     "height": 3216,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-02_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420702pg1.jpg",
-       "width": 2183,
-       "height": 3216
-      }
-     ]
+     "height": 3216
     },
     {
      "page": 2,
      "file": "scans/1942-07-02_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420702pg2.jpg",
      "width": 2220,
-     "height": 2442,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-02_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420702pg2.jpg",
-       "width": 2220,
-       "height": 2442
-      }
-     ]
+     "height": 2442
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420702pg1.jpg, TBF1Adobe/Adobe finished/420702pg2.jpg"
@@ -115,87 +99,43 @@
      "file": "scans/1942-07-06_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420706pg1.jpg",
      "width": 2088,
-     "height": 3066,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-06_tom-to-mother_p01_dup1.jpg",
-       "original_file": "4207xpg1.jpg",
-       "width": 2074,
-       "height": 2861
-      }
-     ]
+     "height": 3066
     },
     {
      "page": 2,
      "file": "scans/1942-07-06_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4207xpg2.jpg",
      "width": 2183,
-     "height": 3048,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-06_tom-to-mother_p02_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/4207xpg1.jpg",
-       "width": 2183,
-       "height": 3048
-      },
-      {
-       "file": "delete/scans/1942-07-06_tom-to-mother_p02_dup2.jpg",
-       "original_file": "4207xpg2.jpg",
-       "width": 2183,
-       "height": 3048
-      },
-      {
-       "file": "delete/scans/1942-07-06_tom-to-mother_p02_dup3.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/420706pg2.jpg",
-       "width": 2088,
-       "height": 3066
-      }
-     ]
+     "height": 3048
     },
     {
      "page": 3,
      "file": "scans/1942-07-06_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4207xpg3.jpg",
      "width": 2069,
-     "height": 2952,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-06_tom-to-mother_p03_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/420706pg3.jpg",
-       "width": 2028,
-       "height": 2952
-      }
-     ]
+     "height": 2952
     },
     {
      "page": 4,
      "file": "scans/1942-07-06_tom-to-mother_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4207xpg4.jpg",
      "width": 2027,
-     "height": 3180,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-06_tom-to-mother_p04_dup1.jpg",
-       "original_file": "4204XX.jpg",
-       "width": 2027,
-       "height": 3180
-      },
-      {
-       "file": "delete/scans/1942-07-06_tom-to-mother_p04_dup2.jpg",
-       "original_file": "4207xpg3.jpg",
-       "width": 2027,
-       "height": 3180
-      },
-      {
-       "file": "delete/scans/1942-07-06_tom-to-mother_p04_dup3.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/420706pg4.jpg",
-       "width": 1896,
-       "height": 3180
-      }
-     ]
+     "height": 3180
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/420706pg1.jpg, 420706pg2.jpg, 420706pg3.jpg, 420706pg4.jpg\n      (420706pg4 is the same page as 4204XX.jpg in the parent folder - a second scan)"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/420706pg1.jpg, 420706pg2.jpg, 420706pg3.jpg, 420706pg4.jpg\n      (420706pg4 is the same page as 4204XX.jpg in the parent folder - a second scan)",
+   "rescan": [
+    {
+     "type": "cut-off",
+     "page": 1,
+     "reason": "Bottom line cut off at the scan edge"
+    },
+    {
+     "type": "cut-off",
+     "page": 3,
+     "reason": "Bottom line cut off at the scan edge"
+    }
+   ]
   },
   {
    "id": "1942-07-08_tom-to-mother",
@@ -217,60 +157,28 @@
      "file": "scans/1942-07-08_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420708pg1.jpg",
      "width": 2190,
-     "height": 3150,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-08_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420708pg1.jpg",
-       "width": 2190,
-       "height": 3150
-      }
-     ]
+     "height": 3150
     },
     {
      "page": 2,
      "file": "scans/1942-07-08_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420708pg2.jpg",
      "width": 2201,
-     "height": 3252,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-08_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420708pg2.jpg",
-       "width": 2201,
-       "height": 3252
-      }
-     ]
+     "height": 3252
     },
     {
      "page": 3,
      "file": "scans/1942-07-08_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420708pg3.jpg",
      "width": 2208,
-     "height": 3246,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-08_tom-to-mother_p03_dup1.jpg",
-       "original_file": "420708pg3.jpg",
-       "width": 2208,
-       "height": 3246
-      }
-     ]
+     "height": 3246
     },
     {
      "page": 4,
      "file": "scans/1942-07-08_tom-to-mother_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420708pg4.jpg",
      "width": 2256,
-     "height": 2448,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-08_tom-to-mother_p04_dup1.jpg",
-       "original_file": "420708pg4.jpg",
-       "width": 2134,
-       "height": 2315
-      }
-     ]
+     "height": 2448
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420708pg1.jpg, 420708pg2.jpg, 420708pg3.jpg, 420708pg4.jpg"
@@ -295,36 +203,14 @@
      "file": "scans/1942-07-11_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420711pg1.jpg",
      "width": 2177,
-     "height": 3204,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-11_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420711pg1.jpg",
-       "width": 2063,
-       "height": 3037
-      }
-     ]
+     "height": 3204
     },
     {
      "page": 2,
      "file": "scans/1942-07-11_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420711pg2.jpg",
      "width": 2159,
-     "height": 3120,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-11_tom-to-mother_p02_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/420720pg2.jpg",
-       "width": 2159,
-       "height": 3120
-      },
-      {
-       "file": "delete/scans/1942-07-11_tom-to-mother_p02_dup2.jpg",
-       "original_file": "420711pg2.jpg",
-       "width": 2159,
-       "height": 3120
-      }
-     ]
+     "height": 3120
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420711pg1.jpg, 420711pg2.jpg"
@@ -349,30 +235,14 @@
      "file": "scans/1942-07-14_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420714pg1.jpg",
      "width": 2166,
-     "height": 3288,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-14_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420714pg1.jpg",
-       "width": 2166,
-       "height": 3288
-      }
-     ]
+     "height": 3288
     },
     {
      "page": 2,
      "file": "scans/1942-07-14_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420714pg2.jpg",
      "width": 2309,
-     "height": 3186,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-14_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420714pg2.jpg",
-       "width": 2309,
-       "height": 3186
-      }
-     ]
+     "height": 3186
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420714pg1.jpg, 420714pg2.jpg"
@@ -398,30 +268,14 @@
      "file": "scans/1942-07-15_tom-to-adam-moser_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420715Moser01.jpg",
      "width": 2214,
-     "height": 3168,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-15_tom-to-adam-moser_p01_dup1.jpg",
-       "original_file": "420715Moser01.jpg",
-       "width": 2214,
-       "height": 3168
-      }
-     ]
+     "height": 3168
     },
     {
      "page": 2,
      "file": "scans/1942-07-15_tom-to-adam-moser_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420715Moser02.jpg",
      "width": 2166,
-     "height": 2592,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-15_tom-to-adam-moser_p02_dup1.jpg",
-       "original_file": "420715Moser02.jpg",
-       "width": 2166,
-       "height": 2592
-      }
-     ]
+     "height": 2592
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420715Moser01.jpg, 420715Moser02.jpg"
@@ -447,30 +301,14 @@
      "file": "scans/1942-07-18_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420718pg1.jpg",
      "width": 2250,
-     "height": 3324,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-18_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420718pg1.jpg",
-       "width": 1966,
-       "height": 2905
-      }
-     ]
+     "height": 3324
     },
     {
      "page": 2,
      "file": "scans/1942-07-18_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420718pg2.jpg",
      "width": 2232,
-     "height": 3018,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-18_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420718pg2.jpg",
-       "width": 2232,
-       "height": 3018
-      }
-     ]
+     "height": 3018
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420718pg1.jpg, 420718pg2.jpg"
@@ -495,23 +333,14 @@
      "file": "scans/1942-07-20_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420720pg1.jpg",
      "width": 2159,
-     "height": 3222,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-20_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420720pg1.jpg",
-       "width": 2159,
-       "height": 3222
-      }
-     ]
+     "height": 3222
     },
     {
      "page": 2,
      "file": "scans/1942-07-20_tom-to-mother_p02.jpg",
      "original_file": "420720pg2.jpg",
      "width": 2267,
-     "height": 3324,
-     "duplicates": []
+     "height": 3324
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420720pg1.jpg, 420720pg2.jpg (parent folder)"
@@ -537,30 +366,14 @@
      "file": "scans/1942-07-22_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420722pg1.jpg",
      "width": 2100,
-     "height": 3053,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-22_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420722pg1.jpg",
-       "width": 2100,
-       "height": 3053
-      }
-     ]
+     "height": 3053
     },
     {
      "page": 2,
      "file": "scans/1942-07-22_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420722pg2.jpg",
      "width": 2244,
-     "height": 2466,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-22_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420722pg2.jpg",
-       "width": 2244,
-       "height": 2466
-      }
-     ]
+     "height": 2466
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420722pg1.jpg, 420722pg2.jpg"
@@ -586,16 +399,14 @@
      "file": "scans/1942-07-23_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420723Pg1.jpg",
      "width": 2052,
-     "height": 3252,
-     "duplicates": []
+     "height": 3252
     },
     {
      "page": 2,
      "file": "scans/1942-07-23_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420723Pg2.jpg",
      "width": 2064,
-     "height": 2898,
-     "duplicates": []
+     "height": 2898
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420723Pg1.jpg, 420723Pg2.jpg"
@@ -621,41 +432,31 @@
      "file": "scans/1942-07-27_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420727Pg1.jpg",
      "width": 2256,
-     "height": 3329,
-     "duplicates": []
+     "height": 3329
     },
     {
      "page": 2,
      "file": "scans/1942-07-27_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420727pg2.jpg",
      "width": 2304,
-     "height": 3204,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-27_tom-to-mother_p02_dup1.jpg",
-       "original_file": "TBF0defective/420727pg2.jpg",
-       "width": 2304,
-       "height": 3204
-      }
-     ]
+     "height": 3204
     },
     {
      "page": 3,
      "file": "scans/1942-07-27_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420727pg3.jpg",
      "width": 2219,
-     "height": 3306,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-27_tom-to-mother_p03_dup1.jpg",
-       "original_file": "TBF0defective/420727pg3.jpg",
-       "width": 2219,
-       "height": 3306
-      }
-     ]
+     "height": 3306
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/420727Pg1.jpg, 420727pg2.jpg, 420727pg3.jpg"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/420727Pg1.jpg, 420727pg2.jpg, 420727pg3.jpg",
+   "rescan": [
+    {
+     "type": "cut-off",
+     "page": 1,
+     "reason": "Bottom line cut off at the scan edge"
+    }
+   ]
   },
   {
    "id": "1942-07-29_tom-to-mother",
@@ -678,30 +479,14 @@
      "file": "scans/1942-07-29_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420729pg1.jpg",
      "width": 2208,
-     "height": 3222,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-29_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420729pg1.jpg",
-       "width": 2208,
-       "height": 3222
-      }
-     ]
+     "height": 3222
     },
     {
      "page": 2,
      "file": "scans/1942-07-29_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420729Pg2.jpg",
      "width": 2280,
-     "height": 3288,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-07-29_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420729pg2.jpg",
-       "width": 2280,
-       "height": 3288
-      }
-     ]
+     "height": 3288
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420729pg1.jpg, 420729Pg2.jpg"
@@ -726,30 +511,14 @@
      "file": "scans/1942-08-05_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420805pg1.jpg",
      "width": 2166,
-     "height": 3126,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-05_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420805pg1.jpg",
-       "width": 2166,
-       "height": 3126
-      }
-     ]
+     "height": 3126
     },
     {
      "page": 2,
      "file": "scans/1942-08-05_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420805pg2.jpg",
      "width": 2280,
-     "height": 2562,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-05_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420805pg2.jpg",
-       "width": 2280,
-       "height": 2562
-      }
-     ]
+     "height": 2562
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420805pg1.jpg, 420805pg2.jpg"
@@ -775,30 +544,14 @@
      "file": "scans/1942-08-08_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420808pg1.jpg",
      "width": 2082,
-     "height": 3324,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-08_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420808pg1.jpg",
-       "width": 2082,
-       "height": 3324
-      }
-     ]
+     "height": 3324
     },
     {
      "page": 2,
      "file": "scans/1942-08-08_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420808pg2.jpg",
      "width": 2183,
-     "height": 2736,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-08_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420808pg2.jpg",
-       "width": 2183,
-       "height": 2736
-      }
-     ]
+     "height": 2736
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420808pg1.jpg, 420808pg2.jpg"
@@ -823,30 +576,14 @@
      "file": "scans/1942-08-10_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420810pg1.jpg",
      "width": 2250,
-     "height": 3264,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-10_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420810pg1.jpg",
-       "width": 2250,
-       "height": 3264
-      }
-     ]
+     "height": 3264
     },
     {
      "page": 2,
      "file": "scans/1942-08-10_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420810pg2.jpg",
      "width": 2208,
-     "height": 3198,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-10_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420810pg2.jpg",
-       "width": 2208,
-       "height": 3198
-      }
-     ]
+     "height": 3198
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420810pg1.jpg, 420810pg2.jpg"
@@ -871,30 +608,14 @@
      "file": "scans/1942-08-18_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420818pg1.jpg",
      "width": 2159,
-     "height": 3006,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-18_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420818pg1.jpg",
-       "width": 2159,
-       "height": 3006
-      }
-     ]
+     "height": 3006
     },
     {
      "page": 2,
      "file": "scans/1942-08-18_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420818pg2.jpg",
      "width": 2256,
-     "height": 3324,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-18_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420818pg2.jpg",
-       "width": 2256,
-       "height": 3324
-      }
-     ]
+     "height": 3324
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420818pg1.jpg, 420818pg2.jpg"
@@ -917,15 +638,7 @@
      "file": "scans/1942-08-22_tom-to-mother-postcard_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4204XX.jpg",
      "width": 960,
-     "height": 1638,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-22_tom-to-mother-postcard_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/420822.jpg",
-       "width": 924,
-       "height": 1632
-      }
-     ]
+     "height": 1638
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420822.jpg"
@@ -952,15 +665,7 @@
      "file": "scans/1942-08-24_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420824.jpg",
      "width": 2046,
-     "height": 3017,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-24_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420824.jpg",
-       "width": 2046,
-       "height": 3017
-      }
-     ]
+     "height": 3017
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420824.jpg"
@@ -986,30 +691,14 @@
      "file": "scans/1942-08-27_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420827pg1.jpg",
      "width": 2304,
-     "height": 3240,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-27_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420827pg1.jpg",
-       "width": 2168,
-       "height": 3048
-      }
-     ]
+     "height": 3240
     },
     {
      "page": 2,
      "file": "scans/1942-08-27_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420827pg2.jpg",
      "width": 2358,
-     "height": 2969,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-08-27_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420827pg2.jpg",
-       "width": 2358,
-       "height": 2969
-      }
-     ]
+     "height": 2969
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420827pg1.jpg, 420827pg2.jpg"
@@ -1036,36 +725,14 @@
      "file": "scans/1942-09-01_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420901pg1.jpg",
      "width": 2064,
-     "height": 3210,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-01_tom-to-mother_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/420901pg2.jpg",
-       "width": 2064,
-       "height": 3210
-      },
-      {
-       "file": "delete/scans/1942-09-01_tom-to-mother_p01_dup2.jpg",
-       "original_file": "420901pg1.jpg",
-       "width": 2064,
-       "height": 3210
-      }
-     ]
+     "height": 3210
     },
     {
      "page": 2,
      "file": "scans/1942-09-01_tom-to-mother_p02.jpg",
      "original_file": "420901pg2.jpg",
      "width": 2088,
-     "height": 3101,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-01_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420 91pg2.jpg",
-       "width": 2088,
-       "height": 3101
-      }
-     ]
+     "height": 3101
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420901pg1.jpg (page 1), 420901pg2.jpg (parent folder, page 2)\n      NOTE: the Adobe-folder file named 420901pg2.jpg is actually another copy of page 1."
@@ -1093,30 +760,14 @@
      "file": "scans/1942-09-09_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420809pg1.jpg",
      "width": 2010,
-     "height": 3114,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-09_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420809pg1.jpg",
-       "width": 2010,
-       "height": 3114
-      }
-     ]
+     "height": 3114
     },
     {
      "page": 2,
      "file": "scans/1942-09-09_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420809pg2.jpg",
      "width": 2124,
-     "height": 3216,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-09_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420809pg2.jpg",
-       "width": 2124,
-       "height": 3216
-      }
-     ]
+     "height": 3216
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420809pg1.jpg, 420809pg2.jpg"
@@ -1141,30 +792,14 @@
      "file": "scans/1942-09-13_tom-to-mother-postcard_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420913pg1.jpg",
      "width": 2309,
-     "height": 1644,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-13_tom-to-mother-postcard_p01_dup1.jpg",
-       "original_file": "420913pg1.jpg",
-       "width": 2309,
-       "height": 1644
-      }
-     ]
+     "height": 1644
     },
     {
      "page": 2,
      "file": "scans/1942-09-13_tom-to-mother-postcard_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420913pg2.jpg",
      "width": 1002,
-     "height": 1560,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-13_tom-to-mother-postcard_p02_dup1.jpg",
-       "original_file": "420913pg2.jpg",
-       "width": 1002,
-       "height": 1560
-      }
-     ]
+     "height": 1560
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420913pg1.jpg (message/address side),\n               420913pg2.jpg (picture side: \"The Biltmore, New York City\")"
@@ -1191,30 +826,14 @@
      "file": "scans/1942-09-17_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420917pg1.jpg",
      "width": 2075,
-     "height": 3114,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-17_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420917pg1.jpg",
-       "width": 2075,
-       "height": 3114
-      }
-     ]
+     "height": 3114
     },
     {
      "page": 2,
      "file": "scans/1942-09-17_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420917pg2.jpg",
      "width": 2028,
-     "height": 3083,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-17_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420917pg2B.jpg",
-       "width": 2028,
-       "height": 3083
-      }
-     ]
+     "height": 3083
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420917pg1.jpg, 420917pg2.jpg (420917pg2B.jpg is a duplicate scan of pg2)"
@@ -1239,30 +858,14 @@
      "file": "scans/1942-09-19_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420919pg1.jpg",
      "width": 2172,
-     "height": 3144,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-19_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420919pg1.jpg",
-       "width": 2172,
-       "height": 3144
-      }
-     ]
+     "height": 3144
     },
     {
      "page": 2,
      "file": "scans/1942-09-19_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420919pg2.jpg",
      "width": 2280,
-     "height": 3144,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-19_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420919pg2.jpg",
-       "width": 2280,
-       "height": 3144
-      }
-     ]
+     "height": 3144
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420919pg1.jpg, 420919pg2.jpg"
@@ -1285,45 +888,21 @@
      "file": "scans/1942-09-26_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420926pg1.jpg",
      "width": 2214,
-     "height": 3246,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-26_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420926pg1.jpg",
-       "width": 2214,
-       "height": 3246
-      }
-     ]
+     "height": 3246
     },
     {
      "page": 2,
      "file": "scans/1942-09-26_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420926pg2.jpg",
      "width": 2291,
-     "height": 3234,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-26_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420926pg2.jpg",
-       "width": 2291,
-       "height": 3234
-      }
-     ]
+     "height": 3234
     },
     {
      "page": 3,
      "file": "scans/1942-09-26_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420926pg3.jpg",
      "width": 2202,
-     "height": 3132,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-26_tom-to-mother_p03_dup1.jpg",
-       "original_file": "420926pg3.jpg",
-       "width": 2202,
-       "height": 3132
-      }
-     ]
+     "height": 3132
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420926pg1.jpg, 420926pg2.jpg, 420926pg3.jpg"
@@ -1348,30 +927,14 @@
      "file": "scans/1942-09-29_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420929pg1.jpg",
      "width": 2052,
-     "height": 2945,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-29_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420929pg1.jpg",
-       "width": 2052,
-       "height": 2945
-      }
-     ]
+     "height": 2945
     },
     {
      "page": 2,
      "file": "scans/1942-09-29_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420929pg2.jpg",
      "width": 2100,
-     "height": 3125,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-29_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420929pg2.jpg",
-       "width": 2100,
-       "height": 3125
-      }
-     ]
+     "height": 3125
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420929pg1.jpg, 420929pg2.jpg"
@@ -1398,30 +961,14 @@
      "file": "scans/1942-09-30_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420930pg1.jpg",
      "width": 2285,
-     "height": 3252,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-30_tom-to-mother_p01_dup1.jpg",
-       "original_file": "420930pg1.jpg",
-       "width": 2285,
-       "height": 3252
-      }
-     ]
+     "height": 3252
     },
     {
      "page": 2,
      "file": "scans/1942-09-30_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/420930pg2.jpg",
      "width": 2172,
-     "height": 2928,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-09-30_tom-to-mother_p02_dup1.jpg",
-       "original_file": "420930pg2.jpg",
-       "width": 2172,
-       "height": 2928
-      }
-     ]
+     "height": 2928
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420930pg1.jpg, 420930pg2.jpg"
@@ -1447,30 +994,14 @@
      "file": "scans/1942-10-05_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421005pg1.jpg",
      "width": 2232,
-     "height": 3246,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-10-05_tom-to-mother_p01_dup1.jpg",
-       "original_file": "421005pg1.jpg",
-       "width": 2232,
-       "height": 3246
-      }
-     ]
+     "height": 3246
     },
     {
      "page": 2,
      "file": "scans/1942-10-05_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421005pg2.jpg",
      "width": 2333,
-     "height": 3258,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-10-05_tom-to-mother_p02_dup1.jpg",
-       "original_file": "421005pg2.jpg",
-       "width": 2333,
-       "height": 3258
-      }
-     ]
+     "height": 3258
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421005pg1.jpg, 421005pg2.jpg"
@@ -1495,30 +1026,14 @@
      "file": "scans/1942-10-09_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421009pg1.jpg",
      "width": 2190,
-     "height": 3300,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-10-09_tom-to-mother_p01_dup1.jpg",
-       "original_file": "421009pg1.jpg",
-       "width": 2190,
-       "height": 3300
-      }
-     ]
+     "height": 3300
     },
     {
      "page": 2,
      "file": "scans/1942-10-09_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421009pg2.jpg",
      "width": 2240,
-     "height": 3312,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-10-09_tom-to-mother_p02_dup1.jpg",
-       "original_file": "421009pg2a.jpg",
-       "width": 2240,
-       "height": 3312
-      }
-     ]
+     "height": 3312
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421009pg1.jpg, 421009pg2.jpg (421009pg2a.jpg in parent folder is a duplicate of pg2)"
@@ -1541,15 +1056,7 @@
      "file": "scans/1942-10-21_newspaper-clipping-commissioned-ensign_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/picture.jpg",
      "width": 576,
-     "height": 2004,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-10-21_newspaper-clipping-commissioned-ensign_p01_dup1.jpg",
-       "original_file": "picture.jpg",
-       "width": 576,
-       "height": 2004
-      }
-     ]
+     "height": 2004
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/picture.jpg (picture.jpg in parent folder is the same)"
@@ -1572,33 +1079,24 @@
      "file": "scans/1942-11-01_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421101pg1.jpg",
      "width": 2232,
-     "height": 3258,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-01_tom-to-mother_p01_dup1.jpg",
-       "original_file": "421101Pg1.jpg",
-       "width": 2232,
-       "height": 3258
-      }
-     ]
+     "height": 3258
     },
     {
      "page": 2,
      "file": "scans/1942-11-01_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421101pg2.jpg",
      "width": 2280,
-     "height": 3186,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-01_tom-to-mother_p02_dup1.jpg",
-       "original_file": "421101Pg2.jpg",
-       "width": 2129,
-       "height": 2975
-      }
-     ]
+     "height": 3186
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/421101pg1.jpg, 421101pg2.jpg"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/421101pg1.jpg, 421101pg2.jpg",
+   "rescan": [
+    {
+     "type": "cut-off",
+     "page": 1,
+     "reason": "Last line(s) appear cut off at the scan edge"
+    }
+   ]
   },
   {
    "id": "1942-11-04_tom-to-mother-norfolk",
@@ -1620,36 +1118,14 @@
      "file": "scans/1942-11-04_tom-to-mother-norfolk_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4301CDpg2.jpg",
      "width": 2238,
-     "height": 3156,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-04_tom-to-mother-norfolk_p01_dup1.jpg",
-       "original_file": "Z 43 AC Pg 1.jpg",
-       "width": 2238,
-       "height": 3156
-      },
-      {
-       "file": "delete/scans/1942-11-04_tom-to-mother-norfolk_p01_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421209pg1.jpg",
-       "width": 2094,
-       "height": 3000
-      }
-     ]
+     "height": 3156
     },
     {
      "page": 2,
      "file": "scans/1942-11-04_tom-to-mother-norfolk_p02.jpg",
      "original_file": "Z 43 AC Pg2.jpg",
      "width": 2190,
-     "height": 3216,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-04_tom-to-mother-norfolk_p02_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421209pg2.jpg",
-       "width": 2094,
-       "height": 3113
-      }
-     ]
+     "height": 3216
     }
    ],
    "original_source_note": "Source images: Z 43 AC Pg 1.jpg, Z 43 AC Pg2.jpg (parent folder)"
@@ -1675,42 +1151,14 @@
      "file": "scans/1942-11-06_tom-to-mother-arrived-solomons_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430201Pg1.jpg",
      "width": 2196,
-     "height": 3276,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-06_tom-to-mother-arrived-solomons_p01_dup1.jpg",
-       "original_file": "Z undated C Pg 1.jpg",
-       "width": 2196,
-       "height": 3276
-      },
-      {
-       "file": "delete/scans/1942-11-06_tom-to-mother-arrived-solomons_p01_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421218pg1.jpg",
-       "width": 2088,
-       "height": 3198
-      }
-     ]
+     "height": 3276
     },
     {
      "page": 2,
      "file": "scans/1942-11-06_tom-to-mother-arrived-solomons_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4301ABPg2.jpg",
      "width": 2382,
-     "height": 3066,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-06_tom-to-mother-arrived-solomons_p02_dup1.jpg",
-       "original_file": "Z Undated C PG 2.jpg",
-       "width": 2382,
-       "height": 3066
-      },
-      {
-       "file": "delete/scans/1942-11-06_tom-to-mother-arrived-solomons_p02_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421218pg2.jpg",
-       "width": 2159,
-       "height": 3143
-      }
-     ]
+     "height": 3066
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421218pg1.jpg, 421218pg2.jpg"
@@ -1735,42 +1183,14 @@
      "file": "scans/1942-11-09_tom-to-mother-monday_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430130Pg1.jpg",
      "width": 2166,
-     "height": 3264,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-09_tom-to-mother-monday_p01_dup1.jpg",
-       "original_file": "Z Undated A Pg 1.jpg",
-       "width": 2166,
-       "height": 3264
-      },
-      {
-       "file": "delete/scans/1942-11-09_tom-to-mother-monday_p01_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421221pg1.jpg",
-       "width": 1980,
-       "height": 3240
-      }
-     ]
+     "height": 3264
     },
     {
      "page": 2,
      "file": "scans/1942-11-09_tom-to-mother-monday_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430130Pg2.jpg",
      "width": 2184,
-     "height": 3264,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-09_tom-to-mother-monday_p02_dup1.jpg",
-       "original_file": "Z Undated A Pg 2.jpg",
-       "width": 2184,
-       "height": 3264
-      },
-      {
-       "file": "delete/scans/1942-11-09_tom-to-mother-monday_p02_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421221pg2.jpg",
-       "width": 2033,
-       "height": 3240
-      }
-     ]
+     "height": 3264
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421221pg1.jpg, 421221pg2.jpg"
@@ -1793,15 +1213,7 @@
      "file": "scans/1942-11-14_envelope-tom-to-dad_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421114e.jpg",
      "width": 1698,
-     "height": 2820,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-14_envelope-tom-to-dad_p01_dup1.jpg",
-       "original_file": "421114e.jpg",
-       "width": 1698,
-       "height": 2820
-      }
-     ]
+     "height": 2820
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421114e.jpg (also 421114e.jpg in parent folder)"
@@ -1824,59 +1236,28 @@
      "file": "scans/1942-11-16_tom-to-mother-and-dad_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421116pg1.jpg",
      "width": 2112,
-     "height": 3282,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-16_tom-to-mother-and-dad_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/451116pg2.jpg",
-       "width": 2118,
-       "height": 3192
-      },
-      {
-       "file": "delete/scans/1942-11-16_tom-to-mother-and-dad_p01_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/451116pg1.jpg",
-       "width": 2117,
-       "height": 3192
-      }
-     ]
+     "height": 3282
     },
     {
      "page": 2,
      "file": "scans/1942-11-16_tom-to-mother-and-dad_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421116pg2.jpg",
      "width": 2075,
-     "height": 3174,
-     "duplicates": []
+     "height": 3174
     },
     {
      "page": 3,
      "file": "scans/1942-11-16_tom-to-mother-and-dad_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421116pg3.jpg",
      "width": 2100,
-     "height": 3198,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-16_tom-to-mother-and-dad_p03_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/451116pg3.jpg",
-       "width": 2136,
-       "height": 3120
-      }
-     ]
+     "height": 3198
     },
     {
      "page": 4,
      "file": "scans/1942-11-16_tom-to-mother-and-dad_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421116pg4.jpg",
      "width": 2052,
-     "height": 3294,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-16_tom-to-mother-and-dad_p04_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/451116pg4.jpg",
-       "width": 2058,
-       "height": 3186
-      }
-     ]
+     "height": 3294
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421116pg1.jpg, 421116pg2.jpg, 421116pg3.jpg, 421116pg4.jpg"
@@ -1901,63 +1282,21 @@
      "file": "scans/1942-11-18_tom-to-dad_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421118PG1.jpg",
      "width": 2214,
-     "height": 3108,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-18_tom-to-dad_p01_dup1.jpg",
-       "original_file": "z 42 11 AD pG 1.jpg",
-       "width": 2214,
-       "height": 3108
-      },
-      {
-       "file": "delete/scans/1942-11-18_tom-to-dad_p01_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/420716pg1.jpg",
-       "width": 2094,
-       "height": 3120
-      }
-     ]
+     "height": 3108
     },
     {
      "page": 2,
      "file": "scans/1942-11-18_tom-to-dad_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4211ADPg2.jpg",
      "width": 2196,
-     "height": 3024,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-18_tom-to-dad_p02_dup1.jpg",
-       "original_file": "Z 42 11 AD PG 2.jpg",
-       "width": 2196,
-       "height": 3024
-      },
-      {
-       "file": "delete/scans/1942-11-18_tom-to-dad_p02_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/420716pg2.jpg",
-       "width": 2088,
-       "height": 3006
-      }
-     ]
+     "height": 3024
     },
     {
      "page": 3,
      "file": "scans/1942-11-18_tom-to-dad_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4211AEPPG3.jpg",
      "width": 2298,
-     "height": 3216,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-18_tom-to-dad_p03_dup1.jpg",
-       "original_file": "Z 42 11 AD pg 3.jpg",
-       "width": 2298,
-       "height": 3216
-      },
-      {
-       "file": "delete/scans/1942-11-18_tom-to-dad_p03_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/420716pg3.jpg",
-       "width": 2064,
-       "height": 3222
-      }
-     ]
+     "height": 3216
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/420716pg1.jpg, 420716pg2.jpg, 420716pg3.jpg"
@@ -1980,30 +1319,14 @@
      "file": "scans/1942-11-20_tom-to-dad_p01.jpg",
      "original_file": "A 1942 Pg 1.jpg",
      "width": 2190,
-     "height": 3180,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-20_tom-to-dad_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421120pg1.jpg",
-       "width": 2075,
-       "height": 3114
-      }
-     ]
+     "height": 3180
     },
     {
      "page": 2,
      "file": "scans/1942-11-20_tom-to-dad_p02.jpg",
      "original_file": "B 1942 Pg 2.jpg",
      "width": 2214,
-     "height": 2970,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-20_tom-to-dad_p02_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421120pg2.jpg",
-       "width": 2075,
-       "height": 3030
-      }
-     ]
+     "height": 2970
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421120pg1.jpg, 421120pg2.jpg"
@@ -2029,50 +1352,22 @@
      "file": "scans/1942-11-22_tom-to-dad-sunday_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4211!BPg1.jpg",
      "width": 2094,
-     "height": 3144,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-22_tom-to-dad-sunday_p01_dup1.jpg",
-       "original_file": "Z 43 AB PG 1.jpg",
-       "width": 2094,
-       "height": 3144
-      },
-      {
-       "file": "delete/scans/1942-11-22_tom-to-dad-sunday_p01_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421213pg1.jpg",
-       "width": 1902,
-       "height": 3204
-      }
-     ]
+     "height": 3144
     },
     {
      "page": 2,
      "file": "scans/1942-11-22_tom-to-dad-sunday_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4211BCPg1.jpg",
      "width": 2226,
-     "height": 3258,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-22_tom-to-dad-sunday_p02_dup1.jpg",
-       "original_file": "Z 43 AB Pg 2.jpg",
-       "width": 2226,
-       "height": 3258
-      },
-      {
-       "file": "delete/scans/1942-11-22_tom-to-dad-sunday_p02_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421213pg2.jpg",
-       "width": 2130,
-       "height": 3066
-      }
-     ]
+     "height": 3258
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/4211!BPg1.jpg (page 1; also \"Z 43 AB PG 1.jpg\")\n               TBF1Adobe/Adobe finished/4211BCPg1.jpg (page 2; also \"Z 43 AB Pg 2.jpg\")"
   },
   {
-   "id": "1942-11-22_tom-to-sis-betty-undatedd",
-   "transcription_file": "transcriptions/1942-11-22_tom-to-sis-betty-undatedd.txt",
-   "annotations_file": "annotations/letters/1942-11-22_tom-to-sis-betty-undatedd.json",
+   "id": "1942-11-22_tom-to-sis-betty-undated",
+   "transcription_file": "transcriptions/1942-11-22_tom-to-sis-betty-undated.txt",
+   "annotations_file": "annotations/letters/1942-11-22_tom-to-sis-betty-undated.json",
    "written_by": "Tom",
    "written_to": "Sis (almost certainly his sister Betty)",
    "date": "1942-11-22 (probable)",
@@ -2086,14 +1381,20 @@
    "pages": [
     {
      "page": 1,
-     "file": "scans/1942-11-22_tom-to-sis-betty-undatedd_p01.jpg",
+     "file": "scans/1942-11-22_tom-to-sis-betty-undated_p01.jpg",
      "original_file": "TBF0defective/Z Undated D Pg 1.jpg",
      "width": 2075,
-     "height": 3132,
-     "duplicates": []
+     "height": 3132
     }
    ],
-   "original_source_note": "Source images: TBF0defective/Z Undated D Pg 1.jpg"
+   "original_source_note": "Source images: TBF0defective/Z Undated D Pg 1.jpg",
+   "rescan": [
+    {
+     "type": "not-scanned",
+     "after_page": 1,
+     "reason": "Marked \"(over)\"; the back of the sheet was never scanned"
+    }
+   ]
   },
   {
    "id": "1942-11-24_tom-to-dad",
@@ -2117,30 +1418,14 @@
      "file": "scans/1942-11-24_tom-to-dad_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421124pG1.jpg",
      "width": 2136,
-     "height": 3294,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-24_tom-to-dad_p01_dup1.jpg",
-       "original_file": "Z 42 11 AF Pg 1.jpg",
-       "width": 2018,
-       "height": 3114
-      }
-     ]
+     "height": 3294
     },
     {
      "page": 2,
      "file": "scans/1942-11-24_tom-to-dad_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421124pG2.jpg",
      "width": 2190,
-     "height": 2880,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-24_tom-to-dad_p02_dup1.jpg",
-       "original_file": "Z 42 11 AF PG 2.jpg",
-       "width": 2190,
-       "height": 2880
-      }
-     ]
+     "height": 2880
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421124pG1.jpg, 421124pG2.jpg"
@@ -2165,60 +1450,28 @@
      "file": "scans/1942-11-26_tom-to-dad-thanksgiving_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421126Pg1.jpg",
      "width": 2274,
-     "height": 3204,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-26_tom-to-dad-thanksgiving_p01_dup1.jpg",
-       "original_file": "Z 42 Thksg (Dad) Pg !.jpg",
-       "width": 2274,
-       "height": 3204
-      }
-     ]
+     "height": 3204
     },
     {
      "page": 2,
      "file": "scans/1942-11-26_tom-to-dad-thanksgiving_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421126Pg2.jpg",
      "width": 2178,
-     "height": 3300,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-26_tom-to-dad-thanksgiving_p02_dup1.jpg",
-       "original_file": "Z 42 Thksg (Dad) Pg 2.jpg",
-       "width": 2178,
-       "height": 3300
-      }
-     ]
+     "height": 3300
     },
     {
      "page": 3,
      "file": "scans/1942-11-26_tom-to-dad-thanksgiving_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421126PG3.jpg",
      "width": 2225,
-     "height": 3270,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-26_tom-to-dad-thanksgiving_p03_dup1.jpg",
-       "original_file": "Z 42 Thksg (Dad) Pg 3.jpg",
-       "width": 2225,
-       "height": 3270
-      }
-     ]
+     "height": 3270
     },
     {
      "page": 4,
      "file": "scans/1942-11-26_tom-to-dad-thanksgiving_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421126pG4.jpg",
      "width": 2196,
-     "height": 2742,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-26_tom-to-dad-thanksgiving_p04_dup1.jpg",
-       "original_file": "Z 42 Thksg (Dad) Pg 4.jpg",
-       "width": 2196,
-       "height": 2742
-      }
-     ]
+     "height": 2742
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421126Pg1.jpg, 421126Pg2.jpg, 421126PG3.jpg, 421126pG4.jpg"
@@ -2243,52 +1496,28 @@
      "file": "scans/1942-11-28_tom-to-dad-and-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421128pg2.jpg",
      "width": 2154,
-     "height": 3276,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-28_tom-to-dad-and-mother_p01_dup1.jpg",
-       "original_file": "4211ABPg1.jpg",
-       "width": 2033,
-       "height": 3092
-      }
-     ]
+     "height": 3276
     },
     {
      "page": 2,
      "file": "scans/1942-11-28_tom-to-dad-and-mother_p02.jpg",
      "original_file": "4211ABPg2.jpg",
      "width": 2052,
-     "height": 3342,
-     "duplicates": []
+     "height": 3342
     },
     {
      "page": 3,
      "file": "scans/1942-11-28_tom-to-dad-and-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421128pg3.jpg",
      "width": 2106,
-     "height": 3336,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-28_tom-to-dad-and-mother_p03_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421128pg4.jpg",
-       "width": 2106,
-       "height": 3336
-      },
-      {
-       "file": "delete/scans/1942-11-28_tom-to-dad-and-mother_p03_dup2.jpg",
-       "original_file": "4211ABpg3.jpg",
-       "width": 2106,
-       "height": 3336
-      }
-     ]
+     "height": 3336
     },
     {
      "page": 4,
      "file": "scans/1942-11-28_tom-to-dad-and-mother_p04.jpg",
      "original_file": "4211ABpg4.jpg",
      "width": 2298,
-     "height": 3282,
-     "duplicates": []
+     "height": 3282
     }
    ],
    "original_source_note": "Source images (in reading order):\n      TBF1Adobe/Adobe finished/421128pg2.jpg  (page 1; also 4211ABPg1.jpg)\n      4211ABPg2.jpg                           (page 2 - parent folder only)\n      TBF1Adobe/Adobe finished/421128pg3.jpg  (page 3, marked \"-2-\"; also 421128pg4.jpg, 4211ABpg3.jpg)\n      4211ABpg4.jpg                           (page 4 - parent folder only)"
@@ -2313,33 +1542,24 @@
      "file": "scans/1942-11-xx_tom-to-mother-wednesday_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/42062x.jpg",
      "width": 2196,
-     "height": 3276,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-xx_tom-to-mother-wednesday_p01_dup1.jpg",
-       "original_file": "Z 42 11 AE PG 1.jpg",
-       "width": 2196,
-       "height": 3276
-      }
-     ]
+     "height": 3276
     },
     {
      "page": 2,
      "file": "scans/1942-11-xx_tom-to-mother-wednesday_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421118 pG1.jpg",
      "width": 2196,
-     "height": 3216,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-11-xx_tom-to-mother-wednesday_p02_dup1.jpg",
-       "original_file": "Z 42 11 AE Pg 2 A.jpg",
-       "width": 2196,
-       "height": 3216
-      }
-     ]
+     "height": 3216
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/42062x.jpg (page 1; also \"Z 42 11 AE PG 1.jpg\")\n               TBF1Adobe/Adobe finished/421118 pG1.jpg (page 2; also \"Z 42 11 AE Pg 2 A.jpg\")"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/42062x.jpg (page 1; also \"Z 42 11 AE PG 1.jpg\")\n               TBF1Adobe/Adobe finished/421118 pG1.jpg (page 2; also \"Z 42 11 AE Pg 2 A.jpg\")",
+   "rescan": [
+    {
+     "type": "possible-gap",
+     "after_page": 1,
+     "reason": "A line may be lost between pages 1 and 2"
+    }
+   ]
   },
   {
    "id": "1942-12-03_tom-to-mother-and-dad",
@@ -2361,23 +1581,14 @@
      "file": "scans/1942-12-03_tom-to-mother-and-dad_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421203pg1.jpg",
      "width": 2118,
-     "height": 3204,
-     "duplicates": []
+     "height": 3204
     },
     {
      "page": 2,
      "file": "scans/1942-12-03_tom-to-mother-and-dad_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421203pg2.jpg",
      "width": 2136,
-     "height": 3228,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-03_tom-to-mother-and-dad_p02_dup1.jpg",
-       "original_file": "421203pg2.jpg",
-       "width": 2136,
-       "height": 3228
-      }
-     ]
+     "height": 3228
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421203pg1.jpg, 421203pg2.jpg\n      (NOTE: the parent-folder file \"421203pg1.jpg\" is actually page 1 of the 12/8/42 letter)"
@@ -2402,30 +1613,14 @@
      "file": "scans/1942-12-05_tom-to-mother-and-dad_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421205pg1.jpg",
      "width": 2082,
-     "height": 3204,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-05_tom-to-mother-and-dad_p01_dup1.jpg",
-       "original_file": "421205pg1.jpg",
-       "width": 2082,
-       "height": 3204
-      }
-     ]
+     "height": 3204
     },
     {
      "page": 2,
      "file": "scans/1942-12-05_tom-to-mother-and-dad_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421205pg2.jpg",
      "width": 2214,
-     "height": 2220,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-05_tom-to-mother-and-dad_p02_dup1.jpg",
-       "original_file": "421205pg2.jpg",
-       "width": 2214,
-       "height": 2220
-      }
-     ]
+     "height": 2220
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421205pg1.jpg, 421205pg2.jpg (duplicates in parent folder)"
@@ -2448,36 +1643,14 @@
      "file": "scans/1942-12-08_tom-to-mother-and-dad_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421208pg1.jpg",
      "width": 1728,
-     "height": 2772,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-08_tom-to-mother-and-dad_p01_dup1.jpg",
-       "original_file": "421203pg1.jpg",
-       "width": 1600,
-       "height": 2567
-      },
-      {
-       "file": "delete/scans/1942-12-08_tom-to-mother-and-dad_p01_dup2.jpg",
-       "original_file": "421208pg1.jpg",
-       "width": 1600,
-       "height": 2567
-      }
-     ]
+     "height": 2772
     },
     {
      "page": 2,
      "file": "scans/1942-12-08_tom-to-mother-and-dad_p02.jpg",
      "original_file": "421208pg2.jpg",
      "width": 1752,
-     "height": 2382,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-08_tom-to-mother-and-dad_p02_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/421208pg2.jpg",
-       "width": 1416,
-       "height": 2934
-      }
-     ]
+     "height": 2382
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421208pg1.jpg (page 1; also 421208pg1.jpg and misnamed 421203pg1.jpg in parent folder)\n               421208pg2.jpg (page 2, parent folder)"
@@ -2502,36 +1675,14 @@
      "file": "scans/1942-12-10_tom-to-folks_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421210pg1.jpg",
      "width": 1752,
-     "height": 2724,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-10_tom-to-folks_p01_dup1.jpg",
-       "original_file": "421210pg1.jpg",
-       "width": 1752,
-       "height": 2724
-      }
-     ]
+     "height": 2724
     },
     {
      "page": 2,
      "file": "scans/1942-12-10_tom-to-folks_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421210pg2.jpg",
      "width": 1800,
-     "height": 2704,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-10_tom-to-folks_p02_dup1.jpg",
-       "original_file": "421210pg2A.jpg",
-       "width": 1800,
-       "height": 2704
-      },
-      {
-       "file": "delete/scans/1942-12-10_tom-to-folks_p02_dup2.jpg",
-       "original_file": "421210pg2.jpg",
-       "width": 1800,
-       "height": 2704
-      }
-     ]
+     "height": 2704
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421210pg1.jpg, 421210pg2.jpg\n      (421210pg1.jpg, 421210pg2.jpg, 421210pg2A.jpg in the parent folder are duplicate scans)"
@@ -2557,30 +1708,14 @@
      "file": "scans/1942-12-14_tom-to-mother-and-dad_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421214pg1.jpg",
      "width": 1901,
-     "height": 3078,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-14_tom-to-mother-and-dad_p01_dup1.jpg",
-       "original_file": "421214pg1.jpg",
-       "width": 1901,
-       "height": 3078
-      }
-     ]
+     "height": 3078
     },
     {
      "page": 2,
      "file": "scans/1942-12-14_tom-to-mother-and-dad_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421214pg2.jpg",
      "width": 2022,
-     "height": 2856,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-14_tom-to-mother-and-dad_p02_dup1.jpg",
-       "original_file": "421214pg2.jpg",
-       "width": 1910,
-       "height": 2698
-      }
-     ]
+     "height": 2856
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421214pg1.jpg, 421214pg2.jpg"
@@ -2607,15 +1742,7 @@
      "file": "scans/1942-12-28_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421228.jpg",
      "width": 2172,
-     "height": 2760,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-28_tom-to-mother_p01_dup1.jpg",
-       "original_file": "421228.jpg",
-       "width": 2172,
-       "height": 2760
-      }
-     ]
+     "height": 2760
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421228.jpg"
@@ -2638,30 +1765,14 @@
      "file": "scans/1942-12-29_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421229pg1.jpg",
      "width": 1908,
-     "height": 3108,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-29_tom-to-mother_p01_dup1.jpg",
-       "original_file": "421229pg1.jpg",
-       "width": 1908,
-       "height": 3108
-      }
-     ]
+     "height": 3108
     },
     {
      "page": 2,
      "file": "scans/1942-12-29_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/421229pg2.jpg",
      "width": 1986,
-     "height": 2874,
-     "duplicates": [
-      {
-       "file": "delete/scans/1942-12-29_tom-to-mother_p02_dup1.jpg",
-       "original_file": "421229pg2.jpg",
-       "width": 1986,
-       "height": 2874
-      }
-     ]
+     "height": 2874
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/421229pg1.jpg, 421229pg2.jpg\n      (421229pg1.jpg, 421229pg2.jpg in the parent folder are duplicate scans)"
@@ -2686,30 +1797,14 @@
      "file": "scans/1943-01-02_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430102pg1.jpg",
      "width": 1920,
-     "height": 3084,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-02_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430102pg1.jpg",
-       "width": 1920,
-       "height": 3084
-      }
-     ]
+     "height": 3084
     },
     {
      "page": 2,
      "file": "scans/1943-01-02_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430102pg2.jpg",
      "width": 2040,
-     "height": 2280,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-02_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430102pg2.jpg",
-       "width": 2040,
-       "height": 2280
-      }
-     ]
+     "height": 2280
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430102pg1.jpg, 430102pg2.jpg (duplicates in parent folder)"
@@ -2734,57 +1829,21 @@
      "file": "scans/1943-01-05_tom-to-mother-houston_p01.jpg",
      "original_file": "430105pg1b.jpg",
      "width": 2010,
-     "height": 3000,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-05_tom-to-mother-houston_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430105pg1.jpg",
-       "width": 1968,
-       "height": 2958
-      },
-      {
-       "file": "delete/scans/1943-01-05_tom-to-mother-houston_p01_dup2.jpg",
-       "original_file": "430105pg1.jpg",
-       "width": 1968,
-       "height": 2958
-      },
-      {
-       "file": "delete/scans/1943-01-05_tom-to-mother-houston_p01_dup3.jpg",
-       "original_file": "430105pg1a.jpg",
-       "width": 1944,
-       "height": 2851
-      }
-     ]
+     "height": 3000
     },
     {
      "page": 2,
      "file": "scans/1943-01-05_tom-to-mother-houston_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430105pg2.jpg",
      "width": 2106,
-     "height": 3000,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-05_tom-to-mother-houston_p02_dup1.jpg",
-       "original_file": "430105pg2.jpg",
-       "width": 2106,
-       "height": 3000
-      }
-     ]
+     "height": 3000
     },
     {
      "page": 3,
      "file": "scans/1943-01-05_tom-to-mother-houston_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430105pg3.jpg",
      "width": 2033,
-     "height": 2927,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-05_tom-to-mother-houston_p03_dup1.jpg",
-       "original_file": "430105pg3.jpg",
-       "width": 2033,
-       "height": 2927
-      }
-     ]
+     "height": 2927
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430105pg1.jpg, 430105pg2.jpg, 430105pg3.jpg\n      (parent folder has additional scans: 430105pg1/pg1a/pg1b/pg2/pg3)"
@@ -2809,23 +1868,14 @@
      "file": "scans/1943-01-08_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430108Pg1.jpg",
      "width": 1716,
-     "height": 2712,
-     "duplicates": []
+     "height": 2712
     },
     {
      "page": 2,
      "file": "scans/1943-01-08_tom-to-mother_p02.jpg",
      "original_file": "TBF0defective/430108pg2.jpg",
      "width": 2040,
-     "height": 3156,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-08_tom-to-mother_p02_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430108Pg2.jpg",
-       "width": 1728,
-       "height": 3036
-      }
-     ]
+     "height": 3156
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430108Pg1.jpg, TBF0defective/430108pg2.jpg"
@@ -2850,30 +1900,14 @@
      "file": "scans/1943-01-11_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430111pg1.jpg",
      "width": 1818,
-     "height": 3006,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-11_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430111pg1.jpg",
-       "width": 1818,
-       "height": 3006
-      }
-     ]
+     "height": 3006
     },
     {
      "page": 2,
      "file": "scans/1943-01-11_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430111pg2.jpg",
      "width": 1788,
-     "height": 3204,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-11_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430111pg2.jpg",
-       "width": 1788,
-       "height": 3204
-      }
-     ]
+     "height": 3204
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430111pg1.jpg, 430111pg2.jpg"
@@ -2899,32 +1933,28 @@
      "file": "scans/1943-01-15_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430115Pg1.jpg",
      "width": 1716,
-     "height": 2682,
-     "duplicates": []
+     "height": 2682
     },
     {
      "page": 2,
      "file": "scans/1943-01-15_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430115Pg2.jpg",
      "width": 1716,
-     "height": 2604,
-     "duplicates": []
+     "height": 2604
     },
     {
      "page": 3,
      "file": "scans/1943-01-15_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430115Pg3.jpg",
      "width": 1728,
-     "height": 3060,
-     "duplicates": []
+     "height": 3060
     },
     {
      "page": 4,
      "file": "scans/1943-01-15_tom-to-mother_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430115Pg4.jpg",
      "width": 1760,
-     "height": 3264,
-     "duplicates": []
+     "height": 3264
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430115Pg1.jpg, 430115Pg2.jpg, 430115Pg3.jpg, 430115Pg4.jpg"
@@ -2949,53 +1979,28 @@
      "file": "scans/1943-01-18_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430118pg1.jpg",
      "width": 1818,
-     "height": 3066,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-18_tom-to-mother_p01_dup1.jpg",
-       "original_file": "TBF0defective/430118pg1.jpg",
-       "width": 1818,
-       "height": 3066
-      }
-     ]
+     "height": 3066
     },
     {
      "page": 2,
      "file": "scans/1943-01-18_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430118Pg2.jpg",
      "width": 1728,
-     "height": 3312,
-     "duplicates": []
+     "height": 3312
     },
     {
      "page": 3,
      "file": "scans/1943-01-18_tom-to-mother_p03.jpg",
      "original_file": "TBF0defective/430118pg3.jpg",
      "width": 2040,
-     "height": 2964,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-18_tom-to-mother_p03_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430118Pg3.jpg",
-       "width": 1728,
-       "height": 3174
-      }
-     ]
+     "height": 2964
     },
     {
      "page": 4,
      "file": "scans/1943-01-18_tom-to-mother_p04.jpg",
      "original_file": "TBF0defective/430118pg4.jpg",
      "width": 2075,
-     "height": 3143,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-18_tom-to-mother_p04_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430118Pg4.jpg",
-       "width": 1728,
-       "height": 3090
-      }
-     ]
+     "height": 3143
     }
    ],
    "original_source_note": "Source images: TBF0defective/430118pg1.jpg (also Adobe 430118pg1.jpg),\n               TBF1Adobe/Adobe finished/430118Pg2.jpg,\n               TBF0defective/430118pg3.jpg, TBF0defective/430118pg4.jpg"
@@ -3022,42 +2027,14 @@
      "file": "scans/1943-01-24_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430124pg1.jpg",
      "width": 2022,
-     "height": 3041,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-24_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430124pg1.jpg",
-       "width": 2022,
-       "height": 3041
-      },
-      {
-       "file": "delete/scans/1943-01-24_tom-to-mother_p01_dup2.jpg",
-       "original_file": "430124pg1ab.jpg",
-       "width": 1900,
-       "height": 2858
-      },
-      {
-       "file": "delete/scans/1943-01-24_tom-to-mother_p01_dup3.jpg",
-       "original_file": "430124pg1bc.jpg",
-       "width": 465,
-       "height": 700
-      }
-     ]
+     "height": 3041
     },
     {
      "page": 2,
      "file": "scans/1943-01-24_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430124pg2.jpg",
      "width": 2166,
-     "height": 2508,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-24_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430124pg2.jpg",
-       "width": 2166,
-       "height": 2508
-      }
-     ]
+     "height": 2508
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430124pg1.jpg, 430124pg2.jpg"
@@ -3080,15 +2057,7 @@
      "file": "scans/1943-01-26_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430126.jpg",
      "width": 1841,
-     "height": 2640,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-26_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430126a.jpg",
-       "width": 1841,
-       "height": 2640
-      }
-     ]
+     "height": 2640
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430126.jpg (430126a.jpg in parent folder is a duplicate)"
@@ -3114,16 +2083,14 @@
      "file": "scans/1943-01-28_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430128Pg1.jpg",
      "width": 1728,
-     "height": 2958,
-     "duplicates": []
+     "height": 2958
     },
     {
      "page": 2,
      "file": "scans/1943-01-28_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430128Pg2.jpg",
      "width": 1728,
-     "height": 3066,
-     "duplicates": []
+     "height": 3066
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430128Pg1.jpg, 430128Pg2.jpg"
@@ -3148,23 +2115,14 @@
      "file": "scans/1943-01-31_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430131Pg1.jpg",
      "width": 1728,
-     "height": 2928,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-01-31_tom-to-mother_p01_dup1.jpg",
-       "original_file": "TBF0defective/430131pg1.jpg",
-       "width": 1680,
-       "height": 2591
-      }
-     ]
+     "height": 2928
     },
     {
      "page": 2,
      "file": "scans/1943-01-31_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430131pg2.jpg",
      "width": 1770,
-     "height": 2934,
-     "duplicates": []
+     "height": 2934
     }
    ],
    "original_source_note": "Source images: TBF0defective/430131pg1.jpg (also Adobe 430131Pg1.jpg), TBF1Adobe/Adobe finished/430131pg2.jpg"
@@ -3187,36 +2145,14 @@
      "file": "scans/1943-02-03_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430203pg1.jpg",
      "width": 1812,
-     "height": 2820,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-03_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430203pg1.jpg",
-       "width": 1812,
-       "height": 2820
-      }
-     ]
+     "height": 2820
     },
     {
      "page": 2,
      "file": "scans/1943-02-03_tom-to-mother_p02.jpg",
      "original_file": "430203pg2.jpg",
      "width": 2088,
-     "height": 2777,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-03_tom-to-mother_p02_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430203pg2.jpg",
-       "width": 1728,
-       "height": 3054
-      },
-      {
-       "file": "delete/scans/1943-02-03_tom-to-mother_p02_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/43023pg2.jpg",
-       "width": 1973,
-       "height": 2624
-      }
-     ]
+     "height": 2777
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430203pg1.jpg, 430203pg2.jpg (parent folder)\n      (Adobe 43023pg2.jpg is a duplicate of page 2)"
@@ -3239,45 +2175,21 @@
      "file": "scans/1943-02-11_tom-to-mother_p01.jpg",
      "original_file": "430211pg1.jpg",
      "width": 2058,
-     "height": 3138,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-11_tom-to-mother_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430211pg1.jpg",
-       "width": 1728,
-       "height": 3102
-      }
-     ]
+     "height": 3138
     },
     {
      "page": 2,
      "file": "scans/1943-02-11_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430211pg2.jpg",
      "width": 2034,
-     "height": 3186,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-11_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430211pg2.jpg",
-       "width": 2034,
-       "height": 3186
-      }
-     ]
+     "height": 3186
     },
     {
      "page": 3,
      "file": "scans/1943-02-11_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430211pg3.jpg",
      "width": 2016,
-     "height": 2910,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-11_tom-to-mother_p03_dup1.jpg",
-       "original_file": "430211pg3.jpg",
-       "width": 2016,
-       "height": 2910
-      }
-     ]
+     "height": 2910
     }
    ],
    "original_source_note": "Source images: 430211pg1.jpg (parent folder), TBF1Adobe/Adobe finished/430211pg2.jpg, 430211pg3.jpg"
@@ -3302,42 +2214,14 @@
      "file": "scans/1943-02-13_tom-to-mother_p01.jpg",
      "original_file": "430213pg1.jpg",
      "width": 1938,
-     "height": 2874,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-13_tom-to-mother_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430213pg1.jpg",
-       "width": 1860,
-       "height": 2640
-      },
-      {
-       "file": "delete/scans/1943-02-13_tom-to-mother_p01_dup2.jpg",
-       "original_file": "430213pg1_1.jpg",
-       "width": 1604,
-       "height": 2277
-      }
-     ]
+     "height": 2874
     },
     {
      "page": 2,
      "file": "scans/1943-02-13_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430213pg2.jpg",
      "width": 2034,
-     "height": 2448,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-13_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430213pg2.jpg",
-       "width": 2034,
-       "height": 2448
-      },
-      {
-       "file": "delete/scans/1943-02-13_tom-to-mother_p02_dup2.jpg",
-       "original_file": "430213pg2_1.jpg",
-       "width": 2022,
-       "height": 2316
-      }
-     ]
+     "height": 2448
     }
    ],
    "original_source_note": "Source images: 430213pg1.jpg (parent folder), TBF1Adobe/Adobe finished/430213pg2.jpg\n      (duplicates: 430213pg1_1.jpg, 430213pg2_1.jpg, Adobe 430213pg1.jpg)"
@@ -3360,18 +2244,17 @@
      "file": "scans/1943-02-18_tom-to-mother-typed_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430218.jpg",
      "width": 1567,
-     "height": 2388,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-18_tom-to-mother-typed_p01_dup1.jpg",
-       "original_file": "430218.jpg",
-       "width": 1561,
-       "height": 2380
-      }
-     ]
+     "height": 2388
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430218.jpg (430218.jpg in parent folder is a duplicate)"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430218.jpg (430218.jpg in parent folder is a duplicate)",
+   "rescan": [
+    {
+     "type": "cut-off",
+     "page": 1,
+     "reason": "Signature below \"Love,\" is below the scan edge"
+    }
+   ]
   },
   {
    "id": "1943-02-20_tom-to-mother",
@@ -3393,30 +2276,14 @@
      "file": "scans/1943-02-20_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430220pg1.jpg",
      "width": 1992,
-     "height": 2850,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-20_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430220pg1.jpg",
-       "width": 1992,
-       "height": 2850
-      }
-     ]
+     "height": 2850
     },
     {
      "page": 2,
      "file": "scans/1943-02-20_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430220pg2.jpg",
      "width": 1914,
-     "height": 2868,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-20_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430220pg2.jpg",
-       "width": 1914,
-       "height": 2868
-      }
-     ]
+     "height": 2868
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430220pg1.jpg, 430220pg2.jpg"
@@ -3439,30 +2306,14 @@
      "file": "scans/1943-02-22_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430222pg1.jpg",
      "width": 1920,
-     "height": 3054,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-22_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430222pg1.jpg",
-       "width": 1224,
-       "height": 1947
-      }
-     ]
+     "height": 3054
     },
     {
      "page": 2,
      "file": "scans/1943-02-22_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430222pg2.jpg",
      "width": 2010,
-     "height": 2982,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-22_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430222pg2.jpg",
-       "width": 2010,
-       "height": 2982
-      }
-     ]
+     "height": 2982
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430222pg1.jpg, 430222pg2.jpg"
@@ -3487,30 +2338,14 @@
      "file": "scans/1943-02-23_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430223pg1.jpg",
      "width": 1950,
-     "height": 2988,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-23_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430223pg1.jpg",
-       "width": 1950,
-       "height": 2988
-      }
-     ]
+     "height": 2988
     },
     {
      "page": 2,
      "file": "scans/1943-02-23_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430223pg2.jpg",
      "width": 2088,
-     "height": 3000,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-02-23_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430223pg2B.jpg",
-       "width": 2088,
-       "height": 3000
-      }
-     ]
+     "height": 3000
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430223pg1.jpg, 430223pg2.jpg (430223pg2B.jpg in parent folder is a duplicate)"
@@ -3538,29 +2373,14 @@
      "file": "scans/1943-03-12_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430312.jpg",
      "width": 2400,
-     "height": 2964,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-03-12_tom-to-mother_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430312Pg1.jpg",
-       "width": 2196,
-       "height": 3066
-      },
-      {
-       "file": "delete/scans/1943-03-12_tom-to-mother_p01_dup2.jpg",
-       "original_file": "TBF0defective/430312pg1.jpg",
-       "width": 2196,
-       "height": 2885
-      }
-     ]
+     "height": 2964
     },
     {
      "page": 2,
      "file": "scans/1943-03-12_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430312Pg2.jpg",
      "width": 2225,
-     "height": 3228,
-     "duplicates": []
+     "height": 3228
     }
    ],
    "original_source_note": "Source images: TBF0defective/430312pg1.jpg (page 1; also Adobe 430312Pg1.jpg and uncropped Adobe 430312.jpg),\n               TBF1Adobe/Adobe finished/430312Pg2.jpg (page 2, marked \"-2-\")"
@@ -3583,15 +2403,7 @@
      "file": "scans/1943-04-01_tom-to-mother-typed_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430401.jpg",
      "width": 2268,
-     "height": 3090,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-01_tom-to-mother-typed_p01_dup1.jpg",
-       "original_file": "430401.jpg",
-       "width": 2268,
-       "height": 3090
-      }
-     ]
+     "height": 3090
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430401.jpg (430401.jpg in parent folder is a duplicate)"
@@ -3617,60 +2429,28 @@
      "file": "scans/1943-04-07_tom-to-unc_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430407pg1.jpg",
      "width": 1932,
-     "height": 2921,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-07_tom-to-unc_p01_dup1.jpg",
-       "original_file": "430407pg1.jpg",
-       "width": 1766,
-       "height": 2672
-      }
-     ]
+     "height": 2921
     },
     {
      "page": 2,
      "file": "scans/1943-04-07_tom-to-unc_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430407pg2.jpg",
      "width": 1938,
-     "height": 2825,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-07_tom-to-unc_p02_dup1.jpg",
-       "original_file": "430407pg2.jpg",
-       "width": 1580,
-       "height": 2304
-      }
-     ]
+     "height": 2825
     },
     {
      "page": 3,
      "file": "scans/1943-04-07_tom-to-unc_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430407pg3.jpg",
      "width": 1908,
-     "height": 2801,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-07_tom-to-unc_p03_dup1.jpg",
-       "original_file": "430407pg3.jpg",
-       "width": 1908,
-       "height": 2801
-      }
-     ]
+     "height": 2801
     },
     {
      "page": 4,
      "file": "scans/1943-04-07_tom-to-unc_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430407pg4.jpg",
      "width": 2010,
-     "height": 3029,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-07_tom-to-unc_p04_dup1.jpg",
-       "original_file": "430407pg4.jpg",
-       "width": 2010,
-       "height": 3029
-      }
-     ]
+     "height": 3029
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430407pg1.jpg, 430407pg2.jpg, 430407pg3.jpg, 430407pg4.jpg"
@@ -3693,15 +2473,7 @@
      "file": "scans/1943-04-12_cablegram-tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430412.jpg",
      "width": 2304,
-     "height": 2214,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-12_cablegram-tom-to-mother_p01_dup1.jpg",
-       "original_file": "430412.jpg",
-       "width": 2304,
-       "height": 2214
-      }
-     ]
+     "height": 2214
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430412.jpg"
@@ -3726,15 +2498,7 @@
      "file": "scans/1943-04-13_tom-to-mother-vmail_p01.jpg",
      "original_file": "430413.jpg",
      "width": 1531,
-     "height": 2167,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-13_tom-to-mother-vmail_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430413.jpg",
-       "width": 1404,
-       "height": 1987
-      }
-     ]
+     "height": 2167
     }
    ],
    "original_source_note": "Source images: 430413.jpg (parent folder)"
@@ -3759,111 +2523,57 @@
      "file": "scans/1943-04-15_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430415pg1.jpg",
      "width": 2322,
-     "height": 3072,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-15_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430415pg1.jpg",
-       "width": 2322,
-       "height": 3072
-      }
-     ]
+     "height": 3072
     },
     {
      "page": 2,
      "file": "scans/1943-04-15_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430415pg2.jpg",
      "width": 2160,
-     "height": 3090,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-15_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430415pg2.jpg",
-       "width": 2160,
-       "height": 3090
-      }
-     ]
+     "height": 3090
     },
     {
      "page": 3,
      "file": "scans/1943-04-15_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430415pg3.jpg",
      "width": 2346,
-     "height": 3102,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-15_tom-to-mother_p03_dup1.jpg",
-       "original_file": "430415pg3.jpg",
-       "width": 2346,
-       "height": 3102
-      },
-      {
-       "file": "delete/scans/1943-04-15_tom-to-mother_p03_dup2.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430415pg4.jpg",
-       "width": 2328,
-       "height": 3096
-      },
-      {
-       "file": "delete/scans/1943-04-15_tom-to-mother_p03_dup3.jpg",
-       "original_file": "430415pg4.jpg",
-       "width": 2328,
-       "height": 3096
-      }
-     ]
+     "height": 3102
     },
     {
      "page": 4,
      "file": "scans/1943-04-15_tom-to-mother_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430415pg6.jpg",
      "width": 2418,
-     "height": 3108,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-15_tom-to-mother_p04_dup1.jpg",
-       "original_file": "430415pg6.jpg",
-       "width": 2418,
-       "height": 3108
-      },
-      {
-       "file": "delete/scans/1943-04-15_tom-to-mother_p04_dup2.jpg",
-       "original_file": "430415pg5.jpg",
-       "width": 2328,
-       "height": 3120
-      }
-     ]
+     "height": 3108
     },
     {
      "page": 5,
      "file": "scans/1943-04-15_tom-to-mother_p05.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430415pg7.jpg",
      "width": 2424,
-     "height": 3156,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-15_tom-to-mother_p05_dup1.jpg",
-       "original_file": "430415pg7.jpg",
-       "width": 2424,
-       "height": 3156
-      }
-     ]
+     "height": 3156
     },
     {
      "page": 6,
      "file": "scans/1943-04-15_tom-to-mother_p06.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430415pg8.jpg",
      "width": 2225,
-     "height": 3119,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-15_tom-to-mother_p06_dup1.jpg",
-       "original_file": "430415pg8.jpg",
-       "width": 2224,
-       "height": 3104
-      }
-     ]
+     "height": 3119
     }
    ],
-   "original_source_note": "Source images (reading order):\n      TBF1Adobe/Adobe finished/430415pg1.jpg   (sheet 1 front)\n      TBF1Adobe/Adobe finished/430415pg2.jpg   (sheet 1 back)\n      TBF1Adobe/Adobe finished/430415pg3.jpg   (sheet \"-2-\" front; pg4 is a duplicate scan)\n      430415pg5.jpg (parent) / Adobe 430415pg6.jpg  (sheet \"-3-\" front; duplicates)\n      TBF1Adobe/Adobe finished/430415pg7.jpg   (sheet \"-4-\" front)\n      TBF1Adobe/Adobe finished/430415pg8.jpg   (sheet \"-4-\" back, signed)"
+   "original_source_note": "Source images (reading order):\n      TBF1Adobe/Adobe finished/430415pg1.jpg   (sheet 1 front)\n      TBF1Adobe/Adobe finished/430415pg2.jpg   (sheet 1 back)\n      TBF1Adobe/Adobe finished/430415pg3.jpg   (sheet \"-2-\" front; pg4 is a duplicate scan)\n      430415pg5.jpg (parent) / Adobe 430415pg6.jpg  (sheet \"-3-\" front; duplicates)\n      TBF1Adobe/Adobe finished/430415pg7.jpg   (sheet \"-4-\" front)\n      TBF1Adobe/Adobe finished/430415pg8.jpg   (sheet \"-4-\" back, signed)",
+   "rescan": [
+    {
+     "type": "not-scanned",
+     "after_page": 3,
+     "reason": "Back of sheet \"-2-\" was never scanned; a passage is missing"
+    },
+    {
+     "type": "not-scanned",
+     "after_page": 4,
+     "reason": "Back of sheet \"-3-\" was never scanned; a passage is missing"
+    }
+   ]
   },
   {
    "id": "1943-04-21_tom-to-mother",
@@ -3883,38 +2593,24 @@
      "file": "scans/1943-04-21_tom-to-mother_p01.jpg",
      "original_file": "TBF0defective/430421pg1.jpg",
      "width": 2412,
-     "height": 3210,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-21_tom-to-mother_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430421pg1a.jpg",
-       "width": 2400,
-       "height": 3131
-      },
-      {
-       "file": "delete/scans/1943-04-21_tom-to-mother_p01_dup2.jpg",
-       "original_file": "TBF0defective/430421pg1a.jpg",
-       "width": 2400,
-       "height": 3131
-      },
-      {
-       "file": "delete/scans/1943-04-21_tom-to-mother_p01_dup3.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430421Pg1.jpg",
-       "width": 2309,
-       "height": 3108
-      }
-     ]
+     "height": 3210
     },
     {
      "page": 2,
      "file": "scans/1943-04-21_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430421Pg2.jpg",
      "width": 2232,
-     "height": 2994,
-     "duplicates": []
+     "height": 2994
     }
    ],
-   "original_source_note": "Source images: TBF0defective/430421pg1.jpg, 430421pg1a.jpg (two scans of the SAME page),\n               TBF1Adobe/Adobe finished/430421Pg2.jpg (page \"-2-\")"
+   "original_source_note": "Source images: TBF0defective/430421pg1.jpg, 430421pg1a.jpg (two scans of the SAME page),\n               TBF1Adobe/Adobe finished/430421Pg2.jpg (page \"-2-\")",
+   "rescan": [
+    {
+     "type": "possible-gap",
+     "after_page": 1,
+     "reason": "A short passage may be missing between pages 1 and 2 (thin air-mail paper; possibly the back of page 1)"
+    }
+   ]
   },
   {
    "id": "1943-04-25_tom-to-mother-and-all",
@@ -3936,53 +2632,28 @@
      "file": "scans/1943-04-25_tom-to-mother-and-all_p01.jpg",
      "original_file": "TBF0defective/430425pg1.jpg",
      "width": 2196,
-     "height": 3282,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-25_tom-to-mother-and-all_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430425Pg1.jpg",
-       "width": 2196,
-       "height": 3114
-      }
-     ]
+     "height": 3282
     },
     {
      "page": 2,
      "file": "scans/1943-04-25_tom-to-mother-and-all_p02.jpg",
      "original_file": "TBF0defective/430425pg2.jpg",
      "width": 2268,
-     "height": 3324,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-25_tom-to-mother-and-all_p02_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/430425Pg2.jpg",
-       "width": 2184,
-       "height": 3300
-      }
-     ]
+     "height": 3324
     },
     {
      "page": 3,
      "file": "scans/1943-04-25_tom-to-mother-and-all_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430425Pg3.jpg",
      "width": 2172,
-     "height": 3324,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-25_tom-to-mother-and-all_p03_dup1.jpg",
-       "original_file": "TBF0defective/430425pg3.jpg",
-       "width": 2244,
-       "height": 3216
-      }
-     ]
+     "height": 3324
     },
     {
      "page": 4,
      "file": "scans/1943-04-25_tom-to-mother-and-all_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430425Pg4.jpg",
      "width": 2256,
-     "height": 3264,
-     "duplicates": []
+     "height": 3264
     }
    ],
    "original_source_note": "Source images: TBF0defective/430425pg1.jpg, 430425pg2.jpg, 430425pg3.jpg,\n               TBF1Adobe/Adobe finished/430425Pg4.jpg (page \"-4-\")"
@@ -4005,15 +2676,7 @@
      "file": "scans/1943-04-30_tom-to-mother-vmail_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430430.jpg",
      "width": 1175,
-     "height": 1625,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-04-30_tom-to-mother-vmail_p01_dup1.jpg",
-       "original_file": "430430.jpg",
-       "width": 1175,
-       "height": 1625
-      }
-     ]
+     "height": 1625
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430430.jpg (430430.jpg in parent folder is a duplicate)"
@@ -4040,78 +2703,50 @@
      "file": "scans/1943-05-03_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430503pg1.jpg",
      "width": 2190,
-     "height": 3072,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-03_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430503pg1.jpg",
-       "width": 2190,
-       "height": 3072
-      }
-     ]
+     "height": 3072
     },
     {
      "page": 2,
      "file": "scans/1943-05-03_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430503pg2.jpg",
      "width": 2214,
-     "height": 3048,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-03_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430503pg2.jpg",
-       "width": 2214,
-       "height": 3048
-      }
-     ]
+     "height": 3048
     },
     {
      "page": 3,
      "file": "scans/1943-05-03_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430503pg3.jpg",
      "width": 2208,
-     "height": 3066,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-03_tom-to-mother_p03_dup1.jpg",
-       "original_file": "430503pg3.jpg",
-       "width": 2208,
-       "height": 3066
-      }
-     ]
+     "height": 3066
     },
     {
      "page": 4,
      "file": "scans/1943-05-03_tom-to-mother_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430503pg4.jpg",
      "width": 2190,
-     "height": 3048,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-03_tom-to-mother_p04_dup1.jpg",
-       "original_file": "430503pg4.jpg",
-       "width": 2190,
-       "height": 3048
-      }
-     ]
+     "height": 3048
     },
     {
      "page": 5,
      "file": "scans/1943-05-03_tom-to-mother_p05.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430503pg5.jpg",
      "width": 2190,
-     "height": 3066,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-03_tom-to-mother_p05_dup1.jpg",
-       "original_file": "430503pg5.jpg",
-       "width": 2190,
-       "height": 3066
-      }
-     ]
+     "height": 3066
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430503pg1.jpg - 430503pg5.jpg (duplicates in parent folder)"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430503pg1.jpg - 430503pg5.jpg (duplicates in parent folder)",
+   "rescan": [
+    {
+     "type": "cut-off",
+     "page": 1,
+     "reason": "Last line cut off at the bottom of the scan"
+    },
+    {
+     "type": "cut-off",
+     "page": 5,
+     "reason": "Signature below \"Love to all & all my love,\" is cut off"
+    }
+   ]
   },
   {
    "id": "1943-05-09_tom-to-mother-mothersday",
@@ -4131,30 +2766,14 @@
      "file": "scans/1943-05-09_tom-to-mother-mothersday_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430509pg1.jpg",
      "width": 2316,
-     "height": 3324,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-09_tom-to-mother-mothersday_p01_dup1.jpg",
-       "original_file": "430509Pg1.jpg",
-       "width": 2316,
-       "height": 3324
-      }
-     ]
+     "height": 3324
     },
     {
      "page": 2,
      "file": "scans/1943-05-09_tom-to-mother-mothersday_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430509pg2.jpg",
      "width": 2250,
-     "height": 3018,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-09_tom-to-mother-mothersday_p02_dup1.jpg",
-       "original_file": "430509pg2.jpg",
-       "width": 2250,
-       "height": 3018
-      }
-     ]
+     "height": 3018
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430509pg1.jpg, 430509pg2.jpg"
@@ -4180,60 +2799,28 @@
      "file": "scans/1943-05-11_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430511pg1.jpg",
      "width": 2262,
-     "height": 3072,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-11_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430511pg1.jpg",
-       "width": 2262,
-       "height": 3072
-      }
-     ]
+     "height": 3072
     },
     {
      "page": 2,
      "file": "scans/1943-05-11_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430511pg2.jpg",
      "width": 2160,
-     "height": 3324,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-11_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430511pg2.jpg",
-       "width": 2160,
-       "height": 3324
-      }
-     ]
+     "height": 3324
     },
     {
      "page": 3,
      "file": "scans/1943-05-11_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430511pg3.jpg",
      "width": 2178,
-     "height": 3222,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-11_tom-to-mother_p03_dup1.jpg",
-       "original_file": "430511pg3.jpg",
-       "width": 2178,
-       "height": 3222
-      }
-     ]
+     "height": 3222
     },
     {
      "page": 4,
      "file": "scans/1943-05-11_tom-to-mother_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430511pg4.jpg",
      "width": 2298,
-     "height": 2202,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-11_tom-to-mother_p04_dup1.jpg",
-       "original_file": "430511pg4.jpg",
-       "width": 2298,
-       "height": 2202
-      }
-     ]
+     "height": 2202
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430511pg1.jpg, 430511pg2.jpg, 430511pg3.jpg, 430511pg4.jpg"
@@ -4260,78 +2847,55 @@
      "file": "scans/1943-05-16_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430516pg1.jpg",
      "width": 2285,
-     "height": 3186,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-16_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430516pg1.jpg",
-       "width": 2285,
-       "height": 3186
-      }
-     ]
+     "height": 3186
     },
     {
      "page": 2,
      "file": "scans/1943-05-16_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430516pg2.jpg",
      "width": 2393,
-     "height": 3024,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-16_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430516pg2.jpg",
-       "width": 2393,
-       "height": 3024
-      }
-     ]
+     "height": 3024
     },
     {
      "page": 3,
      "file": "scans/1943-05-16_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430516pg3.jpg",
      "width": 2520,
-     "height": 3120,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-16_tom-to-mother_p03_dup1.jpg",
-       "original_file": "430516pg3.jpg",
-       "width": 2520,
-       "height": 3120
-      }
-     ]
+     "height": 3120
     },
     {
      "page": 4,
      "file": "scans/1943-05-16_tom-to-mother_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430516pg4.jpg",
      "width": 2292,
-     "height": 3054,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-16_tom-to-mother_p04_dup1.jpg",
-       "original_file": "430516pg4.jpg",
-       "width": 2292,
-       "height": 3054
-      }
-     ]
+     "height": 3054
     },
     {
      "page": 5,
      "file": "scans/1943-05-16_tom-to-mother_p05.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430516pg5.jpg",
      "width": 2208,
-     "height": 2928,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-16_tom-to-mother_p05_dup1.jpg",
-       "original_file": "430516pg5.jpg",
-       "width": 2208,
-       "height": 2928
-      }
-     ]
+     "height": 2928
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430516pg1.jpg - 430516pg5.jpg (duplicates in parent folder)"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430516pg1.jpg - 430516pg5.jpg (duplicates in parent folder)",
+   "rescan": [
+    {
+     "type": "cut-off",
+     "page": 1,
+     "reason": "Bottom line cut off in every scan"
+    },
+    {
+     "type": "cut-off",
+     "page": 2,
+     "reason": "Bottom line cut off in every scan"
+    },
+    {
+     "type": "cut-off",
+     "page": 3,
+     "reason": "Bottom line cut off in every scan"
+    }
+   ]
   },
   {
    "id": "1943-05-17_tom-to-mother",
@@ -4353,45 +2917,21 @@
      "file": "scans/1943-05-17_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430517pg1.jpg",
      "width": 2358,
-     "height": 3269,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-17_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430517pg1.jpg",
-       "width": 2358,
-       "height": 3269
-      }
-     ]
+     "height": 3269
     },
     {
      "page": 2,
      "file": "scans/1943-05-17_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430517pg2.jpg",
      "width": 2274,
-     "height": 3191,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-17_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430517pg2.jpg",
-       "width": 2274,
-       "height": 3191
-      }
-     ]
+     "height": 3191
     },
     {
      "page": 3,
      "file": "scans/1943-05-17_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430517pg3.jpg",
      "width": 2310,
-     "height": 3311,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-17_tom-to-mother_p03_dup1.jpg",
-       "original_file": "430517pg 3.jpg",
-       "width": 2310,
-       "height": 3311
-      }
-     ]
+     "height": 3311
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430517pg1.jpg, 430517pg2.jpg, 430517pg3.jpg"
@@ -4414,30 +2954,14 @@
      "file": "scans/1943-05-24_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430524pg1.jpg",
      "width": 2346,
-     "height": 3264,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-24_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430524pg1.jpg",
-       "width": 2346,
-       "height": 3264
-      }
-     ]
+     "height": 3264
     },
     {
      "page": 2,
      "file": "scans/1943-05-24_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430524pg2.jpg",
      "width": 2298,
-     "height": 2982,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-05-24_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430524pg2.jpg",
-       "width": 2298,
-       "height": 2982
-      }
-     ]
+     "height": 2982
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430524pg1.jpg, 430524pg2.jpg"
@@ -4463,33 +2987,24 @@
      "file": "scans/1943-06-11_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430611pg1.jpg",
      "width": 2141,
-     "height": 2922,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-06-11_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430611pg1.jpg",
-       "width": 2141,
-       "height": 2922
-      }
-     ]
+     "height": 2922
     },
     {
      "page": 2,
      "file": "scans/1943-06-11_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430611pg2.jpg",
      "width": 2123,
-     "height": 3137,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-06-11_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430611pg2.jpg",
-       "width": 2123,
-       "height": 3137
-      }
-     ]
+     "height": 3137
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430611pg1.jpg, 430611pg2.jpg (duplicates in parent folder)"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430611pg1.jpg, 430611pg2.jpg (duplicates in parent folder)",
+   "rescan": [
+    {
+     "type": "not-scanned",
+     "after_page": 2,
+     "reason": "Page 2 ends mid-sentence; the later page(s) are not in the collection"
+    }
+   ]
   },
   {
    "id": "1943-08-01_tom-to-mother",
@@ -4509,33 +3024,29 @@
      "file": "scans/1943-08-01_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430801pg1.jpg",
      "width": 2070,
-     "height": 2778,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-01_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430801pg1.jpg",
-       "width": 2070,
-       "height": 2778
-      }
-     ]
+     "height": 2778
     },
     {
      "page": 2,
      "file": "scans/1943-08-01_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430801pg2a.jpg",
      "width": 2082,
-     "height": 2933,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-01_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430801pg2a.jpg",
-       "width": 2082,
-       "height": 2933
-      }
-     ]
+     "height": 2933
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430801pg1.jpg, 430801pg2a.jpg"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430801pg1.jpg, 430801pg2a.jpg",
+   "rescan": [
+    {
+     "type": "cut-off",
+     "page": 2,
+     "reason": "Left edge cut off; a few first letters are restored in [brackets]"
+    },
+    {
+     "type": "possible-gap",
+     "after_page": 1,
+     "reason": "A page may be missing between pages 1 and 2 (the second scan was named \"2a\")"
+    }
+   ]
   },
   {
    "id": "1943-08-19_tom-to-mother",
@@ -4557,45 +3068,21 @@
      "file": "scans/1943-08-19_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430819pg1.jpg",
      "width": 2183,
-     "height": 3083,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-19_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430819.jpg",
-       "width": 2183,
-       "height": 3083
-      }
-     ]
+     "height": 3083
     },
     {
      "page": 2,
      "file": "scans/1943-08-19_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430819pg2.jpg",
      "width": 2088,
-     "height": 2886,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-19_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430819pg2.jpg",
-       "width": 2088,
-       "height": 2886
-      }
-     ]
+     "height": 2886
     },
     {
      "page": 3,
      "file": "scans/1943-08-19_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430819pg3.jpg",
      "width": 2160,
-     "height": 2976,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-19_tom-to-mother_p03_dup1.jpg",
-       "original_file": "430819pg3.jpg",
-       "width": 2160,
-       "height": 2976
-      }
-     ]
+     "height": 2976
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430819pg1.jpg, 430819pg2.jpg, 430819pg3.jpg"
@@ -4620,45 +3107,21 @@
      "file": "scans/1943-08-24_tom-to-mom_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430824pg1.jpg",
      "width": 2009,
-     "height": 2855,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-24_tom-to-mom_p01_dup1.jpg",
-       "original_file": "430824pg1.jpg",
-       "width": 2009,
-       "height": 2855
-      }
-     ]
+     "height": 2855
     },
     {
      "page": 2,
      "file": "scans/1943-08-24_tom-to-mom_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430824pg2.jpg",
      "width": 2040,
-     "height": 3054,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-24_tom-to-mom_p02_dup1.jpg",
-       "original_file": "430824pg2.jpg",
-       "width": 2040,
-       "height": 3054
-      }
-     ]
+     "height": 3054
     },
     {
      "page": 3,
      "file": "scans/1943-08-24_tom-to-mom_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430824pg3.jpg",
      "width": 2010,
-     "height": 3096,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-24_tom-to-mom_p03_dup1.jpg",
-       "original_file": "430824pg3.jpg",
-       "width": 2010,
-       "height": 3096
-      }
-     ]
+     "height": 3096
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430824pg1.jpg, 430824pg2.jpg, 430824pg3.jpg"
@@ -4685,78 +3148,45 @@
      "file": "scans/1943-08-31_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430831pg1.jpg",
      "width": 2094,
-     "height": 2885,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-31_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430831pg1.jpg",
-       "width": 2094,
-       "height": 2885
-      }
-     ]
+     "height": 2885
     },
     {
      "page": 2,
      "file": "scans/1943-08-31_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430831pg2.jpg",
      "width": 2064,
-     "height": 3012,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-31_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430831pg2.jpg",
-       "width": 2064,
-       "height": 3012
-      }
-     ]
+     "height": 3012
     },
     {
      "page": 3,
      "file": "scans/1943-08-31_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430831pg3.jpg",
      "width": 2010,
-     "height": 2958,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-31_tom-to-mother_p03_dup1.jpg",
-       "original_file": "430831pg3.jpg",
-       "width": 2010,
-       "height": 2958
-      }
-     ]
+     "height": 2958
     },
     {
      "page": 4,
      "file": "scans/1943-08-31_tom-to-mother_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430831pg4.jpg",
      "width": 2172,
-     "height": 3029,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-31_tom-to-mother_p04_dup1.jpg",
-       "original_file": "430831pg4.jpg",
-       "width": 2172,
-       "height": 3029
-      }
-     ]
+     "height": 3029
     },
     {
      "page": 5,
      "file": "scans/1943-08-31_tom-to-mother_p05.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430831pg5.jpg",
      "width": 2190,
-     "height": 3041,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-08-31_tom-to-mother_p05_dup1.jpg",
-       "original_file": "430831pg5.jpg",
-       "width": 2190,
-       "height": 3041
-      }
-     ]
+     "height": 3041
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430831pg1.jpg - 430831pg5.jpg"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430831pg1.jpg - 430831pg5.jpg",
+   "rescan": [
+    {
+     "type": "cut-off",
+     "page": 4,
+     "reason": "First line partly cut off at the top of the scan"
+    }
+   ]
   },
   {
    "id": "1943-09-05_tom-to-mom",
@@ -4778,45 +3208,21 @@
      "file": "scans/1943-09-05_tom-to-mom_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430905pg1.jpg",
      "width": 2106,
-     "height": 2880,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-05_tom-to-mom_p01_dup1.jpg",
-       "original_file": "430905pg1.jpg",
-       "width": 2106,
-       "height": 2880
-      }
-     ]
+     "height": 2880
     },
     {
      "page": 2,
      "file": "scans/1943-09-05_tom-to-mom_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430905pg2.jpg",
      "width": 2052,
-     "height": 3012,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-05_tom-to-mom_p02_dup1.jpg",
-       "original_file": "430905pg2.jpg",
-       "width": 2052,
-       "height": 3012
-      }
-     ]
+     "height": 3012
     },
     {
      "page": 3,
      "file": "scans/1943-09-05_tom-to-mom_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430905pg3.jpg",
      "width": 2166,
-     "height": 3006,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-05_tom-to-mom_p03_dup1.jpg",
-       "original_file": "430905pg3.jpg",
-       "width": 2166,
-       "height": 3006
-      }
-     ]
+     "height": 3006
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430905pg1.jpg, 430905pg2.jpg, 430905pg3.jpg"
@@ -4841,63 +3247,53 @@
      "file": "scans/1943-09-09_tom-to-mom_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430909pg1.jpg",
      "width": 2100,
-     "height": 2892,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-09_tom-to-mom_p01_dup1.jpg",
-       "original_file": "430909pg1.jpg",
-       "width": 2100,
-       "height": 2892
-      }
-     ]
+     "height": 2892
     },
     {
      "page": 2,
      "file": "scans/1943-09-09_tom-to-mom_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430909pg2.jpg",
      "width": 2016,
-     "height": 3066,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-09_tom-to-mom_p02_dup1.jpg",
-       "original_file": "430909pg2.jpg",
-       "width": 2016,
-       "height": 3066
-      }
-     ]
+     "height": 3066
     },
     {
      "page": 3,
      "file": "scans/1943-09-09_tom-to-mom_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430909pg3.jpg",
      "width": 2016,
-     "height": 3041,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-09_tom-to-mom_p03_dup1.jpg",
-       "original_file": "430909pg3.jpg",
-       "width": 2016,
-       "height": 3041
-      }
-     ]
+     "height": 3041
     },
     {
      "page": 4,
      "file": "scans/1943-09-09_tom-to-mom_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430909pg4.jpg",
      "width": 2190,
-     "height": 3156,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-09_tom-to-mom_p04_dup1.jpg",
-       "original_file": "430909pg4.jpg",
-       "width": 2190,
-       "height": 3156
-      }
-     ]
+     "height": 3156
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430909pg1.jpg - 430909pg4.jpg"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/430909pg1.jpg - 430909pg4.jpg",
+   "rescan": [
+    {
+     "type": "cut-off",
+     "page": 1,
+     "reason": "A word or two at the page edges may be clipped"
+    },
+    {
+     "type": "cut-off",
+     "page": 2,
+     "reason": "A word or two at the page edges may be clipped"
+    },
+    {
+     "type": "cut-off",
+     "page": 3,
+     "reason": "A word or two at the page edges may be clipped"
+    },
+    {
+     "type": "cut-off",
+     "page": 4,
+     "reason": "A word or two at the page edges may be clipped"
+    }
+   ]
   },
   {
    "id": "1943-09-15_tom-to-mother-sweetheart",
@@ -4919,45 +3315,21 @@
      "file": "scans/1943-09-15_tom-to-mother-sweetheart_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430915pg1.jpg",
      "width": 1992,
-     "height": 3054,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-15_tom-to-mother-sweetheart_p01_dup1.jpg",
-       "original_file": "430915pg1.jpg",
-       "width": 1992,
-       "height": 3054
-      }
-     ]
+     "height": 3054
     },
     {
      "page": 2,
      "file": "scans/1943-09-15_tom-to-mother-sweetheart_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430915pg2.jpg",
      "width": 2100,
-     "height": 3126,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-15_tom-to-mother-sweetheart_p02_dup1.jpg",
-       "original_file": "430915pg2.jpg",
-       "width": 2100,
-       "height": 3126
-      }
-     ]
+     "height": 3126
     },
     {
      "page": 3,
      "file": "scans/1943-09-15_tom-to-mother-sweetheart_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430915pg3.jpg",
      "width": 1932,
-     "height": 3048,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-15_tom-to-mother-sweetheart_p03_dup1.jpg",
-       "original_file": "430915pg3.jpg",
-       "width": 1932,
-       "height": 3048
-      }
-     ]
+     "height": 3048
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430915pg1.jpg, 430915pg2.jpg, 430915pg3.jpg"
@@ -4982,30 +3354,14 @@
      "file": "scans/1943-09-23_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430923pg1.jpg",
      "width": 2309,
-     "height": 2916,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-23_tom-to-mother_p01_dup1.jpg",
-       "original_file": "430923pg1.jpg",
-       "width": 2309,
-       "height": 2916
-      }
-     ]
+     "height": 2916
     },
     {
      "page": 2,
      "file": "scans/1943-09-23_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/430923pg2.jpg",
      "width": 2130,
-     "height": 3000,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-09-23_tom-to-mother_p02_dup1.jpg",
-       "original_file": "430923pg2.jpg",
-       "width": 2130,
-       "height": 3000
-      }
-     ]
+     "height": 3000
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/430923pg1.jpg, 430923pg2.jpg"
@@ -5030,60 +3386,28 @@
      "file": "scans/1943-10-02_tom-to-mom_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431002pg1.jpg",
      "width": 2112,
-     "height": 2993,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-10-02_tom-to-mom_p01_dup1.jpg",
-       "original_file": "431002pg1.jpg",
-       "width": 2112,
-       "height": 2993
-      }
-     ]
+     "height": 2993
     },
     {
      "page": 2,
      "file": "scans/1943-10-02_tom-to-mom_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431002pg2.jpg",
      "width": 2087,
-     "height": 3071,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-10-02_tom-to-mom_p02_dup1.jpg",
-       "original_file": "431002pg2.jpg",
-       "width": 2087,
-       "height": 3071
-      }
-     ]
+     "height": 3071
     },
     {
      "page": 3,
      "file": "scans/1943-10-02_tom-to-mom_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431002pg3.jpg",
      "width": 2201,
-     "height": 2969,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-10-02_tom-to-mom_p03_dup1.jpg",
-       "original_file": "431002pg3.jpg",
-       "width": 2201,
-       "height": 2969
-      }
-     ]
+     "height": 2969
     },
     {
      "page": 4,
      "file": "scans/1943-10-02_tom-to-mom_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431002pg4.jpg",
      "width": 2238,
-     "height": 2946,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-10-02_tom-to-mom_p04_dup1.jpg",
-       "original_file": "431002pg4.jpg",
-       "width": 2238,
-       "height": 2946
-      }
-     ]
+     "height": 2946
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/431002pg1.jpg - 431002pg4.jpg"
@@ -5106,45 +3430,21 @@
      "file": "scans/1943-10-09_tom-to-john-and-fran_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431008pg1.jpg",
      "width": 2393,
-     "height": 2988,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-10-09_tom-to-john-and-fran_p01_dup1.jpg",
-       "original_file": "431008pg1.jpg",
-       "width": 2393,
-       "height": 2988
-      }
-     ]
+     "height": 2988
     },
     {
      "page": 2,
      "file": "scans/1943-10-09_tom-to-john-and-fran_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431008pg2.jpg",
      "width": 2046,
-     "height": 2820,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-10-09_tom-to-john-and-fran_p02_dup1.jpg",
-       "original_file": "431008pg2.jpg",
-       "width": 2046,
-       "height": 2820
-      }
-     ]
+     "height": 2820
     },
     {
      "page": 3,
      "file": "scans/1943-10-09_tom-to-john-and-fran_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431008pg3.jpg",
      "width": 2406,
-     "height": 2976,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-10-09_tom-to-john-and-fran_p03_dup1.jpg",
-       "original_file": "431008pg3.jpg",
-       "width": 2406,
-       "height": 2976
-      }
-     ]
+     "height": 2976
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/431008pg1.jpg, 431008pg2.jpg, 431008pg3.jpg"
@@ -5167,15 +3467,7 @@
      "file": "scans/1943-11-08_tom-to-mum_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431108.jpg",
      "width": 1764,
-     "height": 2922,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-11-08_tom-to-mum_p01_dup1.jpg",
-       "original_file": "431108.jpg",
-       "width": 1764,
-       "height": 2922
-      }
-     ]
+     "height": 2922
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/431108.jpg"
@@ -5200,30 +3492,14 @@
      "file": "scans/1943-11-27_tom-to-mum_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431127pg1.jpg",
      "width": 2135,
-     "height": 2903,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-11-27_tom-to-mum_p01_dup1.jpg",
-       "original_file": "431127pg1.jpg",
-       "width": 2135,
-       "height": 2903
-      }
-     ]
+     "height": 2903
     },
     {
      "page": 2,
      "file": "scans/1943-11-27_tom-to-mum_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431127pg2.jpg",
      "width": 2142,
-     "height": 3054,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-11-27_tom-to-mum_p02_dup1.jpg",
-       "original_file": "431127pg2.jpg",
-       "width": 2142,
-       "height": 3054
-      }
-     ]
+     "height": 3054
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/431127pg1.jpg, 431127pg2.jpg"
@@ -5248,75 +3524,35 @@
      "file": "scans/1943-12-06_tom-to-mum_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431206pg1.jpg",
      "width": 2148,
-     "height": 3041,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-12-06_tom-to-mum_p01_dup1.jpg",
-       "original_file": "431206pg1.jpg",
-       "width": 2148,
-       "height": 3041
-      }
-     ]
+     "height": 3041
     },
     {
      "page": 2,
      "file": "scans/1943-12-06_tom-to-mum_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431206pg2.jpg",
      "width": 2016,
-     "height": 2975,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-12-06_tom-to-mum_p02_dup1.jpg",
-       "original_file": "431206pg2.jpg",
-       "width": 2016,
-       "height": 2975
-      }
-     ]
+     "height": 2975
     },
     {
      "page": 3,
      "file": "scans/1943-12-06_tom-to-mum_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431206pg3.jpg",
      "width": 2064,
-     "height": 3083,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-12-06_tom-to-mum_p03_dup1.jpg",
-       "original_file": "431206pg3.jpg",
-       "width": 2064,
-       "height": 3083
-      }
-     ]
+     "height": 3083
     },
     {
      "page": 4,
      "file": "scans/1943-12-06_tom-to-mum_p04.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431206pg4.jpg",
      "width": 2291,
-     "height": 3072,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-12-06_tom-to-mum_p04_dup1.jpg",
-       "original_file": "431206pg4.jpg",
-       "width": 2291,
-       "height": 3072
-      }
-     ]
+     "height": 3072
     },
     {
      "page": 5,
      "file": "scans/1943-12-06_tom-to-mum_p05.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431206pg5.jpg",
      "width": 2027,
-     "height": 2994,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-12-06_tom-to-mum_p05_dup1.jpg",
-       "original_file": "431206pg5.jpg",
-       "width": 2027,
-       "height": 2994
-      }
-     ]
+     "height": 2994
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/431206pg1.jpg - 431206pg5.jpg"
@@ -5341,39 +3577,24 @@
      "file": "scans/1943-12-17_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431217pg1.jpg",
      "width": 1691,
-     "height": 2903,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-12-17_tom-to-mother_p01_dup1.jpg",
-       "original_file": "431217pg1.jpg",
-       "width": 1691,
-       "height": 2903
-      }
-     ]
+     "height": 2903
     },
     {
      "page": 2,
      "file": "scans/1943-12-17_tom-to-mother_p02.jpg",
      "original_file": "431217pg2.jpg",
      "width": 1800,
-     "height": 3000,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-12-17_tom-to-mother_p02_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/431217pg3.jpg",
-       "width": 1733,
-       "height": 3024
-      },
-      {
-       "file": "delete/scans/1943-12-17_tom-to-mother_p02_dup2.jpg",
-       "original_file": "431217pg3.jpg",
-       "width": 1733,
-       "height": 3024
-      }
-     ]
+     "height": 3000
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/431217pg1.jpg, 431217pg3.jpg\n      (parent-folder 431217pg2.jpg and 431217pg3.jpg are both scans of the LAST page)"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/431217pg1.jpg, 431217pg3.jpg\n      (parent-folder 431217pg2.jpg and 431217pg3.jpg are both scans of the LAST page)",
+   "rescan": [
+    {
+     "type": "not-scanned",
+     "after_page": 1,
+     "reason": "A middle page is missing from every scan"
+    }
+   ]
   },
   {
    "id": "1943-12-17_tom-to-mrs-brecht",
@@ -5393,15 +3614,7 @@
      "file": "scans/1943-12-17_tom-to-mrs-brecht_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431217brecht.jpg",
      "width": 1746,
-     "height": 2862,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-12-17_tom-to-mrs-brecht_p01_dup1.jpg",
-       "original_file": "431217brecht.jpg",
-       "width": 1746,
-       "height": 2862
-      }
-     ]
+     "height": 2862
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/431217brecht.jpg"
@@ -5426,30 +3639,14 @@
      "file": "scans/1943-12-25_tom-to-olive-and-bob-pelkey_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431225pelky1.jpg",
      "width": 1883,
-     "height": 2963,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-12-25_tom-to-olive-and-bob-pelkey_p01_dup1.jpg",
-       "original_file": "431225Pelky1.jpg",
-       "width": 1883,
-       "height": 2963
-      }
-     ]
+     "height": 2963
     },
     {
      "page": 2,
      "file": "scans/1943-12-25_tom-to-olive-and-bob-pelkey_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/431225pelky2.jpg",
      "width": 2064,
-     "height": 1170,
-     "duplicates": [
-      {
-       "file": "delete/scans/1943-12-25_tom-to-olive-and-bob-pelkey_p02_dup1.jpg",
-       "original_file": "431225pelky2.jpg",
-       "width": 2064,
-       "height": 1170
-      }
-     ]
+     "height": 1170
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/431225pelky1.jpg (Tom's letter),\n               TBF1Adobe/Adobe finished/431225pelky2.jpg (typed note on the back of an air-mail envelope)"
@@ -5476,45 +3673,21 @@
      "file": "scans/1944-01-04_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/440104pg1.jpg",
      "width": 1608,
-     "height": 2826,
-     "duplicates": [
-      {
-       "file": "delete/scans/1944-01-04_tom-to-mother_p01_dup1.jpg",
-       "original_file": "440104pg1.jpg",
-       "width": 1608,
-       "height": 2826
-      }
-     ]
+     "height": 2826
     },
     {
      "page": 2,
      "file": "scans/1944-01-04_tom-to-mother_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/440104pg2.jpg",
      "width": 1596,
-     "height": 2916,
-     "duplicates": [
-      {
-       "file": "delete/scans/1944-01-04_tom-to-mother_p02_dup1.jpg",
-       "original_file": "440104pg2.jpg",
-       "width": 1596,
-       "height": 2916
-      }
-     ]
+     "height": 2916
     },
     {
      "page": 3,
      "file": "scans/1944-01-04_tom-to-mother_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/440104pg3.jpg",
      "width": 1668,
-     "height": 2958,
-     "duplicates": [
-      {
-       "file": "delete/scans/1944-01-04_tom-to-mother_p03_dup1.jpg",
-       "original_file": "440104pg3.jpg",
-       "width": 1668,
-       "height": 2958
-      }
-     ]
+     "height": 2958
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/440104pg1.jpg, 440104pg2.jpg, 440104pg3.jpg"
@@ -5539,30 +3712,14 @@
      "file": "scans/1944-02-20_tom-to-mum_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/440220pg1.jpg",
      "width": 2093,
-     "height": 3162,
-     "duplicates": [
-      {
-       "file": "delete/scans/1944-02-20_tom-to-mum_p01_dup1.jpg",
-       "original_file": "440220pg1.jpg",
-       "width": 2093,
-       "height": 3162
-      }
-     ]
+     "height": 3162
     },
     {
      "page": 2,
      "file": "scans/1944-02-20_tom-to-mum_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/440220pg2.jpg",
      "width": 2280,
-     "height": 3078,
-     "duplicates": [
-      {
-       "file": "delete/scans/1944-02-20_tom-to-mum_p02_dup1.jpg",
-       "original_file": "440220pg2.jpg",
-       "width": 2280,
-       "height": 3078
-      }
-     ]
+     "height": 3078
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/440220pg1.jpg, 440220pg2.jpg"
@@ -5585,18 +3742,17 @@
      "file": "scans/1944-04-03_tom-to-mum_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/440403.jpg",
      "width": 2112,
-     "height": 2958,
-     "duplicates": [
-      {
-       "file": "delete/scans/1944-04-03_tom-to-mum_p01_dup1.jpg",
-       "original_file": "440403.jpg",
-       "width": 2112,
-       "height": 2958
-      }
-     ]
+     "height": 2958
     }
    ],
-   "original_source_note": "Source images: TBF1Adobe/Adobe finished/440403.jpg"
+   "original_source_note": "Source images: TBF1Adobe/Adobe finished/440403.jpg",
+   "rescan": [
+    {
+     "type": "cut-off",
+     "page": 1,
+     "reason": "Closing and signature appear to be just below the scan edge"
+    }
+   ]
   },
   {
    "id": "1944-11-02_tom-to-mother",
@@ -5618,15 +3774,7 @@
      "file": "scans/1944-11-02_tom-to-mother_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/441102.jpg",
      "width": 2364,
-     "height": 2921,
-     "duplicates": [
-      {
-       "file": "delete/scans/1944-11-02_tom-to-mother_p01_dup1.jpg",
-       "original_file": "441102.jpg",
-       "width": 2364,
-       "height": 2921
-      }
-     ]
+     "height": 2921
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/441102.jpg"
@@ -5651,45 +3799,21 @@
      "file": "scans/1945-03-15_tom-to-mother-portland_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/450315pg1a.jpg",
      "width": 2490,
-     "height": 2064,
-     "duplicates": [
-      {
-       "file": "delete/scans/1945-03-15_tom-to-mother-portland_p01_dup1.jpg",
-       "original_file": "450315pg1a.jpg",
-       "width": 2253,
-       "height": 1867
-      }
-     ]
+     "height": 2064
     },
     {
      "page": 2,
      "file": "scans/1945-03-15_tom-to-mother-portland_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/450315pg2.jpg",
      "width": 2238,
-     "height": 3258,
-     "duplicates": [
-      {
-       "file": "delete/scans/1945-03-15_tom-to-mother-portland_p02_dup1.jpg",
-       "original_file": "450315pg2.jpg",
-       "width": 2238,
-       "height": 3258
-      }
-     ]
+     "height": 3258
     },
     {
      "page": 3,
      "file": "scans/1945-03-15_tom-to-mother-portland_p03.jpg",
      "original_file": "TBF1Adobe/Adobe finished/450315pg3.jpg",
      "width": 2340,
-     "height": 3108,
-     "duplicates": [
-      {
-       "file": "delete/scans/1945-03-15_tom-to-mother-portland_p03_dup1.jpg",
-       "original_file": "450315pg3.jpg",
-       "width": 2340,
-       "height": 3108
-      }
-     ]
+     "height": 3108
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/450315pg1a.jpg (envelope), 450315pg2.jpg, 450315pg3.jpg"
@@ -5712,21 +3836,7 @@
      "file": "scans/1945-04-04_tom-to-mom_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/450403.jpg",
      "width": 1914,
-     "height": 3126,
-     "duplicates": [
-      {
-       "file": "delete/scans/1945-04-04_tom-to-mom_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/440404.jpg",
-       "width": 1782,
-       "height": 2964
-      },
-      {
-       "file": "delete/scans/1945-04-04_tom-to-mom_p01_dup2.jpg",
-       "original_file": "440404.jpg",
-       "width": 1782,
-       "height": 2964
-      }
-     ]
+     "height": 3126
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/450403.jpg, TBF1Adobe/Adobe finished/440404.jpg (same page)"
@@ -5751,15 +3861,7 @@
      "file": "scans/1945-04-30_tom-to-mother-hospital_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/450430.jpg",
      "width": 1908,
-     "height": 2933,
-     "duplicates": [
-      {
-       "file": "delete/scans/1945-04-30_tom-to-mother-hospital_p01_dup1.jpg",
-       "original_file": "450430.jpg",
-       "width": 1908,
-       "height": 2933
-      }
-     ]
+     "height": 2933
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/450430.jpg"
@@ -5786,30 +3888,14 @@
      "file": "scans/1945-05-08_tom-to-mum-ve-day_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/450508pg1.jpg",
      "width": 1890,
-     "height": 2880,
-     "duplicates": [
-      {
-       "file": "delete/scans/1945-05-08_tom-to-mum-ve-day_p01_dup1.jpg",
-       "original_file": "450508VEDAYpg1.jpg",
-       "width": 1890,
-       "height": 2880
-      }
-     ]
+     "height": 2880
     },
     {
      "page": 2,
      "file": "scans/1945-05-08_tom-to-mum-ve-day_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/450509[g2.jpg",
      "width": 1866,
-     "height": 2754,
-     "duplicates": [
-      {
-       "file": "delete/scans/1945-05-08_tom-to-mum-ve-day_p02_dup1.jpg",
-       "original_file": "450508VEDAYpg2.jpg",
-       "width": 1866,
-       "height": 2754
-      }
-     ]
+     "height": 2754
     }
    ],
    "original_source_note": "Source images: 450508VEDAYpg1.jpg, 450508VEDAYpg2.jpg (parent folder; Adobe copies 450508pg1.jpg, 450509[g2.jpg)"
@@ -5834,30 +3920,14 @@
      "file": "scans/1945-05-23_tom-to-mom-hospital_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/450523pg1.jpg",
      "width": 1878,
-     "height": 2784,
-     "duplicates": [
-      {
-       "file": "delete/scans/1945-05-23_tom-to-mom-hospital_p01_dup1.jpg",
-       "original_file": "450523pg1.jpg",
-       "width": 1878,
-       "height": 2784
-      }
-     ]
+     "height": 2784
     },
     {
      "page": 2,
      "file": "scans/1945-05-23_tom-to-mom-hospital_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/450523pg2.jpg",
      "width": 1890,
-     "height": 2928,
-     "duplicates": [
-      {
-       "file": "delete/scans/1945-05-23_tom-to-mom-hospital_p02_dup1.jpg",
-       "original_file": "450523pg2.jpg",
-       "width": 1890,
-       "height": 2928
-      }
-     ]
+     "height": 2928
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/450523pg1.jpg, 450523pg2.jpg"
@@ -5882,21 +3952,7 @@
      "file": "scans/1945-winter_tom-to-mother-typed-portland_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/450530.jpg",
      "width": 2178,
-     "height": 3144,
-     "duplicates": [
-      {
-       "file": "delete/scans/1945-winter_tom-to-mother-typed-portland_p01_dup1.jpg",
-       "original_file": "TBF1Adobe/Adobe finished/45 05AB.jpg",
-       "width": 1950,
-       "height": 2760
-      },
-      {
-       "file": "delete/scans/1945-winter_tom-to-mother-typed-portland_p01_dup2.jpg",
-       "original_file": "Portland.jpg",
-       "width": 1950,
-       "height": 2760
-      }
-     ]
+     "height": 3144
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/450530.jpg, \"45 05AB.jpg\"; Portland.jpg in parent folder (same page)"
@@ -5919,16 +3975,14 @@
      "file": "scans/undated_bill-jameson-to-mrs-beck_p01.jpg",
      "original_file": "Z Bill Jameson Pg 1.jpg",
      "width": 2082,
-     "height": 3246,
-     "duplicates": []
+     "height": 3246
     },
     {
      "page": 2,
      "file": "scans/undated_bill-jameson-to-mrs-beck_p02.jpg",
      "original_file": "Z Bill Jameson Pg 2.jpg",
      "width": 2070,
-     "height": 2322,
-     "duplicates": []
+     "height": 2322
     }
    ],
    "original_source_note": "Source images: Z Bill Jameson Pg 1.jpg, Z Bill Jameson Pg 2.jpg (parent folder)"
@@ -5953,23 +4007,14 @@
      "file": "scans/undated_dad-to-tommy-wednesday_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/from Dad pg1.jpg",
      "width": 1656,
-     "height": 2538,
-     "duplicates": [
-      {
-       "file": "delete/scans/undated_dad-to-tommy-wednesday_p01_dup1.jpg",
-       "original_file": "from Dad pg1.jpg",
-       "width": 1656,
-       "height": 2538
-      }
-     ]
+     "height": 2538
     },
     {
      "page": 2,
      "file": "scans/undated_dad-to-tommy-wednesday_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/from dad pg2.jpg",
      "width": 1638,
-     "height": 2520,
-     "duplicates": []
+     "height": 2520
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/from Dad pg1.jpg, from dad pg2.jpg"
@@ -5994,23 +4039,14 @@
      "file": "scans/undated_daddy-to-tommy-hotel-st-george_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/from dad undasted.jpg",
      "width": 1806,
-     "height": 2700,
-     "duplicates": [
-      {
-       "file": "delete/scans/undated_daddy-to-tommy-hotel-st-george_p01_dup1.jpg",
-       "original_file": "from dad undasted.jpg",
-       "width": 1806,
-       "height": 2700
-      }
-     ]
+     "height": 2700
     },
     {
      "page": 2,
      "file": "scans/undated_daddy-to-tommy-hotel-st-george_p02.jpg",
      "original_file": "from dad undated2.jpg",
      "width": 1848,
-     "height": 2736,
-     "duplicates": []
+     "height": 2736
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/from dad undasted.jpg (page 1),\n               from dad undated2.jpg (parent folder; page 2)"
@@ -6033,30 +4069,14 @@
      "file": "scans/undated_george-to-mother-allegheny_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/ZGeoAlleghPg1.jpg",
      "width": 2274,
-     "height": 3216,
-     "duplicates": [
-      {
-       "file": "delete/scans/undated_george-to-mother-allegheny_p01_dup1.jpg",
-       "original_file": "ZGeoAlleghenypg1.jpg",
-       "width": 2274,
-       "height": 3216
-      }
-     ]
+     "height": 3216
     },
     {
      "page": 2,
      "file": "scans/undated_george-to-mother-allegheny_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/ZGeoAlleghPg2.jpg",
      "width": 2280,
-     "height": 2724,
-     "duplicates": [
-      {
-       "file": "delete/scans/undated_george-to-mother-allegheny_p02_dup1.jpg",
-       "original_file": "ZGeoAlleghenypg2.jpg",
-       "width": 2280,
-       "height": 2724
-      }
-     ]
+     "height": 2724
     }
    ],
    "original_source_note": "Source images: ZGeoAlleghenypg1.jpg, ZGeoAlleghenypg2.jpg (parent folder; Adobe copies ZGeoAlleghPg1/2)"
@@ -6079,34 +4099,31 @@
      "file": "scans/undated_janny-to-mother-pcw_p01.jpg",
      "original_file": "Z Janny PCW PG 1.jpg",
      "width": 1830,
-     "height": 2670,
-     "duplicates": []
+     "height": 2670
     },
     {
      "page": 2,
      "file": "scans/undated_janny-to-mother-pcw_p02.jpg",
      "original_file": "Z Janny PCW PG 2.jpg",
      "width": 1932,
-     "height": 2616,
-     "duplicates": []
+     "height": 2616
     },
     {
      "page": 3,
      "file": "scans/undated_janny-to-mother-pcw_p03.jpg",
      "original_file": "Z Janny PCW PG 3.jpg",
      "width": 1902,
-     "height": 2586,
-     "duplicates": [
-      {
-       "file": "delete/scans/undated_janny-to-mother-pcw_p03_dup1.jpg",
-       "original_file": "Z Janny PCW PG 4.jpg",
-       "width": 1860,
-       "height": 2574
-      }
-     ]
+     "height": 2586
     }
    ],
-   "original_source_note": "Source images: Z Janny PCW PG 1.jpg, PG 2.jpg, PG 3.jpg (parent folder; PG 4 is a duplicate of PG 3)"
+   "original_source_note": "Source images: Z Janny PCW PG 1.jpg, PG 2.jpg, PG 3.jpg (parent folder; PG 4 is a duplicate of PG 3)",
+   "rescan": [
+    {
+     "type": "not-scanned",
+     "after_page": 2,
+     "reason": "A page appears to be missing between pages 2 and 3"
+    }
+   ]
   },
   {
    "id": "undated_mother-to-folks-moore-heights",
@@ -6128,996 +4145,22 @@
      "file": "scans/undated_mother-to-folks-moore-heights_p01.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4505mothpg1.jpg",
      "width": 1566,
-     "height": 2826,
-     "duplicates": []
+     "height": 2826
     },
     {
      "page": 2,
      "file": "scans/undated_mother-to-folks-moore-heights_p02.jpg",
      "original_file": "TBF1Adobe/Adobe finished/4505mothpg2.jpg",
      "width": 1584,
-     "height": 2904,
-     "duplicates": []
+     "height": 2904
     }
    ],
    "original_source_note": "Source images: TBF1Adobe/Adobe finished/4505mothpg1.jpg, 4505mothpg2.jpg"
   }
  ],
- "scan_notes": [
-  {
-   "original_file": "420 91pg2.jpg",
-   "now_at": "delete/scans/1942-09-01_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of page 2 of the 1942-09-01 letter (same as 420901pg2.jpg)"
-  },
-  {
-   "original_file": "4204XX.jpg",
-   "now_at": "delete/scans/1942-07-06_tom-to-mother_p04_dup1.jpg",
-   "note": "Duplicate scan of page 4 of the 1942-07-06 letter (420706pg4); filename date 'April 1942' is wrong"
-  },
-  {
-   "original_file": "4207xpg3.jpg",
-   "now_at": "delete/scans/1942-07-06_tom-to-mother_p04_dup2.jpg",
-   "note": "Duplicate scan of page 4 of the 1942-07-06 letter (420706pg4)"
-  },
-  {
-   "original_file": "420901pg1.jpg",
-   "now_at": "delete/scans/1942-09-01_tom-to-mother_p01_dup2.jpg",
-   "note": "Page 1 of the 1942-09-01 letter (identical file to Adobe 420901pg2.jpg)"
-  },
-  {
-   "original_file": "420917pg2B.jpg",
-   "now_at": "delete/scans/1942-09-17_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of page 2 of the 1942-09-17 letter"
-  },
-  {
-   "original_file": "421009pg2a.jpg",
-   "now_at": "delete/scans/1942-10-09_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of page 2 of the 1942-10-09 letter"
-  },
-  {
-   "original_file": "4211ABPg1.jpg",
-   "now_at": "delete/scans/1942-11-28_tom-to-dad-and-mother_p01_dup1.jpg",
-   "note": "Second scan of page 1 of the 1942-11-28 letter (same page as Adobe 421128pg2.jpg)"
-  },
-  {
-   "original_file": "4211ABpg3.jpg",
-   "now_at": "delete/scans/1942-11-28_tom-to-dad-and-mother_p03_dup2.jpg",
-   "note": "Duplicate scan of page 3 ('-2-') of the 1942-11-28 letter"
-  },
-  {
-   "original_file": "421203pg1.jpg",
-   "now_at": "delete/scans/1942-12-08_tom-to-mother-and-dad_p01_dup1.jpg",
-   "note": "MISNAMED: actually page 1 of the 1942-12-08 letter (duplicate of 421208pg1)"
-  },
-  {
-   "original_file": "421205pg1.jpg",
-   "now_at": "delete/scans/1942-12-05_tom-to-mother-and-dad_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1942-12-05 letter"
-  },
-  {
-   "original_file": "421205pg2.jpg",
-   "now_at": "delete/scans/1942-12-05_tom-to-mother-and-dad_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1942-12-05 letter"
-  },
-  {
-   "original_file": "421208pg1.jpg",
-   "now_at": "delete/scans/1942-12-08_tom-to-mother-and-dad_p01_dup2.jpg",
-   "note": "Duplicate scan (cropped) of page 1 of the 1942-12-08 letter; Adobe 421208pg1.jpg used"
-  },
-  {
-   "original_file": "421210pg1.jpg",
-   "now_at": "delete/scans/1942-12-10_tom-to-folks_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1942-12-10 letter"
-  },
-  {
-   "original_file": "421210pg2.jpg",
-   "now_at": "delete/scans/1942-12-10_tom-to-folks_p02_dup2.jpg",
-   "note": "Duplicate scan of the 1942-12-10 letter"
-  },
-  {
-   "original_file": "421210pg2A.jpg",
-   "now_at": "delete/scans/1942-12-10_tom-to-folks_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1942-12-10 letter"
-  },
-  {
-   "original_file": "421229pg1.jpg",
-   "now_at": "delete/scans/1942-12-29_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1942-12-29 letter"
-  },
-  {
-   "original_file": "421229pg2.jpg",
-   "now_at": "delete/scans/1942-12-29_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1942-12-29 letter"
-  },
-  {
-   "original_file": "430102pg1.jpg",
-   "now_at": "delete/scans/1943-01-02_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-01-02 letter"
-  },
-  {
-   "original_file": "430102pg2.jpg",
-   "now_at": "delete/scans/1943-01-02_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1943-01-02 letter"
-  },
-  {
-   "original_file": "430105pg1.jpg",
-   "now_at": "delete/scans/1943-01-05_tom-to-mother-houston_p01_dup2.jpg",
-   "note": "Duplicate/alternate scan of the 1943-01-05 Rice Hotel letter"
-  },
-  {
-   "original_file": "430105pg1a.jpg",
-   "now_at": "delete/scans/1943-01-05_tom-to-mother-houston_p01_dup3.jpg",
-   "note": "Duplicate/alternate scan of the 1943-01-05 Rice Hotel letter"
-  },
-  {
-   "original_file": "430105pg1b.jpg",
-   "now_at": "scans/1943-01-05_tom-to-mother-houston_p01.jpg",
-   "note": "Duplicate/alternate scan of the 1943-01-05 Rice Hotel letter"
-  },
-  {
-   "original_file": "430105pg2.jpg",
-   "now_at": "delete/scans/1943-01-05_tom-to-mother-houston_p02_dup1.jpg",
-   "note": "Duplicate/alternate scan of the 1943-01-05 Rice Hotel letter"
-  },
-  {
-   "original_file": "430105pg3.jpg",
-   "now_at": "delete/scans/1943-01-05_tom-to-mother-houston_p03_dup1.jpg",
-   "note": "Duplicate/alternate scan of the 1943-01-05 Rice Hotel letter"
-  },
-  {
-   "original_file": "430124pg1.jpg",
-   "now_at": "delete/scans/1943-01-24_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate/alternate scan of the 1943-01-24 letter"
-  },
-  {
-   "original_file": "430124pg1ab.jpg",
-   "now_at": "delete/scans/1943-01-24_tom-to-mother_p01_dup2.jpg",
-   "note": "Duplicate/alternate scan of the 1943-01-24 letter"
-  },
-  {
-   "original_file": "430124pg1bc.jpg",
-   "now_at": "delete/scans/1943-01-24_tom-to-mother_p01_dup3.jpg",
-   "note": "Duplicate/alternate scan of the 1943-01-24 letter"
-  },
-  {
-   "original_file": "430124pg2.jpg",
-   "now_at": "delete/scans/1943-01-24_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate/alternate scan of the 1943-01-24 letter"
-  },
-  {
-   "original_file": "430126a.jpg",
-   "now_at": "delete/scans/1943-01-26_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-01-26 letter"
-  },
-  {
-   "original_file": "430213pg1_1.jpg",
-   "now_at": "delete/scans/1943-02-13_tom-to-mother_p01_dup2.jpg",
-   "note": "Duplicate scan of the 1943-02-13 letter"
-  },
-  {
-   "original_file": "430213pg2.jpg",
-   "now_at": "delete/scans/1943-02-13_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1943-02-13 letter"
-  },
-  {
-   "original_file": "430213pg2_1.jpg",
-   "now_at": "delete/scans/1943-02-13_tom-to-mother_p02_dup2.jpg",
-   "note": "Duplicate scan of the 1943-02-13 letter"
-  },
-  {
-   "original_file": "430218.jpg",
-   "now_at": "delete/scans/1943-02-18_tom-to-mother-typed_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-02-18 typed letter"
-  },
-  {
-   "original_file": "430223pg2B.jpg",
-   "now_at": "delete/scans/1943-02-23_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of page 2 of the 1943-02-23 letter"
-  },
-  {
-   "original_file": "430401.jpg",
-   "now_at": "delete/scans/1943-04-01_tom-to-mother-typed_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-01 typed letter"
-  },
-  {
-   "original_file": "430407pg1.jpg",
-   "now_at": "delete/scans/1943-04-07_tom-to-unc_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-07 letter to Unc"
-  },
-  {
-   "original_file": "430407pg2.jpg",
-   "now_at": "delete/scans/1943-04-07_tom-to-unc_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-07 letter to Unc"
-  },
-  {
-   "original_file": "430407pg3.jpg",
-   "now_at": "delete/scans/1943-04-07_tom-to-unc_p03_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-07 letter to Unc"
-  },
-  {
-   "original_file": "430407pg4.jpg",
-   "now_at": "delete/scans/1943-04-07_tom-to-unc_p04_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-07 letter to Unc"
-  },
-  {
-   "original_file": "430412.jpg",
-   "now_at": "delete/scans/1943-04-12_cablegram-tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-12 cablegram"
-  },
-  {
-   "original_file": "430415pg1.jpg",
-   "now_at": "delete/scans/1943-04-15_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-15 letter (parent folder)"
-  },
-  {
-   "original_file": "430415pg2.jpg",
-   "now_at": "delete/scans/1943-04-15_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-15 letter (parent folder)"
-  },
-  {
-   "original_file": "430415pg3.jpg",
-   "now_at": "delete/scans/1943-04-15_tom-to-mother_p03_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-15 letter (parent folder)"
-  },
-  {
-   "original_file": "430415pg4.jpg",
-   "now_at": "delete/scans/1943-04-15_tom-to-mother_p03_dup3.jpg",
-   "note": "Duplicate scan of the 1943-04-15 letter (parent folder)"
-  },
-  {
-   "original_file": "430415pg6.jpg",
-   "now_at": "delete/scans/1943-04-15_tom-to-mother_p04_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-15 letter (parent folder)"
-  },
-  {
-   "original_file": "430415pg7.jpg",
-   "now_at": "delete/scans/1943-04-15_tom-to-mother_p05_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-15 letter (parent folder)"
-  },
-  {
-   "original_file": "430415pg8.jpg",
-   "now_at": "delete/scans/1943-04-15_tom-to-mother_p06_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-15 letter (parent folder)"
-  },
-  {
-   "original_file": "430430.jpg",
-   "now_at": "delete/scans/1943-04-30_tom-to-mother-vmail_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-30 V-mail"
-  },
-  {
-   "original_file": "430503pg1.jpg",
-   "now_at": "delete/scans/1943-05-03_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-03 letter"
-  },
-  {
-   "original_file": "430503pg2.jpg",
-   "now_at": "delete/scans/1943-05-03_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-03 letter"
-  },
-  {
-   "original_file": "430503pg3.jpg",
-   "now_at": "delete/scans/1943-05-03_tom-to-mother_p03_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-03 letter"
-  },
-  {
-   "original_file": "430503pg4.jpg",
-   "now_at": "delete/scans/1943-05-03_tom-to-mother_p04_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-03 letter"
-  },
-  {
-   "original_file": "430503pg5.jpg",
-   "now_at": "delete/scans/1943-05-03_tom-to-mother_p05_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-03 letter"
-  },
-  {
-   "original_file": "430509Pg1.jpg",
-   "now_at": "delete/scans/1943-05-09_tom-to-mother-mothersday_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430509pg2.jpg",
-   "now_at": "delete/scans/1943-05-09_tom-to-mother-mothersday_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430511pg1.jpg",
-   "now_at": "delete/scans/1943-05-11_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430511pg2.jpg",
-   "now_at": "delete/scans/1943-05-11_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430511pg3.jpg",
-   "now_at": "delete/scans/1943-05-11_tom-to-mother_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430511pg4.jpg",
-   "now_at": "delete/scans/1943-05-11_tom-to-mother_p04_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430516pg1.jpg",
-   "now_at": "delete/scans/1943-05-16_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-16 letter"
-  },
-  {
-   "original_file": "430516pg2.jpg",
-   "now_at": "delete/scans/1943-05-16_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-16 letter"
-  },
-  {
-   "original_file": "430516pg3.jpg",
-   "now_at": "delete/scans/1943-05-16_tom-to-mother_p03_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-16 letter"
-  },
-  {
-   "original_file": "430516pg4.jpg",
-   "now_at": "delete/scans/1943-05-16_tom-to-mother_p04_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-16 letter"
-  },
-  {
-   "original_file": "430516pg5.jpg",
-   "now_at": "delete/scans/1943-05-16_tom-to-mother_p05_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-16 letter"
-  },
-  {
-   "original_file": "430517pg 3.jpg",
-   "now_at": "delete/scans/1943-05-17_tom-to-mother_p03_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-17 letter"
-  },
-  {
-   "original_file": "430517pg1.jpg",
-   "now_at": "delete/scans/1943-05-17_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-17 letter"
-  },
-  {
-   "original_file": "430517pg2.jpg",
-   "now_at": "delete/scans/1943-05-17_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1943-05-17 letter"
-  },
-  {
-   "original_file": "430524pg1.jpg",
-   "now_at": "delete/scans/1943-05-24_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430524pg2.jpg",
-   "now_at": "delete/scans/1943-05-24_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430611pg1.jpg",
-   "now_at": "delete/scans/1943-06-11_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430611pg2.jpg",
-   "now_at": "delete/scans/1943-06-11_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430801pg1.jpg",
-   "now_at": "delete/scans/1943-08-01_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430801pg2a.jpg",
-   "now_at": "delete/scans/1943-08-01_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430819.jpg",
-   "now_at": "delete/scans/1943-08-19_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430819pg2.jpg",
-   "now_at": "delete/scans/1943-08-19_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430819pg3.jpg",
-   "now_at": "delete/scans/1943-08-19_tom-to-mother_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430824pg1.jpg",
-   "now_at": "delete/scans/1943-08-24_tom-to-mom_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430824pg2.jpg",
-   "now_at": "delete/scans/1943-08-24_tom-to-mom_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430824pg3.jpg",
-   "now_at": "delete/scans/1943-08-24_tom-to-mom_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430831pg1.jpg",
-   "now_at": "delete/scans/1943-08-31_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430831pg2.jpg",
-   "now_at": "delete/scans/1943-08-31_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430831pg3.jpg",
-   "now_at": "delete/scans/1943-08-31_tom-to-mother_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430831pg4.jpg",
-   "now_at": "delete/scans/1943-08-31_tom-to-mother_p04_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430831pg5.jpg",
-   "now_at": "delete/scans/1943-08-31_tom-to-mother_p05_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430905pg1.jpg",
-   "now_at": "delete/scans/1943-09-05_tom-to-mom_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430905pg2.jpg",
-   "now_at": "delete/scans/1943-09-05_tom-to-mom_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430905pg3.jpg",
-   "now_at": "delete/scans/1943-09-05_tom-to-mom_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430909pg1.jpg",
-   "now_at": "delete/scans/1943-09-09_tom-to-mom_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430909pg2.jpg",
-   "now_at": "delete/scans/1943-09-09_tom-to-mom_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430909pg3.jpg",
-   "now_at": "delete/scans/1943-09-09_tom-to-mom_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430909pg4.jpg",
-   "now_at": "delete/scans/1943-09-09_tom-to-mom_p04_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430915pg1.jpg",
-   "now_at": "delete/scans/1943-09-15_tom-to-mother-sweetheart_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430915pg2.jpg",
-   "now_at": "delete/scans/1943-09-15_tom-to-mother-sweetheart_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430915pg3.jpg",
-   "now_at": "delete/scans/1943-09-15_tom-to-mother-sweetheart_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430923pg1.jpg",
-   "now_at": "delete/scans/1943-09-23_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "430923pg2.jpg",
-   "now_at": "delete/scans/1943-09-23_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431002pg1.jpg",
-   "now_at": "delete/scans/1943-10-02_tom-to-mom_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431002pg2.jpg",
-   "now_at": "delete/scans/1943-10-02_tom-to-mom_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431002pg3.jpg",
-   "now_at": "delete/scans/1943-10-02_tom-to-mom_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431002pg4.jpg",
-   "now_at": "delete/scans/1943-10-02_tom-to-mom_p04_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431008pg1.jpg",
-   "now_at": "delete/scans/1943-10-09_tom-to-john-and-fran_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431008pg2.jpg",
-   "now_at": "delete/scans/1943-10-09_tom-to-john-and-fran_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431008pg3.jpg",
-   "now_at": "delete/scans/1943-10-09_tom-to-john-and-fran_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431108.jpg",
-   "now_at": "delete/scans/1943-11-08_tom-to-mum_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431127pg1.jpg",
-   "now_at": "delete/scans/1943-11-27_tom-to-mum_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431127pg2.jpg",
-   "now_at": "delete/scans/1943-11-27_tom-to-mum_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431206pg1.jpg",
-   "now_at": "delete/scans/1943-12-06_tom-to-mum_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431206pg2.jpg",
-   "now_at": "delete/scans/1943-12-06_tom-to-mum_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431206pg3.jpg",
-   "now_at": "delete/scans/1943-12-06_tom-to-mum_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431206pg4.jpg",
-   "now_at": "delete/scans/1943-12-06_tom-to-mum_p04_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431206pg5.jpg",
-   "now_at": "delete/scans/1943-12-06_tom-to-mum_p05_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431217brecht.jpg",
-   "now_at": "delete/scans/1943-12-17_tom-to-mrs-brecht_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431217pg1.jpg",
-   "now_at": "delete/scans/1943-12-17_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431217pg2.jpg",
-   "now_at": "scans/1943-12-17_tom-to-mother_p02.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431217pg3.jpg",
-   "now_at": "delete/scans/1943-12-17_tom-to-mother_p02_dup2.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431225Pelky1.jpg",
-   "now_at": "delete/scans/1943-12-25_tom-to-olive-and-bob-pelkey_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "431225pelky2.jpg",
-   "now_at": "delete/scans/1943-12-25_tom-to-olive-and-bob-pelkey_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "440104pg1.jpg",
-   "now_at": "delete/scans/1944-01-04_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "440104pg2.jpg",
-   "now_at": "delete/scans/1944-01-04_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "440104pg3.jpg",
-   "now_at": "delete/scans/1944-01-04_tom-to-mother_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "440220pg1.jpg",
-   "now_at": "delete/scans/1944-02-20_tom-to-mum_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "440220pg2.jpg",
-   "now_at": "delete/scans/1944-02-20_tom-to-mum_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "440403.jpg",
-   "now_at": "delete/scans/1944-04-03_tom-to-mum_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "440404.jpg",
-   "now_at": "delete/scans/1945-04-04_tom-to-mom_p01_dup2.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "441102.jpg",
-   "now_at": "delete/scans/1944-11-02_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "450315pg1a.jpg",
-   "now_at": "delete/scans/1945-03-15_tom-to-mother-portland_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "450315pg2.jpg",
-   "now_at": "delete/scans/1945-03-15_tom-to-mother-portland_p02_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "450315pg3.jpg",
-   "now_at": "delete/scans/1945-03-15_tom-to-mother-portland_p03_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "450430.jpg",
-   "now_at": "delete/scans/1945-04-30_tom-to-mother-hospital_p01_dup1.jpg",
-   "note": "Duplicate scan"
-  },
-  {
-   "original_file": "450508VEDAYpg1.jpg",
-   "now_at": "delete/scans/1945-05-08_tom-to-mum-ve-day_p01_dup1.jpg",
-   "note": "Duplicate scan"
-  },
-  {
-   "original_file": "450508VEDAYpg2.jpg",
-   "now_at": "delete/scans/1945-05-08_tom-to-mum-ve-day_p02_dup1.jpg",
-   "note": "Duplicate scan"
-  },
-  {
-   "original_file": "450523pg1.jpg",
-   "now_at": "delete/scans/1945-05-23_tom-to-mom-hospital_p01_dup1.jpg",
-   "note": "Duplicate scan"
-  },
-  {
-   "original_file": "450523pg2.jpg",
-   "now_at": "delete/scans/1945-05-23_tom-to-mom-hospital_p02_dup1.jpg",
-   "note": "Duplicate scan"
-  },
-  {
-   "original_file": "A 1942 Pg 1.jpg",
-   "now_at": "scans/1942-11-20_tom-to-dad_p01.jpg",
-   "note": "Duplicate scan of page 1 of the 1942-11-20 letter to Dad"
-  },
-  {
-   "original_file": "B 1942 Pg 2.jpg",
-   "now_at": "scans/1942-11-20_tom-to-dad_p02.jpg",
-   "note": "Duplicate scan of page 2 of the 1942-11-20 letter to Dad"
-  },
-  {
-   "original_file": "from Dad pg1.jpg",
-   "now_at": "delete/scans/undated_dad-to-tommy-wednesday_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "from dad undasted.jpg",
-   "now_at": "delete/scans/undated_daddy-to-tommy-hotel-st-george_p01_dup1.jpg",
-   "note": "Duplicate scan (parent folder)"
-  },
-  {
-   "original_file": "picture.jpg",
-   "now_at": "delete/scans/1942-10-21_newspaper-clipping-commissioned-ensign_p01_dup1.jpg",
-   "note": "Duplicate of Adobe picture.jpg (newspaper clipping)"
-  },
-  {
-   "original_file": "Portland.jpg",
-   "now_at": "delete/scans/1945-winter_tom-to-mother-typed-portland_p01_dup2.jpg",
-   "note": "Duplicate scan"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/4207xpg1.jpg",
-   "now_at": "delete/scans/1942-07-06_tom-to-mother_p02_dup1.jpg",
-   "note": "Duplicate scan of page 2 of the 1942-07-06 letter (420706pg2)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/4207xpg2.jpg",
-   "now_at": "scans/1942-07-06_tom-to-mother_p02.jpg",
-   "note": "Duplicate scan of page 2 of the 1942-07-06 letter (420706pg2)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/4207xpg4.jpg",
-   "now_at": "scans/1942-07-06_tom-to-mother_p04.jpg",
-   "note": "Duplicate scan of page 4 of the 1942-07-06 letter (420706pg4)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/420901pg2.jpg",
-   "now_at": "delete/scans/1942-09-01_tom-to-mother_p01_dup1.jpg",
-   "note": "MISLABELED: identical to 420901pg1.jpg in parent folder (it is page 1 of the 1942-09-01 letter, not page 2)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/421118PG1.jpg",
-   "now_at": "scans/1942-11-18_tom-to-dad_p01.jpg",
-   "note": "Duplicate scan of page 1 of the 1942-11-18 'Wednesday' letter to Dad (same page as 420716pg1.jpg)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/421128pg4.jpg",
-   "now_at": "delete/scans/1942-11-28_tom-to-dad-and-mother_p03_dup1.jpg",
-   "note": "Duplicate scan of page 3 ('-2-') of the 1942-11-28 letter (same page as 421128pg3.jpg / 4211ABpg3.jpg)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/4211ADPg2.jpg",
-   "now_at": "scans/1942-11-18_tom-to-dad_p02.jpg",
-   "note": "Duplicate scan of page 2 of the 1942-11-18 letter to Dad (same page as 420716pg2.jpg)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/4211AEPPG3.jpg",
-   "now_at": "scans/1942-11-18_tom-to-dad_p03.jpg",
-   "note": "Duplicate scan of page 3 of the 1942-11-18 letter to Dad (same page as 420716pg3.jpg)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/421209pg1.jpg",
-   "now_at": "delete/scans/1942-11-04_tom-to-mother-norfolk_p01_dup2.jpg",
-   "note": "Second scan of page 1 of the Norfolk 'Wednesday' letter (see 1942-11-04); annotated '? 12/9/42' by a later hand, but content places it early Nov 1942"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/421209pg2.jpg",
-   "now_at": "delete/scans/1942-11-04_tom-to-mother-norfolk_p02_dup1.jpg",
-   "note": "Second scan of page 2 of the Norfolk 'Wednesday' letter (see 1942-11-04)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/421213pg1.jpg",
-   "now_at": "delete/scans/1942-11-22_tom-to-dad-sunday_p01_dup2.jpg",
-   "note": "Second scan of page 1 of the 'Sunday' letter to Dad (see 1942-11-22); annotated '? 12/13/42' by a later hand, but by 12/8/42 Tom had already left Solomons, so Nov 22 fits better"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/421213pg2.jpg",
-   "now_at": "delete/scans/1942-11-22_tom-to-dad-sunday_p02_dup2.jpg",
-   "note": "Second scan of page 2 of the 'Sunday' letter to Dad (see 1942-11-22)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430130Pg1.jpg",
-   "now_at": "scans/1942-11-09_tom-to-mother-monday_p01.jpg",
-   "note": "Second scan of the 'Monday' Solomons letter (see 1942-11-09); misfiled as 1943-01-30"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430130Pg2.jpg",
-   "now_at": "scans/1942-11-09_tom-to-mother-monday_p02.jpg",
-   "note": "Second scan of page 2 of the 'Monday' Solomons letter (see 1942-11-09); shows the 'Tom' signature cut off in the other scan"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/4301ABPg2.jpg",
-   "now_at": "scans/1942-11-06_tom-to-mother-arrived-solomons_p02.jpg",
-   "note": "Second scan of page 2 of the Solomons arrival letter (see 1942-11-06); misfiled as Jan 1943"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/4301CDpg2.jpg",
-   "now_at": "scans/1942-11-04_tom-to-mother-norfolk_p01.jpg",
-   "note": "Third scan of page 1 of the Norfolk 'Wednesday' letter (see 1942-11-04); misfiled as Jan 1943"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430201Pg1.jpg",
-   "now_at": "scans/1942-11-06_tom-to-mother-arrived-solomons_p01.jpg",
-   "note": "Second scan of page 1 of the Solomons arrival letter (see 1942-11-06); misfiled as 1943-02-01"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430213pg1.jpg",
-   "now_at": "delete/scans/1943-02-13_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-02-13 letter"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/43023pg2.jpg",
-   "now_at": "delete/scans/1943-02-03_tom-to-mother_p02_dup2.jpg",
-   "note": "Duplicate scan of page 2 of the 1943-02-03 letter"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430312.jpg",
-   "now_at": "scans/1943-03-12_tom-to-mother_p01.jpg",
-   "note": "Second scan of page 1 of the 1943-03-12 typed letter (uncropped; shows full right edge)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430413.jpg",
-   "now_at": "delete/scans/1943-04-13_tom-to-mother-vmail_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-13 V-mail (if present)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430415pg4.jpg",
-   "now_at": "delete/scans/1943-04-15_tom-to-mother_p03_dup2.jpg",
-   "note": "Duplicate scan (different contrast) of sheet '-2-' of the 1943-04-15 letter (same as 430415pg3)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430415pg6.jpg",
-   "now_at": "scans/1943-04-15_tom-to-mother_p04.jpg",
-   "note": "Duplicate scan of sheet '-3-' of the 1943-04-15 letter (same as parent 430415pg5)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430421Pg1.jpg",
-   "now_at": "delete/scans/1943-04-21_tom-to-mother_p01_dup3.jpg",
-   "note": "Duplicate scan of page 1 of the 1943-04-21 letter"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430421pg1a.jpg",
-   "now_at": "delete/scans/1943-04-21_tom-to-mother_p01_dup1.jpg",
-   "note": "Duplicate scan of page 1 of the 1943-04-21 letter"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430425Pg1.jpg",
-   "now_at": "delete/scans/1943-04-25_tom-to-mother-and-all_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-25 letter"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430425Pg2.jpg",
-   "now_at": "delete/scans/1943-04-25_tom-to-mother-and-all_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1943-04-25 letter"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/430425Pg3.jpg",
-   "now_at": "scans/1943-04-25_tom-to-mother-and-all_p03.jpg",
-   "note": "Duplicate scan of the 1943-04-25 letter"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/440404.jpg",
-   "now_at": "delete/scans/1945-04-04_tom-to-mom_p01_dup1.jpg",
-   "note": "Same page as 450403.jpg (the '4 April' letter, re-dated to 1945)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/45 05AB.jpg",
-   "now_at": "delete/scans/1945-winter_tom-to-mother-typed-portland_p01_dup1.jpg",
-   "note": "Duplicate scan"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/450508pg1.jpg",
-   "now_at": "scans/1945-05-08_tom-to-mum-ve-day_p01.jpg",
-   "note": "Duplicate scan"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/450509[g2.jpg",
-   "now_at": "scans/1945-05-08_tom-to-mum-ve-day_p02.jpg",
-   "note": "Duplicate scan"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/451116pg1.jpg",
-   "now_at": "delete/scans/1942-11-16_tom-to-mother-and-dad_p01_dup2.jpg",
-   "note": "MISFILED as 1945: duplicate scan of the 1942-11-16 LCT letter (pg1 & pg2 are identical)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/451116pg2.jpg",
-   "now_at": "delete/scans/1942-11-16_tom-to-mother-and-dad_p01_dup1.jpg",
-   "note": "MISFILED as 1945: duplicate scan of the 1942-11-16 LCT letter (pg1 & pg2 are identical)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/451116pg3.jpg",
-   "now_at": "delete/scans/1942-11-16_tom-to-mother-and-dad_p03_dup1.jpg",
-   "note": "MISFILED as 1945: duplicate scan of the 1942-11-16 LCT letter (pg1 & pg2 are identical)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/451116pg4.jpg",
-   "now_at": "delete/scans/1942-11-16_tom-to-mother-and-dad_p04_dup1.jpg",
-   "note": "MISFILED as 1945: duplicate scan of the 1942-11-16 LCT letter (pg1 & pg2 are identical)"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/ZGeoAlleghPg1.jpg",
-   "now_at": "scans/undated_george-to-mother-allegheny_p01.jpg",
-   "note": "Duplicate scan of George's Allegheny letter"
-  },
-  {
-   "original_file": "TBF1Adobe/Adobe finished/ZGeoAlleghPg2.jpg",
-   "now_at": "scans/undated_george-to-mother-allegheny_p02.jpg",
-   "note": "Duplicate scan of George's Allegheny letter"
-  },
-  {
-   "original_file": "z 42 11 AD pG 1.jpg",
-   "now_at": "delete/scans/1942-11-18_tom-to-dad_p01_dup1.jpg",
-   "note": "Duplicate scan of page 1 of the 1942-11-18 letter to Dad"
-  },
-  {
-   "original_file": "Z 42 11 AD PG 2.jpg",
-   "now_at": "delete/scans/1942-11-18_tom-to-dad_p02_dup1.jpg",
-   "note": "Duplicate scan of page 2 of the 1942-11-18 letter to Dad"
-  },
-  {
-   "original_file": "Z 42 11 AD pg 3.jpg",
-   "now_at": "delete/scans/1942-11-18_tom-to-dad_p03_dup1.jpg",
-   "note": "Duplicate scan of page 3 of the 1942-11-18 letter to Dad"
-  },
-  {
-   "original_file": "Z 42 11 AE PG 1.jpg",
-   "now_at": "delete/scans/1942-11-xx_tom-to-mother-wednesday_p01_dup1.jpg",
-   "note": "Duplicate scan of page 1 of the Nov 1942 'Wednesday' letter to Mother (same as 42062x.jpg)"
-  },
-  {
-   "original_file": "Z 42 11 AE Pg 2 A.jpg",
-   "now_at": "delete/scans/1942-11-xx_tom-to-mother-wednesday_p02_dup1.jpg",
-   "note": "Duplicate scan of page 2 of the Nov 1942 'Wednesday' letter to Mother (same as 421118 pG1.jpg)"
-  },
-  {
-   "original_file": "Z 42 11 AF Pg 1.jpg",
-   "now_at": "delete/scans/1942-11-24_tom-to-dad_p01_dup1.jpg",
-   "note": "Duplicate scan of page 1 of the 1942-11-24 letter to Dad (same as 421124pG1.jpg)"
-  },
-  {
-   "original_file": "Z 42 11 AF PG 2.jpg",
-   "now_at": "delete/scans/1942-11-24_tom-to-dad_p02_dup1.jpg",
-   "note": "Duplicate scan of page 2 of the 1942-11-24 letter to Dad (same as 421124pG2.jpg)"
-  },
-  {
-   "original_file": "Z 42 Thksg (Dad) Pg !.jpg",
-   "now_at": "delete/scans/1942-11-26_tom-to-dad-thanksgiving_p01_dup1.jpg",
-   "note": "Duplicate scan of the Thanksgiving 1942-11-26 letter to Dad (same page as 421126 series)"
-  },
-  {
-   "original_file": "Z 42 Thksg (Dad) Pg 2.jpg",
-   "now_at": "delete/scans/1942-11-26_tom-to-dad-thanksgiving_p02_dup1.jpg",
-   "note": "Duplicate scan of the Thanksgiving 1942-11-26 letter to Dad (same page as 421126 series)"
-  },
-  {
-   "original_file": "Z 42 Thksg (Dad) Pg 3.jpg",
-   "now_at": "delete/scans/1942-11-26_tom-to-dad-thanksgiving_p03_dup1.jpg",
-   "note": "Duplicate scan of the Thanksgiving 1942-11-26 letter to Dad (same page as 421126 series)"
-  },
-  {
-   "original_file": "Z 42 Thksg (Dad) Pg 4.jpg",
-   "now_at": "delete/scans/1942-11-26_tom-to-dad-thanksgiving_p04_dup1.jpg",
-   "note": "Duplicate scan of the Thanksgiving 1942-11-26 letter to Dad (same page as 421126 series)"
-  },
-  {
-   "original_file": "Z 43 AB PG 1.jpg",
-   "now_at": "delete/scans/1942-11-22_tom-to-dad-sunday_p01_dup1.jpg",
-   "note": "Duplicate scan of page 1 of the 1942-11-22 'Sunday' letter to Dad (same as 4211!BPg1.jpg)"
-  },
-  {
-   "original_file": "Z 43 AB Pg 2.jpg",
-   "now_at": "delete/scans/1942-11-22_tom-to-dad-sunday_p02_dup1.jpg",
-   "note": "Duplicate scan of page 2 of the 1942-11-22 'Sunday' letter to Dad (same as 4211BCPg1.jpg)"
-  },
-  {
-   "original_file": "Z Janny PCW PG 4.jpg",
-   "now_at": "delete/scans/undated_janny-to-mother-pcw_p03_dup1.jpg",
-   "note": "Duplicate scan of 'Z Janny PCW PG 3.jpg' (same last page)"
-  },
-  {
-   "original_file": "Z Undated A Pg 1.jpg",
-   "now_at": "delete/scans/1942-11-09_tom-to-mother-monday_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1942-11-09 'Monday' Solomons letter"
-  },
-  {
-   "original_file": "Z Undated A Pg 2.jpg",
-   "now_at": "delete/scans/1942-11-09_tom-to-mother-monday_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1942-11-09 'Monday' Solomons letter"
-  },
-  {
-   "original_file": "Z undated C Pg 1.jpg",
-   "now_at": "delete/scans/1942-11-06_tom-to-mother-arrived-solomons_p01_dup1.jpg",
-   "note": "Duplicate scan of the 1942-11-06 Solomons arrival letter"
-  },
-  {
-   "original_file": "Z Undated C PG 2.jpg",
-   "now_at": "delete/scans/1942-11-06_tom-to-mother-arrived-solomons_p02_dup1.jpg",
-   "note": "Duplicate scan of the 1942-11-06 Solomons arrival letter"
-  }
- ]
+ "rescan_types": {
+  "cut-off": "Text on this page is cut off at the edge of every existing scan; rescan the page",
+  "not-scanned": "A page or side was never scanned; it goes after 'after_page'",
+  "possible-gap": "The text suggests something may be missing after 'after_page'; check the original"
+ }
 }

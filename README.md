@@ -57,13 +57,13 @@ For each letter the index lists:
 - who wrote it, who it was to, and where it was written;
 - whether any pages are missing;
 - notes on the people and events it mentions;
-- its pages, in order. Each page has its scan, its width and height, its
-  **original filename** from before the reorganization, and any duplicate
-  scans of it.
+- its pages, in order. Each page has its scan, its width and height, and
+  its **original filename** from before the reorganization;
+- for letters with pages that should be rescanned, a `rescan` list (see
+  [Pages to rescan](#pages-to-rescan)).
 
-The index also has a short family guide (`people`), a timeline of Tom's
-service (`timeline`), and notes on scans that were misdated or misfiled
-(`scan_notes`).
+The index also has a short family guide (`people`) and a timeline of Tom's
+service (`timeline`).
 
 All paths in the index are relative to this folder.
 
@@ -94,14 +94,56 @@ followed by the letter, page by page. A line like
 - **Only the best copy of each page is in `scans/`.** Duplicate scans were
   matched by comparing the images themselves, not by filename, and the copy
   with the highest resolution was kept. When two copies were the same size,
-  the cleaned-up Adobe scan was kept. The rest are in `delete/scans/`.
-- **Five letters are still incomplete** because some pages were never
-  scanned (for example, the backs of two sheets of the April 15, 1943
-  letter). They are marked `"complete": false` in the index. If the original
-  letters still exist, those pages could be rescanned.
+  the cleaned-up Adobe scan was kept. The rest are in `delete/scans/`, and
+  `rename_log.csv` shows where each one came from.
+- **Some text is cut off or was never scanned.** Every existing scan of
+  those pages was checked, and none shows the missing text, so the original
+  letters would have to be rescanned. See [Pages to rescan](#pages-to-rescan).
 - Notes in some transcription headers mention the old folder names or
   filenames (for example, "page 2 was found in TBF0defective"). They record
   where each page was found. The index gives each scan's original filename.
+
+## Pages to rescan
+
+If the original letters still exist, rescanning these pages would fill in
+text that no current scan shows. In the index, each affected letter has a
+`rescan` list, and each item has a `type`:
+
+- `cut-off`: text on this page runs past the edge of every scan. Rescan the
+  page with a margin all round.
+- `not-scanned`: a page or the back of a sheet was never scanned. It belongs
+  after page `after_page`. These five letters are marked `"complete": false`.
+- `possible-gap`: the text suggests something may be missing. Check the
+  original.
+
+**Text cut off at the scan edge**
+
+| Letter | Page(s) | What's cut off |
+|---|---|---|
+| 1942-07-06, Tom to Mother | 1, 3 | Bottom line |
+| 1942-07-27, Tom to Mother | 1 | Bottom line |
+| 1942-11-01, Tom to Mother | 1 | Last line(s) |
+| 1943-02-18, Tom to Mother (typed) | 1 | Signature |
+| 1943-05-03, Tom to Mother | 1, 5 | Last line of page 1; signature on page 5 |
+| 1943-05-16, Tom to Mother | 1, 2, 3 | Bottom line of each page |
+| 1943-08-01, Tom to Mother | 2 | Left edge |
+| 1943-08-31, Tom to Mother | 4 | Top line |
+| 1943-09-09, Tom to Mom | 1–4 | A word or two at the edges |
+| 1944-04-03, Tom to Mum | 1 | Closing and signature |
+
+**Pages never scanned**
+
+| Letter | What's missing |
+|---|---|
+| 1942-11-22, Tom to Sis (Betty) | The back of the sheet (marked "over") |
+| 1943-04-15, Tom to Mother | The backs of sheets "-2-" and "-3-" |
+| 1943-06-11, Tom to Mother | Everything after page 2 |
+| 1943-12-17, Tom to Mother | A middle page |
+| Undated, Janny to Mother | A page between pages 2 and 3 |
+
+**Possible gaps to check:** 1942-11 (a Wednesday), Tom to Mother, after
+page 1; 1943-04-21, Tom to Mother, after page 1; 1943-08-01, Tom to Mother,
+after page 1.
 
 ## Keeping things consistent
 
@@ -113,7 +155,8 @@ python3 tools/check_project.py
 
 It checks that every file in the index exists, that every scan appears in
 the index exactly once, that each transcription's header and page markers
-match its scans, and that the annotations still line up with the text. The
+match its scans, that the rescan lists point at real pages, and that the
+annotations still line up with the text. The
 folder is also a git repository, so every change can be reviewed or undone.
 
 ## Tom's service, in brief

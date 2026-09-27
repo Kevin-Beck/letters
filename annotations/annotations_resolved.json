@@ -4493,19 +4493,19 @@
     "entity": "military.postmaster-address"
    }
   ],
-  "1942-11-22_tom-to-sis-betty-undatedd.txt": [
+  "1942-11-22_tom-to-sis-betty-undated.txt": [
    {
     "id": "a1",
-    "start": 900,
-    "end": 908,
+    "start": 898,
+    "end": 906,
     "text": "Dear Sis",
     "kind": "reference",
     "entity": "person.betty"
    },
    {
     "id": "a2",
-    "start": 1391,
-    "end": 1416,
+    "start": 1389,
+    "end": 1414,
     "text": "Tell the kid I said hello",
     "kind": "context",
     "note": "Perhaps Betty's child or a younger family member (possibly 'Hickory').",
