@@ -16,9 +16,10 @@ installation.
 
 The screen has three parts:
 
-1. **Timeline** across the top. It spans July 1942 to June 1945. Each letter
-   is a dot at its date, and Tom's service events run along a lane above the
-   letters. Clicking a dot opens that letter.
+1. **Timeline** across the top. It spans July 1942 to August 1945, in four
+   rows: **World** (major events of the war), **Where** (where Tom was, with
+   how sure that is), **Service** (his assignments, ships and battle credits)
+   and **Letters** (a dot for each letter). Clicking a dot opens that letter.
 2. **Letter view** below the timeline, in two columns:
    - **Scan** (left): the original letter, one page at a time.
    - **Transcript** (right): the typed text of the letter. Words that have
@@ -44,7 +45,9 @@ Top-level fields used by the viewer:
 |---|---|
 | `collection` | Title of the collection |
 | `content_warning` | One paragraph on the period language kept in some letters |
-| `timeline` | 16 strings, each a date prefix, spaces, then text, e.g. `"1942-07-22  Sworn in as midshipman"`. Date prefixes take four forms: `1942-07-22`, `1944-04`, `1945-04/05`, `1943-2H` |
+| `timeline` | Service row: 16 strings, each a date prefix, spaces, then text, e.g. `"1942-07-22  Sworn in as midshipman"`. Date prefixes take four forms: `1942-07-22`, `1944-04`, `1945-04/05`, `1943-2H` |
+| `locations` | Where row: 30 objects `{start, end, place, confidence, detail}` with ISO dates. 25 are periods, which follow each other without overlapping; 5 have `start` equal to `end` and mark a specific place on a specific day. `confidence` is `confirmed`, `probable` or `speculative` |
+| `world_events` | World row: 20 strings in the same format as `timeline` |
 | `people` | Family guide: name → one-paragraph description |
 | `letters` | 116 letter records |
 | `rescan_types` | Descriptions of the three `rescan` item types |
@@ -166,10 +169,17 @@ The embedded data is about 800 KB.
   "built": "2026-09-27T12:00:00",
   "collection": "TBF1 Navy Letters - WWII letters of Ens. Thomas Frazier Beck, USNR",
   "content_warning": "...",
-  "range": {"start": "1942-07-01", "end": "1945-06-30"},
+  "range": {"start": "1942-07-01", "end": "1945-08-31"},
   "events": [
     {"start": "1942-07-22", "end": "1942-07-22", "text": "Sworn in as midshipman"},
-    {"start": "1943-07-01", "end": "1943-12-31", "text": "South Pacific / Solomons area (censored)"}
+    {"start": "1944-03-01", "end": "1944-04-30", "text": "Relieved after about 13 months overseas; returns to the U.S."}
+  ],
+  "locations": [
+    {"start": "1943-02-10", "end": "1943-02-24", "place": "Panama Canal Zone (censored 'foreign port')", "confidence": "probable", "detail": "..."},
+    {"start": "1943-07-04", "end": "1943-07-04", "place": "Rendova: Japanese air attack on Flotilla Five", "confidence": "probable", "detail": "..."}
+  ],
+  "world": [
+    {"start": "1944-06-06", "end": "1944-06-06", "text": "D-Day: Allied invasion of Normandy"}
   ],
   "people": { "Tom": "...", "Mother": "..." },
   "entities": { "ship.lci-l-62": { ...entity as in annotations_resolved.json... } },
@@ -252,7 +262,13 @@ The embedded data is about 800 KB.
 - The script checks the number of `page` markers: it must equal the number
   of pages, or be zero when the letter has one page.
 
-**Timeline events** are built from the index's `timeline` strings. The date
+**Timeline rows.** `events` (the Service row) and `world` are built from the
+index's `timeline` and `world_events` strings as described below. `locations`
+is copied from the index, sorted by date. The script checks that every
+location has a valid `confidence` and ISO dates inside `range`, and that no
+two periods overlap.
+
+**Timeline strings** are parsed as follows. The date
 prefix is the first run of non-space characters, and the text is everything
 after the spaces that follow it:
 
@@ -276,9 +292,11 @@ guarantees JavaScript string offsets equal the Python offsets.
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────┐
-│ TBF1 Navy Letters                                     ◀ Prev   Next ▶    │  top bar
+│ TBF1 Navy Letters          [World][Where][Service]  ⓘ  ◀ Prev   Next ▶    │  top bar
 ├──────────────────────────────────────────────────────────────────────────┤
-│ Service ▕▔▔▔▏▕▔▏    ▕▔▔▏           ▕▔▔▔▔▔▔▔▔▔▔▔▏            ▕▔▏          │
+│ World    ▕ Guadalcanal    ▕ Torch            ▕ Stalingrad        │       │
+│ Where   ▕▔▔▔ New York ▔▔▔▏▕▔▏▕▔ Solomons ▔▏▕▔▏▕▔ Houston ▔▏▕▔ at sea │       │
+│ Service  ▕ Reports       ▕ Commissioned     ▕ Transferred to #62  │       │
 │ Letters  ●●●●● ●●●  ●●○○●●●  ●●●    ●  ●   ●      ●     ●   ●●  │Undated│ │  timeline
 │          Jul  Aug  Sep  Oct  Nov  Dec │1943 Jan ...              │ ● ● ● │ │
 ├──────────────────────────────────┬───────────────────────────────────────┤
@@ -315,20 +333,35 @@ guarantees JavaScript string offsets equal the Python offsets.
 - Month ticks carry three-letter names. At every January, and at the start
   of the axis, the year appears in bold.
 
-**Service lane** (top row)
+**Rows.** From the top: World, Where, Service, then the Letter lane. The
+first three are drawn by the same code and differ only in colour:
+
+| Row | Data | Look |
+|---|---|---|
+| World | `world` | Grey flags and labels, so they read as background |
+| Where | `locations` | Green-tinted bands (alternating green and sand so neighbours are distinct) and green flags. **Confidence:** a `confirmed` band is solid; `probable` is faded with a dashed edge; `speculative` is striped. A flag for an inferred place has a dashed pole. Labels of uncertain places are italic, and the tooltip adds "(probable)" or "(speculative)" and the `detail` |
+| Service | `events` | Navy flags and blue-grey bands |
+
+A dashed rule separates the rows. The label column on the left names each
+row. The **World**, **Where** and **Service** buttons in the top bar show or
+hide those rows. The choice is kept in `localStorage` (per browser), and the
+page works normally if storage is unavailable.
+
+**Each row**
 - Each event is drawn at its dates:
   - a one-day event is a 2 px vertical line with a small flag;
   - a longer event is a shaded band covering its dates.
 - The label sits beside the flag or at the start of the band. Several
   one-day events are only days apart (Nov–Dec 1942), so labels are
-  **staggered** over as many rows as they need (6 with the current data, up
+  **staggered** over as many rows as they need (with the current data:
+  World 2, Where 6, Service 5; up
   to a limit of 12): each label goes in the lowest row where it fits in
   full, so no label overlaps another or is cut short. Only past the 12-row
   limit is a label cut short with an ellipsis before the next event in its
   row. Labels have an opaque background so the flag poles from upper rows
   pass behind them. Hovering shows the dates and full text in a tooltip.
 
-**Letter lane** (below the service lane)
+**Letter lane** (below the Service row)
 - Each dated letter is a 10 px circle at `sort_date`:
   - filled navy for letters by Tom (`by_tom`);
   - filled dark red for letters from other family members;
@@ -350,8 +383,11 @@ guarantees JavaScript string offsets equal the Python offsets.
 - The collection title.
 - **◀ Prev** and **Next ▶** step through `letters` in order. They are
   disabled at the first and last letter.
+- **World**, **Where** and **Service** toggle buttons show or hide those
+  timeline rows (section 6.1).
 - A **ⓘ** button opens a dialog with `content_warning`, the transcription
-  conventions from section 2.2, and the `people` guide.
+  conventions from section 2.2, a key to the timeline rows, and the `people`
+  guide.
 
 ### 6.3 Letter header
 
@@ -469,6 +505,10 @@ One card element, reused for every annotation.
    - "Content note" for `content-note`;
    - "About the transcription" for `transcription`;
    - no label for `reference` and `context`.
+
+   Then each of the annotation's `images` (see `annotations/README.md`) as a
+   thumbnail with its caption. Clicking one opens it full size in the same
+   viewer as the scans.
 2. **Entity**, if the annotation has one:
    - `name` in bold, with a small type label (Ship, Person, Place,
      Organization, Military, Event, Culture, Term);
@@ -564,10 +604,13 @@ The viewer is done when all of the following are true, opening `viewer.html`
 straight from disk in current Chrome, Firefox and Safari:
 
 - [ ] The page opens with no console errors and no network requests other
-      than images in `scans/`.
+      than images in `scans/` and `additional_context/`.
 - [ ] The timeline shows all 111 dated letters in date order (including the
-      George letter placed at fall 1942), plus 5 in the Undated box. Approximate dates are hollow circles. All 16 service
-      events are visible.
+      George letter placed at fall 1942), plus 5 in the Undated box. Approximate dates are hollow circles. All 20
+      world events, 30 locations and 16 service events are visible, and
+      every label shows in full without overlapping another.
+- [ ] The World, Where and Service buttons hide and show their rows, and the
+      choice survives a reload.
 - [ ] Clicking any circle opens that letter, and the URL hash changes to its
       id.
 - [ ] Reloading the page reopens the same letter. Back and Forward move

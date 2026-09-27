@@ -17,6 +17,7 @@ one set of notes, all with matching names. To read them, open
 |---|---|
 | `scans/` | The best scan of every page: 267 pages from 116 letters |
 | `transcriptions/` | The typed text of each letter, one file per letter |
+| `additional_context/` | Other material the notes refer to, such as the Time magazine page Tom recommended in Nov. 1942 |
 | `annotations/` | Background notes on the people, ships, places and events in the letters (see `annotations/README.md`) |
 | `data/letters.json` | The index: every letter's date, writer, recipient, location, pages and notes |
 | `photos/` | Family photographs (not letters; not transcribed) |
@@ -34,10 +35,20 @@ Safari, Edge) with no internet connection, installation or web server. Keep
 it in this folder, next to `scans/`, because it loads the scan images from
 there.
 
-- **Timeline** (top): each dot is a letter. Navy dots are Tom's letters, red
-  dots are from other family members, and hollow dots have approximate
-  dates. Letters with no date are in the **Undated** box. Tom's service runs
-  along the row above. Click a dot to open that letter.
+- **Timeline** (top), in four rows:
+  - **World**: major events of the war, for comparison.
+  - **Where**: where Tom was. His letters from Feb. 1943 to spring 1944 were
+    censored, so most of those places are worked out from clues and from
+    his ship's record. Solid blocks are confirmed, faded ones probable, and
+    striped ones reasoned guesses.
+  - **Service**: his assignments, ships and battle credits.
+  - **Letters**: each dot is a letter. Navy dots are Tom's letters, red dots
+    are from other family members, and hollow dots have approximate dates.
+    Letters with no date are in the **Undated** box. Click a dot to open
+    that letter.
+
+  The **World**, **Where** and **Service** buttons in the top bar hide or
+  show those rows.
 - **Scan** (left) and **transcript** (right). Scrolling the transcript turns
   the scan to the page you're reading. Click a page number to jump to it,
   and click the scan to see it full size.
@@ -88,8 +99,9 @@ For each letter the index lists:
 - for letters with pages that should be rescanned, a `rescan` list (see
   [Pages to rescan](#pages-to-rescan)).
 
-The index also has a short family guide (`people`) and a timeline of Tom's
-service (`timeline`).
+The index also has a short family guide (`people`), a timeline of Tom's
+service (`timeline`), where he was and how sure that is (`locations`), and
+major world events for comparison (`world_events`).
 
 All paths in the index are relative to this folder.
 
@@ -199,7 +211,9 @@ folder is also a git repository, so every change can be reviewed or undone.
 | Nov 1942 | Amphibious training at Norfolk, VA and Solomons, MD |
 | Jan 1943 | Houston, TX; his first ship, USS LCI(L) 345, is commissioned |
 | Feb 1943 | Becomes executive officer of **USS LCI(L) 62** and sails for the South Pacific |
-| 1943 – early 1944 | Serves in the South Pacific (details censored in the letters) |
+| Spring 1943 | Trains with LCI Flotilla Five, probably at Nouméa, New Caledonia |
+| July 1943 | First combat: New Georgia landings, probably at Rendova (battle star, July 1 and 4) |
+| Dec 1943 | Treasury–Bougainville operation (battle star, Dec. 3–4) |
 | Spring 1944 | Returns to the United States |
 | 1944 – 1945 | Shore duty at the U.S. Naval Station, Portland, Maine |
 | Spring 1945 | Hospitalized with malaria; writes home on V-E Day |
