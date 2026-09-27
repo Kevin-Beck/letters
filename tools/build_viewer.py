@@ -20,7 +20,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 VIEWER = ROOT / "viewer.html"
-RANGE = {"start": "1942-07-01", "end": "1945-06-30"}
+RANGE = {"start": "1942-07-01", "end": "1945-08-31"}
+CONFIDENCE = {"confirmed", "probable", "speculative"}
 
 # Letters whose id says "undated" but whose content dates them well enough to
 # place on the timeline (approximate, so drawn hollow).
@@ -90,6 +91,25 @@ def parse_event(line):
     else:
         raise BuildError(f"timeline date prefix not understood: {prefix!r}")
     return {"start": start, "end": end, "text": text}
+
+
+def parse_location(item):
+    check(item.get("confidence") in CONFIDENCE, f"location {item!r}: bad confidence")
+    for key in ("start", "end"):
+        check(re.fullmatch(r"\d{4}-\d\d-\d\d", item.get(key) or ""),
+              f"location {item!r}: bad {key} date")
+    check(item["start"] <= item["end"], f"location {item['place']!r} ends before it starts")
+    check(RANGE["start"] <= item["start"] and item["end"] <= RANGE["end"],
+          f"location {item['place']!r} is outside the timeline range")
+    return {k: item.get(k) for k in ("start", "end", "place", "confidence", "detail")}
+
+
+def build_locations(items):
+    locations = [parse_location(x) for x in items]
+    periods = sorted((x for x in locations if x["start"] != x["end"]), key=lambda x: x["start"])
+    for a, b in zip(periods, periods[1:]):
+        check(a["end"] < b["start"], f"locations {a['place']!r} and {b['place']!r} overlap")
+    return sorted(locations, key=lambda x: (x["start"], x["end"]))
 
 
 def split_transcription(lid, text):
@@ -186,6 +206,8 @@ def build_data():
         "content_warning": index["content_warning"],
         "range": RANGE,
         "events": [parse_event(t) for t in index["timeline"]],
+        "locations": build_locations(index.get("locations", [])),
+        "world": [parse_event(t) for t in index.get("world_events", [])],
         "people": index["people"],
         "entities": entities,
         "letters": letters,
@@ -223,7 +245,8 @@ def main():
     VIEWER.write_text(html, encoding="utf-8")
     n_ann = sum(len(x["annotations"]) for x in data["letters"])
     print(f"viewer.html: {len(data['letters'])} letters, {n_ann} annotations, "
-          f"{len(data['entities'])} entities, {len(data['events'])} events "
+          f"{len(data['entities'])} entities, {len(data['events'])} service events, "
+          f"{len(data['locations'])} locations, {len(data['world'])} world events "
           f"({len(html.encode()) // 1024} KB)")
 
 

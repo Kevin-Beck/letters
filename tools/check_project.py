@@ -22,7 +22,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-EXPECTED_TOP = {"README.md", "rename_log.csv", "annotations", "data", "delete",
+EXPECTED_TOP = {"README.md", "rename_log.csv", "additional_context", "annotations", "data", "delete",
                 "photos", "scans", "tools", "transcriptions", "Viewer_design.md",
                 "viewer.html", ".git"}
 

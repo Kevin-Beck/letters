@@ -15,6 +15,10 @@
   --band: #dfe6ee;
   --notice: #fff4cc;
   --scan-bg: #d9d6d0;
+  --world: #8a8172;
+  --place: #2f6b4f;
+  --loc-a: #d7e4dc;
+  --loc-b: #eee6d3;
   --accent-pale: rgba(31, 58, 95, 0.12);
   --border: rgba(107, 100, 88, 0.3);
   --shadow: 0 4px 18px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -56,6 +60,9 @@ a { color: var(--accent); }
 .topbar button:disabled { opacity: 0.4; cursor: default; }
 .topbar :focus-visible { outline-color: #fff; }
 .topbar .info-btn { font-size: 16px; padding: 2px 9px; }
+.lane-toggles { display: flex; gap: 4px; }
+.topbar .lane-toggles button { font-size: 12px; padding: 3px 8px; opacity: 0.6; }
+.topbar .lane-toggles button[aria-pressed="true"] { opacity: 1; background: rgba(255, 255, 255, 0.28); }
 
 /* ---- Timeline ---- */
 .timeline {
@@ -75,12 +82,30 @@ a { color: var(--accent); }
   position: absolute; background: var(--band);
   border-left: 1px solid #b9c6d6; border-right: 1px solid #b9c6d6;
 }
-.tl-flag { position: absolute; width: 2px; background: var(--accent); }
+.tl-flag { position: absolute; width: 2px; background: var(--flag, var(--accent)); }
 .tl-flag::after {
   content: ""; position: absolute; left: 2px; top: 0;
-  border-left: 6px solid var(--accent);
+  border-left: 6px solid var(--flag, var(--accent));
   border-top: 4px solid transparent; border-bottom: 4px solid transparent;
 }
+.lane-world { --flag: var(--world); }
+.tl-label.lane-world { color: var(--muted); }
+.lane-where { --flag: var(--place); }
+.tl-band.lane-where { background: var(--loc-a); border-color: rgba(107, 100, 88, 0.35); }
+.tl-band.lane-where.alt-1 { background: var(--loc-b); }
+.tl-band.lane-where.c-probable { opacity: 0.75; border-style: dashed; }
+.tl-band.lane-where.c-speculative {
+  background: repeating-linear-gradient(135deg, var(--loc-a) 0 4px, var(--panel) 4px 8px);
+  border-style: dotted;
+}
+.tl-band.lane-where.c-speculative.alt-1 {
+  background: repeating-linear-gradient(135deg, var(--loc-b) 0 4px, var(--panel) 4px 8px);
+}
+.tl-flag.lane-where.c-probable, .tl-flag.lane-where.c-speculative {
+  background: repeating-linear-gradient(to bottom, var(--place) 0 3px, transparent 3px 6px);
+}
+.tl-label.lane-where.in-band { background: rgba(255, 253, 248, 0.8); border-radius: 2px; padding: 0 3px; }
+.tl-label.c-speculative, .tl-label.c-probable { font-style: italic; }
 .tl-label {
   position: absolute; font-size: 11px; line-height: 16px; height: 16px;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
@@ -237,6 +262,12 @@ a { color: var(--accent); }
 .card .linkbtn { background: none; border: none; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; text-align: left; }
 .card .back { margin-bottom: 6px; display: inline-block; }
 .card .date-sm { color: var(--muted); font-size: 12px; }
+.card .card-image {
+  display: block; width: 100%; margin: 4px 0 8px; padding: 6px; cursor: zoom-in;
+  background: var(--scan-bg); border: 1px solid var(--border); border-radius: 4px; text-align: center;
+}
+.card .card-image img { display: block; max-width: 100%; max-height: 180px; margin: 0 auto; }
+.card .card-image span { display: block; font-size: 11px; color: var(--muted); margin-top: 4px; }
 
 /* ---- Full-size scan ---- */
 .lightbox { position: fixed; inset: 0; z-index: 60; background: rgba(15, 15, 15, 0.92); }
@@ -276,6 +307,8 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   .text-col { border-left: none; border-top: 1px solid var(--border); overflow: visible; }
   .transcript { padding: 12px 16px 40px; font-size: 14px; }
   .tl-labels { width: 52px; }
+  .topbar { flex-wrap: wrap; }
+  .topbar h1 { flex-basis: 100%; }
 }
 </style>
 </head>
@@ -283,6 +316,7 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
 
 <header class="topbar">
   <h1 id="collection-title">TBF1 Navy Letters</h1>
+  <div class="lane-toggles" id="lane-toggles" role="group" aria-label="Timeline rows"></div>
   <button type="button" class="info-btn" id="info-btn" aria-label="About this collection" title="About this collection">ⓘ</button>
   <button type="button" id="prev-btn" title="Previous letter (←)">◀ Prev</button>
   <button type="button" id="next-btn" title="Next letter (→)">Next ▶</button>
@@ -327,18 +361,18 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
 
 <script id="letters-data" type="application/json">
 {
- "built": "2026-09-27T10:10:46",
+ "built": "2026-09-27T14:03:13",
  "collection": "TBF1 Navy Letters - WWII letters of Ens. Thomas Frazier Beck, USNR",
  "content_warning": "Several letters contain period racist, antisemitic and anti-Japanese language. It is transcribed verbatim as part of the historical record, and each affected letter carries a NOTE in its header.",
  "range": {
   "start": "1942-07-01",
-  "end": "1945-06-30"
+  "end": "1945-08-31"
  },
  "events": [
   {
    "start": "1942-07-02",
    "end": "1942-07-02",
-   "text": "Arrives at USNR Midshipmen's School, Columbia University, NYC"
+   "text": "Reports to the Midshipmen's School, Columbia University, as an apprentice seaman (V-7)"
   },
   {
    "start": "1942-07-22",
@@ -348,17 +382,12 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   {
    "start": "1942-10-21",
    "end": "1942-10-21",
-   "text": "Commissioned Ensign at Riverside Church (newspaper clipping)"
-  },
-  {
-   "start": "1942-11-01",
-   "end": "1942-11-01",
-   "text": "Norfolk, VA - Amphibious Force"
+   "text": "Commissioned Ensign, USNR, at Riverside Church"
   },
   {
    "start": "1942-11-05",
    "end": "1942-11-05",
-   "text": "To Naval Amphibious Training Base, Solomons, MD (LCT/LCI training)"
+   "text": "Begins amphibious training at Solomons, MD"
   },
   {
    "start": "1942-11-22",
@@ -368,7 +397,7 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   {
    "start": "1942-12-06",
    "end": "1942-12-06",
-   "text": "Crew 3081 to USS LCI(L) 218 (Norfolk area)"
+   "text": "Crew 3081 goes aboard USS LCI(L) 218"
   },
   {
    "start": "1942-12-25",
@@ -376,19 +405,19 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
    "text": "Christmas leave at home"
   },
   {
-   "start": "1943-01-05",
-   "end": "1943-01-05",
-   "text": "Houston, TX; 1943-01-22 USS LCI(L) 345 commissioned"
+   "start": "1943-01-22",
+   "end": "1943-01-22",
+   "text": "USS LCI(L) 345 commissioned at Houston"
   },
   {
    "start": "1943-02-03",
    "end": "1943-02-03",
-   "text": "Transferred to USS LCI(L) 62 as exec; sails from the U.S. about Feb 1943"
+   "text": "Transferred to USS LCI(L) 62 as executive officer"
   },
   {
-   "start": "1943-03-12",
-   "end": "1943-03-12",
-   "text": "At sea, crosses the Equator; South Pacific from Mar 1943"
+   "start": "1943-03-09",
+   "end": "1943-03-09",
+   "text": "Crosses the Equator: pollywog to shellback"
   },
   {
    "start": "1943-04-12",
@@ -397,23 +426,342 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   },
   {
    "start": "1943-07-01",
-   "end": "1943-12-31",
-   "text": "South Pacific / Solomons area (censored)"
+   "end": "1943-07-01",
+   "text": "First combat: New Georgia landings (battle star, July 1 and 4)"
   },
   {
-   "start": "1944-04-01",
+   "start": "1943-12-03",
+   "end": "1943-12-03",
+   "text": "Treasury-Bougainville operation (battle star, Dec. 3-4)"
+  },
+  {
+   "start": "1944-03-01",
    "end": "1944-04-30",
-   "text": "Back in the U.S."
+   "text": "Relieved after about 13 months overseas; returns to the U.S."
   },
   {
    "start": "1944-11-01",
    "end": "1944-11-30",
-   "text": "Shore duty, Portland, Maine"
+   "text": "Shore duty, U.S. Naval Station, Portland, Maine"
   },
   {
    "start": "1945-04-01",
    "end": "1945-05-31",
-   "text": "Hospitalized for malaria; V-E Day letter 1945-05-08"
+   "text": "Hospitalized with malaria, U.S. Naval Hospital, Portsmouth, NH"
+  }
+ ],
+ "locations": [
+  {
+   "start": "1942-07-02",
+   "end": "1942-10-21",
+   "place": "New York City: Midshipmen's School, Columbia University",
+   "confidence": "confirmed",
+   "detail": "John Jay Hall, room 1317 (letters and envelopes)."
+  },
+  {
+   "start": "1942-10-22",
+   "end": "1942-10-30",
+   "place": "Home leave, Karns City, PA",
+   "confidence": "probable",
+   "detail": "The commissioning report says he had 'a short leave' before reporting."
+  },
+  {
+   "start": "1942-10-31",
+   "end": "1942-11-04",
+   "place": "Norfolk, VA: Naval Operating Base",
+   "confidence": "confirmed",
+   "detail": "Bachelor Officers' Quarters, waiting for assignment (letters of Nov. 1 and 4)."
+  },
+  {
+   "start": "1942-11-05",
+   "end": "1942-12-05",
+   "place": "Solomons, MD: Naval Amphibious Training Base",
+   "confidence": "confirmed",
+   "detail": "Letters and envelope from U.S.N.A.T.B. Solomons."
+  },
+  {
+   "start": "1942-12-06",
+   "end": "1942-12-22",
+   "place": "Norfolk area, aboard USS LCI(L) 218",
+   "confidence": "confirmed",
+   "detail": "Training crew 3081, mostly at anchor near Norfolk (letter of Dec. 14)."
+  },
+  {
+   "start": "1942-12-23",
+   "end": "1942-12-27",
+   "place": "Christmas leave at home",
+   "confidence": "probable",
+   "detail": "Each training crew got 4 days' leave; Tom rejoined on Dec. 28."
+  },
+  {
+   "start": "1942-12-28",
+   "end": "1943-01-02",
+   "place": "Portsmouth, VA: Norfolk Navy Yard",
+   "confidence": "confirmed",
+   "detail": "Letters of Dec. 29 and Jan. 2."
+  },
+  {
+   "start": "1943-01-03",
+   "end": "1943-01-04",
+   "place": "By train to Houston, via New Orleans",
+   "confidence": "confirmed",
+   "detail": "Ten-hour layover in New Orleans (letter of Jan. 5)."
+  },
+  {
+   "start": "1943-01-05",
+   "end": "1943-01-24",
+   "place": "Houston, TX: fitting out USS LCI(L) 345",
+   "confidence": "confirmed",
+   "detail": "The ship was commissioned on Jan. 22."
+  },
+  {
+   "start": "1943-01-25",
+   "end": "1943-02-03",
+   "place": "Galveston, TX, aboard USS LCI(L) 345",
+   "confidence": "confirmed",
+   "detail": "Moved to LCI(L) 62 on Feb. 3."
+  },
+  {
+   "start": "1943-02-04",
+   "end": "1943-02-09",
+   "place": "At sea: Gulf of Mexico and Caribbean",
+   "confidence": "probable",
+   "detail": "First voyage aboard LCI(L) 62, standing the midnight-to-four watch."
+  },
+  {
+   "start": "1943-02-10",
+   "end": "1943-02-24",
+   "place": "Panama Canal Zone (censored 'foreign port')",
+   "confidence": "probable",
+   "detail": "A hot port with 'every other door' a bar, a week from Texas: almost certainly Colón."
+  },
+  {
+   "start": "1943-02-25",
+   "end": "1943-03-18",
+   "place": "At sea: crossing the Pacific",
+   "confidence": "confirmed",
+   "detail": "The 'damn long' leg; crossed the Equator about March 9."
+  },
+  {
+   "start": "1943-03-09",
+   "end": "1943-03-09",
+   "place": "Crosses the Equator",
+   "confidence": "confirmed",
+   "detail": "At night, somewhere between Panama and the Society Islands."
+  },
+  {
+   "start": "1943-03-19",
+   "end": "1943-03-31",
+   "place": "Bora Bora, Society Islands (censored)",
+   "confidence": "speculative",
+   "detail": "The usual first stop for small craft from Panama."
+  },
+  {
+   "start": "1943-04-01",
+   "end": "1943-04-06",
+   "place": "Island hops westward (ports not named)",
+   "confidence": "speculative",
+   "detail": "Short legs at four on, four off; one port was dry."
+  },
+  {
+   "start": "1943-04-07",
+   "end": "1943-04-07",
+   "place": "Anchored off a 'fair sized city', probably Nouméa",
+   "confidence": "probable",
+   "detail": "Tom handled the ship alone when her anchor slipped in a storm."
+  },
+  {
+   "start": "1943-04-07",
+   "end": "1943-05-20",
+   "place": "Nouméa, New Caledonia (censored)",
+   "confidence": "probable",
+   "detail": "The 'fair sized city' of April 7, where LCI Flotilla Five trained that spring."
+  },
+  {
+   "start": "1943-05-21",
+   "end": "1943-06-29",
+   "place": "Guadalcanal-Tulagi area, Solomon Islands",
+   "confidence": "probable",
+   "detail": "A new port on May 24 and coconut groves in June; Flotilla Five moved up to prepare for New Georgia."
+  },
+  {
+   "start": "1943-06-30",
+   "end": "1943-08-15",
+   "place": "Central Solomons: New Georgia campaign",
+   "confidence": "probable",
+   "detail": "LCI(L)-62 earned a battle star for landings on July 1 and 4, 1943. No letters survive from June 11 to Aug. 1."
+  },
+  {
+   "start": "1943-07-01",
+   "end": "1943-07-01",
+   "place": "Rendova, New Georgia: landing troops",
+   "confidence": "probable",
+   "detail": "Date of LCI(L)-62's first battle credit."
+  },
+  {
+   "start": "1943-07-04",
+   "end": "1943-07-04",
+   "place": "Rendova: Japanese air attack on Flotilla Five",
+   "confidence": "probable",
+   "detail": "Sixteen bombers attacked the LCIs landing the 169th Infantry; three LCI sailors were killed."
+  },
+  {
+   "start": "1943-08-16",
+   "end": "1943-10-26",
+   "place": "Solomon Islands, rear areas",
+   "confidence": "speculative",
+   "detail": "'Living off the Army', movie boats and an Army canteen suggest a base area such as Guadalcanal or the Russell Islands."
+  },
+  {
+   "start": "1943-10-27",
+   "end": "1943-12-31",
+   "place": "Northern Solomons: Treasury Islands and Bougainville",
+   "confidence": "probable",
+   "detail": "Battle star for Dec. 3-4, 1943; no letters from Oct. 9 to Nov. 8."
+  },
+  {
+   "start": "1943-12-03",
+   "end": "1943-12-03",
+   "place": "Cape Torokina, Bougainville: reinforcement landing",
+   "confidence": "probable",
+   "detail": "Dates of LCI(L)-62's Treasury-Bougainville battle credit, Dec. 3-4."
+  },
+  {
+   "start": "1944-01-01",
+   "end": "1944-02-29",
+   "place": "Solomon Islands",
+   "confidence": "speculative",
+   "detail": "Letters say only 'out here'; a liberty port, the first in 12 months, was expected in late February."
+  },
+  {
+   "start": "1944-03-01",
+   "end": "1944-04-15",
+   "place": "Leaving the Pacific: passage home",
+   "confidence": "speculative",
+   "detail": "Tom was relieved after about 13 months and was back in the U.S. by spring."
+  },
+  {
+   "start": "1944-04-16",
+   "end": "1944-10-31",
+   "place": "United States (details unknown)",
+   "confidence": "speculative",
+   "detail": "Probably home leave, then a new assignment. No letters survive."
+  },
+  {
+   "start": "1944-11-01",
+   "end": "1945-03-25",
+   "place": "Portland, ME: U.S. Naval Station, Grand Trunk Pier",
+   "confidence": "confirmed",
+   "detail": "Lived at 175 State St.; letterhead of March 15, 1945."
+  },
+  {
+   "start": "1945-03-26",
+   "end": "1945-05-31",
+   "place": "Portsmouth, NH: U.S. Naval Hospital (malaria)",
+   "confidence": "probable",
+   "detail": "Letters of April 4 to May 23 from a naval hospital 'down here' from Portland."
+  }
+ ],
+ "world": [
+  {
+   "start": "1942-08-07",
+   "end": "1942-08-07",
+   "text": "U.S. Marines land on Guadalcanal"
+  },
+  {
+   "start": "1942-08-19",
+   "end": "1942-08-19",
+   "text": "Dieppe Raid"
+  },
+  {
+   "start": "1942-11-08",
+   "end": "1942-11-08",
+   "text": "Operation Torch: Allied landings in North Africa"
+  },
+  {
+   "start": "1943-02-02",
+   "end": "1943-02-02",
+   "text": "German surrender at Stalingrad"
+  },
+  {
+   "start": "1943-02-09",
+   "end": "1943-02-09",
+   "text": "Guadalcanal secured"
+  },
+  {
+   "start": "1943-05-13",
+   "end": "1943-05-13",
+   "text": "Axis forces surrender in Tunisia"
+  },
+  {
+   "start": "1943-07-10",
+   "end": "1943-07-10",
+   "text": "Allied invasion of Sicily"
+  },
+  {
+   "start": "1943-09-08",
+   "end": "1943-09-08",
+   "text": "Italy surrenders"
+  },
+  {
+   "start": "1943-11-20",
+   "end": "1943-11-20",
+   "text": "Tarawa landings"
+  },
+  {
+   "start": "1944-01-22",
+   "end": "1944-01-22",
+   "text": "Anzio landings"
+  },
+  {
+   "start": "1944-06-06",
+   "end": "1944-06-06",
+   "text": "D-Day: Allied invasion of Normandy"
+  },
+  {
+   "start": "1944-06-15",
+   "end": "1944-06-15",
+   "text": "Saipan landings; Battle of the Philippine Sea (June 19-20)"
+  },
+  {
+   "start": "1944-10-20",
+   "end": "1944-10-20",
+   "text": "Leyte landings; Battle of Leyte Gulf (Oct. 23-26)"
+  },
+  {
+   "start": "1944-12-16",
+   "end": "1944-12-16",
+   "text": "Battle of the Bulge begins"
+  },
+  {
+   "start": "1945-02-19",
+   "end": "1945-02-19",
+   "text": "Iwo Jima landings"
+  },
+  {
+   "start": "1945-04-01",
+   "end": "1945-04-01",
+   "text": "Okinawa landings"
+  },
+  {
+   "start": "1945-04-12",
+   "end": "1945-04-12",
+   "text": "President Roosevelt dies"
+  },
+  {
+   "start": "1945-05-08",
+   "end": "1945-05-08",
+   "text": "V-E Day: Germany surrenders"
+  },
+  {
+   "start": "1945-08-06",
+   "end": "1945-08-06",
+   "text": "Atomic bomb dropped on Hiroshima (Nagasaki, Aug. 9)"
+  },
+  {
+   "start": "1945-08-15",
+   "end": "1945-08-15",
+   "text": "V-J Day: Japan announces its surrender"
   }
  ],
  "people": {
@@ -943,7 +1291,7 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
     "Rendova"
    ],
    "summary": "The Allied invasion of the New Georgia group in the central Solomons, to capture the Japanese airfield at Munda. It was the first Pacific operation for LCIs. LCI(L)-62 earned a battle star for landings on July 1 and 4, 1943.",
-   "detail": "Landings began June 30, 1943 at Rendova and elsewhere; Munda airfield fell Aug. 5. LCIs carried later echelons of troops to the beaches. Tom's letters have a gap from June 11 to Aug. 1, 1943 that matches these operations exactly; he could not mention them.",
+   "detail": "Landings began June 30, 1943 at Rendova and elsewhere; Munda airfield fell Aug. 5. LCIs carried later echelons of troops to the beaches. On the afternoon of July 4, sixteen Japanese bombers attacked LCI Flotilla Five's ships as they landed the 169th Infantry on Rendova's East Beach: three LCI sailors and eleven soldiers were killed. Tom's letters have a gap from June 11 to Aug. 1, 1943 that matches these operations exactly; he could not mention them.",
    "dates": "1943-06-30 to 1943-08-25",
    "confidence": "confirmed",
    "see_also": [
@@ -954,6 +1302,10 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
     {
      "title": "NavSource: LCI(L)-62",
      "url": "https://www.navsource.net/archives/10/15/150062.htm"
+    },
+    {
+     "title": "USS LCI National Association: On the Fourth They Fought Back (Rendova, July 4, 1943)",
+     "url": "http://usslci.org/on-the-fourth-they-fought-back/"
     }
    ]
   },
@@ -4546,6 +4898,23 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "entity": "military.24-hour-time"
     },
     {
+     "id": "a5",
+     "start": 1386,
+     "end": 1413,
+     "text": "our graduation is October 2",
+     "kind": "context",
+     "entity": "event.graduation-1942-10-21",
+     "note": "The first of several rumoured dates (later Oct. 13 and Oct. 28). The class actually graduated on Oct. 21, 1942."
+    },
+    {
+     "id": "a6",
+     "start": 1556,
+     "end": 1596,
+     "text": "I think the Navy\nis hard up for officers",
+     "kind": "context",
+     "note": "He was right. In March 1941 the Navy had only about 18,000 officers; between Pearl Harbor and the end of 1944 it commissioned some 286,000 more, most of them reservists trained in a few months, like Tom."
+    },
+    {
      "id": "a4",
      "start": 1634,
      "end": 1656,
@@ -4780,6 +5149,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "kind": "reference",
      "entity": "event.dieppe-raid",
      "note": "Almost certainly the Dieppe Raid of Aug. 19, 1942, so this letter was probably finished on the 19th despite its date."
+    },
+    {
+     "id": "a3",
+     "start": 1405,
+     "end": 1434,
+     "text": "graduation will be October 13",
+     "kind": "context",
+     "entity": "event.graduation-1942-10-21",
+     "note": "Not quite 'definite': graduation was held a week later, on Oct. 21, 1942."
     }
    ]
   },
@@ -5458,6 +5836,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "entity": "place.hackensack"
     },
     {
+     "id": "a5",
+     "start": 404,
+     "end": 432,
+     "text": "graduation will be postponed",
+     "kind": "context",
+     "entity": "event.graduation-1942-10-21",
+     "note": "This rumour was wrong too. Graduation stayed on Oct. 21, 1942 (see the letter of Sept. 19)."
+    },
+    {
      "id": "a3",
      "start": 757,
      "end": 780,
@@ -5747,6 +6134,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "text": "the 2nd front",
      "kind": "reference",
      "entity": "military.second-front"
+    },
+    {
+     "id": "a7",
+     "start": 1616,
+     "end": 1664,
+     "text": "that means we\nwill have until next spring anyway",
+     "kind": "context",
+     "entity": "event.operation-torch",
+     "note": "It came much sooner than he expected. The Allied landings in North Africa (Operation Torch) began on Nov. 8, 1942, less than six weeks after this letter, while Tom was at Solomons. The cross-Channel 'second front' waited until D-Day, June 6, 1944."
     },
     {
      "id": "a6",
@@ -6639,6 +7035,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "text": "scuttlebutt",
      "kind": "reference",
      "entity": "military.scuttlebutt"
+    },
+    {
+     "id": "a6",
+     "start": 759,
+     "end": 796,
+     "text": "our ship will be commissioned Dec. 25",
+     "kind": "context",
+     "entity": "ship.lci-l-345",
+     "note": "Close. Tom's crew did pick up its ship at a Gulf port, but a month later: LCI(L)-345 was commissioned at Houston on Jan. 22, 1943."
     },
     {
      "id": "a2",
@@ -7554,9 +7959,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "start": 4531,
      "end": 4535,
      "text": "Time",
-     "kind": "reference",
+     "kind": "context",
      "entity": "culture.time-magazine",
-     "note": "Time, Nov. 30, 1942. The article on page 70 is not identified."
+     "note": "Page 70 of Time, Nov. 30, 1942 has two short items that fit. 'Superlative for \"Snafu\"' explains the new service slang ('situation normal, all fouled up'), and 'Open Passage' reports the formal opening of the Alaska Highway. Tom most likely meant the Snafu piece: it matches his complaints about red tape at Solomons, and he used the word himself on Jan. 15, 1943.",
+     "images": [
+      {
+       "file": "additional_context/time_page_70.webp",
+       "caption": "Time, Nov. 30, 1942, page 70"
+      }
+     ]
     }
    ]
   },
@@ -8604,6 +9015,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "note": "A wedding write-up exaggerated Chet's service; he was still in the East."
     },
     {
+     "id": "a12",
+     "start": 811,
+     "end": 861,
+     "text": "It will be a few months before I leave the country",
+     "kind": "context",
+     "entity": "event.voyage-1943",
+     "note": "In fact it was less than three weeks. Tom was moved to LCI(L)-62 on Feb. 3, 1943, and she sailed for the Pacific the next day."
+    },
+    {
      "id": "a3",
      "start": 883,
      "end": 892,
@@ -8649,7 +9069,8 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "end": 2962,
      "text": "Snafu",
      "kind": "reference",
-     "entity": "military.snafu"
+     "entity": "military.snafu",
+     "note": "Time had explained the word to its readers on Nov. 30, 1942, in the issue Tom told John to read (letter of Nov. 28)."
     },
     {
      "id": "a9",
@@ -10040,6 +10461,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "text": "our destination",
      "kind": "reference",
      "entity": "event.voyage-1943"
+    },
+    {
+     "id": "a5",
+     "start": 1408,
+     "end": 1461,
+     "text": "I am hoping for a leave in about three or four months",
+     "kind": "context",
+     "entity": "military.relief",
+     "note": "It took almost a year. Tom stayed in the South Pacific through the New Georgia and Bougainville operations and did not get home until spring 1944."
     }
    ]
   },
@@ -10643,7 +11073,8 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "end": 5513,
      "text": "Alaskan Highway",
      "kind": "reference",
-     "entity": "culture.alaska-highway"
+     "entity": "culture.alaska-highway",
+     "note": "The Time page Tom recommended in Nov. 1942 had reported the road's formal opening."
     },
     {
      "id": "a20",
@@ -11420,6 +11851,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "text": "the cottage",
      "kind": "context",
      "note": "The family's summer cottage at 'the Lake' (see Sept. 1942)."
+    },
+    {
+     "id": "a15",
+     "start": 1891,
+     "end": 1947,
+     "text": "I will be quite fortunate if I\nget home before Christmas",
+     "kind": "context",
+     "entity": "military.relief",
+     "note": "He wasn't that fortunate: Christmas 1943 was spent in the Solomons (see his Christmas Day letter to the Pelkeys). He reached home in spring 1944."
     },
     {
      "id": "a12",
@@ -13040,6 +13480,14 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "note": "Mail was sometimes lost when ships or planes carrying it went down."
     },
     {
+     "id": "a6",
+     "start": 670,
+     "end": 699,
+     "text": "We will\nconsider it Christmas",
+     "kind": "context",
+     "note": "Good timing: the Post Office asked families to mail Christmas gifts for men overseas between Sept. 15 and Oct. 15 so they would arrive in time. A pair of slippers came in a package on Dec. 6."
+    },
+    {
      "id": "a3",
      "start": 749,
      "end": 812,
@@ -13677,6 +14125,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "note": "The planned length of a South Pacific tour for small-craft officers. In fact Tom came home after about 13 months, in spring 1944."
     },
     {
+     "id": "a18",
+     "start": 1254,
+     "end": 1284,
+     "text": "return out here for the finish",
+     "kind": "context",
+     "entity": "place.portland-me",
+     "note": "The second tour never came. After coming home in spring 1944 Tom served ashore at Portland, Maine, then spent spring 1945 in the naval hospital with malaria. Japan surrendered on Aug. 15, 1945."
+    },
+    {
      "id": "a11",
      "start": 1396,
      "end": 1407,
@@ -14248,6 +14705,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "entity": "event.central-pacific-1944"
     },
     {
+     "id": "a8",
+     "start": 911,
+     "end": 990,
+     "text": "They aren't\n\n[--- 1944-02-20_tom-to-mum_p02.jpg ---]\n\nlosing much time up there",
+     "kind": "context",
+     "entity": "ship.lci-l-345",
+     "note": "Among the ships 'up there' was Tom's first ship, LCI(L)-345, now a gunboat, which took part in the Marshall Islands landings. The pace did continue: U.S. forces landed on Saipan in the Marianas in June 1944."
+    },
+    {
      "id": "a6",
      "start": 1049,
      "end": 1099,
@@ -14595,6 +15061,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
      "text": "Lane",
      "kind": "reference",
      "entity": "person.lane"
+    },
+    {
+     "id": "a8",
+     "start": 922,
+     "end": 964,
+     "text": "I have a feeling\nsome changes will be made",
+     "kind": "context",
+     "entity": "military.malaria",
+     "note": "A change did come within weeks, though not the one he meant: by April 4 he was a patient at the naval hospital, and the diagnosis turned out to be malaria picked up in the South Pacific."
     },
     {
      "id": "a5",
@@ -15669,6 +16144,14 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
    "undated_bill-jameson-to-mrs-beck",
    "undated_janny-to-mother-pcw"
   ],
+  "event.graduation-1942-10-21": [
+   "1942-08-05_tom-to-mother",
+   "1942-08-18_tom-to-mother",
+   "1942-09-09_tom-to-mother",
+   "1942-09-17_tom-to-mother",
+   "1942-09-19_tom-to-mother",
+   "1942-10-21_newspaper-clipping-commissioned-ensign"
+  ],
   "term.wartime-prices": [
    "1942-08-05_tom-to-mother",
    "1942-10-05_tom-to-mother",
@@ -15729,11 +16212,6 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   ],
   "place.polk-state-school": [
    "1942-09-01_tom-to-mother"
-  ],
-  "event.graduation-1942-10-21": [
-   "1942-09-09_tom-to-mother",
-   "1942-09-19_tom-to-mother",
-   "1942-10-21_newspaper-clipping-commissioned-ensign"
   ],
   "event.high-holidays-1942": [
    "1942-09-09_tom-to-mother"
@@ -15815,6 +16293,11 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
    "1942-09-29_tom-to-mother",
    "1942-11-06_tom-to-mother-arrived-solomons",
    "1942-11-18_tom-to-dad"
+  ],
+  "event.operation-torch": [
+   "1942-09-29_tom-to-mother",
+   "1942-11-18_tom-to-dad",
+   "1943-01-11_tom-to-mother"
   ],
   "culture.saturday-evening-post": [
    "1942-09-30_tom-to-mother"
@@ -15904,6 +16387,15 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
    "1942-11-18_tom-to-dad",
    "1943-10-09_tom-to-john-and-fran"
   ],
+  "ship.lci-l-345": [
+   "1942-11-xx_tom-to-mother-wednesday",
+   "1943-01-08_tom-to-mother",
+   "1943-01-24_tom-to-mother",
+   "1943-01-26_tom-to-mother",
+   "1943-01-28_tom-to-mother",
+   "1943-04-07_tom-to-unc",
+   "1944-02-20_tom-to-mum"
+  ],
   "place.new-orleans": [
    "1942-11-xx_tom-to-mother-wednesday",
    "1943-01-05_tom-to-mother-houston"
@@ -15924,10 +16416,6 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   "military.lst": [
    "1942-11-18_tom-to-dad",
    "1942-11-28_tom-to-dad-and-mother"
-  ],
-  "event.operation-torch": [
-   "1942-11-18_tom-to-dad",
-   "1943-01-11_tom-to-mother"
   ],
   "military.crew-numbers": [
    "1942-11-20_tom-to-dad",
@@ -16089,13 +16577,6 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   "culture.texas-liquor-laws": [
    "1943-01-05_tom-to-mother-houston"
   ],
-  "ship.lci-l-345": [
-   "1943-01-08_tom-to-mother",
-   "1943-01-24_tom-to-mother",
-   "1943-01-26_tom-to-mother",
-   "1943-01-28_tom-to-mother",
-   "1943-04-07_tom-to-unc"
-  ],
   "place.ellington-field": [
    "1943-01-11_tom-to-mother"
   ],
@@ -16121,6 +16602,18 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   "person.sprecher": [
    "1943-01-15_tom-to-mother"
   ],
+  "event.voyage-1943": [
+   "1943-01-15_tom-to-mother",
+   "1943-01-18_tom-to-mother",
+   "1943-02-11_tom-to-mother",
+   "1943-02-22_tom-to-mother",
+   "1943-02-23_tom-to-mother",
+   "1943-03-12_tom-to-mother",
+   "1943-04-01_tom-to-mother-typed",
+   "1943-04-07_tom-to-unc",
+   "1943-04-15_tom-to-mother",
+   "1944-02-20_tom-to-mum"
+  ],
   "place.cape-charles-ferry": [
    "1943-01-15_tom-to-mother"
   ],
@@ -16131,17 +16624,6 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
    "1943-01-15_tom-to-mother",
    "1943-03-12_tom-to-mother",
    "1943-11-27_tom-to-mum"
-  ],
-  "event.voyage-1943": [
-   "1943-01-18_tom-to-mother",
-   "1943-02-11_tom-to-mother",
-   "1943-02-22_tom-to-mother",
-   "1943-02-23_tom-to-mother",
-   "1943-03-12_tom-to-mother",
-   "1943-04-01_tom-to-mother-typed",
-   "1943-04-07_tom-to-unc",
-   "1943-04-15_tom-to-mother",
-   "1944-02-20_tom-to-mum"
   ],
   "culture.norther": [
    "1943-01-18_tom-to-mother"
@@ -16250,6 +16732,13 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   ],
   "place.bora-bora": [
    "1943-03-12_tom-to-mother"
+  ],
+  "military.relief": [
+   "1943-04-01_tom-to-mother-typed",
+   "1943-05-11_tom-to-mother",
+   "1943-08-01_tom-to-mother",
+   "1943-09-15_tom-to-mother-sweetheart",
+   "1943-10-09_tom-to-john-and-fran"
   ],
   "person.unc": [
    "1943-04-07_tom-to-unc"
@@ -16385,11 +16874,6 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   "event.new-georgia": [
    "1943-08-01_tom-to-mother"
   ],
-  "military.relief": [
-   "1943-08-01_tom-to-mother",
-   "1943-09-15_tom-to-mother-sweetheart",
-   "1943-10-09_tom-to-john-and-fran"
-  ],
   "military.rank-bars": [
    "1943-08-19_tom-to-mother"
   ],
@@ -16487,6 +16971,13 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   "event.armistice-day": [
    "1943-12-06_tom-to-mum"
   ],
+  "place.portland-me": [
+   "1943-12-06_tom-to-mum",
+   "1944-11-02_tom-to-mother",
+   "1945-winter_tom-to-mother-typed-portland",
+   "1945-03-15_tom-to-mother-portland",
+   "1945-05-08_tom-to-mum-ve-day"
+  ],
   "person.pelkeys": [
    "1943-12-17_tom-to-mother",
    "1943-12-25_tom-to-olive-and-bob-pelkey"
@@ -16513,12 +17004,6 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
    "1944-11-02_tom-to-mother",
    "1945-winter_tom-to-mother-typed-portland"
   ],
-  "place.portland-me": [
-   "1944-11-02_tom-to-mother",
-   "1945-winter_tom-to-mother-typed-portland",
-   "1945-03-15_tom-to-mother-portland",
-   "1945-05-08_tom-to-mum-ve-day"
-  ],
   "culture.fighting-lady": [
    "1945-winter_tom-to-mother-typed-portland"
   ],
@@ -16539,12 +17024,13 @@ dialog code { font: 13px var(--mono); background: var(--paper); padding: 0 3px; 
   "culture.airmail-8c": [
    "1945-03-15_tom-to-mother-portland"
   ],
-  "place.portsmouth-naval-hospital": [
-   "1945-04-04_tom-to-mom"
-  ],
   "military.malaria": [
+   "1945-03-15_tom-to-mother-portland",
    "1945-04-30_tom-to-mother-hospital",
    "1945-05-23_tom-to-mom-hospital"
+  ],
+  "place.portsmouth-naval-hospital": [
+   "1945-04-04_tom-to-mom"
   ],
   "event.ve-day": [
    "1945-05-08_tom-to-mum-ve-day"
@@ -16666,22 +17152,28 @@ document.addEventListener("focusout", () => { tooltip.hidden = true; });
 
 const dots = new Map();   // letter id -> dot element
 
-function buildTimeline() {
-  const inner = $("tl-inner");
-  const labels = $("tl-labels");
-  const width = TL_PAD * 2 + (END_DAY - START_DAY + 1) * PX_PER_DAY;
-  inner.style.width = width + "px";
+const MONTH_ABBR = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
+function fmtDate(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return `${MONTH_ABBR[m - 1]} ${d}, ${y}`;
+}
+function fmtSpan(start, end) {
+  return start === end ? fmtDate(start) : `${fmtDate(start)} to ${fmtDate(end)}`;
+}
 
-  // Service lane: every event gets a label in the lowest row where it fits.
+// Lay out one timeline lane. Each item is {start, end, text, tip, cls}; one-day
+// items are flags, longer ones are bands. Every label goes in the lowest row
+// where it fits in full, so labels never overlap. Returns the lane's height.
+function layoutLane(inner, items, top, laneCls) {
   const ROW_H = 17, LABEL_FONT = "11px " + getComputedStyle(document.body).fontFamily;
-  const rows = [];  // per row: {end, label}
-  const items = DATA.events.map((ev) => {
+  const MAX_ROWS = 12;
+  const rows = [];  // per row: {end, item}
+  items = items.map((ev) => {
     const x1 = xOf(ev.start), x2 = xOf(ev.end) + PX_PER_DAY;
     const band = ev.end !== ev.start;
     const lx = band ? x1 + 4 : x1 + 10;
-    return { ev, x1, x2, band, lx, natural: textWidth(ev.text, LABEL_FONT) + 6 };
-  }).sort((a, b) => a.x1 - b.x1);
-  const MAX_ROWS = 12;
+    return { ev, x1, x2, band, lx, natural: textWidth(ev.text, LABEL_FONT) + 8 };
+  }).sort((a, b) => a.x1 - b.x1 || b.x2 - a.x2);
   for (const it of items) {
     let r = rows.findIndex((row) => row.end <= it.x1 - 4);
     if (r < 0 && rows.length < MAX_ROWS) r = rows.length;
@@ -16698,26 +17190,87 @@ function buildTimeline() {
     const next = items.find((o) => o !== it && o.row === it.row && o.x1 > it.x1);
     if (next) it.width = Math.min(it.width, next.x1 - 6 - it.lx);
   }
-  const nRows = Math.max(1, rows.length);
-  const serviceTop = 6, serviceH = nRows * ROW_H;
+  const height = Math.max(1, rows.length) * ROW_H;
+  let alt = 0;
   for (const it of items) {
-    const top = serviceTop + it.row * ROW_H;
-    const tip = `${it.ev.start === it.ev.end ? it.ev.start : it.ev.start + " to " + it.ev.end}: ${it.ev.text}`;
+    const rowTop = top + it.row * ROW_H;
+    const cls = `${laneCls} ${it.ev.cls || ""}`;
     if (it.band) {
-      inner.append(el("div", { class: "tl-band", "data-tip": tip,
-        style: `left:${it.x1}px;width:${it.x2 - it.x1}px;top:${serviceTop}px;height:${serviceH}px` }));
+      inner.append(el("div", { class: `tl-band ${cls} alt-${alt++ % 2}`, "data-tip": it.ev.tip,
+        style: `left:${it.x1}px;width:${it.x2 - it.x1}px;top:${top}px;height:${height}px` }));
     } else {
-      inner.append(el("div", { class: "tl-flag", "data-tip": tip,
-        style: `left:${it.x1}px;top:${top}px;height:${serviceTop + serviceH - top + 4}px` }));
+      inner.append(el("div", { class: `tl-flag ${cls}`, "data-tip": it.ev.tip,
+        style: `left:${it.x1}px;top:${rowTop}px;height:${top + height - rowTop + 4}px` }));
     }
     if (it.width > 8) {
-      inner.append(el("div", { class: "tl-label" + (it.band ? " in-band" : ""), text: it.ev.text, "data-tip": tip,
-        style: `left:${it.lx}px;top:${top}px;max-width:${it.width}px` }));
+      inner.append(el("div", { class: `tl-label ${cls}` + (it.band ? " in-band" : ""), text: it.ev.text,
+        "data-tip": it.ev.tip, style: `left:${it.lx}px;top:${rowTop}px;max-width:${it.width}px` }));
     }
   }
+  return height;
+}
+
+const CONF_LABEL = { confirmed: "", probable: " (probable)", speculative: " (speculative)" };
+
+const LANES = ["World", "Where", "Service"];
+const laneShown = Object.fromEntries(LANES.map((n) => [n, true]));
+try {
+  const saved = JSON.parse(localStorage.getItem("tbf1-hidden-lanes") || "[]");
+  for (const n of saved) if (n in laneShown) laneShown[n] = false;
+} catch (e) { /* storage unavailable: show every lane */ }
+
+function buildLaneToggles() {
+  const box = $("lane-toggles");
+  for (const name of LANES) {
+    const b = el("button", { type: "button", text: name, "aria-pressed": String(laneShown[name]),
+      title: `Show or hide the ${name} row of the timeline` });
+    b.addEventListener("click", () => {
+      laneShown[name] = !laneShown[name];
+      b.setAttribute("aria-pressed", String(laneShown[name]));
+      try {
+        localStorage.setItem("tbf1-hidden-lanes", JSON.stringify(LANES.filter((n) => !laneShown[n])));
+      } catch (e) { /* not remembered */ }
+      buildTimeline();
+      if (current >= 0) {
+        dots.get(LETTERS[current].id)?.classList.add("current");
+        centreTimeline(LETTERS[current].id);
+      }
+    });
+    box.append(b);
+  }
+}
+
+function buildTimeline() {
+  const inner = $("tl-inner");
+  const labels = $("tl-labels");
+  const scrollLeft = $("tl-scroll").scrollLeft;
+  inner.replaceChildren();
+  labels.replaceChildren();
+  $("tl-undated").querySelector(".row").replaceChildren();
+  dots.clear();
+  const width = TL_PAD * 2 + (END_DAY - START_DAY + 1) * PX_PER_DAY;
+  inner.style.width = width + "px";
+  const lanes = [];   // [name, top, height] for the labels column
+  const GAP = 10;
+  let top = 6;
+
+  const addLane = (name, items, laneCls) => {
+    if (!items.length || !laneShown[name]) return;
+    if (lanes.length) inner.append(el("div", { class: "tl-lane-rule", style: `top:${top - GAP / 2}px` }));
+    const h = layoutLane(inner, items, top, laneCls);
+    lanes.push([name, top, h]);
+    top += h + GAP;
+  };
+  addLane("World", DATA.world.map((ev) => ({ ...ev, tip: `${fmtSpan(ev.start, ev.end)}: ${ev.text}` })), "lane-world");
+  addLane("Where", (DATA.locations || []).map((loc) => ({
+    start: loc.start, end: loc.end, text: loc.place, cls: "c-" + loc.confidence,
+    tip: `${fmtSpan(loc.start, loc.end)}: ${loc.place}${CONF_LABEL[loc.confidence]}` + (loc.detail ? `. ${loc.detail}` : ""),
+  })), "lane-where");
+  addLane("Service", DATA.events.map((ev) => ({ ...ev, tip: `${fmtSpan(ev.start, ev.end)}: ${ev.text}` })), "lane-service");
+  inner.append(el("div", { class: "tl-lane-rule", style: `top:${top - GAP / 2}px` }));
 
   // Letter lane: stack each circle in the lowest row with room.
-  const letterTop = serviceTop + serviceH + 10, DOT_ROW = 17;
+  const letterTop = top + 4, DOT_ROW = 17;
   const lastX = [];
   for (const L of LETTERS) {
     if (!L.sort_date) continue;
@@ -16731,7 +17284,6 @@ function buildTimeline() {
     inner.append(dot);
   }
   const letterH = Math.max(1, lastX.length) * DOT_ROW + 2;
-  inner.append(el("div", { class: "tl-lane-rule", style: `top:${letterTop - 5}px` }));
 
   // Axis
   const axisTop = letterTop + letterH + 4, AXIS_H = 22;
@@ -16751,9 +17303,10 @@ function buildTimeline() {
   }
 
   labels.style.height = total + "px";
-  labels.append(
-    el("span", { text: "Service", style: `top:${serviceTop + serviceH / 2 - 8}px` }),
-    el("span", { text: "Letters", style: `top:${letterTop + letterH / 2 - 8}px` }));
+  for (const [name, laneTop, h] of lanes) {
+    labels.append(el("span", { text: name, style: `top:${laneTop + h / 2 - 8}px` }));
+  }
+  labels.append(el("span", { text: "Letters", style: `top:${letterTop + letterH / 2 - 8}px` }));
 
   // Undated box
   const row = $("tl-undated").querySelector(".row");
@@ -16766,6 +17319,7 @@ function buildTimeline() {
   });
   row.style.width = Math.max(1, undated.length) * 18 + "px";
   $("tl-undated").hidden = undated.length === 0;
+  $("tl-scroll").scrollLeft = scrollLeft;
 }
 
 function makeDot(L) {
@@ -16885,7 +17439,7 @@ function openLightbox(p) {
   lightbox.hidden = false;
   closeCard();
   lbScroll.scrollTop = 0;
-  lbScroll.scrollLeft = Math.max(0, (p.width - lbScroll.clientWidth) / 2);
+  lbScroll.scrollLeft = p.width ? Math.max(0, (p.width - lbScroll.clientWidth) / 2) : 0;
   $("lb-close").focus();
 }
 function closeLightbox() {
@@ -17099,6 +17653,14 @@ function renderCard() {
       if (label) card.append(el("div", { class: "label", text: label }));
       card.append(el("p", { text: a.note }));
     }
+    for (const img of a.images || []) {
+      const thumb = el("button", { type: "button", class: "card-image", title: "View full size",
+        onclick: () => openLightbox({ file: img.file }) },
+        el("img", { src: img.file, alt: img.caption || "" }),
+        img.caption ? el("span", { text: img.caption }) : null);
+      card.append(thumb);
+      thumb.querySelector("img").addEventListener("load", positionCard, { once: true });
+    }
     const ent = a.entity && DATA.entities[a.entity];
     if (ent) {
       if (a.note) card.append(el("hr"));
@@ -17218,6 +17780,17 @@ function buildInfoDialog() {
   body.append(el("p", { text: "Underlined words have background notes: hover to preview, click to pin. " +
     "A dotted underline marks an inference or a note that is probable or speculative rather than confirmed. " +
     "A † marks a note on offensive period language." }));
+  body.append(el("h3", { text: "Reading the timeline" }));
+  body.append(el("ul", null,
+    el("li", { text: "World: major events of the war, for comparison." }),
+    el("li", { text: "Where: where Tom was. Most places from Feb. 1943 to spring 1944 were censored in his letters, " +
+      "so they are worked out from clues and from his ship's record. A solid block is confirmed, a faded block " +
+      "with a dashed edge is probable, and a striped block is a reasoned guess. Flags mark specific places on " +
+      "specific days; a dashed pole means the place is inferred." }),
+    el("li", { text: "Service: Tom's assignments, ships, battle credits and a few personal milestones." }),
+    el("li", { text: "Letters: navy dots are Tom's letters, red dots are from other family members, and hollow " +
+      "dots have approximate dates." }),
+    el("li", { text: "Use the World, Where and Service buttons in the top bar to show or hide those rows." })));
   body.append(el("h3", { text: "The family" }));
   const dl = el("dl");
   for (const [name, text] of Object.entries(DATA.people)) dl.append(el("dt", { text: name }), el("dd", { text }));
@@ -17297,6 +17870,7 @@ document.addEventListener("keydown", (e) => {
 /* ---------- start ---------- */
 
 $("collection-title").textContent = DATA.collection;
+buildLaneToggles();
 buildTimeline();
 buildInfoDialog();
 openFromHash();

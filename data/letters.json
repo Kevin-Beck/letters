@@ -31,22 +31,256 @@
   "Others": "Uncle Paul, Uncle Frank, Uncle Chauncey, Uncle John & Libby, Aunts Helen, Hazel, Harriet, Lyle/Lyde, Bess; Luke & Lena; Adam (Moser); Bill Jameson; Geo. Wagenhorst; Chet Beard; Glenn Scott (Oil City); the McClungs; the Pelkeys (Olive & Bob); Lane (a friend in Portland, 1945)."
  },
  "timeline": [
-  "1942-07-02  Arrives at USNR Midshipmen's School, Columbia University, NYC",
+  "1942-07-02  Reports to the Midshipmen's School, Columbia University, as an apprentice seaman (V-7)",
   "1942-07-22  Sworn in as midshipman",
-  "1942-10-21  Commissioned Ensign at Riverside Church (newspaper clipping)",
-  "1942-11-01  Norfolk, VA - Amphibious Force",
-  "1942-11-05  To Naval Amphibious Training Base, Solomons, MD (LCT/LCI training)",
+  "1942-10-21  Commissioned Ensign, USNR, at Riverside Church",
+  "1942-11-05  Begins amphibious training at Solomons, MD",
   "1942-11-22  Named executive officer of an LCI crew",
-  "1942-12-06  Crew 3081 to USS LCI(L) 218 (Norfolk area)",
+  "1942-12-06  Crew 3081 goes aboard USS LCI(L) 218",
   "1942-12-25  Christmas leave at home",
-  "1943-01-05  Houston, TX; 1943-01-22 USS LCI(L) 345 commissioned",
-  "1943-02-03  Transferred to USS LCI(L) 62 as exec; sails from the U.S. about Feb 1943",
-  "1943-03-12  At sea, crosses the Equator; South Pacific from Mar 1943",
+  "1943-01-22  USS LCI(L) 345 commissioned at Houston",
+  "1943-02-03  Transferred to USS LCI(L) 62 as executive officer",
+  "1943-03-09  Crosses the Equator: pollywog to shellback",
   "1943-04-12  Cablegram home: 'All well and safe'",
-  "1943-2H     South Pacific / Solomons area (censored)",
-  "1944-04     Back in the U.S.",
-  "1944-11     Shore duty, Portland, Maine",
-  "1945-04/05  Hospitalized for malaria; V-E Day letter 1945-05-08"
+  "1943-07-01  First combat: New Georgia landings (battle star, July 1 and 4)",
+  "1943-12-03  Treasury-Bougainville operation (battle star, Dec. 3-4)",
+  "1944-03/04  Relieved after about 13 months overseas; returns to the U.S.",
+  "1944-11     Shore duty, U.S. Naval Station, Portland, Maine",
+  "1945-04/05  Hospitalized with malaria, U.S. Naval Hospital, Portsmouth, NH"
+ ],
+ "locations": [
+  {
+   "start": "1942-07-02",
+   "end": "1942-10-21",
+   "place": "New York City: Midshipmen's School, Columbia University",
+   "confidence": "confirmed",
+   "detail": "John Jay Hall, room 1317 (letters and envelopes)."
+  },
+  {
+   "start": "1942-10-22",
+   "end": "1942-10-30",
+   "place": "Home leave, Karns City, PA",
+   "confidence": "probable",
+   "detail": "The commissioning report says he had 'a short leave' before reporting."
+  },
+  {
+   "start": "1942-10-31",
+   "end": "1942-11-04",
+   "place": "Norfolk, VA: Naval Operating Base",
+   "confidence": "confirmed",
+   "detail": "Bachelor Officers' Quarters, waiting for assignment (letters of Nov. 1 and 4)."
+  },
+  {
+   "start": "1942-11-05",
+   "end": "1942-12-05",
+   "place": "Solomons, MD: Naval Amphibious Training Base",
+   "confidence": "confirmed",
+   "detail": "Letters and envelope from U.S.N.A.T.B. Solomons."
+  },
+  {
+   "start": "1942-12-06",
+   "end": "1942-12-22",
+   "place": "Norfolk area, aboard USS LCI(L) 218",
+   "confidence": "confirmed",
+   "detail": "Training crew 3081, mostly at anchor near Norfolk (letter of Dec. 14)."
+  },
+  {
+   "start": "1942-12-23",
+   "end": "1942-12-27",
+   "place": "Christmas leave at home",
+   "confidence": "probable",
+   "detail": "Each training crew got 4 days' leave; Tom rejoined on Dec. 28."
+  },
+  {
+   "start": "1942-12-28",
+   "end": "1943-01-02",
+   "place": "Portsmouth, VA: Norfolk Navy Yard",
+   "confidence": "confirmed",
+   "detail": "Letters of Dec. 29 and Jan. 2."
+  },
+  {
+   "start": "1943-01-03",
+   "end": "1943-01-04",
+   "place": "By train to Houston, via New Orleans",
+   "confidence": "confirmed",
+   "detail": "Ten-hour layover in New Orleans (letter of Jan. 5)."
+  },
+  {
+   "start": "1943-01-05",
+   "end": "1943-01-24",
+   "place": "Houston, TX: fitting out USS LCI(L) 345",
+   "confidence": "confirmed",
+   "detail": "The ship was commissioned on Jan. 22."
+  },
+  {
+   "start": "1943-01-25",
+   "end": "1943-02-03",
+   "place": "Galveston, TX, aboard USS LCI(L) 345",
+   "confidence": "confirmed",
+   "detail": "Moved to LCI(L) 62 on Feb. 3."
+  },
+  {
+   "start": "1943-02-04",
+   "end": "1943-02-09",
+   "place": "At sea: Gulf of Mexico and Caribbean",
+   "confidence": "probable",
+   "detail": "First voyage aboard LCI(L) 62, standing the midnight-to-four watch."
+  },
+  {
+   "start": "1943-02-10",
+   "end": "1943-02-24",
+   "place": "Panama Canal Zone (censored 'foreign port')",
+   "confidence": "probable",
+   "detail": "A hot port with 'every other door' a bar, a week from Texas: almost certainly Colón."
+  },
+  {
+   "start": "1943-02-25",
+   "end": "1943-03-18",
+   "place": "At sea: crossing the Pacific",
+   "confidence": "confirmed",
+   "detail": "The 'damn long' leg; crossed the Equator about March 9."
+  },
+  {
+   "start": "1943-03-19",
+   "end": "1943-03-31",
+   "place": "Bora Bora, Society Islands (censored)",
+   "confidence": "speculative",
+   "detail": "The usual first stop for small craft from Panama."
+  },
+  {
+   "start": "1943-04-01",
+   "end": "1943-04-06",
+   "place": "Island hops westward (ports not named)",
+   "confidence": "speculative",
+   "detail": "Short legs at four on, four off; one port was dry."
+  },
+  {
+   "start": "1943-04-07",
+   "end": "1943-05-20",
+   "place": "Nouméa, New Caledonia (censored)",
+   "confidence": "probable",
+   "detail": "The 'fair sized city' of April 7, where LCI Flotilla Five trained that spring."
+  },
+  {
+   "start": "1943-05-21",
+   "end": "1943-06-29",
+   "place": "Guadalcanal-Tulagi area, Solomon Islands",
+   "confidence": "probable",
+   "detail": "A new port on May 24 and coconut groves in June; Flotilla Five moved up to prepare for New Georgia."
+  },
+  {
+   "start": "1943-06-30",
+   "end": "1943-08-15",
+   "place": "Central Solomons: New Georgia campaign",
+   "confidence": "probable",
+   "detail": "LCI(L)-62 earned a battle star for landings on July 1 and 4, 1943. No letters survive from June 11 to Aug. 1."
+  },
+  {
+   "start": "1943-08-16",
+   "end": "1943-10-26",
+   "place": "Solomon Islands, rear areas",
+   "confidence": "speculative",
+   "detail": "'Living off the Army', movie boats and an Army canteen suggest a base area such as Guadalcanal or the Russell Islands."
+  },
+  {
+   "start": "1943-10-27",
+   "end": "1943-12-31",
+   "place": "Northern Solomons: Treasury Islands and Bougainville",
+   "confidence": "probable",
+   "detail": "Battle star for Dec. 3-4, 1943; no letters from Oct. 9 to Nov. 8."
+  },
+  {
+   "start": "1944-01-01",
+   "end": "1944-02-29",
+   "place": "Solomon Islands",
+   "confidence": "speculative",
+   "detail": "Letters say only 'out here'; a liberty port, the first in 12 months, was expected in late February."
+  },
+  {
+   "start": "1944-03-01",
+   "end": "1944-04-15",
+   "place": "Leaving the Pacific: passage home",
+   "confidence": "speculative",
+   "detail": "Tom was relieved after about 13 months and was back in the U.S. by spring."
+  },
+  {
+   "start": "1944-04-16",
+   "end": "1944-10-31",
+   "place": "United States (details unknown)",
+   "confidence": "speculative",
+   "detail": "Probably home leave, then a new assignment. No letters survive."
+  },
+  {
+   "start": "1944-11-01",
+   "end": "1945-03-25",
+   "place": "Portland, ME: U.S. Naval Station, Grand Trunk Pier",
+   "confidence": "confirmed",
+   "detail": "Lived at 175 State St.; letterhead of March 15, 1945."
+  },
+  {
+   "start": "1945-03-26",
+   "end": "1945-05-31",
+   "place": "Portsmouth, NH: U.S. Naval Hospital (malaria)",
+   "confidence": "probable",
+   "detail": "Letters of April 4 to May 23 from a naval hospital 'down here' from Portland."
+  },
+  {
+   "start": "1943-03-09",
+   "end": "1943-03-09",
+   "place": "Crosses the Equator",
+   "confidence": "confirmed",
+   "detail": "At night, somewhere between Panama and the Society Islands."
+  },
+  {
+   "start": "1943-04-07",
+   "end": "1943-04-07",
+   "place": "Anchored off a 'fair sized city', probably Nouméa",
+   "confidence": "probable",
+   "detail": "Tom handled the ship alone when her anchor slipped in a storm."
+  },
+  {
+   "start": "1943-07-01",
+   "end": "1943-07-01",
+   "place": "Rendova, New Georgia: landing troops",
+   "confidence": "probable",
+   "detail": "Date of LCI(L)-62's first battle credit."
+  },
+  {
+   "start": "1943-07-04",
+   "end": "1943-07-04",
+   "place": "Rendova: Japanese air attack on Flotilla Five",
+   "confidence": "probable",
+   "detail": "Sixteen bombers attacked the LCIs landing the 169th Infantry; three LCI sailors were killed."
+  },
+  {
+   "start": "1943-12-03",
+   "end": "1943-12-03",
+   "place": "Cape Torokina, Bougainville: reinforcement landing",
+   "confidence": "probable",
+   "detail": "Dates of LCI(L)-62's Treasury-Bougainville battle credit, Dec. 3-4."
+  }
+ ],
+ "world_events": [
+  "1942-08-07  U.S. Marines land on Guadalcanal",
+  "1942-08-19  Dieppe Raid",
+  "1942-11-08  Operation Torch: Allied landings in North Africa",
+  "1943-02-02  German surrender at Stalingrad",
+  "1943-02-09  Guadalcanal secured",
+  "1943-05-13  Axis forces surrender in Tunisia",
+  "1943-07-10  Allied invasion of Sicily",
+  "1943-09-08  Italy surrenders",
+  "1943-11-20  Tarawa landings",
+  "1944-01-22  Anzio landings",
+  "1944-06-06  D-Day: Allied invasion of Normandy",
+  "1944-06-15  Saipan landings; Battle of the Philippine Sea (June 19-20)",
+  "1944-10-20  Leyte landings; Battle of Leyte Gulf (Oct. 23-26)",
+  "1944-12-16  Battle of the Bulge begins",
+  "1945-02-19  Iwo Jima landings",
+  "1945-04-01  Okinawa landings",
+  "1945-04-12  President Roosevelt dies",
+  "1945-05-08  V-E Day: Germany surrenders",
+  "1945-08-06  Atomic bomb dropped on Hiroshima (Nagasaki, Aug. 9)",
+  "1945-08-15  V-J Day: Japan announces its surrender"
  ],
  "letters": [
   {
