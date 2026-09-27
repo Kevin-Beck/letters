@@ -209,8 +209,8 @@ The embedded data is about 800 KB.
 ### 4.3 How `build_viewer.py` fills each field
 
 **Letters**
-- `letters` are sorted by `sort_date`, then by `id`. The six `undated_`
-  letters come last, sorted by `id`.
+- `letters` are sorted by `sort_date`, then by `id`. The five letters with
+  no `sort_date` come last, sorted by `id`.
 - `title` is `written_by` with any text from ` (` onward removed, then
   ` to `, then `written_to`. Example: `"Tom (Ens. Thos. F. Beck)"` and
   `"Mother"` give `"Tom to Mother"`. `written_by` in the viewer data is
@@ -222,7 +222,12 @@ The embedded data is about 800 KB.
   - `YYYY-MM-DD` gives that date;
   - `YYYY-MM-xx` gives `YYYY-MM-15`;
   - `YYYY-winter` gives `YYYY-01-15`;
-  - `undated` gives `null`.
+  - `undated` gives `null`;
+  - `SORT_DATE_OVERRIDES` in the script sets it for letters whose id says
+    `undated_` but whose content dates them well enough for the timeline.
+    It has one entry: `undated_george-to-mother-allegheny` ("1942 or 1943
+    (fall; a Friday)", probably the start of the fall 1942 term) is placed at
+    `1942-09-15`. Being approximate, it is drawn hollow.
 - `approximate` is true when `date` is anything other than exactly
   `YYYY-MM-DD`, including `null`.
 - `date_label` is built from `date`:
@@ -314,8 +319,14 @@ guarantees JavaScript string offsets equal the Python offsets.
 - Each event is drawn at its dates:
   - a one-day event is a 2 px vertical line with a small flag;
   - a longer event is a shaded band covering its dates.
-- The label sits beside the flag or inside the band, cut short with an
-  ellipsis before the next event. Hovering shows the full text in a tooltip.
+- The label sits beside the flag or at the start of the band. Several
+  one-day events are only days apart (Nov–Dec 1942), so labels are
+  **staggered** over up to four rows: each label goes in the lowest row
+  where it fits. When no row is free, it goes in the row where cutting the
+  label before it leaves the most text. Each label is cut short with an
+  ellipsis before the next event in its row, and is at most 260 px wide.
+  Labels have an opaque background so the flag poles from upper rows pass
+  behind them. Hovering shows the dates and full text in a tooltip.
 
 **Letter lane** (below the service lane)
 - Each dated letter is a 10 px circle at `sort_date`:
@@ -325,7 +336,7 @@ guarantees JavaScript string offsets equal the Python offsets.
 - **Stacking:** letters are placed in `letters` order. Each circle goes in
   the lowest row whose last circle is at least 12 px to its left. The lane
   grows to fit the tallest stack.
-- **Undated letters** are in a separate box at the right end of the
+- **Undated letters** (no `sort_date`) are in a separate box at the right end of the
   timeline, labelled "Undated", with the same circle styles in one row.
 - Hovering a circle shows a tooltip with the `title` and `date_label`.
 - Clicking a circle opens that letter.
@@ -416,6 +427,12 @@ Hovering or focusing a span gives all its parts a pale accent background.
 - An `IntersectionObserver` watches every `.page-break`. The current page is
   the last page break above the top third of the transcript column, or page 1
   if none is. When it changes, the scan viewer shows that page.
+- A short last page can't scroll up to the top third, so when the transcript
+  is scrolled to the bottom, the current page is the last page break that
+  is on screen. A scroll listener (once per animation frame) handles this,
+  since no page break crosses the line there.
+- The transcript has 50vh of padding below the text, so every page break
+  can be scrolled to the top.
 - Clicking a page number in the scan viewer scrolls the transcript so that
   page's `.page-break` is at the top. Page 1 scrolls to the top of the
   transcript.
@@ -547,8 +564,8 @@ straight from disk in current Chrome, Firefox and Safari:
 
 - [ ] The page opens with no console errors and no network requests other
       than images in `scans/`.
-- [ ] The timeline shows all 110 dated letters in date order, plus 6 in the
-      Undated box. Approximate dates are hollow circles. All 16 service
+- [ ] The timeline shows all 111 dated letters in date order (including the
+      George letter placed at fall 1942), plus 5 in the Undated box. Approximate dates are hollow circles. All 16 service
       events are visible.
 - [ ] Clicking any circle opens that letter, and the URL hash changes to its
       id.

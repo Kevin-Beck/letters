@@ -8,8 +8,8 @@ also a few family letters, a telegram, V-mail forms, and a newspaper clipping.
 In September 2026 every scan was read and typed out, so the letters can be
 read, searched, and shared without the images. The folder was then
 reorganized so that every letter has one set of scans, one transcription and
-one set of notes, all with matching names. This is the groundwork for a
-browser app for reading the letters.
+one set of notes, all with matching names. To read them, open
+`viewer.html` (see [Reading the letters](#reading-the-letters)).
 
 ## What's in this folder
 
@@ -21,9 +21,34 @@ browser app for reading the letters.
 | `data/letters.json` | The index: every letter's date, writer, recipient, location, pages and notes |
 | `photos/` | Family photographs (not letters; not transcribed) |
 | `delete/` | Duplicate scans and old drafts. **Safe to delete** (see `delete/README.md`) |
-| `tools/check_project.py` | Checks that the files and the index agree |
-| `Viewer_design.md` | Design for `viewer.html`, the planned single-file browser viewer |
+| `viewer.html` | The letter viewer: open it in a browser to read the letters (see below) |
+| `tools/build_viewer.py` | Rebuilds the letter data inside `viewer.html` |
+| `tools/check_project.py` | Checks that the files, the index and the viewer agree |
+| `Viewer_design.md` | Design for `viewer.html` |
 | `rename_log.csv` | Every file's old name and new name from the reorganization |
+
+## Reading the letters
+
+Double-click `viewer.html`. It opens in any modern browser (Chrome, Firefox,
+Safari, Edge) with no internet connection, installation or web server. Keep
+it in this folder, next to `scans/`, because it loads the scan images from
+there.
+
+- **Timeline** (top): each dot is a letter. Navy dots are Tom's letters, red
+  dots are from other family members, and hollow dots have approximate
+  dates. Letters with no date are in the **Undated** box. Tom's service runs
+  along the row above. Click a dot to open that letter.
+- **Scan** (left) and **transcript** (right). Scrolling the transcript turns
+  the scan to the page you're reading. Click a page number to jump to it,
+  and click the scan to see it full size.
+- **Underlined words** have background notes. Point at one to preview the
+  note, or click it to pin the note open and follow its links. A dotted
+  underline means the note is a guess. A † marks a note on offensive period
+  language.
+- **◀ Prev / Next ▶**, or the ← and → keys, step through the letters in date
+  order. Each letter has its own web address, so you can bookmark one or use
+  the browser's Back button.
+- **ⓘ** shows the transcription conventions and a guide to the family.
 
 ## How files are named
 
@@ -148,16 +173,21 @@ after page 1.
 
 ## Keeping things consistent
 
-After changing any file, run:
+`viewer.html` holds its own copy of the index, transcriptions and
+annotations, so it has to be rebuilt after any of them change. After
+changing any file, run:
 
 ```
+python3 annotations/build_annotations.py   # only if annotations or transcriptions changed
+python3 tools/build_viewer.py
 python3 tools/check_project.py
 ```
 
 It checks that every file in the index exists, that every scan appears in
 the index exactly once, that each transcription's header and page markers
 match its scans, that the rescan lists point at real pages, and that the
-annotations still line up with the text. The
+annotations still line up with the text, and that the data in `viewer.html`
+is up to date. The
 folder is also a git repository, so every change can be reviewed or undone.
 
 ## Tom's service, in brief
