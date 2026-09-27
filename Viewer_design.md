@@ -66,6 +66,7 @@ Fields of each letter record used by the viewer:
 | `notes` | One-paragraph summary of the letter |
 | `pages` | List of `{page, file, original_file, width, height}`; `file` is `scans/<id>_pNN.jpg`. 1 to 6 pages per letter, 267 in all |
 | `rescan` | Present on 17 letters: list of `{type, page \| after_page, reason}` |
+| `viewer` | Optional. `false` on the 5 undated family letters: the build leaves them out of the viewer, while their scans, transcriptions and notes stay in the project |
 
 ### 2.2 `transcriptions/<id>.txt`
 
@@ -219,8 +220,10 @@ The embedded data is about 800 KB.
 ### 4.3 How `build_viewer.py` fills each field
 
 **Letters**
-- `letters` are sorted by `sort_date`, then by `id`. The five letters with
-  no `sort_date` come last, sorted by `id`.
+- Letters with `"viewer": false` are skipped, so the viewer has 111 letters.
+- `letters` are sorted by `sort_date`, then by `id`. Any letter with no
+  `sort_date` comes last, sorted by `id` (none at present, since the only
+  undated letters are the ones left out).
 - `title` is `written_by` with any text from ` (` onward removed, then
   ` to `, then `written_to`. Example: `"Tom (Ens. Thos. F. Beck)"` and
   `"Mother"` give `"Tom to Mother"`. `written_by` in the viewer data is
@@ -297,7 +300,7 @@ guarantees JavaScript string offsets equal the Python offsets.
 │ World    ▕ Guadalcanal    ▕ Torch            ▕ Stalingrad        │       │
 │ Where   ▕▔▔▔ New York ▔▔▔▏▕▔▏▕▔ Solomons ▔▏▕▔▏▕▔ Houston ▔▏▕▔ at sea │       │
 │ Service  ▕ Reports       ▕ Commissioned     ▕ Transferred to #62  │       │
-│ Letters  ●●●●● ●●●  ●●○○●●●  ●●●    ●  ●   ●      ●     ●   ●●  │Undated│ │  timeline
+│ Letters  ●●●●● ●●●  ●●○○●●●  ●●●    ●  ●   ●      ●     ●   ●●  ●    ●   │  timeline
 │          Jul  Aug  Sep  Oct  Nov  Dec │1943 Jan ...              │ ● ● ● │ │
 ├──────────────────────────────────┬───────────────────────────────────────┤
 │ Tom to Mother                    │                                       │
@@ -370,8 +373,9 @@ page works normally if storage is unavailable.
   the lowest row whose last circle is at least 16 px to its left. Rows are
   17 px apart, so circles never touch. The lane
   grows to fit the tallest stack.
-- **Undated letters** (no `sort_date`) are in a separate box at the right end of the
-  timeline, labelled "Undated", with the same circle styles in one row.
+- **Undated letters** (no `sort_date`) would go in a separate box at the
+  right end of the timeline, labelled "Undated", with the same circle
+  styles in one row. The box is hidden when there are none, as now.
 - Hovering a circle shows a tooltip with the `title` and `date_label`.
 - Clicking a circle opens that letter.
 - The open letter's circle is 14 px, with a 2 px ring in the accent colour.
@@ -606,7 +610,8 @@ straight from disk in current Chrome, Firefox and Safari:
 - [ ] The page opens with no console errors and no network requests other
       than images in `scans/` and `additional_context/`.
 - [ ] The timeline shows all 111 dated letters in date order (including the
-      George letter placed at fall 1942), plus 5 in the Undated box. Approximate dates are hollow circles. All 20
+      George letter placed at fall 1942), and no Undated box. Approximate
+      dates are hollow circles. All 20
       world events, 30 locations and 16 service events are visible, and
       every label shows in full without overlapping another.
 - [ ] The World, Where and Service buttons hide and show their rows, and the
@@ -628,9 +633,10 @@ straight from disk in current Chrome, Firefox and Safari:
       Clicking pins it. Esc and clicking outside close it.
 - [ ] See also, Wikipedia, sources and Mentioned in links work from a pinned
       card.
-- [ ] The 7 letters with a `NOTE:` show the content-note bar. The 5
-      incomplete letters show the Incomplete badge, and the 17 letters with
-      `rescan` items list them under About this letter.
+- [ ] The 6 letters in the viewer with a `NOTE:` show the content-note bar.
+      The 4 incomplete letters show the Incomplete badge, and the 16 letters
+      with `rescan` items list them under About this letter. (One more of
+      each is among the letters left out of the viewer.)
 - [ ] At 800 px wide the columns stack and nothing scrolls sideways except
       the timeline.
 - [ ] `python3 tools/check_project.py` reports OK.

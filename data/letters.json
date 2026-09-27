@@ -4193,6 +4193,7 @@
   },
   {
    "id": "undated_bill-jameson-to-mrs-beck",
+   "viewer": false,
    "transcription_file": "transcriptions/undated_bill-jameson-to-mrs-beck.txt",
    "annotations_file": "annotations/letters/undated_bill-jameson-to-mrs-beck.json",
    "written_by": "Pvt. William G. Jameson ('Bill')",
@@ -4223,6 +4224,7 @@
   },
   {
    "id": "undated_dad-to-tommy-wednesday",
+   "viewer": false,
    "transcription_file": "transcriptions/undated_dad-to-tommy-wednesday.txt",
    "annotations_file": "annotations/letters/undated_dad-to-tommy-wednesday.json",
    "written_by": "Dad (John A. Beck)",
@@ -4255,6 +4257,7 @@
   },
   {
    "id": "undated_daddy-to-tommy-hotel-st-george",
+   "viewer": false,
    "transcription_file": "transcriptions/undated_daddy-to-tommy-hotel-st-george.txt",
    "annotations_file": "annotations/letters/undated_daddy-to-tommy-hotel-st-george.json",
    "written_by": "Daddy (John A. Beck)",
@@ -4317,6 +4320,7 @@
   },
   {
    "id": "undated_janny-to-mother-pcw",
+   "viewer": false,
    "transcription_file": "transcriptions/undated_janny-to-mother-pcw.txt",
    "annotations_file": "annotations/letters/undated_janny-to-mother-pcw.json",
    "written_by": "Janny (Tom's sister)",
@@ -4361,6 +4365,7 @@
   },
   {
    "id": "undated_mother-to-folks-moore-heights",
+   "viewer": false,
    "transcription_file": "transcriptions/undated_mother-to-folks-moore-heights.txt",
    "annotations_file": "annotations/letters/undated_mother-to-folks-moore-heights.json",
    "written_by": "Mother (Elva Beck, Mrs. John A. Beck)",

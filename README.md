@@ -44,8 +44,8 @@ there.
   - **Service**: his assignments, ships and battle credits.
   - **Letters**: each dot is a letter. Navy dots are Tom's letters, red dots
     are from other family members, and hollow dots have approximate dates.
-    Letters with no date are in the **Undated** box. Click a dot to open
-    that letter.
+    Click a dot to open that letter. Five undated family letters, which
+    don't belong on the timeline, are left out of the viewer (see below).
 
   The **World**, **Where** and **Service** buttons in the top bar hide or
   show those rows.
@@ -93,6 +93,10 @@ For each letter the index lists:
 - its id, date, and how the date was worked out;
 - who wrote it, who it was to, and where it was written;
 - whether any pages are missing;
+- whether it appears in the viewer: `"viewer": false` leaves a letter out
+  of `viewer.html` but keeps its scans, transcription and notes in the
+  project. The five undated family letters (not George's Allegheny letter,
+  which can be dated to about fall 1942) are marked this way;
 - notes on the people and events it mentions;
 - its pages, in order. Each page has its scan, its width and height, and
   its **original filename** from before the reorganization;

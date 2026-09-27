@@ -149,6 +149,9 @@ def build_data():
 
     letters = []
     for L in index["letters"]:
+        check(L.get("viewer", True) in (True, False), f"{L['id']}: 'viewer' must be true or false")
+        if not L.get("viewer", True):
+            continue   # kept in the project, left out of the viewer
         lid = L["id"]
         text = (ROOT / L["transcription_file"]).read_text(encoding="utf-8")
         header, body, content_note = split_transcription(lid, text)
