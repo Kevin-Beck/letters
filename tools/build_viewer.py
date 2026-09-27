@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Build the letter data embedded in viewer.html.
+"""Build the letter data embedded in index.html.
 
 Run from anywhere:  python3 tools/build_viewer.py
 
 Reads data/letters.json, transcriptions/*.txt and
 annotations/annotations_resolved.json, turns them into the viewer data
 described in Viewer_design.md section 4, and writes it into the
-<script id="letters-data"> block of viewer.html. The rest of viewer.html is
+<script id="letters-data"> block of index.html. The rest of index.html is
 left untouched.
 
 Stops with an error if any check fails.
@@ -19,7 +19,7 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VIEWER = ROOT / "viewer.html"
+VIEWER = ROOT / "index.html"
 RANGE = {"start": "1942-07-01", "end": "1945-08-31"}
 CONFIDENCE = {"confirmed", "probable", "speculative"}
 
@@ -226,7 +226,7 @@ def embed(data):
 
 
 def read_embedded():
-    """Return the data currently embedded in viewer.html (or None)."""
+    """Return the data currently embedded in index.html (or None)."""
     if not VIEWER.is_file():
         return None
     m = DATA_BLOCK.search(VIEWER.read_text(encoding="utf-8"))
@@ -241,13 +241,13 @@ def main():
     html = VIEWER.read_text(encoding="utf-8")
     blocks = DATA_BLOCK.findall(html)
     if len(blocks) != 1:
-        sys.exit(f"build_viewer.py: viewer.html must contain exactly one letters-data "
+        sys.exit(f"build_viewer.py: index.html must contain exactly one letters-data "
                  f"block (found {len(blocks)})")
     html = DATA_BLOCK.sub(lambda m: m.group(1) + "\n" + embed(data) + "\n" + m.group(3),
                           html)
     VIEWER.write_text(html, encoding="utf-8")
     n_ann = sum(len(x["annotations"]) for x in data["letters"])
-    print(f"viewer.html: {len(data['letters'])} letters, {n_ann} annotations, "
+    print(f"index.html: {len(data['letters'])} letters, {n_ann} annotations, "
           f"{len(data['entities'])} entities, {len(data['events'])} service events, "
           f"{len(data['locations'])} locations, {len(data['world'])} world events "
           f"({len(html.encode()) // 1024} KB)")

@@ -9,7 +9,7 @@ In September 2026 every scan was read and typed out, so the letters can be
 read, searched, and shared without the images. The folder was then
 reorganized so that every letter has one set of scans, one transcription and
 one set of notes, all with matching names. To read them, open
-`viewer.html` (see [Reading the letters](#reading-the-letters)).
+`index.html` (see [Reading the letters](#reading-the-letters)).
 
 ## What's in this folder
 
@@ -22,15 +22,15 @@ one set of notes, all with matching names. To read them, open
 | `data/letters.json` | The index: every letter's date, writer, recipient, location, pages and notes |
 | `photos/` | Family photographs (not letters; not transcribed) |
 | `delete/` | Duplicate scans and old drafts. **Safe to delete** (see `delete/README.md`) |
-| `viewer.html` | The letter viewer: open it in a browser to read the letters (see below) |
-| `tools/build_viewer.py` | Rebuilds the letter data inside `viewer.html` |
+| `index.html` | The letter viewer: open it in a browser to read the letters (see below) |
+| `tools/build_viewer.py` | Rebuilds the letter data inside `index.html` |
 | `tools/check_project.py` | Checks that the files, the index and the viewer agree |
-| `Viewer_design.md` | Design for `viewer.html` |
+| `Viewer_design.md` | Design for `index.html` |
 | `rename_log.csv` | Every file's old name and new name from the reorganization |
 
 ## Reading the letters
 
-Double-click `viewer.html`. It opens in any modern browser (Chrome, Firefox,
+Double-click `index.html`. It opens in any modern browser (Chrome, Firefox,
 Safari, Edge) with no internet connection, installation or web server. Keep
 it in this folder, next to `scans/`, because it loads the scan images from
 there.
@@ -94,7 +94,7 @@ For each letter the index lists:
 - who wrote it, who it was to, and where it was written;
 - whether any pages are missing;
 - whether it appears in the viewer: `"viewer": false` leaves a letter out
-  of `viewer.html` but keeps its scans, transcription and notes in the
+  of `index.html` but keeps its scans, transcription and notes in the
   project. The five undated family letters (not George's Allegheny letter,
   which can be dated to about fall 1942) are marked this way;
 - notes on the people and events it mentions;
@@ -189,7 +189,7 @@ after page 1.
 
 ## Keeping things consistent
 
-`viewer.html` holds its own copy of the index, transcriptions and
+`index.html` holds its own copy of the index, transcriptions and
 annotations, so it has to be rebuilt after any of them change. After
 changing any file, run:
 
@@ -202,7 +202,7 @@ python3 tools/check_project.py
 It checks that every file in the index exists, that every scan appears in
 the index exactly once, that each transcription's header and page markers
 match its scans, that the rescan lists point at real pages, and that the
-annotations still line up with the text, and that the data in `viewer.html`
+annotations still line up with the text, and that the data in `index.html`
 is up to date. The
 folder is also a git repository, so every change can be reviewed or undone.
 

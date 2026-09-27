@@ -4,9 +4,9 @@ This document describes the browser viewer for the TBF1 Navy Letters: what
 data it uses, what files need to be created, and how each part of the
 screen works.
 
-The viewer is a single file, `viewer.html`, in the project folder. It holds
+The viewer is a single file, `index.html`, in the project folder. It holds
 all its HTML, CSS, JavaScript and letter data. The scan images stay in
-`scans/` and are loaded from there. Double-clicking `viewer.html` opens it in
+`scans/` and are loaded from there. Double-clicking `index.html` opens it in
 any modern browser, with no web server, no internet connection and no
 installation.
 
@@ -134,12 +134,12 @@ needs.
 
 | File | What it is |
 |---|---|
-| `viewer.html` | The viewer: HTML, CSS and JavaScript written by hand, plus one embedded data block written by the build script |
-| `tools/build_viewer.py` | Reads the data in section 2, turns it into the viewer data (section 4), and writes it into the data block of `viewer.html` |
+| `index.html` | The viewer: HTML, CSS and JavaScript written by hand, plus one embedded data block written by the build script |
+| `tools/build_viewer.py` | Reads the data in section 2, turns it into the viewer data (section 4), and writes it into the data block of `index.html` |
 | Changes to `tools/check_project.py` | Checks that the viewer's embedded data is up to date (section 9) |
-| Changes to `README.md` | Adds `viewer.html` and `tools/build_viewer.py` to the folder table, and how to rebuild the data |
+| Changes to `README.md` | Adds `index.html` and `tools/build_viewer.py` to the folder table, and how to rebuild the data |
 
-`viewer.html` uses no external libraries, fonts or network requests.
+`index.html` uses no external libraries, fonts or network requests.
 
 ---
 
@@ -147,7 +147,7 @@ needs.
 
 ### 4.1 Where it goes
 
-`viewer.html` contains exactly one data block:
+`index.html` contains exactly one data block:
 
 ```html
 <script id="letters-data" type="application/json">
@@ -592,20 +592,20 @@ CSS custom properties on `:root`:
   3. run `python3 tools/check_project.py`.
 - `tools/build_viewer.py` has one function, `build_data()`, that returns the
   viewer data as a Python object. The script's main block calls it and writes
-  the result into `viewer.html`.
+  the result into `index.html`.
 - `tools/check_project.py` changes:
-  - add `viewer.html` to the expected top-level items (`Viewer_design.md` is
+  - add `index.html` to the expected top-level items (`Viewer_design.md` is
     already there);
   - import `build_data()` from `tools/build_viewer.py`, read the embedded
-    block from `viewer.html`, and compare the two with the `built` field
-    removed from both. If they differ, report "viewer.html data is out of
+    block from `index.html`, and compare the two with the `built` field
+    removed from both. If they differ, report "index.html data is out of
     date; run tools/build_viewer.py".
 
 ---
 
 ## 10. Acceptance checklist
 
-The viewer is done when all of the following are true, opening `viewer.html`
+The viewer is done when all of the following are true, opening `index.html`
 straight from disk in current Chrome, Firefox and Safari:
 
 - [ ] The page opens with no console errors and no network requests other
