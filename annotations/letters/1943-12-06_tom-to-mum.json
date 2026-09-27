@@ -138,6 +138,15 @@
    },
    "kind": "reference",
    "entity": "person.isabel"
+  },
+  {
+   "id": "a18",
+   "quote": {
+    "exact": "return out here for the finish"
+   },
+   "kind": "context",
+   "entity": "place.portland-me",
+   "note": "The second tour never came. After coming home in spring 1944 Tom served ashore at Portland, Maine, then spent spring 1945 in the naval hospital with malaria. Japan surrendered on Aug. 15, 1945."
   }
  ]
 }

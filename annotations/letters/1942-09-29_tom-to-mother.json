@@ -49,6 +49,15 @@
    },
    "kind": "reference",
    "entity": "military.landing-craft"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "that means we\nwill have until next spring anyway"
+   },
+   "kind": "context",
+   "entity": "event.operation-torch",
+   "note": "It came much sooner than he expected. The Allied landings in North Africa (Operation Torch) began on Nov. 8, 1942, less than six weeks after this letter, while Tom was at Solomons. The cross-Channel 'second front' waited until D-Day, June 6, 1944."
   }
  ]
 }

@@ -40,6 +40,15 @@
    },
    "kind": "context",
    "note": "New LCIs built at Gulf Coast yards trained in the Gulf of Mexico before deploying."
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "our ship will be commissioned Dec. 25"
+   },
+   "kind": "context",
+   "entity": "ship.lci-l-345",
+   "note": "Close. Tom's crew did pick up its ship at a Gulf port, but a month later: LCI(L)-345 was commissioned at Houston on Jan. 22, 1943."
   }
  ]
 }

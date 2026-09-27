@@ -58,6 +58,15 @@
    },
    "kind": "reference",
    "entity": "person.mari-sally"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "They aren't losing much time up there"
+   },
+   "kind": "context",
+   "entity": "ship.lci-l-345",
+   "note": "Among the ships 'up there' was Tom's first ship, LCI(L)-345, now a gunboat, which took part in the Marshall Islands landings. The pace did continue: U.S. forces landed on Saipan in the Marianas in June 1944."
   }
  ]
 }

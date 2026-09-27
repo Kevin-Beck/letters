@@ -40,6 +40,14 @@
    },
    "kind": "reference",
    "entity": "person.marge"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "We will\nconsider it Christmas"
+   },
+   "kind": "context",
+   "note": "Good timing: the Post Office asked families to mail Christmas gifts for men overseas between Sept. 15 and Oct. 15 so they would arrive in time. A pair of slippers came in a package on Dec. 6."
   }
  ]
 }

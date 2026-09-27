@@ -57,6 +57,15 @@
    },
    "kind": "context",
    "note": "For Tom's car, a Chevrolet (see the typed winter 1945 letter). Gasoline was still rationed."
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "I have a feeling\nsome changes will be made"
+   },
+   "kind": "context",
+   "entity": "military.malaria",
+   "note": "A change did come within weeks, though not the one he meant: by April 4 he was a patient at the naval hospital, and the diagnosis turned out to be malaria picked up in the South Pacific."
   }
  ]
 }

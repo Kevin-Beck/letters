@@ -34,6 +34,23 @@
    "kind": "reference",
    "entity": "term.wartime-prices",
    "note": "After deductions (insurance, uniforms, etc.) Tom's first pay was $4.70, about $90 in today's money."
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "our graduation is October 2"
+   },
+   "kind": "context",
+   "entity": "event.graduation-1942-10-21",
+   "note": "The first of several rumoured dates (later Oct. 13 and Oct. 28). The class actually graduated on Oct. 21, 1942."
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "I think the Navy\nis hard up for officers"
+   },
+   "kind": "context",
+   "note": "He was right. In March 1941 the Navy had only about 18,000 officers; between Pearl Harbor and the end of 1944 it commissioned some 286,000 more, most of them reservists trained in a few months, like Tom."
   }
  ]
 }

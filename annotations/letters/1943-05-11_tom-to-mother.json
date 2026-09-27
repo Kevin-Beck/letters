@@ -120,6 +120,15 @@
    },
    "kind": "reference",
    "entity": "person.jackie"
+  },
+  {
+   "id": "a15",
+   "quote": {
+    "exact": "I will be quite fortunate if I\nget home before Christmas"
+   },
+   "kind": "context",
+   "entity": "military.relief",
+   "note": "He wasn't that fortunate: Christmas 1943 was spent in the Solomons (see his Christmas Day letter to the Pelkeys). He reached home in spring 1944."
   }
  ]
 }

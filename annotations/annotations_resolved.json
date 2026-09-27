@@ -515,7 +515,7 @@
     "Rendova"
    ],
    "summary": "The Allied invasion of the New Georgia group in the central Solomons, to capture the Japanese airfield at Munda. It was the first Pacific operation for LCIs. LCI(L)-62 earned a battle star for landings on July 1 and 4, 1943.",
-   "detail": "Landings began June 30, 1943 at Rendova and elsewhere; Munda airfield fell Aug. 5. LCIs carried later echelons of troops to the beaches. Tom's letters have a gap from June 11 to Aug. 1, 1943 that matches these operations exactly; he could not mention them.",
+   "detail": "Landings began June 30, 1943 at Rendova and elsewhere; Munda airfield fell Aug. 5. LCIs carried later echelons of troops to the beaches. On the afternoon of July 4, sixteen Japanese bombers attacked LCI Flotilla Five's ships as they landed the 169th Infantry on Rendova's East Beach: three LCI sailors and eleven soldiers were killed. Tom's letters have a gap from June 11 to Aug. 1, 1943 that matches these operations exactly; he could not mention them.",
    "dates": "1943-06-30 to 1943-08-25",
    "confidence": "confirmed",
    "see_also": [
@@ -526,6 +526,10 @@
     {
      "title": "NavSource: LCI(L)-62",
      "url": "https://www.navsource.net/archives/10/15/150062.htm"
+    },
+    {
+     "title": "USS LCI National Association: On the Fourth They Fought Back (Rendova, July 4, 1943)",
+     "url": "http://usslci.org/on-the-fourth-they-fought-back/"
     }
    ]
   },
@@ -3401,6 +3405,23 @@
     "entity": "military.24-hour-time"
    },
    {
+    "id": "a5",
+    "start": 1799,
+    "end": 1826,
+    "text": "our graduation is October 2",
+    "kind": "context",
+    "entity": "event.graduation-1942-10-21",
+    "note": "The first of several rumoured dates (later Oct. 13 and Oct. 28). The class actually graduated on Oct. 21, 1942."
+   },
+   {
+    "id": "a6",
+    "start": 1969,
+    "end": 2009,
+    "text": "I think the Navy\nis hard up for officers",
+    "kind": "context",
+    "note": "He was right. In March 1941 the Navy had only about 18,000 officers; between Pearl Harbor and the end of 1944 it commissioned some 286,000 more, most of them reservists trained in a few months, like Tom."
+   },
+   {
     "id": "a4",
     "start": 2047,
     "end": 2069,
@@ -3487,6 +3508,15 @@
     "kind": "reference",
     "entity": "event.dieppe-raid",
     "note": "Almost certainly the Dieppe Raid of Aug. 19, 1942, so this letter was probably finished on the 19th despite its date."
+   },
+   {
+    "id": "a3",
+    "start": 1918,
+    "end": 1947,
+    "text": "graduation will be October 13",
+    "kind": "context",
+    "entity": "event.graduation-1942-10-21",
+    "note": "Not quite 'definite': graduation was held a week later, on Oct. 21, 1942."
    }
   ],
   "1942-08-22_tom-to-mother-postcard.txt": [
@@ -3757,6 +3787,15 @@
     "entity": "place.hackensack"
    },
    {
+    "id": "a5",
+    "start": 821,
+    "end": 849,
+    "text": "graduation will be postponed",
+    "kind": "context",
+    "entity": "event.graduation-1942-10-21",
+    "note": "This rumour was wrong too. Graduation stayed on Oct. 21, 1942 (see the letter of Sept. 19)."
+   },
+   {
     "id": "a3",
     "start": 1174,
     "end": 1197,
@@ -3889,6 +3928,15 @@
     "text": "the 2nd front",
     "kind": "reference",
     "entity": "military.second-front"
+   },
+   {
+    "id": "a7",
+    "start": 2033,
+    "end": 2081,
+    "text": "that means we\nwill have until next spring anyway",
+    "kind": "context",
+    "entity": "event.operation-torch",
+    "note": "It came much sooner than he expected. The Allied landings in North Africa (Operation Torch) began on Nov. 8, 1942, less than six weeks after this letter, while Tom was at Solomons. The cross-Channel 'second front' waited until D-Day, June 6, 1944."
    },
    {
     "id": "a6",
@@ -4716,9 +4764,15 @@
     "start": 5245,
     "end": 5249,
     "text": "Time",
-    "kind": "reference",
+    "kind": "context",
     "entity": "culture.time-magazine",
-    "note": "Time, Nov. 30, 1942. The article on page 70 is not identified."
+    "note": "Page 70 of Time, Nov. 30, 1942 has two short items that fit. 'Superlative for \"Snafu\"' explains the new service slang ('situation normal, all fouled up'), and 'Open Passage' reports the formal opening of the Alaska Highway. Tom most likely meant the Snafu piece: it matches his complaints about red tape at Solomons, and he used the word himself on Jan. 15, 1943.",
+    "images": [
+     {
+      "file": "additional_context/time_page_70.webp",
+      "caption": "Time, Nov. 30, 1942, page 70"
+     }
+    ]
    }
   ],
   "1942-11-xx_tom-to-mother-wednesday.txt": [
@@ -4729,6 +4783,15 @@
     "text": "scuttlebutt",
     "kind": "reference",
     "entity": "military.scuttlebutt"
+   },
+   {
+    "id": "a6",
+    "start": 1584,
+    "end": 1621,
+    "text": "our ship will be commissioned Dec. 25",
+    "kind": "context",
+    "entity": "ship.lci-l-345",
+    "note": "Close. Tom's crew did pick up its ship at a Gulf port, but a month later: LCI(L)-345 was commissioned at Houston on Jan. 22, 1943."
    },
    {
     "id": "a2",
@@ -5196,6 +5259,15 @@
     "note": "A wedding write-up exaggerated Chet's service; he was still in the East."
    },
    {
+    "id": "a12",
+    "start": 1452,
+    "end": 1502,
+    "text": "It will be a few months before I leave the country",
+    "kind": "context",
+    "entity": "event.voyage-1943",
+    "note": "In fact it was less than three weeks. Tom was moved to LCI(L)-62 on Feb. 3, 1943, and she sailed for the Pacific the next day."
+   },
+   {
     "id": "a3",
     "start": 1524,
     "end": 1533,
@@ -5241,7 +5313,8 @@
     "end": 3603,
     "text": "Snafu",
     "kind": "reference",
-    "entity": "military.snafu"
+    "entity": "military.snafu",
+    "note": "Time had explained the word to its readers on Nov. 30, 1942, in the issue Tom told John to read (letter of Nov. 28)."
    },
    {
     "id": "a9",
@@ -5946,6 +6019,15 @@
     "text": "our destination",
     "kind": "reference",
     "entity": "event.voyage-1943"
+   },
+   {
+    "id": "a5",
+    "start": 1762,
+    "end": 1815,
+    "text": "I am hoping for a leave in about three or four months",
+    "kind": "context",
+    "entity": "military.relief",
+    "note": "It took almost a year. Tom stayed in the South Pacific through the New Georgia and Bougainville operations and did not get home until spring 1944."
    }
   ],
   "1943-04-07_tom-to-unc.txt": [
@@ -6283,7 +6365,8 @@
     "end": 6422,
     "text": "Alaskan Highway",
     "kind": "reference",
-    "entity": "culture.alaska-highway"
+    "entity": "culture.alaska-highway",
+    "note": "The Time page Tom recommended in Nov. 1942 had reported the road's formal opening."
    },
    {
     "id": "a20",
@@ -6681,6 +6764,15 @@
     "text": "the cottage",
     "kind": "context",
     "note": "The family's summer cottage at 'the Lake' (see Sept. 1942)."
+   },
+   {
+    "id": "a15",
+    "start": 2411,
+    "end": 2467,
+    "text": "I will be quite fortunate if I\nget home before Christmas",
+    "kind": "context",
+    "entity": "military.relief",
+    "note": "He wasn't that fortunate: Christmas 1943 was spent in the Solomons (see his Christmas Day letter to the Pelkeys). He reached home in spring 1944."
    },
    {
     "id": "a12",
@@ -7484,6 +7576,14 @@
     "note": "Mail was sometimes lost when ships or planes carrying it went down."
    },
    {
+    "id": "a6",
+    "start": 1081,
+    "end": 1110,
+    "text": "We will\nconsider it Christmas",
+    "kind": "context",
+    "note": "Good timing: the Post Office asked families to mail Christmas gifts for men overseas between Sept. 15 and Oct. 15 so they would arrive in time. A pair of slippers came in a package on Dec. 6."
+   },
+   {
     "id": "a3",
     "start": 1160,
     "end": 1223,
@@ -7820,6 +7920,15 @@
     "note": "The planned length of a South Pacific tour for small-craft officers. In fact Tom came home after about 13 months, in spring 1944."
    },
    {
+    "id": "a18",
+    "start": 1848,
+    "end": 1878,
+    "text": "return out here for the finish",
+    "kind": "context",
+    "entity": "place.portland-me",
+    "note": "The second tour never came. After coming home in spring 1944 Tom served ashore at Portland, Maine, then spent spring 1945 in the naval hospital with malaria. Japan surrendered on Aug. 15, 1945."
+   },
+   {
     "id": "a11",
     "start": 1990,
     "end": 2001,
@@ -8141,6 +8250,15 @@
     "entity": "event.central-pacific-1944"
    },
    {
+    "id": "a8",
+    "start": 1345,
+    "end": 1424,
+    "text": "They aren't\n\n[--- 1944-02-20_tom-to-mum_p02.jpg ---]\n\nlosing much time up there",
+    "kind": "context",
+    "entity": "ship.lci-l-345",
+    "note": "Among the ships 'up there' was Tom's first ship, LCI(L)-345, now a gunboat, which took part in the Marshall Islands landings. The pace did continue: U.S. forces landed on Saipan in the Marianas in June 1944."
+   },
+   {
     "id": "a6",
     "start": 1483,
     "end": 1533,
@@ -8252,6 +8370,15 @@
     "text": "Lane",
     "kind": "reference",
     "entity": "person.lane"
+   },
+   {
+    "id": "a8",
+    "start": 1326,
+    "end": 1368,
+    "text": "I have a feeling\nsome changes will be made",
+    "kind": "context",
+    "entity": "military.malaria",
+    "note": "A change did come within weeks, though not the one he meant: by April 4 he was a patient at the naval hospital, and the diagnosis turned out to be malaria picked up in the South Pacific."
    },
    {
     "id": "a5",

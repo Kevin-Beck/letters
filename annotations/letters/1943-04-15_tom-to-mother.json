@@ -156,7 +156,8 @@
     "exact": "Alaskan Highway"
    },
    "kind": "reference",
-   "entity": "culture.alaska-highway"
+   "entity": "culture.alaska-highway",
+   "note": "The Time page Tom recommended in Nov. 1942 had reported the road's formal opening."
   },
   {
    "id": "a20",

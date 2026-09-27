@@ -64,7 +64,8 @@
     "exact": "Snafu"
    },
    "kind": "reference",
-   "entity": "military.snafu"
+   "entity": "military.snafu",
+   "note": "Time had explained the word to its readers on Nov. 30, 1942, in the issue Tom told John to read (letter of Nov. 28)."
   },
   {
    "id": "a9",
@@ -90,6 +91,15 @@
    },
    "kind": "reference",
    "entity": "military.uniform-allowance"
+  },
+  {
+   "id": "a12",
+   "quote": {
+    "exact": "It will be a few months before I leave the country"
+   },
+   "kind": "context",
+   "entity": "event.voyage-1943",
+   "note": "In fact it was less than three weeks. Tom was moved to LCI(L)-62 on Feb. 3, 1943, and she sailed for the Pacific the next day."
   }
  ]
 }

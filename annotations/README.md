@@ -84,6 +84,10 @@ alongside them and point into them by quoting the exact words.
     letter or added handwriting.
 - **confidence** on an annotation overrides the entity's value for that
   passage.
+- **images** (optional) is a list of `{"file": ..., "caption": ...}` pictures
+  shown in the note, for example a scanned magazine page the letter refers
+  to. `file` is relative to the project folder (put new pictures in
+  `additional_context/`). The build checks that each file exists.
 - Annotation ids (`a1`, `a2`, …) are stable. Add new ones at the end with the
   next number, and don't renumber.
 

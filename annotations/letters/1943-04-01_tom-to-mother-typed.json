@@ -33,6 +33,15 @@
    },
    "kind": "reference",
    "entity": "military.v-mail"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "I am hoping for a leave in about three or four months"
+   },
+   "kind": "context",
+   "entity": "military.relief",
+   "note": "It took almost a year. Tom stayed in the South Pacific through the New Georgia and Bougainville operations and did not get home until spring 1944."
   }
  ]
 }

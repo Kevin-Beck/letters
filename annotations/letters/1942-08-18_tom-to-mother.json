@@ -17,6 +17,15 @@
    "kind": "reference",
    "entity": "event.dieppe-raid",
    "note": "Almost certainly the Dieppe Raid of Aug. 19, 1942, so this letter was probably finished on the 19th despite its date."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "graduation will be October 13"
+   },
+   "kind": "context",
+   "entity": "event.graduation-1942-10-21",
+   "note": "Not quite 'definite': graduation was held a week later, on Oct. 21, 1942."
   }
  ]
 }

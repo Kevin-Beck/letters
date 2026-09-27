@@ -32,6 +32,15 @@
    },
    "kind": "reference",
    "entity": "person.mcclungs"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "graduation will be postponed"
+   },
+   "kind": "context",
+   "entity": "event.graduation-1942-10-21",
+   "note": "This rumour was wrong too. Graduation stayed on Oct. 21, 1942 (see the letter of Sept. 19)."
   }
  ]
 }

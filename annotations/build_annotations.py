@@ -118,7 +118,10 @@ def main():
             start, end = matches[0]
             item = {"id": aid, "start": start, "end": end,
                     "text": text[start:end], "kind": a["kind"]}
-            for k in ("entity", "note", "confidence", "sources"):
+            for img in a.get("images", []):
+                if not (HERE.parent / img.get("file", "")).is_file():
+                    errors.append(f"{where}: image {img.get('file')!r} not found")
+            for k in ("entity", "note", "confidence", "sources", "images"):
                 if a.get(k):
                     item[k] = a[k]
             out.append(item)
