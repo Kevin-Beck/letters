@@ -309,8 +309,8 @@ guarantees JavaScript string offsets equal the Python offsets.
 ### 6.1 Timeline
 
 **Axis**
-- The axis runs from `range.start` to `range.end` at **2 px per day**,
-  about 2,190 px wide.
+- The axis runs from `range.start` to `range.end` at **4 px per day**,
+  about 120 px per month and 4,400 px in all.
 - The timeline area is one screen wide and scrolls sideways.
 - Month ticks carry three-letter names. At every January, and at the start
   of the axis, the year appears in bold.
@@ -321,7 +321,7 @@ guarantees JavaScript string offsets equal the Python offsets.
   - a longer event is a shaded band covering its dates.
 - The label sits beside the flag or at the start of the band. Several
   one-day events are only days apart (Nov–Dec 1942), so labels are
-  **staggered** over as many rows as they need (7 with the current data, up
+  **staggered** over as many rows as they need (6 with the current data, up
   to a limit of 12): each label goes in the lowest row where it fits in
   full, so no label overlaps another or is cut short. Only past the 12-row
   limit is a label cut short with an ellipsis before the next event in its
