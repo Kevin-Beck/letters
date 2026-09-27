@@ -22,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 EXPECTED_TOP = {"README.md", "rename_log.csv", "annotations", "data", "delete",
-                "photos", "scans", "tools", "transcriptions", ".git"}
+                "photos", "scans", "tools", "transcriptions", "Viewer_design.md", ".git"}
 
 
 def main():

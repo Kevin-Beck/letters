@@ -22,6 +22,7 @@ browser app for reading the letters.
 | `photos/` | Family photographs (not letters; not transcribed) |
 | `delete/` | Duplicate scans and old drafts. **Safe to delete** (see `delete/README.md`) |
 | `tools/check_project.py` | Checks that the files and the index agree |
+| `Viewer_design.md` | Design for `viewer.html`, the planned single-file browser viewer |
 | `rename_log.csv` | Every file's old name and new name from the reorganization |
 
 ## How files are named
