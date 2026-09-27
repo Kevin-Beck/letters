@@ -1,0 +1,46 @@
+{
+ "letter": "1942-07-23_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "typhoid\nserum"
+   },
+   "kind": "reference",
+   "entity": "military.typhoid-shots"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "sworn in as midshipmen"
+   },
+   "kind": "reference",
+   "entity": "military.midshipman"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "The article of the wedding"
+   },
+   "kind": "reference",
+   "entity": "person.betty",
+   "note": "A newspaper write-up of Dick and Betty's wedding (see July 18)."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "pursuits"
+   },
+   "kind": "reference",
+   "entity": "military.pursuit-plane"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Flying Fortresses"
+   },
+   "kind": "reference",
+   "entity": "military.b-17"
+  }
+ ]
+}

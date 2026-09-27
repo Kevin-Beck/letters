@@ -1,0 +1,70 @@
+{
+ "letter": "1945-winter_tom-to-mother-typed-portland.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "I HAVE THE DUTY"
+   },
+   "kind": "reference",
+   "entity": "military.the-duty"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "THE CHEV"
+   },
+   "kind": "context",
+   "note": "Tom's Chevrolet."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "PORTLAND 3-0411"
+   },
+   "kind": "reference",
+   "entity": "place.portland-me"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "\"THE FIGHTING LADY\""
+   },
+   "kind": "reference",
+   "entity": "culture.fighting-lady",
+   "note": "Released Dec. 1944, which helps date this undated letter to winter 1944-45."
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "MRS. PARKINGTON\""
+   },
+   "kind": "reference",
+   "entity": "culture.mrs-parkington"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "\"GIRL RUSH\""
+   },
+   "kind": "reference",
+   "entity": "culture.girl-rush"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "LANC [Lane]"
+   },
+   "kind": "reference",
+   "entity": "person.lane"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "ANY DUTY\nIN THE STATES IS GOOD DUTY"
+   },
+   "kind": "context",
+   "note": "A common feeling among men who had served overseas."
+  }
+ ]
+}

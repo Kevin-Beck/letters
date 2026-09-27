@@ -1,0 +1,46 @@
+{
+ "letter": "undated_daddy-to-tommy-hotel-st-george.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Hotel St. George, Clark Street"
+   },
+   "kind": "reference",
+   "entity": "place.hotel-st-george"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Johnny's"
+   },
+   "kind": "reference",
+   "entity": "person.john-beck"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Daddy",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.john-a-beck"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Most of the caddies are dirty looking foreigners"
+   },
+   "kind": "content-note",
+   "note": "A prejudiced remark about immigrant caddies, typical of nativist attitudes of the 1920s-30s. Kept as written."
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "your\npapers"
+   },
+   "kind": "context",
+   "note": "Probably young Tommy's newspaper route, though it could mean schoolwork."
+  }
+ ]
+}

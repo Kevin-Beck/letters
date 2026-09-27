@@ -1,0 +1,45 @@
+{
+ "letter": "1942-11-xx_tom-to-mother-wednesday.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "scuttlebutt"
+   },
+   "kind": "reference",
+   "entity": "military.scuttlebutt"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "New Orleans"
+   },
+   "kind": "reference",
+   "entity": "place.new-orleans"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "all the soft jobs are going to the Jews"
+   },
+   "kind": "content-note",
+   "note": "Antisemitic and anti-Japanese remarks, common prejudices of the time. 'Jap' was the standard wartime slur for Japanese people. Kept as written as part of the historical record."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Chet"
+   },
+   "kind": "reference",
+   "entity": "person.chet-beard"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "maneuvers in the Gulf"
+   },
+   "kind": "context",
+   "note": "New LCIs built at Gulf Coast yards trained in the Gulf of Mexico before deploying."
+  }
+ ]
+}

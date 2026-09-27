@@ -1,0 +1,45 @@
+{
+ "letter": "1942-08-08_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "missed the tree"
+   },
+   "kind": "reference",
+   "entity": "military.on-the-tree"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Captain's\nInspection"
+   },
+   "kind": "reference",
+   "entity": "military.captains-inspection"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Yankee Stadium"
+   },
+   "kind": "reference",
+   "entity": "place.yankee-stadium"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "the Giants and the Cards"
+   },
+   "kind": "reference",
+   "entity": "culture.cardinals-1942"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "5% bilge"
+   },
+   "kind": "reference",
+   "entity": "military.bilge"
+  }
+ ]
+}

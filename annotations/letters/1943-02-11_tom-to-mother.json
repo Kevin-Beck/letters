@@ -1,0 +1,63 @@
+{
+ "letter": "1943-02-11_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "I came aboard this ship the night before sailing"
+   },
+   "kind": "reference",
+   "entity": "event.voyage-1943"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "12 to 4 watches"
+   },
+   "kind": "reference",
+   "entity": "military.watch-rotation"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "The ship\nis darkened"
+   },
+   "kind": "reference",
+   "entity": "military.darkened-ship"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "I never took a sextant sight before"
+   },
+   "kind": "reference",
+   "entity": "military.celestial-navigation"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "lead ship's"
+   },
+   "kind": "context",
+   "note": "The LCIs travelled in a group with a lead ship doing the main navigation."
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "we arrived here and are now at anchor"
+   },
+   "kind": "inference",
+   "entity": "place.panama-canal-zone",
+   "note": "Censored location. About a week out from Texas, hot in February, and 'left the States': almost certainly the Panama Canal Zone, the route to the Pacific.",
+   "confidence": "probable"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "V-mail"
+   },
+   "kind": "reference",
+   "entity": "military.v-mail"
+  }
+ ]
+}

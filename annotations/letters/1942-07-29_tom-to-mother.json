@@ -1,0 +1,45 @@
+{
+ "letter": "1942-07-29_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "on\nthe tree"
+   },
+   "kind": "reference",
+   "entity": "military.on-the-tree"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "blinker"
+   },
+   "kind": "reference",
+   "entity": "military.signaling"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Wheeling"
+   },
+   "kind": "reference",
+   "entity": "place.wheeling"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Prairie State"
+   },
+   "kind": "reference",
+   "entity": "ship.prairie-state"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "(the Illinois)"
+   },
+   "kind": "reference",
+   "entity": "ship.prairie-state"
+  }
+ ]
+}

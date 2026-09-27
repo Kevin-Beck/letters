@@ -1,0 +1,63 @@
+{
+ "letter": "1943-11-27_tom-to-mum.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Bob Hope"
+   },
+   "kind": "reference",
+   "entity": "culture.bob-hope"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "a game of\nskill"
+   },
+   "kind": "context",
+   "note": "Tom's joke for a poker game, timed for payday."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Ernie Pyle's book"
+   },
+   "kind": "reference",
+   "entity": "culture.here-is-your-war"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "income tax"
+   },
+   "kind": "reference",
+   "entity": "culture.income-tax-1943"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Thanksgiving dinner"
+   },
+   "kind": "reference",
+   "entity": "event.thanksgiving-1943"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "not\neaten under the best circumstances"
+   },
+   "kind": "inference",
+   "entity": "event.bougainville",
+   "note": "Perhaps a hint of operations: in late Nov. 1943 LCIs were running reinforcements to the Bougainville beachhead.",
+   "confidence": "speculative"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Lewisburg"
+   },
+   "kind": "reference",
+   "entity": "place.bucknell"
+  }
+ ]
+}

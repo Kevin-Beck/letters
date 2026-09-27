@@ -1,0 +1,63 @@
+{
+ "letter": "1944-01-04_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "numbering letters"
+   },
+   "kind": "context",
+   "note": "Servicemen numbered their letters so the family could tell whether any had been lost or arrived out of order."
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "a Time"
+   },
+   "kind": "reference",
+   "entity": "culture.time-magazine"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Aunt Bess"
+   },
+   "kind": "reference",
+   "entity": "person.aunt-bess"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "\"Burma Doctor.\""
+   },
+   "kind": "reference",
+   "entity": "culture.burma-surgeon"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Betty's",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.betty"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Mincy's [?]"
+   },
+   "kind": "reference",
+   "entity": "person.mincy"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "A quarter of a century"
+   },
+   "kind": "reference",
+   "entity": "person.tom-beck",
+   "note": "Tom would turn 25 on Feb. 27, 1944, which puts his birth on Feb. 27, 1919."
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "letter": "1943-01-15_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Sprecher"
+   },
+   "kind": "reference",
+   "entity": "person.sprecher"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Chet just came back from the Pacific Fleet"
+   },
+   "kind": "reference",
+   "entity": "person.chet-beard",
+   "note": "A wedding write-up exaggerated Chet's service; he was still in the East."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Galveston"
+   },
+   "kind": "reference",
+   "entity": "place.galveston"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "the Postmaster address"
+   },
+   "kind": "reference",
+   "entity": "military.postmaster-address"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "the Cape Charles Ferry"
+   },
+   "kind": "reference",
+   "entity": "place.cape-charles-ferry"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Little Creek"
+   },
+   "kind": "reference",
+   "entity": "place.little-creek"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Ambiguous Force"
+   },
+   "kind": "reference",
+   "entity": "organization.amphibious-force"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Snafu"
+   },
+   "kind": "reference",
+   "entity": "military.snafu"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "income tax"
+   },
+   "kind": "reference",
+   "entity": "culture.income-tax-1943"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "$21 as A.S., $195 as Midshipman, & $300 as Ensign"
+   },
+   "kind": "reference",
+   "entity": "term.wartime-prices",
+   "note": "Tom's 1942 service pay by rank: Apprentice Seaman, Midshipman and Ensign. His whole 1942 Navy income of about $666 is roughly $13,000 today."
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "$150 Uniform\nGratuity"
+   },
+   "kind": "reference",
+   "entity": "military.uniform-allowance"
+  }
+ ]
+}

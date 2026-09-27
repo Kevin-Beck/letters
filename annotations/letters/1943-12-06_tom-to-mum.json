@@ -1,0 +1,143 @@
+{
+ "letter": "1943-12-06_tom-to-mum.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "The memorial dedication"
+   },
+   "kind": "reference",
+   "entity": "place.chicora-memorial"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Chicora"
+   },
+   "kind": "reference",
+   "entity": "place.chicora"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Dick Gaisford"
+   },
+   "kind": "context",
+   "note": "A Chicora resident or business used as a landmark; not identified."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Margie"
+   },
+   "kind": "reference",
+   "entity": "person.marge"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "white civilians"
+   },
+   "kind": "context",
+   "note": "In the Solomons the civilian population was Melanesian islanders, and Europeans had been evacuated. Tom's phrasing reflects the racial outlook of the time."
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Henry",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.henry"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Italy"
+   },
+   "kind": "reference",
+   "entity": "event.invasion-of-italy"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Bill"
+   },
+   "kind": "reference",
+   "entity": "person.bill-jameson"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Armistice\nDay"
+   },
+   "kind": "reference",
+   "entity": "event.armistice-day"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "my 18 months out here"
+   },
+   "kind": "context",
+   "note": "The planned length of a South Pacific tour for small-craft officers. In fact Tom came home after about 13 months, in spring 1944."
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "Glenn Scott"
+   },
+   "kind": "reference",
+   "entity": "person.glenn-scott"
+  },
+  {
+   "id": "a12",
+   "quote": {
+    "exact": "Jack"
+   },
+   "kind": "context",
+   "note": "Apparently bad news about someone named Jack that Glenn Scott's family had kept from him, perhaps a casualty. Not identified."
+  },
+  {
+   "id": "a13",
+   "quote": {
+    "exact": "a big director"
+   },
+   "kind": "reference",
+   "entity": "person.elva-beck"
+  },
+  {
+   "id": "a14",
+   "quote": {
+    "exact": "rationing"
+   },
+   "kind": "reference",
+   "entity": "organization.opa"
+  },
+  {
+   "id": "a15",
+   "quote": {
+    "exact": "Frazier-McCafferty"
+   },
+   "kind": "context",
+   "note": "Not identified. Frazier is Tom's middle name, so perhaps relatives or a family firm.",
+   "confidence": "speculative"
+  },
+  {
+   "id": "a16",
+   "quote": {
+    "exact": "Aunt Lyde"
+   },
+   "kind": "reference",
+   "entity": "person.aunt-lyle"
+  },
+  {
+   "id": "a17",
+   "quote": {
+    "exact": "Isabel"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  }
+ ]
+}

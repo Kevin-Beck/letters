@@ -1,0 +1,94 @@
+{
+ "letter": "1943-05-16_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Betty"
+   },
+   "kind": "reference",
+   "entity": "person.betty"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "John has made up his mind"
+   },
+   "kind": "reference",
+   "entity": "person.fran-beck",
+   "note": "John's engagement to Fran."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Uncle John"
+   },
+   "kind": "reference",
+   "entity": "person.uncle-john-libby"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "John's suitcase"
+   },
+   "kind": "reference",
+   "entity": "person.john-beck"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "financial adviser (John)"
+   },
+   "kind": "reference",
+   "entity": "person.john-beck"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "buy a bond"
+   },
+   "kind": "reference",
+   "entity": "culture.war-bonds"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Africa\nis just about de-loused"
+   },
+   "kind": "reference",
+   "entity": "event.tunisia-campaign"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Henry"
+   },
+   "kind": "reference",
+   "entity": "person.henry"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Marge"
+   },
+   "kind": "reference",
+   "entity": "person.marge"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "overseas caps"
+   },
+   "kind": "reference",
+   "entity": "military.overseas-cap"
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "2300"
+   },
+   "kind": "reference",
+   "entity": "military.24-hour-time"
+  }
+ ]
+}

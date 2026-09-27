@@ -1,0 +1,21 @@
+{
+ "letter": "1942-08-10_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "UNI- [crossed out] versity  4-9273"
+   },
+   "kind": "reference",
+   "entity": "culture.telephone-exchanges"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Isabel"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  }
+ ]
+}

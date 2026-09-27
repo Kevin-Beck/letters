@@ -1,0 +1,64 @@
+{
+ "letter": "1943-04-30_tom-to-mother-vmail.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "[V-MAIL form"
+   },
+   "kind": "reference",
+   "entity": "military.v-mail"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "midnight to four watch"
+   },
+   "kind": "reference",
+   "entity": "military.watch-rotation"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Aunt Harriet"
+   },
+   "kind": "reference",
+   "entity": "person.hank-harriet"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Yeoman",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "military.yeoman"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Izzy"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Don",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.don-w"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "[Morse-code-like dots and dashes typed at lower left]"
+   },
+   "kind": "transcription",
+   "note": "Perhaps a playful sign-off in Morse code; not decoded.",
+   "confidence": "speculative"
+  }
+ ]
+}

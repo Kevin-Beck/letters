@@ -1,0 +1,55 @@
+{
+ "letter": "1942-07-11_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Prairie State"
+   },
+   "kind": "reference",
+   "entity": "ship.prairie-state"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Navy\nLeague"
+   },
+   "kind": "reference",
+   "entity": "organization.navy-league"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "U.S.O."
+   },
+   "kind": "reference",
+   "entity": "organization.uso"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "indoctrination period"
+   },
+   "kind": "reference",
+   "entity": "military.v-7"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Geo. Wagenhorst"
+   },
+   "kind": "reference",
+   "entity": "person.george-wagenhorst"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "I just left John"
+   },
+   "kind": "reference",
+   "entity": "person.john-beck",
+   "note": "Tom's brother John was visiting New York.",
+   "confidence": "probable"
+  }
+ ]
+}

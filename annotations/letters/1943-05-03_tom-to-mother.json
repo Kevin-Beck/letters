@@ -1,0 +1,94 @@
+{
+ "letter": "1943-05-03_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Mail Call"
+   },
+   "kind": "context",
+   "note": "Mail reached ships in forward areas irregularly, sometimes weeks of letters at once."
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Petrolia"
+   },
+   "kind": "reference",
+   "entity": "place.petrolia"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "censor",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "military.censorship"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Pitt"
+   },
+   "kind": "reference",
+   "entity": "organization.pitt"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "John Jay"
+   },
+   "kind": "reference",
+   "entity": "place.john-jay-hall"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Galveston"
+   },
+   "kind": "reference",
+   "entity": "place.galveston"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "cablegram"
+   },
+   "kind": "reference",
+   "entity": "organization.postal-telegraph"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Mother's Day"
+   },
+   "kind": "reference",
+   "entity": "event.mothers-day-1943"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Aunt Lyle"
+   },
+   "kind": "reference",
+   "entity": "person.aunt-lyle"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "K.C."
+   },
+   "kind": "reference",
+   "entity": "place.karns-city"
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "0600 - Reveille"
+   },
+   "kind": "reference",
+   "entity": "military.24-hour-time"
+  }
+ ]
+}

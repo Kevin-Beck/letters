@@ -1,0 +1,21 @@
+{
+ "letter": "1942-07-22_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "bilge"
+   },
+   "kind": "reference",
+   "entity": "military.bilge"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Morse Code"
+   },
+   "kind": "reference",
+   "entity": "military.signaling"
+  }
+ ]
+}

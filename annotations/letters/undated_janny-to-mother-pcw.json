@@ -1,0 +1,70 @@
+{
+ "letter": "undated_janny-to-mother-pcw.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Billy"
+   },
+   "kind": "reference",
+   "entity": "person.bill-jameson"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "the 7th Ave."
+   },
+   "kind": "context",
+   "note": "Probably the Seventh Avenue Hotel in downtown Pittsburgh.",
+   "confidence": "probable"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "my 'little sister'"
+   },
+   "kind": "context",
+   "note": "Women's colleges paired each freshman with an upperclass 'big sister'."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Shadyside"
+   },
+   "kind": "reference",
+   "entity": "place.pcw"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Home\nEc."
+   },
+   "kind": "context",
+   "note": "Home Economics, a popular course of study for women."
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Daddy's car"
+   },
+   "kind": "reference",
+   "entity": "person.john-a-beck"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Isabel's room"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Love\nJanny"
+   },
+   "kind": "reference",
+   "entity": "person.janny"
+  }
+ ]
+}

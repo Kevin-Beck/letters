@@ -1,0 +1,54 @@
+{
+ "letter": "1943-01-31_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "The executive officer on another ship is sick"
+   },
+   "kind": "reference",
+   "entity": "ship.lci-l-62"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Margorie"
+   },
+   "kind": "reference",
+   "entity": "person.marge"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Roudybush [?] wedding"
+   },
+   "kind": "context",
+   "note": "A wedding in Houston (name reading uncertain)."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Bertha Beck"
+   },
+   "kind": "reference",
+   "entity": "person.bertha-beck"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "$366"
+   },
+   "kind": "reference",
+   "entity": "term.wartime-prices",
+   "note": "About $7,000 today, accumulated back pay."
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "#62"
+   },
+   "kind": "reference",
+   "entity": "ship.lci-l-62"
+  }
+ ]
+}

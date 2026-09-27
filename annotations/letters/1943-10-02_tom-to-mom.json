@@ -1,0 +1,80 @@
+{
+ "letter": "1943-10-02_tom-to-mom.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Cannonsburg"
+   },
+   "kind": "reference",
+   "entity": "place.canonsburg"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Aunt Bess"
+   },
+   "kind": "reference",
+   "entity": "person.aunt-bess"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Moshers"
+   },
+   "kind": "reference",
+   "entity": "person.adam-moser"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "John & George inherited their\npoker sense from Dad"
+   },
+   "kind": "reference",
+   "entity": "person.john-beck",
+   "note": "This line confirms that John and George are Tom's brothers."
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Schwalbach",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.schwalbach"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Hofmann",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.jim-hoffman"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Sheepshead"
+   },
+   "kind": "reference",
+   "entity": "culture.sheepshead"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Adam & Dorthy"
+   },
+   "kind": "reference",
+   "entity": "person.adam-moser"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Aunt Harriet"
+   },
+   "kind": "reference",
+   "entity": "person.hank-harriet"
+  }
+ ]
+}

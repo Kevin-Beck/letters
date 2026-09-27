@@ -1,0 +1,45 @@
+{
+ "letter": "1942-11-26_tom-to-dad-thanksgiving.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Baker (my roommate & bud now)"
+   },
+   "kind": "reference",
+   "entity": "person.baker"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "maneuver-board drill"
+   },
+   "kind": "reference",
+   "entity": "military.maneuvering-board"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Butler Hospital"
+   },
+   "kind": "reference",
+   "entity": "place.butler-va-hospital"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "some one type of people seem to get soft jobs"
+   },
+   "kind": "content-note",
+   "note": "An antisemitic remark (made explicit a few lines later), echoing Dad's letter. The charge that Jews avoided hard or dangerous service was a common prejudice of the time, and false: about 550,000 Jewish Americans served in WWII. Kept as written."
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "complaining about the Jews"
+   },
+   "kind": "content-note",
+   "note": "Antisemitic remark, kept as written as part of the historical record."
+  }
+ ]
+}

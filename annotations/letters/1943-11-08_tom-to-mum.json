@@ -1,0 +1,23 @@
+{
+ "letter": "1943-11-08_tom-to-mum.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "I haven't much time"
+   },
+   "kind": "inference",
+   "entity": "event.bougainville",
+   "note": "No letters survive between Oct. 9 and Nov. 8, 1943, the period of the Treasury Islands (Oct. 27) and Bougainville (Nov. 1) landings. LCI(L)-62 received battle credit in the Treasury-Bougainville operation for Dec. 3-4, 1943.",
+   "confidence": "probable"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "The Air Mail"
+   },
+   "kind": "reference",
+   "entity": "culture.air-mail"
+  }
+ ]
+}

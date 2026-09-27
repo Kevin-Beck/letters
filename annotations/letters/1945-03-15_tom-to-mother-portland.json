@@ -1,0 +1,62 @@
+{
+ "letter": "1945-03-15_tom-to-mother-portland.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "U.S. Naval Station",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "place.portland-me"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Portland (3) Me."
+   },
+   "kind": "reference",
+   "entity": "culture.postal-zones"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "[8-cent air mail stamp]"
+   },
+   "kind": "reference",
+   "entity": "culture.airmail-8c"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Lane"
+   },
+   "kind": "reference",
+   "entity": "person.lane"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "McClungs"
+   },
+   "kind": "reference",
+   "entity": "person.mcclungs"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Geo."
+   },
+   "kind": "reference",
+   "entity": "person.george-beck"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "The license plate"
+   },
+   "kind": "context",
+   "note": "For Tom's car, a Chevrolet (see the typed winter 1945 letter). Gasoline was still rationed."
+  }
+ ]
+}

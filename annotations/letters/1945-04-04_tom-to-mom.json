@@ -1,0 +1,31 @@
+{
+ "letter": "1945-04-04_tom-to-mom.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "around the yard"
+   },
+   "kind": "reference",
+   "entity": "place.portsmouth-naval-hospital",
+   "note": "The Portsmouth Navy Yard, where the naval hospital stood.",
+   "confidence": "probable"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "USO show"
+   },
+   "kind": "reference",
+   "entity": "organization.uso"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Portsmouth"
+   },
+   "kind": "reference",
+   "entity": "place.portsmouth-naval-hospital"
+  }
+ ]
+}

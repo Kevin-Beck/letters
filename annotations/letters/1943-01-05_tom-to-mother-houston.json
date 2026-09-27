@@ -1,0 +1,39 @@
+{
+ "letter": "1943-01-05_tom-to-mother-houston.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "RICE HOTEL, Houston, Texas"
+   },
+   "kind": "reference",
+   "entity": "place.rice-hotel"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "New Orleans",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "place.new-orleans"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "The base here is small but very nice"
+   },
+   "kind": "context",
+   "note": "Probably the Navy facility serving the Brown Shipbuilding yard on Greens Bayou, Houston, where LCI(L)-345 was built.",
+   "confidence": "speculative"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "there isn't a bar in the whole\nstate"
+   },
+   "kind": "reference",
+   "entity": "culture.texas-liquor-laws"
+  }
+ ]
+}

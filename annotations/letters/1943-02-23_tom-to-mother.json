@@ -1,0 +1,45 @@
+{
+ "letter": "1943-02-23_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "anchored out to-night and I think for the last time for quite sometime"
+   },
+   "kind": "reference",
+   "entity": "event.voyage-1943"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "cross the\nequator"
+   },
+   "kind": "reference",
+   "entity": "military.shellback"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Balzac"
+   },
+   "kind": "reference",
+   "entity": "culture.balzac"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "0500"
+   },
+   "kind": "reference",
+   "entity": "military.24-hour-time"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Don't worry if you don't hear from me for a couple of months"
+   },
+   "kind": "context",
+   "note": "Letters resumed from the South Pacific in mid-March, and the family got a reassuring cable on April 12."
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "letter": "1943-01-11_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "George"
+   },
+   "kind": "reference",
+   "entity": "person.george-beck"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Ellington Field"
+   },
+   "kind": "reference",
+   "entity": "place.ellington-field"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "the \"Y.\""
+   },
+   "kind": "reference",
+   "entity": "organization.ymca"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Ophelia"
+   },
+   "kind": "reference",
+   "entity": "person.ophelia"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Paradise Creek"
+   },
+   "kind": "reference",
+   "entity": "place.paradise-creek"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Galveston"
+   },
+   "kind": "reference",
+   "entity": "place.galveston"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "was at Africa"
+   },
+   "kind": "reference",
+   "entity": "event.operation-torch"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Glenn Scott"
+   },
+   "kind": "reference",
+   "entity": "person.glenn-scott"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Oil City"
+   },
+   "kind": "reference",
+   "entity": "place.oil-city"
+  }
+ ]
+}

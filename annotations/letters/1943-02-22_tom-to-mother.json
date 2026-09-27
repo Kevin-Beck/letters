@@ -1,0 +1,31 @@
+{
+ "letter": "1943-02-22_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Amphibious Force"
+   },
+   "kind": "reference",
+   "entity": "organization.amphibious-force"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "I am at sea again"
+   },
+   "kind": "reference",
+   "entity": "event.voyage-1943",
+   "note": "The next leg was the long Pacific crossing."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "the West Coast"
+   },
+   "kind": "inference",
+   "note": "Tom realised the ship would not stop in California: it was going straight across the Pacific from Panama.",
+   "confidence": "probable"
+  }
+ ]
+}

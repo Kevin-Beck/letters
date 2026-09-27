@@ -1,0 +1,94 @@
+{
+ "letter": "1943-02-20_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "One week from to-day"
+   },
+   "kind": "reference",
+   "entity": "person.tom-beck",
+   "note": "Tom's 24th birthday, Feb. 27, 1943."
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Isabel"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Waves or Waacs"
+   },
+   "kind": "reference",
+   "entity": "organization.waves"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Janny"
+   },
+   "kind": "reference",
+   "entity": "person.janny"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Bill"
+   },
+   "kind": "reference",
+   "entity": "person.bill-jameson"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "John Mc."
+   },
+   "kind": "reference",
+   "entity": "person.john-mc"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "John B."
+   },
+   "kind": "reference",
+   "entity": "person.john-beck"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "George"
+   },
+   "kind": "reference",
+   "entity": "person.george-beck"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Marg"
+   },
+   "kind": "reference",
+   "entity": "person.marge"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "collecting old silk"
+   },
+   "kind": "reference",
+   "entity": "culture.silk-salvage"
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "rationing board"
+   },
+   "kind": "reference",
+   "entity": "organization.opa"
+  }
+ ]
+}

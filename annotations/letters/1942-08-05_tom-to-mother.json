@@ -1,0 +1,39 @@
+{
+ "letter": "1942-08-05_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Isabel",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Janny"
+   },
+   "kind": "reference",
+   "entity": "person.janny"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "1700 Saturday until 1700 Sunday"
+   },
+   "kind": "reference",
+   "entity": "military.24-hour-time"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "My first pay was $4.70"
+   },
+   "kind": "reference",
+   "entity": "term.wartime-prices",
+   "note": "After deductions (insurance, uniforms, etc.) Tom's first pay was $4.70, about $90 in today's money."
+  }
+ ]
+}

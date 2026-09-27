@@ -1,0 +1,125 @@
+{
+ "letter": "1943-05-11_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "V-12"
+   },
+   "kind": "reference",
+   "entity": "military.v-12",
+   "note": "The Engineering Officer was wrong: V-12 was a college-based officer training program, not the WAVES."
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "the Waves"
+   },
+   "kind": "reference",
+   "entity": "organization.waves"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Dick"
+   },
+   "kind": "reference",
+   "entity": "person.dick"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Armstrong",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.armstrong"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Slippery\nRock"
+   },
+   "kind": "reference",
+   "entity": "place.slippery-rock"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "State",
+    "suffix": ".",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "organization.penn-state"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Zane\nGrey's"
+   },
+   "kind": "reference",
+   "entity": "culture.zane-grey"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Thorne Smith"
+   },
+   "kind": "reference",
+   "entity": "culture.thorne-smith"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Balzac"
+   },
+   "kind": "reference",
+   "entity": "culture.balzac"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "What picture of Dad are they going to use in the\nschool-house?"
+   },
+   "kind": "reference",
+   "entity": "person.john-a-beck",
+   "note": "Apparently a memorial to Tom's father at the local school. This is one of the strongest hints that he had died.",
+   "confidence": "probable"
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "the cottage",
+    "occurrence": 1
+   },
+   "kind": "context",
+   "note": "The family's summer cottage at 'the Lake' (see Sept. 1942)."
+  },
+  {
+   "id": "a12",
+   "quote": {
+    "exact": "Henry"
+   },
+   "kind": "reference",
+   "entity": "person.henry"
+  },
+  {
+   "id": "a13",
+   "quote": {
+    "exact": "the African front"
+   },
+   "kind": "reference",
+   "entity": "event.tunisia-campaign",
+   "note": "Two days after this letter, on May 13, the Axis forces in Tunisia surrendered."
+  },
+  {
+   "id": "a14",
+   "quote": {
+    "exact": "Jackie"
+   },
+   "kind": "reference",
+   "entity": "person.jackie"
+  }
+ ]
+}

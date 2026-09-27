@@ -1,0 +1,29 @@
+{
+ "letter": "1943-12-17_tom-to-mrs-brecht.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "U.S.S. LCI(L) 62"
+   },
+   "kind": "reference",
+   "entity": "ship.lci-l-62"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Mrs. Brecht"
+   },
+   "kind": "reference",
+   "entity": "person.brecht"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Women's Missionary Society"
+   },
+   "kind": "reference",
+   "entity": "organization.womans-missionary-society"
+  }
+ ]
+}

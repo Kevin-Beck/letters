@@ -1,0 +1,49 @@
+{
+ "letter": "1943-08-01_tom-to-mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Aug. 1, 1943"
+   },
+   "kind": "inference",
+   "entity": "event.new-georgia",
+   "note": "There are no letters between June 11 and Aug. 1, 1943. During those weeks LCI(L)-62 took part in the New Georgia landings (battle credit July 1 and 4, 1943), which Tom could not mention under censorship.",
+   "confidence": "probable"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "George likes the Navy"
+   },
+   "kind": "reference",
+   "entity": "person.george-beck"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "the wedding"
+   },
+   "kind": "reference",
+   "entity": "person.fran-beck",
+   "note": "John and Fran's wedding, August 1943."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "headache"
+   },
+   "kind": "context",
+   "note": "Headaches and fever were among the first signs of malaria, which was rife in the Solomons; Tom was hospitalized with malaria in 1945.",
+   "confidence": "speculative"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "we may get home soon"
+   },
+   "kind": "reference",
+   "entity": "military.relief"
+  }
+ ]
+}
