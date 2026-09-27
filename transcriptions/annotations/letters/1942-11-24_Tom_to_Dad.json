@@ -1,0 +1,37 @@
+{
+ "letter": "1942-11-24_Tom_to_Dad.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "like a pig pen when it rains"
+   },
+   "kind": "reference",
+   "entity": "place.solomons-md"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Chet"
+   },
+   "kind": "reference",
+   "entity": "person.chet-beard"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "John Jay"
+   },
+   "kind": "reference",
+   "entity": "place.john-jay-hall"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Seamen 2nd class"
+   },
+   "kind": "reference",
+   "entity": "military.seaman-2c"
+  }
+ ]
+}

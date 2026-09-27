@@ -1,0 +1,45 @@
+{
+ "letter": "1943-09-05_Tom_to_Mom.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "the movie boat"
+   },
+   "kind": "reference",
+   "entity": "military.movie-boat"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "The boys are finally in Europe"
+   },
+   "kind": "reference",
+   "entity": "event.invasion-of-italy"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "The Japs are beginning to believe it is worthwhile to shoot\nand run"
+   },
+   "kind": "content-note",
+   "note": "Uses the wartime slur 'Japs'. In context: after losing Munda (Aug. 5), the Japanese were pulling back through the central Solomons, and the Allies bypassed Kolombangara by landing on Vella Lavella (Aug. 15, 1943)."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Contrary to\nPublic Opinion the Japs are smart"
+   },
+   "kind": "context",
+   "note": "Wartime propaganda often portrayed the Japanese as inferior. Men in combat areas knew better."
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Pardon the envelope"
+   },
+   "kind": "context",
+   "note": "The envelope itself was not scanned."
+  }
+ ]
+}

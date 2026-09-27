@@ -1,0 +1,71 @@
+{
+ "letter": "1942-11-18_Tom_to_Dad.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Betty & John"
+   },
+   "kind": "reference",
+   "entity": "person.betty",
+   "note": "Betty and 'the Johns' visited Tom at Solomons on Saturday, Nov. 21 (see the Nov. 22 letters)."
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "blinker &\nsemaphore"
+   },
+   "kind": "reference",
+   "entity": "military.signaling"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "LCT, LCI, & LST"
+   },
+   "kind": "reference",
+   "entity": "military.landing-craft"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "assigned a LST"
+   },
+   "kind": "reference",
+   "entity": "military.lst"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "the Amphibs"
+   },
+   "kind": "reference",
+   "entity": "organization.amphibious-force"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "scuttlebutt"
+   },
+   "kind": "reference",
+   "entity": "military.scuttlebutt"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Yanks are doing allright in Africa"
+   },
+   "kind": "reference",
+   "entity": "event.operation-torch"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "feeling better"
+   },
+   "kind": "reference",
+   "entity": "person.john-a-beck",
+   "note": "Dad had been seriously ill in November 1942."
+  }
+ ]
+}

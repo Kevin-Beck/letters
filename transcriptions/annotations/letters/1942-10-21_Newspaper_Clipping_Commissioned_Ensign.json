@@ -1,0 +1,94 @@
+{
+ "letter": "1942-10-21_Newspaper_Clipping_Commissioned_Ensign.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Thomas Frazier Beck"
+   },
+   "kind": "reference",
+   "entity": "person.tom-beck"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Mr. and Mrs. John A. Beck"
+   },
+   "kind": "reference",
+   "entity": "person.john-a-beck"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Karns City"
+   },
+   "kind": "reference",
+   "entity": "place.karns-city"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "753 ensigns"
+   },
+   "kind": "reference",
+   "entity": "military.ensign"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "V-7",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "military.v-7"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Riverside\nchurch"
+   },
+   "kind": "reference",
+   "entity": "place.riverside-church"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Captain John K. Richards"
+   },
+   "kind": "reference",
+   "entity": "person.john-k-richards"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Rear Admiral John Henry Newton"
+   },
+   "kind": "reference",
+   "entity": "person.john-henry-newton"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "The Eighth Class"
+   },
+   "kind": "reference",
+   "entity": "event.graduation-1942-10-21"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "Annapolis"
+   },
+   "kind": "reference",
+   "entity": "organization.naval-academy"
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "his new post, which was\nnot revealed"
+   },
+   "kind": "context",
+   "note": "Wartime censorship: newspapers did not print where servicemen were posted. Tom was headed for the Amphibious Force at Norfolk."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "letter": "1944-04-03_Tom_to_Mum.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Marjorie's"
+   },
+   "kind": "reference",
+   "entity": "person.marge"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "getting by with food and sleep"
+   },
+   "kind": "inference",
+   "note": "Tom may already have left LCI(L)-62 and been in transit home. He was back in the U.S. by spring 1944, while the ship stayed in the Pacific.",
+   "confidence": "speculative"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "dehydrated foods"
+   },
+   "kind": "reference",
+   "entity": "military.dehydrated-food"
+  }
+ ]
+}

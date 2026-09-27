@@ -1,0 +1,48 @@
+{
+ "letter": "1943-04-21_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Most of the letters I censor"
+   },
+   "kind": "reference",
+   "entity": "military.censorship"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "cox",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "military.coxswain",
+   "confidence": "probable"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Air Mail limitations"
+   },
+   "kind": "reference",
+   "entity": "culture.air-mail",
+   "note": "Air mail was sent on thin, lightweight paper to save weight."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "conning\ntower"
+   },
+   "kind": "reference",
+   "entity": "military.take-the-con"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "liberty boat"
+   },
+   "kind": "reference",
+   "entity": "military.liberty-boat"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "letter": "1945-04-30_Tom_to_Mother_hospital.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "some more tests"
+   },
+   "kind": "reference",
+   "entity": "military.malaria",
+   "note": "The diagnosis turned out to be malaria (see May 23)."
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Lane"
+   },
+   "kind": "reference",
+   "entity": "person.lane"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Newark"
+   },
+   "kind": "context",
+   "note": "Probably Newark, N.J., on her way to the West Coast and then overseas."
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "letter": "1943-04-13_Tom_to_Mother_Vmail.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "[V-MAIL form, No. 1116."
+   },
+   "kind": "reference",
+   "entity": "military.v-mail"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "\"PASSED BY NAVAL CENSOR\""
+   },
+   "kind": "reference",
+   "entity": "military.censorship"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "c/o P. M. San Francisco, Cal."
+   },
+   "kind": "reference",
+   "entity": "military.postmaster-address"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "cablegram",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "organization.postal-telegraph"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Uncle Chauncey"
+   },
+   "kind": "reference",
+   "entity": "person.uncle-chauncey"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "711 E. Pearl"
+   },
+   "kind": "reference",
+   "entity": "place.butler-pa",
+   "note": "Probably an address on East Pearl Street, Butler, Pa., likely relatives.",
+   "confidence": "probable"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Mari and Sally"
+   },
+   "kind": "reference",
+   "entity": "person.mari-sally"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "allottment"
+   },
+   "kind": "reference",
+   "entity": "military.allotment"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Galveston"
+   },
+   "kind": "reference",
+   "entity": "place.galveston"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "it sounds good on all fronts"
+   },
+   "kind": "context",
+   "note": "In mid-April 1943 the Allies were closing in on the Axis armies in Tunisia, and the Japanese had evacuated Guadalcanal in February."
+  }
+ ]
+}

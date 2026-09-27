@@ -1,0 +1,2799 @@
+{
+ "schema_version": 1,
+ "entities": {
+  "culture.air-mail": {
+   "id": "culture.air-mail",
+   "type": "culture",
+   "name": "Air mail",
+   "aliases": [
+    "Air-Mail",
+    "AirMail",
+    "Air Mail"
+   ],
+   "summary": "Airmail cost 6 cents for servicemen overseas, but was often faster than surface mail, which crossed the Pacific by ship and could take a month or more.",
+   "confidence": "probable"
+  },
+  "culture.airmail-8c": {
+   "id": "culture.airmail-8c",
+   "type": "culture",
+   "name": "8-cent airmail",
+   "summary": "The domestic airmail rate was 8 cents an ounce from March 1944 to 1946.",
+   "confidence": "confirmed"
+  },
+  "culture.alaska-highway": {
+   "id": "culture.alaska-highway",
+   "type": "culture",
+   "name": "Alaska Highway",
+   "aliases": [
+    "Alaskan Highway"
+   ],
+   "summary": "The 1,700-mile military road from Dawson Creek, B.C., to Fairbanks, rushed through by Army engineers in 1942. It opened to the public only in 1948.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Alaska_Highway"
+  },
+  "culture.balzac": {
+   "id": "culture.balzac",
+   "type": "culture",
+   "name": "Honoré de Balzac",
+   "summary": "The 19th-century French novelist (La Comédie humaine), recommended to Tom by his brother John.",
+   "confidence": "confirmed"
+  },
+  "culture.bob-hope": {
+   "id": "culture.bob-hope",
+   "type": "culture",
+   "name": "Bob Hope",
+   "summary": "The comedian and film star who became the face of USO camp shows; his films were favorites with servicemen.",
+   "confidence": "confirmed"
+  },
+  "culture.brooklyn-dodgers-football": {
+   "id": "culture.brooklyn-dodgers-football",
+   "type": "culture",
+   "name": "Brooklyn Dodgers (NFL)",
+   "summary": "Brooklyn's NFL football team (1930-44), which shared its name and Ebbets Field with the baseball Dodgers.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Brooklyn_Dodgers_(NFL)"
+  },
+  "culture.burma-surgeon": {
+   "id": "culture.burma-surgeon",
+   "type": "culture",
+   "name": "Burma Surgeon (1943)",
+   "aliases": [
+    "Burma Doctor"
+   ],
+   "summary": "Dr. Gordon Seagrave's bestselling memoir of running a hospital in Burma and retreating with Gen. Stilwell in 1942. Tom calls it 'Burma Doctor'.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Gordon_Seagrave"
+  },
+  "culture.cardinals-1942": {
+   "id": "culture.cardinals-1942",
+   "type": "culture",
+   "name": "1942 St. Louis Cardinals",
+   "aliases": [
+    "the Cards"
+   ],
+   "summary": "The Cardinals won 106 games in 1942 and then beat the Yankees in the World Series. Tom saw them play the Giants at the Polo Grounds.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/1942_St._Louis_Cardinals_season"
+  },
+  "culture.ernie-pyle": {
+   "id": "culture.ernie-pyle",
+   "type": "culture",
+   "name": "Ernie Pyle",
+   "summary": "The most beloved war correspondent of WWII, who wrote about ordinary soldiers and sailors. In 1943 his syndicated columns from the Mediterranean described the landing-craft crews.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ernie_Pyle"
+  },
+  "culture.fibber-mcgee": {
+   "id": "culture.fibber-mcgee",
+   "type": "culture",
+   "name": "Fibber McGee and Molly",
+   "aliases": [
+    "Fibber and Molly"
+   ],
+   "summary": "NBC's hugely popular radio comedy, broadcast Tuesday nights. V-E Day, May 8, 1945, was a Tuesday.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Fibber_McGee_and_Molly"
+  },
+  "culture.fighting-lady": {
+   "id": "culture.fighting-lady",
+   "type": "culture",
+   "name": "The Fighting Lady (1944)",
+   "summary": "A Navy color documentary about life aboard the carrier USS Yorktown, released Dec. 1944, which won the Academy Award for documentary.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/The_Fighting_Lady"
+  },
+  "culture.free-mail": {
+   "id": "culture.free-mail",
+   "type": "culture",
+   "name": "Free mail for servicemen",
+   "aliases": [
+    "Free"
+   ],
+   "summary": "From 1942, members of the armed forces could send personal letters postage-free by writing 'Free' where the stamp would go.",
+   "confidence": "confirmed"
+  },
+  "culture.fuel-oil-rationing": {
+   "id": "culture.fuel-oil-rationing",
+   "type": "culture",
+   "name": "Fuel oil rationing",
+   "aliases": [
+    "oil being rationed"
+   ],
+   "summary": "From October 1942, homes in the East and Midwest that heated with fuel oil got coupons for only part of their normal supply, and families shut off rooms to save heat.",
+   "confidence": "confirmed"
+  },
+  "culture.girl-rush": {
+   "id": "culture.girl-rush",
+   "type": "culture",
+   "name": "Girl Rush (1944)",
+   "summary": "An RKO Western musical comedy (with Frances Langford and a young Robert Mitchum), released Oct. 1944.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Girl_Rush"
+  },
+  "culture.here-is-your-war": {
+   "id": "culture.here-is-your-war",
+   "type": "culture",
+   "name": "Ernie Pyle's book, Here Is Your War (1943)",
+   "aliases": [
+    "Ernie Pyle's book"
+   ],
+   "summary": "Pyle's collected columns on the North African campaign, a bestseller in late 1943.",
+   "confidence": "probable",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ernie_Pyle"
+  },
+  "culture.holiday-travel-1943": {
+   "id": "culture.holiday-travel-1943",
+   "type": "culture",
+   "name": "Wartime holiday travel limits",
+   "summary": "Gas rationing and government appeals to leave trains and buses for servicemen kept most civilians home for the holidays.",
+   "confidence": "confirmed"
+  },
+  "culture.income-tax-1943": {
+   "id": "culture.income-tax-1943",
+   "type": "culture",
+   "name": "Wartime income tax",
+   "summary": "The Revenue Act of 1942 made the income tax a 'mass tax' for the first time, and in 1943 payroll withholding began. Servicemen had special exclusions and could defer payment, but many, like Tom, worried about filing from overseas.",
+   "confidence": "confirmed"
+  },
+  "culture.irving-berlin": {
+   "id": "culture.irving-berlin",
+   "type": "culture",
+   "name": "Irving Berlin",
+   "summary": "America's leading songwriter ('White Christmas', 'God Bless America'). In summer 1942 he was staging his all-soldier revue 'This Is the Army' in New York.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Irving_Berlin"
+  },
+  "culture.john-paul-jones": {
+   "id": "culture.john-paul-jones",
+   "type": "culture",
+   "name": "John Paul Jones's \"Qualifications of a Naval Officer\"",
+   "summary": "A list of an officer's ideal qualities, attributed to the Revolutionary War hero John Paul Jones and memorized by every midshipman. Historians now know most of it was written by his 1900 biographer Augustus Buell.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/John_Paul_Jones"
+  },
+  "culture.life-begins-at-40": {
+   "id": "culture.life-begins-at-40",
+   "type": "culture",
+   "name": "\"Life begins at forty\"",
+   "summary": "A catchphrase from Walter Pitkin's 1932 bestseller of that name.",
+   "confidence": "confirmed"
+  },
+  "culture.mrs-parkington": {
+   "id": "culture.mrs-parkington",
+   "type": "culture",
+   "name": "Mrs. Parkington (1944)",
+   "summary": "An MGM drama starring Greer Garson and Walter Pidgeon, released Oct. 1944.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Mrs._Parkington"
+  },
+  "culture.norther": {
+   "id": "culture.norther",
+   "type": "culture",
+   "name": "\"Blue norther\"",
+   "aliases": [
+    "Norther"
+   ],
+   "summary": "A Texas cold front that can drop temperatures dramatically within hours.",
+   "confidence": "confirmed"
+  },
+  "culture.patrick-henry": {
+   "id": "culture.patrick-henry",
+   "type": "culture",
+   "name": "Patrick Henry",
+   "summary": "The Virginia revolutionary famous for 'Give me liberty, or give me death!' (1775).",
+   "confidence": "confirmed"
+  },
+  "culture.postal-zones": {
+   "id": "culture.postal-zones",
+   "type": "culture",
+   "name": "Postal zone numbers",
+   "aliases": [
+    "Portland (3)"
+   ],
+   "summary": "In 1943 the Post Office gave big cities numbered delivery zones ('Portland 3, Maine'), the forerunner of ZIP codes (1963).",
+   "confidence": "confirmed"
+  },
+  "culture.pullman": {
+   "id": "culture.pullman",
+   "type": "culture",
+   "name": "Pullman car",
+   "aliases": [
+    "Pullman"
+   ],
+   "summary": "A railroad sleeping car with berths, run by the Pullman Company, the usual way to travel overnight by train.",
+   "confidence": "confirmed"
+  },
+  "culture.ritz-crackers": {
+   "id": "culture.ritz-crackers",
+   "type": "culture",
+   "name": "Ritz crackers",
+   "summary": "Nabisco's butter crackers (1934). Mock dishes made from them were a Depression and wartime staple.",
+   "confidence": "confirmed"
+  },
+  "culture.road-to-morocco": {
+   "id": "culture.road-to-morocco",
+   "type": "culture",
+   "name": "Road to Morocco (1942)",
+   "summary": "A Bing Crosby, Bob Hope and Dorothy Lamour comedy, released in November 1942 and one of that year's biggest hits.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Road_to_Morocco"
+  },
+  "culture.saturday-evening-post": {
+   "id": "culture.saturday-evening-post",
+   "type": "culture",
+   "name": "The Saturday Evening Post",
+   "aliases": [
+    "Sat. Eve. Post"
+   ],
+   "summary": "America's most popular weekly magazine, famous for Norman Rockwell covers and wartime features.",
+   "confidence": "confirmed"
+  },
+  "culture.see-america-first": {
+   "id": "culture.see-america-first",
+   "type": "culture",
+   "name": "\"See America First\"",
+   "summary": "A travel slogan from the 1900s-1910s, promoted by western railroads and the national parks, urging Americans to tour their own country rather than Europe.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/See_America_First"
+  },
+  "culture.sheepshead": {
+   "id": "culture.sheepshead",
+   "type": "culture",
+   "name": "Sheepshead",
+   "summary": "A trick-taking card game from Germany (Schafkopf), popular among German-Americans in Wisconsin and the Midwest. Queens and jacks are the highest trumps.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Sheepshead_(game)"
+  },
+  "culture.shoe-rationing": {
+   "id": "culture.shoe-rationing",
+   "type": "culture",
+   "name": "Shoe rationing",
+   "aliases": [
+    "the shoe situation"
+   ],
+   "summary": "From February 1943 civilians were limited to about three pairs of leather shoes a year (later two).",
+   "confidence": "confirmed"
+  },
+  "culture.sigmund-romberg": {
+   "id": "culture.sigmund-romberg",
+   "type": "culture",
+   "name": "Sigmund Romberg",
+   "summary": "Hungarian-born Broadway composer of operettas such as 'The Student Prince' and 'The Desert Song', who toured with his orchestra in the 1940s.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Sigmund_Romberg"
+  },
+  "culture.silk-salvage": {
+   "id": "culture.silk-salvage",
+   "type": "culture",
+   "name": "Silk and nylon stocking drives",
+   "aliases": [
+    "collecting old silk"
+   ],
+   "summary": "In 1942-43 women turned in used silk and nylon stockings, which were remade into powder bags for naval guns and parachutes.",
+   "confidence": "confirmed"
+  },
+  "culture.telephone-exchanges": {
+   "id": "culture.telephone-exchanges",
+   "type": "culture",
+   "name": "Named telephone exchanges",
+   "aliases": [
+    "UNiversity 4-9273"
+   ],
+   "summary": "Phone numbers began with an exchange name whose first letters were dialed. 'UNiversity 4-9273' was dialed UN4-9273, the exchange for the Columbia area.",
+   "confidence": "confirmed"
+  },
+  "culture.texas-liquor-laws": {
+   "id": "culture.texas-liquor-laws",
+   "type": "culture",
+   "name": "Texas liquor laws",
+   "summary": "After Prohibition, Texas allowed liquor only by the bottle from package stores. Selling mixed drinks in bars ('liquor by the drink') stayed illegal until 1971, though beer and wine were served.",
+   "confidence": "confirmed"
+  },
+  "culture.thorne-smith": {
+   "id": "culture.thorne-smith",
+   "type": "culture",
+   "name": "Thorne Smith",
+   "summary": "Author of racy comic fantasies of the 1920s-30s such as Topper and The Night Life of the Gods. Hence Tom's joke about the School Board.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Thorne_Smith"
+  },
+  "culture.time-magazine": {
+   "id": "culture.time-magazine",
+   "type": "culture",
+   "name": "Time magazine",
+   "aliases": [
+    "Time"
+   ],
+   "summary": "The weekly newsmagazine, widely read at home and in the services.",
+   "confidence": "confirmed"
+  },
+  "culture.vitaphone": {
+   "id": "culture.vitaphone",
+   "type": "culture",
+   "name": "Vitaphone",
+   "summary": "Warner Bros.' early sound-film system (1926-31). Tom uses the word jokingly for modern talking pictures, compared with the worn-out old films shown at Solomons.",
+   "confidence": "confirmed"
+  },
+  "culture.war-bonds": {
+   "id": "culture.war-bonds",
+   "type": "culture",
+   "name": "War bonds",
+   "aliases": [
+    "bond",
+    "bonded"
+   ],
+   "summary": "U.S. Savings Bonds sold to finance the war. A $25 bond cost $18.75 and matured in ten years.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/War_bond"
+  },
+  "culture.white-cargo": {
+   "id": "culture.white-cargo",
+   "type": "culture",
+   "name": "White Cargo (1942)",
+   "summary": "An MGM jungle melodrama starring Hedy Lamarr as 'Tondelayo', released in 1942.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/White_Cargo_(1942_film)"
+  },
+  "culture.white-christmas": {
+   "id": "culture.white-christmas",
+   "type": "culture",
+   "name": "\"White Christmas\"",
+   "summary": "Irving Berlin's song, sung by Bing Crosby in 1942, which became the anthem of homesick servicemen.",
+   "confidence": "confirmed",
+   "see_also": [
+    "culture.irving-berlin"
+   ]
+  },
+  "culture.zane-grey": {
+   "id": "culture.zane-grey",
+   "type": "culture",
+   "name": "Zane Grey",
+   "summary": "Hugely popular author of Western novels (Riders of the Purple Sage), who grew up in Zanesville, Ohio.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Zane_Grey"
+  },
+  "event.armistice-day": {
+   "id": "event.armistice-day",
+   "type": "event",
+   "name": "Armistice Day (Nov. 11)",
+   "summary": "The anniversary of the 1918 armistice ending WWI, renamed Veterans Day in 1954.",
+   "confidence": "confirmed"
+  },
+  "event.army-all-stars-1942": {
+   "id": "event.army-all-stars-1942",
+   "type": "event",
+   "name": "East Army All-Stars vs. New York Giants (Sept. 12, 1942)",
+   "summary": "A benefit football game in New York, one of eight Army All-Star games against NFL teams that raised money for Army Emergency Relief. The Army won 16-0.",
+   "dates": "1942-09-12",
+   "confidence": "probable",
+   "sources": [
+    {
+     "title": "Pro Football Hall of Fame: 1942 NFL's War Relief Games",
+     "url": "https://www.profootballhof.com/football-history/1942-nfls-war-relief-games-and-war-bond-efforts/"
+    }
+   ]
+  },
+  "event.bougainville": {
+   "id": "event.bougainville",
+   "type": "event",
+   "name": "Treasury-Bougainville operation (Oct-Dec 1943)",
+   "aliases": [
+    "Bougainville"
+   ],
+   "summary": "The Allied landings on the Treasury Islands (Oct. 27) and at Empress Augusta Bay, Bougainville (Nov. 1, 1943), followed by reinforcement runs. LCI(L)-62 earned a battle star for Dec. 3-4, 1943.",
+   "dates": "1943-10-27 to 1943-12-15",
+   "confidence": "confirmed",
+   "see_also": [
+    "ship.lci-l-62"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Bougainville_campaign",
+   "sources": [
+    {
+     "title": "NavSource: LCI(L)-62",
+     "url": "https://www.navsource.net/archives/10/15/150062.htm"
+    }
+   ]
+  },
+  "event.central-pacific-1944": {
+   "id": "event.central-pacific-1944",
+   "type": "event",
+   "name": "Central Pacific offensive, early 1944",
+   "summary": "In Feb. 1944 U.S. forces took Kwajalein (Jan 31-Feb 7) and Eniwetok (Feb 17-23) in the Marshall Islands, and carrier planes smashed the Japanese base at Truk (Feb 17-18).",
+   "dates": "1944-02",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Gilbert_and_Marshall_Islands_campaign"
+  },
+  "event.dieppe-raid": {
+   "id": "event.dieppe-raid",
+   "type": "event",
+   "name": "Dieppe Raid (Aug. 19, 1942)",
+   "summary": "A large Allied, mostly Canadian, raid on the French port of Dieppe. First reports were hoped to be the 'second front', but it was a costly one-day raid: about 60% of the men who went ashore were killed, wounded or captured.",
+   "dates": "1942-08-19",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Dieppe_Raid"
+  },
+  "event.easter-1943": {
+   "id": "event.easter-1943",
+   "type": "event",
+   "name": "Easter 1943 (April 25)",
+   "summary": "In 1943 Easter fell on April 25, the latest possible date. That will not happen again until 2038.",
+   "dates": "1943-04-25",
+   "confidence": "confirmed"
+  },
+  "event.graduation-1942-10-21": {
+   "id": "event.graduation-1942-10-21",
+   "type": "event",
+   "name": "Eighth Class graduation, Oct. 21, 1942",
+   "summary": "Tom and 752 classmates were commissioned ensigns at Riverside Church, New York. It was then the largest V-7 class in Naval Reserve history.",
+   "dates": "1942-10-21",
+   "confidence": "confirmed",
+   "see_also": [
+    "place.riverside-church"
+   ]
+  },
+  "event.guadalcanal": {
+   "id": "event.guadalcanal",
+   "type": "event",
+   "name": "Guadalcanal campaign (Aug 1942 - Feb 1943)",
+   "aliases": [
+    "Solomons"
+   ],
+   "summary": "The first U.S. offensive of the Pacific war, in the Solomon Islands. Not to be confused with the Solomons, Maryland training base.",
+   "dates": "1942-08-07 to 1943-02-09",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Guadalcanal_campaign"
+  },
+  "event.high-holidays-1942": {
+   "id": "event.high-holidays-1942",
+   "type": "event",
+   "name": "Jewish High Holy Days, 1942",
+   "summary": "Rosh Hashanah fell on Sept. 12-13 and Yom Kippur on Sept. 21, 1942. The Navy granted Jewish midshipmen leave to observe them.",
+   "dates": "1942-09",
+   "confidence": "confirmed"
+  },
+  "event.invasion-of-italy": {
+   "id": "event.invasion-of-italy",
+   "type": "event",
+   "name": "Allied invasion of Italy (Sept. 3, 1943)",
+   "summary": "British forces crossed from Sicily to the Italian mainland on Sept. 3, 1943, and the main landing at Salerno followed on Sept. 9.",
+   "dates": "1943-09-03",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Allied_invasion_of_Italy"
+  },
+  "event.italian-armistice": {
+   "id": "event.italian-armistice",
+   "type": "event",
+   "name": "Italy's surrender (announced Sept. 8, 1943)",
+   "summary": "The armistice between Italy and the Allies was announced on Sept. 8, 1943. Germany immediately occupied most of Italy, so the war there went on until 1945.",
+   "dates": "1943-09-08",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Armistice_of_Cassibile"
+  },
+  "event.midway": {
+   "id": "event.midway",
+   "type": "event",
+   "name": "Battle of Midway (June 1942)",
+   "summary": "The decisive carrier battle in which the U.S. Navy sank four Japanese carriers, turning the tide in the Pacific.",
+   "dates": "1942-06-04",
+   "confidence": "confirmed"
+  },
+  "event.mothers-day-1943": {
+   "id": "event.mothers-day-1943",
+   "type": "event",
+   "name": "Mother's Day 1943",
+   "summary": "Sunday, May 9, 1943.",
+   "dates": "1943-05-09",
+   "confidence": "confirmed"
+  },
+  "event.new-georgia": {
+   "id": "event.new-georgia",
+   "type": "event",
+   "name": "New Georgia landings (Operation Toenail), June-July 1943",
+   "aliases": [
+    "New Georgia",
+    "Rendova"
+   ],
+   "summary": "The Allied invasion of the New Georgia group in the central Solomons, to capture the Japanese airfield at Munda. It was the first Pacific operation for LCIs. LCI(L)-62 earned a battle star for landings on July 1 and 4, 1943.",
+   "detail": "Landings began June 30, 1943 at Rendova and elsewhere; Munda airfield fell Aug. 5. LCIs carried later echelons of troops to the beaches. Tom's letters have a gap from June 11 to Aug. 1, 1943 that matches these operations exactly; he could not mention them.",
+   "dates": "1943-06-30 to 1943-08-25",
+   "confidence": "confirmed",
+   "see_also": [
+    "ship.lci-l-62"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/New_Georgia_campaign",
+   "sources": [
+    {
+     "title": "NavSource: LCI(L)-62",
+     "url": "https://www.navsource.net/archives/10/15/150062.htm"
+    }
+   ]
+  },
+  "event.new-guinea-1943": {
+   "id": "event.new-guinea-1943",
+   "type": "event",
+   "name": "New Guinea offensive, Sept. 1943",
+   "summary": "Allied landings near Lae (Sept. 4) and the airborne drop at Nadzab (Sept. 5) led to the capture of Lae on Sept. 16, 1943.",
+   "dates": "1943-09",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Salamaua%E2%80%93Lae_campaign"
+  },
+  "event.operation-torch": {
+   "id": "event.operation-torch",
+   "type": "event",
+   "name": "Operation Torch (Nov. 8, 1942)",
+   "summary": "The Allied invasion of French North Africa (Morocco and Algeria), the first major U.S. ground offensive against the Axis. It used many of the new landing craft.",
+   "dates": "1942-11-08",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Operation_Torch"
+  },
+  "event.pearl-harbor": {
+   "id": "event.pearl-harbor",
+   "type": "event",
+   "name": "Pearl Harbor (Dec. 7, 1941)",
+   "summary": "The Japanese surprise attack on the U.S. Pacific Fleet in Hawaii that brought the United States into the war.",
+   "dates": "1941-12-07",
+   "confidence": "confirmed"
+  },
+  "event.thanksgiving-1943": {
+   "id": "event.thanksgiving-1943",
+   "type": "event",
+   "name": "Thanksgiving 1943",
+   "summary": "Thursday, Nov. 25, 1943. The Navy made a point of getting turkey dinners to ships even in forward areas.",
+   "dates": "1943-11-25",
+   "confidence": "confirmed"
+  },
+  "event.tunisia-campaign": {
+   "id": "event.tunisia-campaign",
+   "type": "event",
+   "name": "End of the Tunisia campaign (May 13, 1943)",
+   "aliases": [
+    "African front",
+    "Africa"
+   ],
+   "summary": "About 250,000 German and Italian troops surrendered in Tunisia, ending the war in North Africa.",
+   "dates": "1943-05-13",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Tunisian_campaign"
+  },
+  "event.ve-day": {
+   "id": "event.ve-day",
+   "type": "event",
+   "name": "V-E Day (May 8, 1945)",
+   "summary": "Victory in Europe: Germany's surrender took effect May 8, 1945. With the war against Japan still going, many Americans (like Tom) found it 'an anti-climax'.",
+   "dates": "1945-05-08",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day"
+  },
+  "event.voyage-1943": {
+   "id": "event.voyage-1943",
+   "type": "event",
+   "name": "LCI(L)-62's voyage to the South Pacific (Feb-Apr 1943)",
+   "aliases": [
+    "our trip",
+    "the voyage"
+   ],
+   "summary": "Tom's ship sailed from the Gulf Coast about Feb. 4, 1943, with other LCIs and reached the South Pacific about seven weeks later. Censorship hid every port. Tom describes the voyage as 'about five trips, the first long, the second damn long, and the rest rather short'.",
+   "detail": "Reconstruction from the letters (ports not confirmed by records): (1) Gulf of Mexico to a hot 'foreign port' full of bars, reached about Feb. 9-10. This was very probably the Panama Canal Zone (Colón/Cristóbal), since an LCI convoy bound for the Pacific had to use the Canal and LCIs were escorted from Panama to Bora Bora in Feb. 1943. The ship lay there until about Feb. 24. (2) A long Pacific crossing ('damn long'): the equator was crossed at night in early March and the ship reached port about Mar. 19-20. Bora Bora, the usual first stop for small craft, fits. (3-5) Shorter island hops at 4-on/4-off watches through 'outposts', one of them dry, to a 'fair sized city' seen from its bay on April 7. That was probably Nouméa, New Caledonia, where LCI Flotilla Five trained in spring 1943, though Suva, Fiji is also possible.",
+   "dates": "1943-02-04 to 1943-04",
+   "confidence": "speculative",
+   "see_also": [
+    "ship.lci-l-62",
+    "place.panama-canal-zone",
+    "place.bora-bora",
+    "place.noumea"
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia: USS Pecos (AO-65), escort of LCI(L)s from Panama to Bora Bora, Feb. 1943",
+     "url": "https://en.wikipedia.org/wiki/USS_Pecos_(AO-65)"
+    },
+    {
+     "title": "USS LCI National Association: An LCI Ace (Flotilla 5 training at Nouméa, spring 1943)",
+     "url": "http://usslci.org/an-lci-ace/"
+    }
+   ]
+  },
+  "event.world-war-i": {
+   "id": "event.world-war-i",
+   "type": "event",
+   "name": "World War I",
+   "aliases": [
+    "the last war"
+   ],
+   "summary": "The First World War (U.S. involvement 1917-18), still 'the last war' in 1942.",
+   "confidence": "confirmed"
+  },
+  "military.24-hour-time": {
+   "id": "military.24-hour-time",
+   "type": "military",
+   "name": "24-hour time",
+   "aliases": [
+    "1700",
+    "0800",
+    "0600"
+   ],
+   "summary": "Military time: 0800 is 8 a.m., 1700 is 5 p.m.",
+   "confidence": "confirmed"
+  },
+  "military.allotment": {
+   "id": "military.allotment",
+   "type": "military",
+   "name": "Pay allotment",
+   "aliases": [
+    "allotment",
+    "allottment"
+   ],
+   "summary": "A standing order sending part of a serviceman's monthly pay straight home to family or a bank.",
+   "confidence": "confirmed"
+  },
+  "military.army-rations": {
+   "id": "military.army-rations",
+   "type": "military",
+   "name": "Army rations and 'makings'",
+   "aliases": [
+    "living off the Army"
+   ],
+   "summary": "At advanced bases small Navy craft often drew supplies from Army depots. Rations included cigarettes, pipe tobacco and 'the makings' (loose tobacco and papers to roll your own).",
+   "confidence": "confirmed"
+  },
+  "military.aviation-cadet": {
+   "id": "military.aviation-cadet",
+   "type": "military",
+   "name": "Aviation cadet",
+   "summary": "A pilot trainee in the Army or Navy flight program, known for its gruelling schedule.",
+   "confidence": "confirmed"
+  },
+  "military.b-17": {
+   "id": "military.b-17",
+   "type": "military",
+   "name": "B-17 Flying Fortress",
+   "aliases": [
+    "Flying Fortresses"
+   ],
+   "summary": "The four-engine Army Air Forces heavy bomber, a symbol of American air power in 1942.",
+   "confidence": "confirmed"
+  },
+  "military.bilge": {
+   "id": "military.bilge",
+   "type": "military",
+   "name": "\"Bilged\"",
+   "aliases": [
+    "bilge",
+    "bilged"
+   ],
+   "summary": "Naval Academy slang for being dismissed from school. The bilge is the dirty bottom of a ship's hull.",
+   "confidence": "confirmed"
+  },
+  "military.bomb-disposal-school": {
+   "id": "military.bomb-disposal-school",
+   "type": "military",
+   "name": "Navy Bomb Disposal School",
+   "summary": "Training for defusing unexploded bombs and mines, then held at American University in Washington, D.C.; volunteers were being recruited from officer classes in 1942.",
+   "confidence": "probable"
+  },
+  "military.boot": {
+   "id": "military.boot",
+   "type": "military",
+   "name": "\"Boot\"",
+   "aliases": [
+    "the Boot",
+    "Boot"
+   ],
+   "summary": "Slang for a new recruit in basic ('boot') training. Tom's nickname for his brother George.",
+   "confidence": "confirmed"
+  },
+  "military.boq": {
+   "id": "military.boq",
+   "type": "military",
+   "name": "Bachelor Officers' Quarters (BOQ)",
+   "summary": "On-base housing for unmarried officers.",
+   "confidence": "confirmed"
+  },
+  "military.burdened-vessel": {
+   "id": "military.burdened-vessel",
+   "type": "military",
+   "name": "Burdened vessel",
+   "summary": "Under the old Rules of the Road, when two ships' courses crossed, the 'burdened' vessel (the one with the other on her starboard side) had to keep clear, and the 'privileged' one held course. Today's terms are 'give-way' and 'stand-on'.",
+   "confidence": "confirmed"
+  },
+  "military.captains-inspection": {
+   "id": "military.captains-inspection",
+   "type": "military",
+   "name": "Captain's Inspection",
+   "summary": "A formal inspection of men, uniforms and quarters by the commanding officer.",
+   "confidence": "confirmed"
+  },
+  "military.celestial-navigation": {
+   "id": "military.celestial-navigation",
+   "type": "military",
+   "name": "Celestial navigation (sextant sights)",
+   "aliases": [
+    "sextant sight",
+    "noon sight",
+    "sights"
+   ],
+   "summary": "Before GPS or radio aids, ships found their position by measuring the height of the sun or stars with a sextant. The noon sun sight gives latitude, but near the equator the sun is almost overhead, which makes it hard to take, as Tom found.",
+   "confidence": "confirmed"
+  },
+  "military.censorship": {
+   "id": "military.censorship",
+   "type": "military",
+   "name": "Mail censorship",
+   "aliases": [
+    "censored",
+    "censor"
+   ],
+   "summary": "Service mail was read and cut by censors to remove ship names, locations, movements and operations. On small ships an officer, often the exec, censored the crew's letters, which is why Tom could say little about where he was.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Censorship_in_the_United_States#World_War_II"
+  },
+  "military.chief": {
+   "id": "military.chief",
+   "type": "military",
+   "name": "Chief petty officer",
+   "aliases": [
+    "Chiefs"
+   ],
+   "summary": "The senior enlisted rates, the experienced sailors young officers relied on.",
+   "confidence": "confirmed"
+  },
+  "military.collision-mat": {
+   "id": "military.collision-mat",
+   "type": "military",
+   "name": "\"Collision mats\"",
+   "summary": "Navy slang for pancakes, after the heavy canvas mats used to cover a hole in a ship's hull.",
+   "confidence": "confirmed"
+  },
+  "military.coxswain": {
+   "id": "military.coxswain",
+   "type": "military",
+   "name": "Coxswain",
+   "aliases": [
+    "cox"
+   ],
+   "summary": "A petty officer who steers the ship's boats and leads deck work.",
+   "confidence": "confirmed"
+  },
+  "military.crew-numbers": {
+   "id": "military.crew-numbers",
+   "type": "military",
+   "name": "Amphibious crew numbers",
+   "aliases": [
+    "crew 3081",
+    "4074"
+   ],
+   "summary": "At the amphibious bases, each landing-craft crew was formed and trained as a numbered unit before a ship was assigned. Tom's was crew 3081, which went to LCI(L)-218 and then commissioned LCI(L)-345.",
+   "confidence": "confirmed"
+  },
+  "military.damage-control": {
+   "id": "military.damage-control",
+   "type": "military",
+   "name": "Damage Control",
+   "summary": "Shipboard firefighting, flooding control and repair, a core subject for deck officers; on an LCI it was one of the exec's duties.",
+   "confidence": "confirmed"
+  },
+  "military.darkened-ship": {
+   "id": "military.darkened-ship",
+   "type": "military",
+   "name": "Darkened ship",
+   "summary": "At sea in wartime, all lights were hidden at night so submarines and aircraft could not see the ship, which meant closed ports and stifling compartments in the tropics.",
+   "confidence": "confirmed"
+  },
+  "military.dehydrated-food": {
+   "id": "military.dehydrated-food",
+   "type": "military",
+   "name": "Dehydrated food",
+   "aliases": [
+    "powder eggs",
+    "dehydrated"
+   ],
+   "summary": "Powdered eggs, milk and potatoes and dehydrated vegetables fed men at remote bases, where fresh food was rare. They were widely hated.",
+   "confidence": "confirmed"
+  },
+  "military.demerits": {
+   "id": "military.demerits",
+   "type": "military",
+   "name": "Demerits",
+   "summary": "Penalty points for breaking rules. At the Midshipmen's School 50 demerits meant dismissal, and demerits were 'marched off' at two an hour on Saturday afternoons.",
+   "confidence": "confirmed"
+  },
+  "military.ensign": {
+   "id": "military.ensign",
+   "type": "military",
+   "name": "Ensign",
+   "aliases": [
+    "Ens."
+   ],
+   "summary": "The lowest commissioned officer rank in the U.S. Navy, equivalent to an Army second lieutenant.",
+   "confidence": "confirmed"
+  },
+  "military.exec": {
+   "id": "military.exec",
+   "type": "military",
+   "name": "Executive officer (\"exec\")",
+   "aliases": [
+    "exec.",
+    "Exec.",
+    "executive officer"
+   ],
+   "summary": "Second in command of a ship. On an LCI the exec was also gunnery, damage control and supply officer, and censored the crew's mail.",
+   "confidence": "confirmed"
+  },
+  "military.general-quarters": {
+   "id": "military.general-quarters",
+   "type": "military",
+   "name": "General Quarters",
+   "summary": "Battle stations: every man to his post, often at dawn and dusk at sea in wartime.",
+   "confidence": "confirmed"
+  },
+  "military.gold-braid": {
+   "id": "military.gold-braid",
+   "type": "military",
+   "name": "Gold braid",
+   "summary": "The gold stripes and cap decoration of officers; 'gold braid' is slang for senior officers.",
+   "confidence": "confirmed"
+  },
+  "military.gunners-mate": {
+   "id": "military.gunners-mate",
+   "type": "military",
+   "name": "Gunner's mate",
+   "summary": "An enlisted rating responsible for guns and ammunition.",
+   "confidence": "confirmed"
+  },
+  "military.jg": {
+   "id": "military.jg",
+   "type": "military",
+   "name": "Lieutenant (junior grade)",
+   "aliases": [
+    "j.g."
+   ],
+   "summary": "The Navy officer rank just above ensign.",
+   "confidence": "confirmed"
+  },
+  "military.landing-craft": {
+   "id": "military.landing-craft",
+   "type": "military",
+   "name": "Landing craft (\"barges\")",
+   "aliases": [
+    "landing barges",
+    "barges",
+    "mud scow"
+   ],
+   "summary": "Shallow-draft boats and ships built to land troops, tanks and supplies directly on a beach. In 1942 even officers called them 'barges'. Tom went on to serve on LCIs.",
+   "confidence": "confirmed",
+   "see_also": [
+    "military.lci",
+    "military.lct",
+    "military.lst"
+   ]
+  },
+  "military.lci": {
+   "id": "military.lci",
+   "type": "military",
+   "name": "LCI(L): Landing Craft Infantry (Large)",
+   "aliases": [
+    "LCI",
+    "L.C.I."
+   ],
+   "summary": "A 158-foot ship carrying about 200 troops, who went ashore down two ramps at the bow. Crew: 3-4 officers and about 24 men. The Navy built over 900 of them.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Landing_Craft_Infantry"
+  },
+  "military.lct": {
+   "id": "military.lct",
+   "type": "military",
+   "name": "LCT: Landing Craft, Tank",
+   "aliases": [
+    "LCT"
+   ],
+   "summary": "A flat-bottomed craft of about 105-120 feet with a bow ramp, built to put tanks directly onto a beach.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Landing_craft_tank"
+  },
+  "military.liberty": {
+   "id": "military.liberty",
+   "type": "military",
+   "name": "Liberty",
+   "aliases": [
+    "liberty bell"
+   ],
+   "summary": "Authorized time off the ship or base, usually hours to a weekend (longer absences are 'leave'). A bell signalled when liberty began.",
+   "confidence": "confirmed"
+  },
+  "military.liberty-boat": {
+   "id": "military.liberty-boat",
+   "type": "military",
+   "name": "Liberty boat",
+   "summary": "A small boat that ferried men between ships at anchor and the shore.",
+   "confidence": "confirmed"
+  },
+  "military.lst": {
+   "id": "military.lst",
+   "type": "military",
+   "name": "LST: Landing Ship, Tank",
+   "aliases": [
+    "LST"
+   ],
+   "summary": "A 328-foot ocean-going ship with bow doors that could land tanks and vehicles on a beach; crews joked it stood for 'Large Slow Target'.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Landing_Ship,_Tank"
+  },
+  "military.malaria": {
+   "id": "military.malaria",
+   "type": "military",
+   "name": "Malaria and Atabrine",
+   "aliases": [
+    "Malaria",
+    "tinged with yellow"
+   ],
+   "summary": "Malaria disabled more U.S. troops in the South Pacific than combat did. The preventive drug Atabrine turned skin yellow, and relapses could strike months or years after a man came home, as Tom's did in 1945.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Mepacrine"
+  },
+  "military.maneuvering-board": {
+   "id": "military.maneuvering-board",
+   "type": "military",
+   "name": "Maneuvering board / man-overboard drill",
+   "summary": "Ship-handling practice in stopping alongside an object thrown over the side, as if recovering a man overboard.",
+   "confidence": "confirmed"
+  },
+  "military.medical-survey": {
+   "id": "military.medical-survey",
+   "type": "military",
+   "name": "Medical survey board",
+   "aliases": [
+    "survey"
+   ],
+   "summary": "A board of medical officers that decided whether a sick or injured man should return to duty, be reassigned, or be discharged from the service.",
+   "confidence": "confirmed"
+  },
+  "military.meet-her": {
+   "id": "military.meet-her",
+   "type": "military",
+   "name": "\"Meet her\"",
+   "summary": "A helm order to put on opposite rudder to stop a ship's swing at the moment she reaches the new heading.",
+   "confidence": "confirmed"
+  },
+  "military.midshipman": {
+   "id": "military.midshipman",
+   "type": "military",
+   "name": "Midshipman",
+   "summary": "An officer candidate in training. V-7 men became midshipmen after passing the month-long indoctrination, with blue uniforms and more privileges.",
+   "confidence": "confirmed"
+  },
+  "military.movie-boat": {
+   "id": "military.movie-boat",
+   "type": "military",
+   "name": "Movie boat / Navy movies",
+   "aliases": [
+    "movie boat",
+    "Navy theaters"
+   ],
+   "summary": "Films were circulated among ships at anchor, and open-air 'theaters' ashore showed movies to crowds of men standing or sitting on logs and coconut stumps.",
+   "confidence": "confirmed"
+  },
+  "military.mustang": {
+   "id": "military.mustang",
+   "type": "military",
+   "name": "Mustang",
+   "summary": "Navy slang for an officer who rose from the enlisted ranks.",
+   "confidence": "confirmed"
+  },
+  "military.muster": {
+   "id": "military.muster",
+   "type": "military",
+   "name": "Muster",
+   "summary": "A roll call or assembly of personnel.",
+   "confidence": "confirmed"
+  },
+  "military.navy-terms": {
+   "id": "military.navy-terms",
+   "type": "military",
+   "name": "Navy shipboard terms",
+   "summary": "Even ashore, the Navy used ship language: floor = deck, stairs = ladder, wall = bulkhead, basement = hold, meal = mess, toilet = head.",
+   "confidence": "confirmed"
+  },
+  "military.officer-of-the-deck": {
+   "id": "military.officer-of-the-deck",
+   "type": "military",
+   "name": "Officer of the Deck (OOD)",
+   "summary": "The officer on watch in charge of a ship (or a Navy building run like one) on behalf of the captain.",
+   "confidence": "confirmed"
+  },
+  "military.officers-club": {
+   "id": "military.officers-club",
+   "type": "military",
+   "name": "Officers' Club",
+   "aliases": [
+    "the Club"
+   ],
+   "summary": "At advanced bases, often a rough hut or tent ashore where officers could get beer and a meal, reached by boat.",
+   "confidence": "confirmed"
+  },
+  "military.on-the-tree": {
+   "id": "military.on-the-tree",
+   "type": "military",
+   "name": "\"On the tree\"",
+   "aliases": [
+    "the tree",
+    "trees"
+   ],
+   "summary": "Midshipman slang for being on the list of men failing a course (below 2.5 out of 4), which cost them most of their weekend liberty.",
+   "confidence": "confirmed"
+  },
+  "military.ordnance": {
+   "id": "military.ordnance",
+   "type": "military",
+   "name": "Ordnance",
+   "aliases": [
+    "Ordinance"
+   ],
+   "summary": "Weapons and ammunition, and the course that taught them (here machine guns and 3-inch guns). Tom spells it 'Ordinance'.",
+   "confidence": "confirmed"
+  },
+  "military.overseas-cap": {
+   "id": "military.overseas-cap",
+   "type": "military",
+   "name": "Overseas (garrison) cap device",
+   "summary": "A small metal officer's insignia worn on the folding 'overseas' cap with khakis.",
+   "confidence": "confirmed"
+  },
+  "military.pay-officer": {
+   "id": "military.pay-officer",
+   "type": "military",
+   "name": "Paying the crew",
+   "summary": "On small ships an officer drew the crew's pay in cash from a disbursing officer ashore and paid each man, personally answerable for every dollar.",
+   "confidence": "confirmed"
+  },
+  "military.postmaster-address": {
+   "id": "military.postmaster-address",
+   "type": "military",
+   "name": "\"c/o Postmaster\" addresses",
+   "aliases": [
+    "c/o Postmaster",
+    "Postmaster N.Y.",
+    "c/o P.M. San Francisco"
+   ],
+   "summary": "Ships overseas were addressed via the Fleet Post Office in New York (Atlantic) or San Francisco (Pacific), which forwarded mail without revealing where the ship was.",
+   "confidence": "confirmed"
+  },
+  "military.pursuit-plane": {
+   "id": "military.pursuit-plane",
+   "type": "military",
+   "name": "Pursuit plane",
+   "aliases": [
+    "pursuits"
+   ],
+   "summary": "The Army's term for fighter aircraft until 1942-48 (hence 'P-' designations like the P-40).",
+   "confidence": "confirmed"
+  },
+  "military.rank-bars": {
+   "id": "military.rank-bars",
+   "type": "military",
+   "name": "Officer rank bars",
+   "aliases": [
+    "single bars"
+   ],
+   "summary": "A single gold bar marks an Ensign (Navy) or Second Lieutenant (Army); a single silver bar marks a Lieutenant (j.g.) or First Lieutenant.",
+   "confidence": "confirmed"
+  },
+  "military.regular-navy": {
+   "id": "military.regular-navy",
+   "type": "military",
+   "name": "Regular Navy",
+   "summary": "The career peacetime Navy, as opposed to wartime reservists like Tom (USNR).",
+   "confidence": "confirmed"
+  },
+  "military.relief": {
+   "id": "military.relief",
+   "type": "military",
+   "name": "Crew relief and 'new construction'",
+   "aliases": [
+    "our relief"
+   ],
+   "summary": "After a long tour overseas, officers and men were rotated home, usually to help commission a newly built ship ('new construction').",
+   "confidence": "confirmed"
+  },
+  "military.scuttlebutt": {
+   "id": "military.scuttlebutt",
+   "type": "military",
+   "name": "Scuttlebutt",
+   "summary": "Navy slang for rumor or gossip, from the scuttled water cask where sailors gathered to talk.",
+   "confidence": "confirmed"
+  },
+  "military.seaman-2c": {
+   "id": "military.seaman-2c",
+   "type": "military",
+   "name": "Seaman Second Class",
+   "summary": "The second-lowest Navy enlisted rate. Failed officer candidates were kept in the Navy at that rank.",
+   "confidence": "confirmed"
+  },
+  "military.second-front": {
+   "id": "military.second-front",
+   "type": "military",
+   "name": "The \"Second Front\"",
+   "aliases": [
+    "second front",
+    "2nd front"
+   ],
+   "summary": "The long-promised Allied invasion of Western Europe to relieve the Soviet Union. It was widely expected in 1942-43 but came only with D-Day, June 6, 1944.",
+   "confidence": "confirmed"
+  },
+  "military.shellback": {
+   "id": "military.shellback",
+   "type": "military",
+   "name": "Pollywog and shellback (Crossing the Line)",
+   "aliases": [
+    "pollywog",
+    "moss-back",
+    "King Neptune Court"
+   ],
+   "summary": "A sailor who has never crossed the equator is a 'pollywog'; after the Crossing the Line initiation before 'King Neptune's Court' he becomes a 'shellback' (Tom writes 'moss-back'). Head-shaving and hazing were part of the tradition.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Line-crossing_ceremony"
+  },
+  "military.signaling": {
+   "id": "military.signaling",
+   "type": "military",
+   "name": "Visual signaling (flags, blinker, semaphore)",
+   "aliases": [
+    "blinker",
+    "flag hoists",
+    "Morse Code",
+    "semaphore"
+   ],
+   "summary": "Ships talked by flag hoists, semaphore (hand-held flags) and blinker lights flashing Morse code, especially under radio silence. Officers had to read blinker at speed, which Tom found hard.",
+   "confidence": "confirmed"
+  },
+  "military.snafu": {
+   "id": "military.snafu",
+   "type": "military",
+   "name": "SNAFU",
+   "aliases": [
+    "Snafu"
+   ],
+   "summary": "Wartime acronym: 'Situation Normal, All Fouled (or F---ed) Up'. Tom's 'Ambiguous Force' is his joke on the Amphibious Force.",
+   "confidence": "confirmed"
+  },
+  "military.soq": {
+   "id": "military.soq",
+   "type": "military",
+   "name": "Sick Officers' Quarters (SOQ)",
+   "aliases": [
+    "SOQ"
+   ],
+   "summary": "The officers' ward of a naval hospital.",
+   "confidence": "confirmed"
+  },
+  "military.take-the-con": {
+   "id": "military.take-the-con",
+   "type": "military",
+   "name": "\"The con\"",
+   "aliases": [
+    "takes the con",
+    "conning tower"
+   ],
+   "summary": "Having the con means giving the steering and engine orders for the ship. The conning station is where that officer stands.",
+   "confidence": "confirmed"
+  },
+  "military.the-duty": {
+   "id": "military.the-duty",
+   "type": "military",
+   "name": "\"Having the duty\"",
+   "aliases": [
+    "the duty"
+   ],
+   "summary": "Being the officer on duty overnight or for the weekend, required to stay aboard the ship or station.",
+   "confidence": "confirmed"
+  },
+  "military.typhoid-shots": {
+   "id": "military.typhoid-shots",
+   "type": "military",
+   "name": "Typhoid inoculations",
+   "summary": "Recruits got a series of typhoid (and smallpox) vaccinations; the typhoid serum often made men feverish, sore or faint.",
+   "confidence": "confirmed"
+  },
+  "military.uniform-allowance": {
+   "id": "military.uniform-allowance",
+   "type": "military",
+   "name": "Officer uniform allowance",
+   "summary": "New reserve officers bought their own uniforms; the government paid a one-time gratuity (Tom mentions $250 and later $150).",
+   "confidence": "confirmed"
+  },
+  "military.v-12": {
+   "id": "military.v-12",
+   "type": "military",
+   "name": "Navy V-12 program",
+   "summary": "A 1943-46 program that sent enlisted Navy and Marine officer candidates to civilian colleges (including Bucknell) to finish degrees before commissioning.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/V-12_Navy_College_Training_Program"
+  },
+  "military.v-7": {
+   "id": "military.v-7",
+   "type": "military",
+   "name": "V-7 program",
+   "aliases": [
+    "V-7",
+    "AS-V7"
+   ],
+   "summary": "A Naval Reserve program that turned college graduates into deck officers in about four months. Recruits enlisted as Apprentice Seamen (AS-V7), took a month of indoctrination, and if they passed became midshipmen for three months before commissioning.",
+   "confidence": "confirmed",
+   "see_also": [
+    "organization.midshipmens-school"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/V-7_Navy_College_Training_Program"
+  },
+  "military.v-mail": {
+   "id": "military.v-mail",
+   "type": "military",
+   "name": "V-Mail",
+   "aliases": [
+    "V-mail",
+    "V-MAIL"
+   ],
+   "summary": "'Victory Mail': letters written on a special form were microfilmed, flown overseas as film, and printed out small at the other end. This saved enormous cargo space, but the message had to fit on one page.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/V-mail"
+  },
+  "military.watch": {
+   "id": "military.watch",
+   "type": "military",
+   "name": "Watch and watch bill",
+   "aliases": [
+    "watch bill",
+    "on watch"
+   ],
+   "summary": "A watch is a shift of duty (often four hours); the watch bill is the roster of who stands which watch.",
+   "confidence": "confirmed"
+  },
+  "military.watch-rotation": {
+   "id": "military.watch-rotation",
+   "type": "military",
+   "name": "Watch rotations (4-on/8-off, 4-on/4-off)",
+   "aliases": [
+    "12 to 4",
+    "midnight to four",
+    "four on and eight off",
+    "4 on and 4 off"
+   ],
+   "summary": "With only three or four officers, an LCI's officers split the day into four-hour watches. '12 to 4' (midnight to 4 a.m. and noon to 4 p.m.) was the dreaded 'mid-watch'. Four-on/four-off meant never more than a few hours' sleep.",
+   "confidence": "confirmed"
+  },
+  "military.yeoman": {
+   "id": "military.yeoman",
+   "type": "military",
+   "name": "Yeoman",
+   "summary": "The Navy's clerical rating (records, typing and correspondence). On an LCI one man often doubled as radioman and yeoman.",
+   "confidence": "confirmed"
+  },
+  "organization.51st-engineers": {
+   "id": "organization.51st-engineers",
+   "type": "organization",
+   "name": "51st Engineer Combat Regiment",
+   "aliases": [
+    "51st Engineers"
+   ],
+   "summary": "An Army engineer regiment that trained at Plattsburgh Barracks. Its battalion, the 51st Engineer Combat Battalion, later became famous for blowing the bridges at Trois-Ponts in the Battle of the Bulge (Dec. 1944).",
+   "confidence": "probable"
+  },
+  "organization.amphibious-force": {
+   "id": "organization.amphibious-force",
+   "type": "organization",
+   "name": "Amphibious Force, U.S. Atlantic Fleet",
+   "aliases": [
+    "Amphibious Force",
+    "Amphibian school",
+    "Ambiguous Force"
+   ],
+   "summary": "The new Navy command formed in 1942 to train and operate landing craft for invasions. Most of Tom's V-7 class went into it, headquartered at Norfolk, Va.",
+   "confidence": "confirmed"
+  },
+  "organization.butler-eagle": {
+   "id": "organization.butler-eagle",
+   "type": "organization",
+   "name": "The Butler Eagle",
+   "aliases": [
+    "the Eagle"
+   ],
+   "summary": "The daily newspaper of Butler, Pa. (published since 1870), the Becks' local paper.",
+   "confidence": "probable",
+   "wikipedia": "https://en.wikipedia.org/wiki/Butler_Eagle"
+  },
+  "organization.lci-flotilla-5": {
+   "id": "organization.lci-flotilla-5",
+   "type": "organization",
+   "name": "LCI Flotilla Five",
+   "aliases": [
+    "the Flotilla",
+    "Flotilla"
+   ],
+   "summary": "The group of LCIs, including LCI(L)-62, sent to the South Pacific in early 1943. It trained out of Nouméa, New Caledonia in the spring, moved up to Guadalcanal in June, and carried troops in the New Georgia landings (Operation Toenail) from June 30, 1943.",
+   "confidence": "probable",
+   "sources": [
+    {
+     "title": "USS LCI National Association: An LCI Ace",
+     "url": "http://usslci.org/an-lci-ace/"
+    }
+   ]
+  },
+  "organization.merchant-marine": {
+   "id": "organization.merchant-marine",
+   "type": "organization",
+   "name": "U.S. Merchant Marine",
+   "aliases": [
+    "merchant marine"
+   ],
+   "summary": "The civilian sailors who crewed cargo ships and transports. Their uniforms looked similar enough to the Navy's that civilians often mixed them up.",
+   "confidence": "confirmed"
+  },
+  "organization.midshipmens-school": {
+   "id": "organization.midshipmens-school",
+   "type": "organization",
+   "name": "U.S. Naval Reserve Midshipmen's School, New York",
+   "aliases": [
+    "USNR Midshipmens School"
+   ],
+   "summary": "The Navy's largest wartime reserve-officer school, at Columbia University. College men took a month of indoctrination as apprentice seamen, then three months as midshipmen, and graduated as ensigns: the famous 'ninety-day wonders'.",
+   "confidence": "confirmed",
+   "see_also": [
+    "military.v-7",
+    "place.columbia-university"
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/United_States_Naval_Reserve_Midshipmen%27s_School"
+  },
+  "organization.naval-academy": {
+   "id": "organization.naval-academy",
+   "type": "organization",
+   "name": "U.S. Naval Academy, Annapolis",
+   "aliases": [
+    "Annapolis"
+   ],
+   "summary": "The Navy's regular four-year officer school at Annapolis, Maryland.",
+   "confidence": "confirmed"
+  },
+  "organization.navy-league": {
+   "id": "organization.navy-league",
+   "type": "organization",
+   "name": "Navy League of the United States",
+   "summary": "A civilian group that supports the Navy; in wartime it sponsored dances and hospitality for sailors.",
+   "confidence": "confirmed"
+  },
+  "organization.opa": {
+   "id": "organization.opa",
+   "type": "organization",
+   "name": "Office of Price Administration (OPA)",
+   "aliases": [
+    "OPA"
+   ],
+   "summary": "The wartime federal agency that controlled prices and ran rationing of sugar, coffee, meat, gasoline, tires, shoes and fuel oil through local volunteer rationing boards, like the one Tom's mother served on.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Office_of_Price_Administration"
+  },
+  "organization.penn-state": {
+   "id": "organization.penn-state",
+   "type": "organization",
+   "name": "Pennsylvania State College (Penn State)",
+   "aliases": [
+    "State",
+    "State College"
+   ],
+   "summary": "Tom's college, in State College in the central Pennsylvania mountains. He apparently studied commerce and finance there.",
+   "confidence": "probable"
+  },
+  "organization.pitt": {
+   "id": "organization.pitt",
+   "type": "organization",
+   "name": "University of Pittsburgh",
+   "aliases": [
+    "Pitt"
+   ],
+   "summary": "Tom took a six-week course there, apparently including navigation, before joining the Navy.",
+   "confidence": "confirmed"
+  },
+  "organization.postal-telegraph": {
+   "id": "organization.postal-telegraph",
+   "type": "organization",
+   "name": "Postal Telegraph / Commercial Cables",
+   "summary": "America's second telegraph and cable company, the rival of Western Union, with which it merged in October 1943.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Postal_Telegraph_Company"
+  },
+  "organization.powers-agency": {
+   "id": "organization.powers-agency",
+   "type": "organization",
+   "name": "John Robert Powers modeling agency",
+   "aliases": [
+    "Power's models"
+   ],
+   "summary": "New York's best-known modeling agency of the 1930s-40s; 'Powers Girls' were a byword for glamour.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/John_Robert_Powers"
+  },
+  "organization.red-cross": {
+   "id": "organization.red-cross",
+   "type": "organization",
+   "name": "American Red Cross",
+   "aliases": [
+    "Red Cross"
+   ],
+   "summary": "Red Cross volunteers at home knitted sweaters, socks and helmets and packed comfort kits for servicemen.",
+   "confidence": "confirmed"
+  },
+  "organization.uso": {
+   "id": "organization.uso",
+   "type": "organization",
+   "name": "USO (United Service Organizations)",
+   "aliases": [
+    "U.S.O.",
+    "USO"
+   ],
+   "summary": "Founded in 1941 to provide recreation, dances and shows for servicemen; USO clubs and camp shows were a fixture of wartime life.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/United_Service_Organizations"
+  },
+  "organization.waves": {
+   "id": "organization.waves",
+   "type": "organization",
+   "name": "WAVES",
+   "aliases": [
+    "WAVES",
+    "WAACs"
+   ],
+   "summary": "Women Accepted for Volunteer Emergency Service, the women's branch of the Naval Reserve (created July 1942). The Army counterpart was the WAAC (later WAC).",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/WAVES"
+  },
+  "organization.womans-missionary-society": {
+   "id": "organization.womans-missionary-society",
+   "type": "organization",
+   "name": "Woman's Missionary Society",
+   "aliases": [
+    "Womans Missionary Society",
+    "Women's Missionary Society",
+    "W.C.M.S."
+   ],
+   "summary": "A women's group of the Beck family's church (Rev. Brecht's congregation) that sent Christmas packages to local servicemen.",
+   "confidence": "probable"
+  },
+  "organization.yale": {
+   "id": "organization.yale",
+   "type": "organization",
+   "name": "Yale University",
+   "summary": "The Ivy League university in New Haven, Connecticut.",
+   "confidence": "confirmed"
+  },
+  "organization.ymca": {
+   "id": "organization.ymca",
+   "type": "organization",
+   "name": "YMCA (\"the Y\")",
+   "aliases": [
+    "the \"Y.\""
+   ],
+   "summary": "The Young Men's Christian Association, whose city buildings offered cheap rooms, often full of servicemen during the war.",
+   "confidence": "confirmed"
+  },
+  "person.adam-moser": {
+   "id": "person.adam-moser",
+   "type": "person",
+   "name": "Adam Moser",
+   "aliases": [
+    "Adam"
+   ],
+   "summary": "A family friend or relative who wrote to Tom; Tom answered his letter and Sis's together, so Adam may be Sis's husband. Possibly of the 'Moshers' / 'Adam & Dorothy' mentioned later.",
+   "confidence": "speculative"
+  },
+  "person.armagost": {
+   "id": "person.armagost",
+   "type": "person",
+   "name": "Armagost",
+   "summary": "A fellow midshipman from Rimersburg, Pa., only a few miles from Tom's hometown.",
+   "confidence": "confirmed",
+   "see_also": [
+    "place.rimersburg"
+   ]
+  },
+  "person.armstrong": {
+   "id": "person.armstrong",
+   "type": "person",
+   "name": "Armstrong",
+   "summary": "A Penn State friend of Tom's who roomed with Dick in 1943.",
+   "confidence": "confirmed"
+  },
+  "person.aunt-bess": {
+   "id": "person.aunt-bess",
+   "type": "person",
+   "name": "Aunt Bess",
+   "summary": "One of Tom's aunts; she sent him the book 'Burma Surgeon'.",
+   "confidence": "confirmed"
+  },
+  "person.aunt-hazel": {
+   "id": "person.aunt-hazel",
+   "type": "person",
+   "name": "Aunt Hazel",
+   "summary": "One of Tom's aunts; she sent him candy in Dec. 1942.",
+   "confidence": "confirmed"
+  },
+  "person.aunt-helen": {
+   "id": "person.aunt-helen",
+   "type": "person",
+   "name": "Aunt Helen",
+   "aliases": [
+    "Aunt Helen"
+   ],
+   "summary": "One of Tom's aunts.",
+   "confidence": "confirmed"
+  },
+  "person.aunt-lyle": {
+   "id": "person.aunt-lyle",
+   "type": "person",
+   "name": "Aunt Lyle (Lyde)",
+   "aliases": [
+    "Aunt Lyle",
+    "Aunt Lyde"
+   ],
+   "summary": "One of Tom's aunts, who wrote V-mail and sent a Christmas package. The spelling varies in his letters.",
+   "confidence": "probable"
+  },
+  "person.baker": {
+   "id": "person.baker",
+   "type": "person",
+   "name": "Baker",
+   "summary": "Tom's roommate and friend at Solomons: a small man from Missouri with a Yale M.A. in English, formerly a teacher and reporter. He fell in the water on Thanksgiving 1942 and left for his own ship in Dec. 1942.",
+   "confidence": "confirmed"
+  },
+  "person.bertha-beck": {
+   "id": "person.bertha-beck",
+   "type": "person",
+   "name": "Bertha Beck",
+   "aliases": [
+    "Bertha & Carl"
+   ],
+   "summary": "A Beck relative (with Carl) who sent Tom candy and Christmas gifts.",
+   "confidence": "confirmed"
+  },
+  "person.betty": {
+   "id": "person.betty",
+   "type": "person",
+   "name": "Betty",
+   "aliases": [
+    "Betty",
+    "Sis"
+   ],
+   "summary": "A close family member: probably Tom's sister ('Sis'), though one letter hints she may be a cousin. Married Dick in July 1942; her birthday was Jan. 5.",
+   "detail": "Tom calls Jan. 5 (Betty's birthday) 'another big day for the Becks'. The April 1943 letter's 'U. Paul's chest' remark could instead make her Uncle Paul's daughter. The relationship is not settled.",
+   "confidence": "probable",
+   "see_also": [
+    "person.dick"
+   ]
+  },
+  "person.bill-jameson": {
+   "id": "person.bill-jameson",
+   "type": "person",
+   "name": "Bill Jameson",
+   "aliases": [
+    "Bill Jamison",
+    "Bill J.",
+    "Bill",
+    "Billy"
+   ],
+   "summary": "A family friend, a soldier in Co. F, 51st Engineer Combat Regiment, who became engaged to or married Tom's sister Janny in 1943.",
+   "confidence": "probable",
+   "see_also": [
+    "person.janny"
+   ]
+  },
+  "person.bob-hines": {
+   "id": "person.bob-hines",
+   "type": "person",
+   "name": "Bob Hines",
+   "summary": "A friend from home who expected to be stationed at the New York school from Aug. 1, 1942.",
+   "confidence": "confirmed"
+  },
+  "person.brecht": {
+   "id": "person.brecht",
+   "type": "person",
+   "name": "Rev. and Mrs. Brecht",
+   "summary": "The pastor of the Beck family's church and his wife, who organized the Women's Missionary Society's packages to servicemen.",
+   "confidence": "probable",
+   "see_also": [
+    "organization.womans-missionary-society"
+   ]
+  },
+  "person.chet-beard": {
+   "id": "person.chet-beard",
+   "type": "person",
+   "name": "Chet Beard",
+   "aliases": [
+    "Chet"
+   ],
+   "summary": "Tom's friend and V-7 classmate, also an amphibious officer. They travelled to Norfolk together in 1942; Chet married while waiting for his ship and met Tom again in a foreign port in Feb. 1943.",
+   "confidence": "confirmed"
+  },
+  "person.coopersmith": {
+   "id": "person.coopersmith",
+   "type": "person",
+   "name": "Coopersmith",
+   "summary": "One of Tom's roommates at Solomons, from Chicago.",
+   "confidence": "confirmed"
+  },
+  "person.dick": {
+   "id": "person.dick",
+   "type": "person",
+   "name": "Dick (Beck?)",
+   "aliases": [
+    "Dick",
+    "Dick B."
+   ],
+   "summary": "Married Betty in July 1942 and was apparently also a V-7 candidate, later an aviation cadet. Tom mentions 'the Dick Becks' in Sept. 1943.",
+   "confidence": "probable",
+   "see_also": [
+    "person.betty"
+   ]
+  },
+  "person.don-w": {
+   "id": "person.don-w",
+   "type": "person",
+   "name": "Don W.",
+   "aliases": [
+    "Don"
+   ],
+   "summary": "A friend in the regular Navy who held a high enlisted rating, connected to Isabel. Brother of 'Geo. W.' (probably George Wagenhorst).",
+   "confidence": "speculative"
+  },
+  "person.elva-beck": {
+   "id": "person.elva-beck",
+   "type": "person",
+   "name": "Elva Beck (Mrs. John A. Beck)",
+   "aliases": [
+    "Mother",
+    "Mom",
+    "Mum",
+    "Mrs. Beck"
+   ],
+   "summary": "Tom's mother, of Karns City, Pa., and the recipient of most of these letters. She served on the local wartime rationing board and later became a director of a family company.",
+   "detail": "Her first name is known from the Pelkeys' note of Dec. 1943 ('Dear Elva'). Tom jokingly calls her 'Pres. of Beck, Inc.' Her birthday was in late August.",
+   "confidence": "confirmed",
+   "see_also": [
+    "person.john-a-beck",
+    "organization.opa"
+   ]
+  },
+  "person.florella": {
+   "id": "person.florella",
+   "type": "person",
+   "name": "Florella",
+   "summary": "A family friend or relative who sent Tom cookies and Christmas gifts and wrote about wedding pictures. The name reading is uncertain.",
+   "confidence": "speculative"
+  },
+  "person.fran-beck": {
+   "id": "person.fran-beck",
+   "type": "person",
+   "name": "Fran Beck",
+   "aliases": [
+    "Fran"
+   ],
+   "summary": "John Beck's fiancée, then wife from August 1943; Tom's 'beautiful sister-in-law'.",
+   "confidence": "confirmed",
+   "see_also": [
+    "person.john-beck"
+   ]
+  },
+  "person.george-allegheny-friends": {
+   "id": "person.george-allegheny-friends",
+   "type": "person",
+   "name": "Pat Painter",
+   "summary": "A girl at Allegheny College whom George was trying (and failing) to meet.",
+   "confidence": "confirmed"
+  },
+  "person.george-beck": {
+   "id": "person.george-beck",
+   "type": "person",
+   "name": "George Beck (brother)",
+   "aliases": [
+    "George",
+    "Geo.",
+    "The Boot"
+   ],
+   "summary": "Tom's younger brother. A student at Allegheny College, Meadville, Pa., then in the Navy's V-12 college program at Bucknell (Lewisburg, Pa.) from mid-1943.",
+   "confidence": "confirmed",
+   "see_also": [
+    "person.john-beck",
+    "military.v-12"
+   ]
+  },
+  "person.george-wagenhorst": {
+   "id": "person.george-wagenhorst",
+   "type": "person",
+   "name": "George Wagenhorst",
+   "aliases": [
+    "Geo. Wagenhorst",
+    "Geo. W."
+   ],
+   "summary": "An acquaintance from home, a step ahead of Tom at the Midshipmen's School, who offered to help him. They met again in the South Pacific in 1943, and he asked after Isabel.",
+   "confidence": "probable"
+  },
+  "person.glenn-scott": {
+   "id": "person.glenn-scott",
+   "type": "person",
+   "name": "Glenn Scott",
+   "aliases": [
+    "Glenn Scott",
+    "Scott"
+   ],
+   "summary": "A Navy officer from Oil City, Pa., whom Tom knew from home. He was Officer of the Deck at the Midshipmen's School in 1942, and Tom later dined aboard Scott's ship in the South Pacific (Dec. 1943).",
+   "confidence": "probable"
+  },
+  "person.hank-harriet": {
+   "id": "person.hank-harriet",
+   "type": "person",
+   "name": "Hank & Harriet",
+   "aliases": [
+    "Aunt Harriet"
+   ],
+   "summary": "Relatives (Harriet is probably the 'Aunt Harriet' of later letters) who sent Tom socks for Christmas 1942. Harriet was expecting a baby in 1943.",
+   "confidence": "probable"
+  },
+  "person.harriet-maryjane": {
+   "id": "person.harriet-maryjane",
+   "type": "person",
+   "name": "Mary Jane",
+   "summary": "A young woman of the family circle who had become a mother by 1943.",
+   "confidence": "confirmed"
+  },
+  "person.henry": {
+   "id": "person.henry",
+   "type": "person",
+   "name": "Henry",
+   "summary": "A relative or close friend serving in the Army in North Africa in 1943, and in Italy by December 1943.",
+   "confidence": "confirmed"
+  },
+  "person.hickory": {
+   "id": "person.hickory",
+   "type": "person",
+   "name": "\"Hickory\"",
+   "aliases": [
+    "Hickory"
+   ],
+   "summary": "A big, healthy baby in the family who was not yet walking in Sept. 1942, perhaps the McClung baby Tom mentions. Probably a nickname.",
+   "confidence": "speculative",
+   "see_also": [
+    "person.mcclungs"
+   ]
+  },
+  "person.isabel": {
+   "id": "person.isabel",
+   "type": "person",
+   "name": "Isabel (Izzy)",
+   "aliases": [
+    "Isabel",
+    "Izzy"
+   ],
+   "summary": "A family member, probably Tom's sister. She visited him in New York in 1942, considered teaching, and apparently joined the WAVES in 1943.",
+   "confidence": "probable",
+   "see_also": [
+    "organization.waves"
+   ]
+  },
+  "person.jackie": {
+   "id": "person.jackie",
+   "type": "person",
+   "name": "Jackie",
+   "aliases": [
+    "Jackie"
+   ],
+   "summary": "A young child in the family ('getting cuter and wilder'), probably a niece or nephew.",
+   "confidence": "probable"
+  },
+  "person.janny": {
+   "id": "person.janny",
+   "type": "person",
+   "name": "Janny",
+   "aliases": [
+    "Janny"
+   ],
+   "summary": "Tom's sister, a student at PCW (Pennsylvania College for Women, Pittsburgh). She became engaged to or married Bill Jameson in 1943.",
+   "confidence": "probable",
+   "see_also": [
+    "person.bill-jameson"
+   ]
+  },
+  "person.jim-hoffman": {
+   "id": "person.jim-hoffman",
+   "type": "person",
+   "name": "Jim Hoffman (Hofmann)",
+   "summary": "A trainee officer from Cleveland who joined LCI(L)-62 in late Aug. 1943.",
+   "confidence": "confirmed"
+  },
+  "person.joe": {
+   "id": "person.joe",
+   "type": "person",
+   "name": "Joe",
+   "summary": "A shipmate aboard LCI(L)-62, probably another officer.",
+   "confidence": "probable"
+  },
+  "person.john-a-beck": {
+   "id": "person.john-a-beck",
+   "type": "person",
+   "name": "John A. Beck",
+   "aliases": [
+    "Dad",
+    "Daddy"
+   ],
+   "summary": "Tom's father, of Karns City, Pa., apparently in the oil business. He was seriously ill in Nov. 1942, and the letters strongly suggest he died around Dec. 1942-Jan. 1943, though they never say so outright.",
+   "detail": "Evidence: letters after early 1943 go to Mother alone; a memorial picture of Dad for the school (May 1943); 'When Dad's picture arrived I had such a strange sensation' (Dec. 1943). Worth checking against a death record or obituary.",
+   "confidence": "probable",
+   "see_also": [
+    "person.elva-beck"
+   ]
+  },
+  "person.john-beck": {
+   "id": "person.john-beck",
+   "type": "person",
+   "name": "John Beck (brother)",
+   "aliases": [
+    "John",
+    "John B.",
+    "Johnny",
+    "old money bags"
+   ],
+   "summary": "Tom's brother, who handled Tom's money and taxes while he was away ('my financial adviser'). He married Fran in August 1943.",
+   "detail": "Tom writes in Oct. 1943 that 'John & George inherited their poker sense from Dad', confirming John and George are his brothers. Note that other Johns appear too (John Mc., Uncle John).",
+   "confidence": "confirmed",
+   "see_also": [
+    "person.george-beck",
+    "person.fran-beck"
+   ]
+  },
+  "person.john-henry-newton": {
+   "id": "person.john-henry-newton",
+   "type": "person",
+   "name": "Rear Adm. John Henry Newton, USN",
+   "summary": "The commencement speaker at Tom's graduation. On Dec. 7, 1941 he commanded the carrier Lexington's task force at sea; in 1942 he was Assistant Vice Chief of Naval Operations.",
+   "confidence": "probable",
+   "wikipedia": "https://en.wikipedia.org/wiki/John_H._Newton"
+  },
+  "person.john-k-richards": {
+   "id": "person.john-k-richards",
+   "type": "person",
+   "name": "Capt. John K. Richards, USN",
+   "summary": "Commanding officer of the U.S. Naval Reserve Midshipmen's School, New York, in 1942.",
+   "confidence": "confirmed"
+  },
+  "person.john-mc": {
+   "id": "person.john-mc",
+   "type": "person",
+   "name": "John Mc.",
+   "summary": "A family member distinguished from John B. (Tom's brother), probably a McClung. He sent Tom tobacco and a pipe and took a new job in 1943.",
+   "confidence": "speculative",
+   "see_also": [
+    "person.mcclungs"
+   ]
+  },
+  "person.lane": {
+   "id": "person.lane",
+   "type": "person",
+   "name": "Lane",
+   "summary": "A woman Tom went out with in Portland, Maine (his 'entertainment committee'), probably a Navy nurse or WAVE. She was transferred in spring 1945 and went on to the West Coast, apparently bound overseas.",
+   "confidence": "probable"
+  },
+  "person.luke-lena": {
+   "id": "person.luke-lena",
+   "type": "person",
+   "name": "Luke & Lena",
+   "summary": "A couple close to the family who sent Tom Christmas gifts (washcloths) and whose photo he carried.",
+   "confidence": "confirmed"
+  },
+  "person.mac": {
+   "id": "person.mac",
+   "type": "person",
+   "name": "Mac",
+   "summary": "A family member (probably John Mc.) and a good judge of pipes.",
+   "confidence": "probable",
+   "see_also": [
+    "person.john-mc"
+   ]
+  },
+  "person.marge": {
+   "id": "person.marge",
+   "type": "person",
+   "name": "Marge (Marjorie)",
+   "aliases": [
+    "Marge",
+    "Marg",
+    "Margorie",
+    "Marjorie"
+   ],
+   "summary": "Probably Tom's younger sister: a high-school basketball player with a birthday around May 27.",
+   "confidence": "probable"
+  },
+  "person.mari-sally": {
+   "id": "person.mari-sally",
+   "type": "person",
+   "name": "Mari and Sally",
+   "aliases": [
+    "Mari",
+    "Sally"
+   ],
+   "summary": "Two young women Tom corresponded with. He hoped 'Sally stays in Butler awhile', though by August 1943 Sally was engaged to Johnny.",
+   "confidence": "confirmed"
+  },
+  "person.mcclungs": {
+   "id": "person.mcclungs",
+   "type": "person",
+   "name": "The McClungs",
+   "aliases": [
+    "McClung",
+    "Grandma McClung",
+    "Mrs. McClung",
+    "Lucy McClung"
+   ],
+   "summary": "A family close to the Becks (Grandma McClung, Mr. and Mrs. McClung, Lucy McClung). A clipping of 1943 mentions a 'Mrs. J. H. McClung Jr.', so a Beck may have married into the family.",
+   "confidence": "speculative"
+  },
+  "person.mincy": {
+   "id": "person.mincy",
+   "type": "person",
+   "name": "Mincy (?)",
+   "summary": "A young girl in the family who shared Betty's Jan. 5 birthday (reading uncertain).",
+   "confidence": "speculative"
+  },
+  "person.mrs-mortimer": {
+   "id": "person.mrs-mortimer",
+   "type": "person",
+   "name": "Mrs. Mortimer",
+   "summary": "A Karns City-area woman (probably wife of Dr. Mortimer) who gave Tom a sweater and socks, apparently knitted through the Red Cross.",
+   "confidence": "probable",
+   "see_also": [
+    "organization.red-cross"
+   ]
+  },
+  "person.obrien": {
+   "id": "person.obrien",
+   "type": "person",
+   "name": "O'Brien (roommate)",
+   "aliases": [
+    "O'Bryan",
+    "O'Brien"
+   ],
+   "summary": "Tom's first roommate at John Jay Hall, an Irishman from Syracuse, N.Y. He was dismissed ('bilged') in early Sept. 1942.",
+   "confidence": "probable",
+   "see_also": [
+    "military.bilge"
+   ]
+  },
+  "person.ophelia": {
+   "id": "person.ophelia",
+   "type": "person",
+   "name": "Ophelia",
+   "summary": "A young woman in Houston whom Tom dated in January 1943.",
+   "confidence": "confirmed"
+  },
+  "person.pat-hill": {
+   "id": "person.pat-hill",
+   "type": "person",
+   "name": "Pat Hill",
+   "summary": "A young woman who, with her aunt, had Tom to Sunday dinner in Hackensack, N.J., in Sept. 1942, before leaving for school.",
+   "confidence": "confirmed",
+   "see_also": [
+    "place.hackensack"
+   ]
+  },
+  "person.paul-doty": {
+   "id": "person.paul-doty",
+   "type": "person",
+   "name": "Paul M. Doty Jr.",
+   "aliases": [
+    "Doty"
+   ],
+   "summary": "Probably the future Harvard biochemist Paul M. Doty (1920-2011), a 1941 Penn State graduate who was a Columbia graduate student in 1942. Whether he is the 'Doty from Chicora' Tom knew is not confirmed.",
+   "detail": "Doty later founded Harvard's Department of Biochemistry and Molecular Biology and was prominent in nuclear arms control (the Belfer Center).",
+   "confidence": "speculative",
+   "wikipedia": "https://en.wikipedia.org/wiki/Paul_M._Doty",
+   "sources": [
+    {
+     "title": "Wikipedia: Paul M. Doty",
+     "url": "https://en.wikipedia.org/wiki/Paul_M._Doty"
+    }
+   ]
+  },
+  "person.pelkeys": {
+   "id": "person.pelkeys",
+   "type": "person",
+   "name": "Olive and Bob Pelkey",
+   "aliases": [
+    "Pelkey's",
+    "Olive",
+    "Bob"
+   ],
+   "summary": "Friends of the Becks who apparently lived in California (they offered to send 'a box of California fruits'). They sent Tom a fruitcake for Christmas 1943 and forwarded his thank-you to 'Elva'.",
+   "confidence": "probable"
+  },
+  "person.schwalbach": {
+   "id": "person.schwalbach",
+   "type": "person",
+   "name": "Schwalbach",
+   "summary": "A married shipmate aboard LCI(L)-62 who played Sheepshead with Tom.",
+   "confidence": "confirmed"
+  },
+  "person.sprecher": {
+   "id": "person.sprecher",
+   "type": "person",
+   "name": "Sprecher",
+   "summary": "A friend of Tom's with a Pittsburgh address (possibly 5 Highland Court).",
+   "confidence": "confirmed"
+  },
+  "person.toben": {
+   "id": "person.toben",
+   "type": "person",
+   "name": "Toben (?)",
+   "summary": "A fellow officer from Solomons who left for his ship with Baker in Dec. 1942 (reading uncertain).",
+   "confidence": "speculative"
+  },
+  "person.tom-banks": {
+   "id": "person.tom-banks",
+   "type": "person",
+   "name": "Tom Banks",
+   "summary": "A friend from home who went to Army training with Bill Jameson.",
+   "confidence": "confirmed"
+  },
+  "person.tom-beck": {
+   "id": "person.tom-beck",
+   "type": "person",
+   "name": "Thomas Frazier \"Tom\" Beck",
+   "aliases": [
+    "Tom",
+    "Tommy",
+    "Thos. F. Beck",
+    "Ens. Beck"
+   ],
+   "summary": "The letter writer. Born Feb. 27, 1919, of Karns City, Pa.; Penn State graduate; commissioned Ensign, USNR, Oct. 21, 1942; executive officer of USS LCI(L)-62 in the South Pacific 1943-44.",
+   "detail": "V-7 midshipman at Columbia (July-Oct 1942); amphibious training at Norfolk and Solomons, Md.; crew 3081 aboard LCI(L)-218 (Dec 1942); LCI(L)-345 (commissioned Jan 22, 1943, Houston); exec of LCI(L)-62 from Feb 3, 1943, for about 13 months in the South Pacific; shore duty at the U.S. Naval Station, Portland, Maine (1944-45); hospitalized for malaria spring 1945.",
+   "dates": "b. 1919-02-27",
+   "confidence": "confirmed",
+   "see_also": [
+    "person.elva-beck",
+    "person.john-a-beck",
+    "ship.lci-l-62"
+   ]
+  },
+  "person.unc": {
+   "id": "person.unc",
+   "type": "person",
+   "name": "\"Unc\"",
+   "summary": "An uncle on Mother's side, from Tom's remark that she has 'so many of her family near her'. Which uncle is not known.",
+   "confidence": "speculative"
+  },
+  "person.uncle-chauncey": {
+   "id": "person.uncle-chauncey",
+   "type": "person",
+   "name": "Uncle Chauncey",
+   "summary": "One of Tom's uncles.",
+   "confidence": "confirmed"
+  },
+  "person.uncle-frank": {
+   "id": "person.uncle-frank",
+   "type": "person",
+   "name": "Uncle Frank",
+   "summary": "One of Tom's uncles, who lent him a gun that Tom forgot to return before going overseas.",
+   "confidence": "confirmed"
+  },
+  "person.uncle-john-libby": {
+   "id": "person.uncle-john-libby",
+   "type": "person",
+   "name": "Uncle John and Libby",
+   "aliases": [
+    "Uncle John",
+    "Libby",
+    "Buddy"
+   ],
+   "summary": "Tom's uncle and (apparently) his daughter Libby, who married in spring 1943 after her father 'finally gave in'. Buddy may be her husband.",
+   "confidence": "speculative"
+  },
+  "person.uncle-paul": {
+   "id": "person.uncle-paul",
+   "type": "person",
+   "name": "Uncle Paul",
+   "aliases": [
+    "U. Paul"
+   ],
+   "summary": "One of Tom's uncles. Tom's remark about 'U. Paul's chest' puffing up at Betty's baby suggests he was Betty's father or father-in-law.",
+   "confidence": "probable"
+  },
+  "place.allegheny-college": {
+   "id": "place.allegheny-college",
+   "type": "place",
+   "name": "Allegheny College, Meadville, Pa.",
+   "aliases": [
+    "Caflisch",
+    "Brooks"
+   ],
+   "summary": "A liberal-arts college in Meadville, Pa., George Beck's school. Caflisch Hall was a men's dormitory and Brooks Hall a women's dormitory and dining hall.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Allegheny_College"
+  },
+  "place.biltmore-hotel": {
+   "id": "place.biltmore-hotel",
+   "type": "place",
+   "name": "The Biltmore Hotel, New York",
+   "summary": "A grand hotel at Madison Ave. and 43rd St., connected to Grand Central Terminal; its picture postcards were widely used by visitors.",
+   "confidence": "confirmed"
+  },
+  "place.bora-bora": {
+   "id": "place.bora-bora",
+   "type": "place",
+   "name": "Bora Bora, Society Islands",
+   "summary": "A mountainous French Polynesian island that became a U.S. fuel and supply base ('Bobcat') in 1942; the usual first stop for small craft crossing from Panama. Possibly the island ports of March 1943.",
+   "coords": [
+    -16.5,
+    -151.74
+   ],
+   "confidence": "speculative",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bora_Bora"
+  },
+  "place.boston": {
+   "id": "place.boston",
+   "type": "place",
+   "name": "Boston",
+   "summary": "Home of the Red Sox (Fenway Park) and Braves (Braves Field) in 1945.",
+   "confidence": "confirmed"
+  },
+  "place.brown-shipbuilding": {
+   "id": "place.brown-shipbuilding",
+   "type": "place",
+   "name": "Brown Shipbuilding Co., Houston",
+   "aliases": [
+    "Brown"
+   ],
+   "summary": "A Houston yard on Greens Bayou that built LCIs, destroyer escorts and subchasers in WWII, including LCI(L)-345.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Brown_Shipbuilding"
+  },
+  "place.bucknell": {
+   "id": "place.bucknell",
+   "type": "place",
+   "name": "Bucknell University, Lewisburg, Pa.",
+   "aliases": [
+    "Lewisburg"
+   ],
+   "summary": "Bucknell hosted a Navy V-12 unit from July 1943, where George Beck trained.",
+   "coords": [
+    40.955,
+    -76.884
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bucknell_University"
+  },
+  "place.butler-pa": {
+   "id": "place.butler-pa",
+   "type": "place",
+   "name": "Butler, Pennsylvania",
+   "aliases": [
+    "Butler"
+   ],
+   "summary": "The county seat of Butler County, about 12 miles south of Karns City, and the nearest city to the Beck home.",
+   "coords": [
+    40.861,
+    -79.895
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Butler,_Pennsylvania"
+  },
+  "place.butler-va-hospital": {
+   "id": "place.butler-va-hospital",
+   "type": "place",
+   "name": "Veterans Hospital, Butler, Pa.",
+   "aliases": [
+    "Butler Hospital"
+   ],
+   "summary": "Probably the Veterans Administration hospital at Butler (opened 1938), which in wartime held events for patients.",
+   "confidence": "speculative"
+  },
+  "place.canonsburg": {
+   "id": "place.canonsburg",
+   "type": "place",
+   "name": "Canonsburg, Pennsylvania",
+   "aliases": [
+    "Cannonsburg"
+   ],
+   "summary": "A town in Washington County, south of Pittsburgh, then on the Pittsburgh Railways streetcar line.",
+   "confidence": "confirmed"
+  },
+  "place.cape-charles-ferry": {
+   "id": "place.cape-charles-ferry",
+   "type": "place",
+   "name": "Cape Charles ferry",
+   "summary": "The car ferry across the mouth of Chesapeake Bay between Little Creek (Norfolk) and Cape Charles on Virginia's Eastern Shore.",
+   "confidence": "confirmed"
+  },
+  "place.chicora": {
+   "id": "place.chicora",
+   "type": "place",
+   "name": "Chicora, Pennsylvania",
+   "summary": "A borough in Butler County a few miles from Karns City. A war memorial was dedicated there in late 1943.",
+   "coords": [
+    40.948,
+    -79.743
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Chicora,_Pennsylvania"
+  },
+  "place.chicora-memorial": {
+   "id": "place.chicora-memorial",
+   "type": "place",
+   "name": "Chicora war memorial (1943)",
+   "summary": "A memorial dedicated in Chicora, Pa., in late 1943, probably an honor roll of local men in service, as many towns put up.",
+   "confidence": "probable",
+   "see_also": [
+    "place.chicora"
+   ]
+  },
+  "place.columbia-university": {
+   "id": "place.columbia-university",
+   "type": "place",
+   "name": "Columbia University, New York",
+   "aliases": [
+    "Columbia",
+    "Columbia Univ."
+   ],
+   "summary": "From 1940 to 1945 the Navy used Columbia's Morningside Heights campus for its largest reserve-officer school, the U.S. Naval Reserve Midshipmen's School. Midshipmen were told not to write 'Columbia' on their mail.",
+   "coords": [
+    40.8075,
+    -73.9626
+   ],
+   "confidence": "confirmed",
+   "see_also": [
+    "organization.midshipmens-school"
+   ]
+  },
+  "place.coney-island": {
+   "id": "place.coney-island",
+   "type": "place",
+   "name": "Coney Island",
+   "summary": "Brooklyn's famous beach and amusement area (Luna Park, Steeplechase, the boardwalk), a popular liberty destination for servicemen.",
+   "confidence": "confirmed"
+  },
+  "place.ellington-field": {
+   "id": "place.ellington-field",
+   "type": "place",
+   "name": "Ellington Field",
+   "summary": "An Army Air Forces flight-training field southeast of Houston; in 1943 it trained thousands of bombardier and navigator cadets.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ellington_Field_Joint_Reserve_Base"
+  },
+  "place.furnald-hall": {
+   "id": "place.furnald-hall",
+   "type": "place",
+   "name": "Furnald Hall, Columbia University",
+   "aliases": [
+    "Furnald"
+   ],
+   "summary": "A Columbia dormitory on Broadway also used to house midshipmen.",
+   "coords": [
+    40.8068,
+    -73.9642
+   ],
+   "confidence": "confirmed"
+  },
+  "place.galveston": {
+   "id": "place.galveston",
+   "type": "place",
+   "name": "Galveston, Texas",
+   "summary": "The island port at the entrance to Galveston Bay, where new LCIs fitted out and trained before sailing.",
+   "coords": [
+    29.301,
+    -94.797
+   ],
+   "confidence": "confirmed"
+  },
+  "place.guadalcanal-area": {
+   "id": "place.guadalcanal-area",
+   "type": "place",
+   "name": "Guadalcanal / Tulagi area, Solomon Islands",
+   "summary": "After Japan evacuated Guadalcanal in Feb. 1943 it became the main Allied base for the Solomons campaign; LCI Flotilla Five moved there in June 1943 to prepare for New Georgia.",
+   "coords": [
+    -9.43,
+    160.0
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Guadalcanal"
+  },
+  "place.hackensack": {
+   "id": "place.hackensack",
+   "type": "place",
+   "name": "Hackensack, New Jersey",
+   "summary": "A New Jersey city about 10 miles from Manhattan, where Pat Hill's aunt lived.",
+   "confidence": "confirmed"
+  },
+  "place.hotel-st-george": {
+   "id": "place.hotel-st-george",
+   "type": "place",
+   "name": "Hotel St. George, Brooklyn",
+   "summary": "A huge hotel in Brooklyn Heights (Clark St.), once the largest in New York City, famous for its saltwater swimming pool.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Hotel_St._George"
+  },
+  "place.houston": {
+   "id": "place.houston",
+   "type": "place",
+   "name": "Houston, Texas",
+   "summary": "Where LCI(L)-345 was built (Brown Shipbuilding) and commissioned in January 1943. The booming wartime city was full of servicemen.",
+   "coords": [
+    29.76,
+    -95.37
+   ],
+   "confidence": "confirmed"
+  },
+  "place.indiana-pa": {
+   "id": "place.indiana-pa",
+   "type": "place",
+   "name": "Indiana, Pennsylvania",
+   "summary": "A county-seat town about 40 miles east of Karns City.",
+   "confidence": "confirmed"
+  },
+  "place.john-jay-hall": {
+   "id": "place.john-jay-hall",
+   "type": "place",
+   "name": "John Jay Hall, Columbia University",
+   "aliases": [
+    "John Jay"
+   ],
+   "summary": "A 15-story Columbia dormitory (opened 1927) at 114th St. and Amsterdam Ave. The Navy treated it as a 'ship': floors were 'decks', stairs 'ladders'. Tom lived on the 13th deck, room 1317 (later 1313).",
+   "coords": [
+    40.8063,
+    -73.9616
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/John_Jay_Hall"
+  },
+  "place.johnson-hall": {
+   "id": "place.johnson-hall",
+   "type": "place",
+   "name": "Johnson Hall, Columbia University",
+   "summary": "A Columbia residence hall on Amsterdam Ave. (today Wien Hall) that also housed midshipmen in 1942.",
+   "confidence": "confirmed"
+  },
+  "place.karns-city": {
+   "id": "place.karns-city",
+   "type": "place",
+   "name": "Karns City, Pennsylvania",
+   "aliases": [
+    "K.C.",
+    "Karns City"
+   ],
+   "summary": "The Beck family's hometown: a small borough in Butler County, western Pennsylvania, about 50 miles north of Pittsburgh. It grew up in the 1870s oil boom and is named for oilman S. D. Karns.",
+   "coords": [
+    40.998,
+    -79.721
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Karns_City,_Pennsylvania"
+  },
+  "place.little-creek": {
+   "id": "place.little-creek",
+   "type": "place",
+   "name": "Little Creek, Virginia",
+   "summary": "The Naval Amphibious Base at Little Creek, near Norfolk, established in 1942 as a main East Coast amphibious training center.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Joint_Expeditionary_Base_Little_Creek%E2%80%93Fort_Story"
+  },
+  "place.morningside-heights": {
+   "id": "place.morningside-heights",
+   "type": "place",
+   "name": "Morningside Heights, Manhattan",
+   "summary": "The neighborhood around Columbia. The midshipmen's 'bounds' (110th-122nd St., Riverside Dr. to Morningside Dr.) covered only about a dozen blocks.",
+   "confidence": "confirmed"
+  },
+  "place.new-orleans": {
+   "id": "place.new-orleans",
+   "type": "place",
+   "name": "New Orleans, Louisiana",
+   "summary": "The major Gulf port; Tom's crew had a 10-hour layover there on the train to Houston in January 1943.",
+   "confidence": "confirmed"
+  },
+  "place.nixon-hotel-butler": {
+   "id": "place.nixon-hotel-butler",
+   "type": "place",
+   "name": "Nixon Hotel, Butler, Pa.",
+   "summary": "Butler's main downtown hotel, which housed the telegraph office that received Tom's cable.",
+   "confidence": "probable"
+  },
+  "place.norfolk-nob": {
+   "id": "place.norfolk-nob",
+   "type": "place",
+   "name": "Naval Operating Base, Norfolk, Virginia",
+   "aliases": [
+    "Norfolk",
+    "N.O.B."
+   ],
+   "summary": "The Navy's huge Hampton Roads base (today Naval Station Norfolk), headquarters of the Atlantic Fleet's Amphibious Force. Tom reported there after his commission in Nov. 1942.",
+   "coords": [
+    36.946,
+    -76.303
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Naval_Station_Norfolk"
+  },
+  "place.noumea": {
+   "id": "place.noumea",
+   "type": "place",
+   "name": "Nouméa, New Caledonia",
+   "summary": "The French colonial capital and headquarters of the U.S. South Pacific command, on a large harbor. LCI Flotilla Five trained out of Nouméa in spring 1943. Probably the 'fair sized city' of April 1943.",
+   "coords": [
+    -22.276,
+    166.458
+   ],
+   "confidence": "speculative",
+   "wikipedia": "https://en.wikipedia.org/wiki/Noum%C3%A9a"
+  },
+  "place.ocean-city": {
+   "id": "place.ocean-city",
+   "type": "place",
+   "name": "Ocean City",
+   "summary": "A seaside resort, probably Ocean City, New Jersey (or Maryland), where Mother vacationed in 1943.",
+   "confidence": "probable"
+  },
+  "place.oil-city": {
+   "id": "place.oil-city",
+   "type": "place",
+   "name": "Oil City, Pennsylvania",
+   "summary": "A Venango County oil town about 30 miles north of Karns City, headquarters of Quaker State and Pennzoil at the time.",
+   "confidence": "confirmed"
+  },
+  "place.panama-canal-zone": {
+   "id": "place.panama-canal-zone",
+   "type": "place",
+   "name": "Panama Canal Zone (Colón / Cristóbal)",
+   "summary": "The U.S.-run Canal Zone, gateway from the Atlantic to the Pacific. Its Atlantic-side city of Colón was famous among sailors for streets of bars. Very probably the unnamed 'foreign port' of Feb. 1943.",
+   "coords": [
+    9.355,
+    -79.901
+   ],
+   "confidence": "probable",
+   "wikipedia": "https://en.wikipedia.org/wiki/Panama_Canal_Zone"
+  },
+  "place.paradise-creek": {
+   "id": "place.paradise-creek",
+   "type": "place",
+   "name": "Paradise Creek, Portsmouth, Va.",
+   "summary": "A creek beside the Norfolk Navy Yard where landing-craft crews were berthed and trained in late 1942.",
+   "confidence": "probable"
+  },
+  "place.pcw": {
+   "id": "place.pcw",
+   "type": "place",
+   "name": "Pennsylvania College for Women (PCW), Pittsburgh",
+   "aliases": [
+    "PCW",
+    "Shadyside"
+   ],
+   "summary": "A women's college in Pittsburgh's Shadyside neighborhood, renamed Chatham College in 1955 (now Chatham University). Janny's school.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Chatham_University"
+  },
+  "place.petrolia": {
+   "id": "place.petrolia",
+   "type": "place",
+   "name": "Petrolia, Pennsylvania",
+   "summary": "A small oil-boom borough in Butler County next to Karns City, with the nearby post office.",
+   "coords": [
+    40.999,
+    -79.717
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Petrolia,_Pennsylvania"
+  },
+  "place.philadelphia": {
+   "id": "place.philadelphia",
+   "type": "place",
+   "name": "Philadelphia",
+   "summary": "Home of the Philadelphia Navy Yard.",
+   "confidence": "confirmed"
+  },
+  "place.pittsburgh": {
+   "id": "place.pittsburgh",
+   "type": "place",
+   "name": "Pittsburgh, Pennsylvania",
+   "summary": "The nearest big city to Karns City, about 50 miles south. Tom studied briefly at the University of Pittsburgh.",
+   "confidence": "confirmed"
+  },
+  "place.plattsburgh-barracks": {
+   "id": "place.plattsburgh-barracks",
+   "type": "place",
+   "name": "Plattsburgh Barracks, New York",
+   "summary": "An old Army post on Lake Champlain in far-northern New York, used for training in WWII; bitterly cold in winter.",
+   "confidence": "confirmed"
+  },
+  "place.polk-state-school": {
+   "id": "place.polk-state-school",
+   "type": "place",
+   "name": "Polk State School",
+   "aliases": [
+    "Polk"
+   ],
+   "summary": "A large state institution for people with intellectual disabilities at Polk, Venango County, Pa. (today Polk Center). 'I would think I was at Polk' was a local joke at the instructors' expense.",
+   "confidence": "probable"
+  },
+  "place.portland-me": {
+   "id": "place.portland-me",
+   "type": "place",
+   "name": "U.S. Naval Station, Grand Trunk Pier, Portland, Maine",
+   "aliases": [
+    "Portland",
+    "Grand Trunk Pier"
+   ],
+   "summary": "Tom's shore station in 1944-45, on the Grand Trunk Railway's wharves on the Portland waterfront. Casco Bay was a major anchorage and training base for the Atlantic Fleet's escorts.",
+   "coords": [
+    43.66,
+    -70.25
+   ],
+   "confidence": "confirmed"
+  },
+  "place.portsmouth-naval-hospital": {
+   "id": "place.portsmouth-naval-hospital",
+   "type": "place",
+   "name": "U.S. Naval Hospital, Portsmouth, N.H.",
+   "aliases": [
+    "Portsmouth",
+    "the yard"
+   ],
+   "summary": "The naval hospital at the Portsmouth Navy Yard (Kittery, Maine, across the river from Portsmouth, N.H.), about 50 miles south of Portland. Probably where Tom was treated for malaria in spring 1945.",
+   "coords": [
+    43.08,
+    -70.735
+   ],
+   "confidence": "probable"
+  },
+  "place.portsmouth-va": {
+   "id": "place.portsmouth-va",
+   "type": "place",
+   "name": "Portsmouth, Virginia",
+   "aliases": [
+    "Portsmouth",
+    "Navy Yard"
+   ],
+   "summary": "The city across the Elizabeth River from Norfolk, home of the Norfolk Navy Yard, where Tom rejoined crew 3081 after Christmas 1942.",
+   "coords": [
+    36.835,
+    -76.298
+   ],
+   "confidence": "confirmed"
+  },
+  "place.radio-city": {
+   "id": "place.radio-city",
+   "type": "place",
+   "name": "Radio City (Rockefeller Center)",
+   "summary": "Rockefeller Center's entertainment complex: Radio City Music Hall and the NBC radio studios, where visitors could watch live broadcasts.",
+   "confidence": "confirmed"
+  },
+  "place.rice-hotel": {
+   "id": "place.rice-hotel",
+   "type": "place",
+   "name": "Rice Hotel, Houston",
+   "summary": "Houston's grandest hotel (1913), at Main and Texas avenues, advertising '1000 Rooms'; President Kennedy spoke there the night before his assassination in 1963.",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Rice_Hotel"
+  },
+  "place.rimersburg": {
+   "id": "place.rimersburg",
+   "type": "place",
+   "name": "Rimersburg, Pennsylvania",
+   "summary": "A small borough in Clarion County, a few miles north-east of Karns City.",
+   "coords": [
+    41.04,
+    -79.502
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Rimersburg,_Pennsylvania"
+  },
+  "place.riverside-church": {
+   "id": "place.riverside-church",
+   "type": "place",
+   "name": "Riverside Church, New York",
+   "aliases": [
+    "Riverside Church"
+   ],
+   "summary": "The huge Gothic church on Riverside Drive at 120th St., opened 1930 with funding from John D. Rockefeller Jr. The Midshipmen's School held its graduations there, including Tom's on Oct. 21, 1942.",
+   "coords": [
+    40.8119,
+    -73.9633
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Riverside_Church"
+  },
+  "place.slippery-rock": {
+   "id": "place.slippery-rock",
+   "type": "place",
+   "name": "Slippery Rock, Pennsylvania",
+   "summary": "A Butler County college town (Slippery Rock State Teachers College), which hosted military training during the war.",
+   "confidence": "confirmed"
+  },
+  "place.solomons-md": {
+   "id": "place.solomons-md",
+   "type": "place",
+   "name": "Naval Amphibious Training Base, Solomons, Maryland",
+   "aliases": [
+    "Solomons",
+    "Soloman's Island",
+    "Solomons Island"
+   ],
+   "summary": "The Navy's first official amphibious training base, established Aug. 1942 at the mouth of the Patuxent River on Chesapeake Bay. About 68,000 men trained there before it closed in 1945. Not to be confused with the Solomon Islands.",
+   "coords": [
+    38.325,
+    -76.456
+   ],
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/Naval_Amphibious_Training_Base_Solomons",
+   "sources": [
+    {
+     "title": "Wikipedia: Naval Amphibious Training Base Solomons",
+     "url": "https://en.wikipedia.org/wiki/Naval_Amphibious_Training_Base_Solomons"
+    }
+   ]
+  },
+  "place.virginia-beach": {
+   "id": "place.virginia-beach",
+   "type": "place",
+   "name": "Virginia Beach",
+   "summary": "A resort town on the Atlantic near Norfolk.",
+   "confidence": "confirmed"
+  },
+  "place.washington-dc": {
+   "id": "place.washington-dc",
+   "type": "place",
+   "name": "Washington, D.C.",
+   "summary": "The capital; Solomons' mail was routed through it, and Tom travelled through it to and from leave.",
+   "confidence": "confirmed"
+  },
+  "place.wheeling": {
+   "id": "place.wheeling",
+   "type": "place",
+   "name": "Wheeling, West Virginia",
+   "summary": "A city on the Ohio River where part of the family lived; Mother visited there in July 1942.",
+   "confidence": "confirmed"
+  },
+  "place.yankee-stadium": {
+   "id": "place.yankee-stadium",
+   "type": "place",
+   "name": "Yankee Stadium",
+   "summary": "Home of the New York Yankees in the Bronx. The Yankees won the 1942 American League pennant but lost the World Series to the St. Louis Cardinals.",
+   "confidence": "confirmed"
+  },
+  "ship.eagle-56": {
+   "id": "ship.eagle-56",
+   "type": "ship",
+   "name": "USS Eagle 56 (PE-56)",
+   "aliases": [
+    "a ship that used to tie up at the pier"
+   ],
+   "summary": "A WWI-era patrol boat based at Portland, Maine, torpedoed by the German submarine U-853 off Cape Elizabeth on April 23, 1945: 49 killed, 13 survivors. The Navy blamed a boiler explosion until 2001, when it recognised the loss as enemy action.",
+   "detail": "It is the only time the U.S. Navy has overturned its own Court of Inquiry. The wreck was found in 2018 with its boilers intact. U-853 was sunk off Rhode Island on May 6, 1945.",
+   "dates": "sunk 1945-04-23",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/USS_Eagle_56",
+   "sources": [
+    {
+     "title": "Wikipedia: USS Eagle 56",
+     "url": "https://en.wikipedia.org/wiki/USS_Eagle_56"
+    }
+   ]
+  },
+  "ship.lci-l-218": {
+   "id": "ship.lci-l-218",
+   "type": "ship",
+   "name": "USS LCI(L)-218",
+   "aliases": [
+    "#218",
+    "LCI(L) #218"
+   ],
+   "summary": "Tom's first ship, a temporary training assignment for his crew 3081 in December 1942 in the Norfolk area. Built by George Lawley & Sons, Neponset, Mass., and commissioned Nov. 18, 1942. She went on to earn five battle stars in the Mediterranean and at Normandy.",
+   "detail": "After Tom's crew left her, LCI(L)-218 served in Tunisia, Sicily, Salerno, Anzio and at Normandy (June 1944), was lent to the Royal Navy in Oct. 1944, and was sold in 1948.",
+   "dates": "commissioned 1942-11-18",
+   "confidence": "confirmed",
+   "sources": [
+    {
+     "title": "NavSource: LCI(L)-218",
+     "url": "https://www.navsource.net/archives/10/15/150218.htm"
+    }
+   ]
+  },
+  "ship.lci-l-345": {
+   "id": "ship.lci-l-345",
+   "type": "ship",
+   "name": "USS LCI(L)-345",
+   "aliases": [
+    "#345",
+    "the 345",
+    "LCI(L) 345"
+   ],
+   "summary": "The LCI Tom's crew 3081 commissioned on Jan. 22, 1943, at Houston. Built by Brown Shipbuilding Co., Houston. Tom left her for LCI(L)-62 on Feb. 3, 1943. She later became a gunboat, LCI(G)-345, and won five battle stars in the Central Pacific.",
+   "detail": "LCI Flotilla Three. Operations: Marshall Islands (Jan-Feb 1944), Guam and Tinian (July 1944), Iwo Jima (Feb-Mar 1945), Okinawa (June 1945); Navy Unit Commendation. Decommissioned 1946 and sold in 1948.",
+   "dates": "commissioned 1943-01-22",
+   "confidence": "confirmed",
+   "see_also": [
+    "ship.lci-l-62"
+   ],
+   "sources": [
+    {
+     "title": "NavSource: LCI(L)-345",
+     "url": "https://www.navsource.net/archives/10/15/150345.htm"
+    }
+   ]
+  },
+  "ship.lci-l-62": {
+   "id": "ship.lci-l-62",
+   "type": "ship",
+   "name": "USS LCI(L)-62",
+   "aliases": [
+    "#62",
+    "the 62",
+    "LCI(L) 62",
+    "U.S.S. LCI(L)-62"
+   ],
+   "summary": "Tom's ship from Feb. 3, 1943, where he served as executive officer. A 158-ft Landing Craft Infantry built by Consolidated Steel, Orange, Texas (commissioned Nov. 13, 1942), she served in LCI Flotilla Five in the South Pacific and earned five battle stars.",
+   "detail": "Battle credit: New Georgia landings (July 1 and 4, 1943); Treasury-Bougainville (Dec. 3-4, 1943); consolidation of the Northern Solomons (Apr-June 1944); Cape Sansapor and Morotai, New Guinea (July-Sept 1944); Lingayen Gulf, Luzon (Jan 1945). Later in LCI Flotilla 22. Transferred to the Maritime Commission for disposal in 1947. Tom's letters could not mention any of the operations because of censorship; the gaps in his letters (June-Aug 1943, Oct-Nov 1943) match the dates of her first two battle credits.",
+   "dates": "1942-11-13 to 1947",
+   "confidence": "confirmed",
+   "see_also": [
+    "organization.lci-flotilla-5",
+    "event.new-georgia",
+    "event.bougainville"
+   ],
+   "sources": [
+    {
+     "title": "NavSource: LCI(L)-62",
+     "url": "https://www.navsource.net/archives/10/15/150062.htm"
+    },
+    {
+     "title": "uboat.net: USS LCI(L)-62",
+     "url": "https://uboat.net/allies/warships/ship/20890.html"
+    }
+   ]
+  },
+  "ship.prairie-state": {
+   "id": "ship.prairie-state",
+   "type": "ship",
+   "name": "USS Prairie State (ex-USS Illinois, BB-7)",
+   "aliases": [
+    "Prairie State",
+    "the Illinois"
+   ],
+   "summary": "An 1898 battleship, renamed Prairie State in 1941, permanently moored in the Hudson River off Manhattan's Upper West Side as a floating classroom and barracks for the Midshipmen's School.",
+   "dates": "launched 1898; scrapped 1956",
+   "confidence": "confirmed",
+   "wikipedia": "https://en.wikipedia.org/wiki/USS_Illinois_(BB-7)"
+  },
+  "term.wartime-prices": {
+   "id": "term.wartime-prices",
+   "type": "term",
+   "name": "Wartime prices",
+   "summary": "As a rough guide, a 1942-45 dollar is worth about $18-20 today (by the Consumer Price Index), so 25 cents was roughly $5 and $250 roughly $5,000.",
+   "confidence": "probable",
+   "sources": [
+    {
+     "title": "U.S. Bureau of Labor Statistics CPI Inflation Calculator",
+     "url": "https://www.bls.gov/data/inflation_calculator.htm"
+    }
+   ]
+  }
+ }
+}

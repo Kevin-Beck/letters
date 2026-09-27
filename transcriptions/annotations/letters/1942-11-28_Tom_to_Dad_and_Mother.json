@@ -1,0 +1,138 @@
+{
+ "letter": "1942-11-28_Tom_to_Dad_and_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "j.g."
+   },
+   "kind": "reference",
+   "entity": "military.jg"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Mustangs"
+   },
+   "kind": "reference",
+   "entity": "military.mustang"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "L.C.I.",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "military.lci"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Executive\n(Exec.) officer"
+   },
+   "kind": "reference",
+   "entity": "military.exec"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Damage control"
+   },
+   "kind": "reference",
+   "entity": "military.damage-control"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Chiefs"
+   },
+   "kind": "reference",
+   "entity": "military.chief"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "gunners mate"
+   },
+   "kind": "reference",
+   "entity": "military.gunners-mate"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Pearl Harbor"
+   },
+   "kind": "reference",
+   "entity": "event.pearl-harbor"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Midway"
+   },
+   "kind": "reference",
+   "entity": "event.midway"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "Solomons and in a few other skirmishes"
+   },
+   "kind": "reference",
+   "entity": "event.guadalcanal",
+   "note": "Here 'Solomons' means the Solomon Islands (Guadalcanal), not the Maryland base."
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "L.S.T.",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "military.lst"
+  },
+  {
+   "id": "a12",
+   "quote": {
+    "exact": "John\nPaul Jones"
+   },
+   "kind": "reference",
+   "entity": "culture.john-paul-jones"
+  },
+  {
+   "id": "a13",
+   "quote": {
+    "exact": "Coopersmith, is\na Jew"
+   },
+   "kind": "content-note",
+   "entity": "person.coopersmith",
+   "note": "Tom singles out a roommate's religion; given the antisemitic remarks in nearby letters, it reads as a prejudiced aside. Kept as written."
+  },
+  {
+   "id": "a14",
+   "quote": {
+    "exact": "Baker, from Mo."
+   },
+   "kind": "reference",
+   "entity": "person.baker"
+  },
+  {
+   "id": "a15",
+   "quote": {
+    "exact": "Yale"
+   },
+   "kind": "reference",
+   "entity": "organization.yale"
+  },
+  {
+   "id": "a16",
+   "quote": {
+    "exact": "Time"
+   },
+   "kind": "reference",
+   "entity": "culture.time-magazine",
+   "note": "Time, Nov. 30, 1942. The article on page 70 is not identified."
+  }
+ ]
+}

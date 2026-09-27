@@ -1,0 +1,95 @@
+{
+ "letter": "1942-11-01_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Chet",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.chet-beard"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "OPA"
+   },
+   "kind": "reference",
+   "entity": "organization.opa"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "night boat"
+   },
+   "kind": "context",
+   "note": "Overnight passenger steamers still ran on Chesapeake Bay between Baltimore or Washington and Norfolk."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "0800"
+   },
+   "kind": "reference",
+   "entity": "military.24-hour-time"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Virginia Beach"
+   },
+   "kind": "reference",
+   "entity": "place.virginia-beach"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Little Creek"
+   },
+   "kind": "reference",
+   "entity": "place.little-creek"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Solomons"
+   },
+   "kind": "reference",
+   "entity": "place.solomons-md"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Bachelor Officer Quarters"
+   },
+   "kind": "reference",
+   "entity": "military.boq"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Naval Operating Base",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "place.norfolk-nob"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "gold braid"
+   },
+   "kind": "reference",
+   "entity": "military.gold-braid"
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "Amphibious Force, Post Office"
+   },
+   "kind": "reference",
+   "entity": "organization.amphibious-force"
+  }
+ ]
+}

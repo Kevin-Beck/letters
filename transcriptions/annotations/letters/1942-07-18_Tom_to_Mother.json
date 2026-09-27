@@ -1,0 +1,46 @@
+{
+ "letter": "1942-07-18_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Irving\nBerlin"
+   },
+   "kind": "reference",
+   "entity": "culture.irving-berlin"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Sigmund Romberg"
+   },
+   "kind": "reference",
+   "entity": "culture.sigmund-romberg"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Dick & Betty"
+   },
+   "kind": "reference",
+   "entity": "person.betty",
+   "note": "Dick and Betty married about July 18, 1942."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "the V-7"
+   },
+   "kind": "reference",
+   "entity": "military.v-7"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Please don't say much about what I tell you the school"
+   },
+   "kind": "context",
+   "note": "Wartime security. Posters warned 'Loose lips might sink ships', and officer candidates were told not to discuss their training."
+  }
+ ]
+}

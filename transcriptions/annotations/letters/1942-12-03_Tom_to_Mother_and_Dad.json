@@ -1,0 +1,38 @@
+{
+ "letter": "1942-12-03_Tom_to_Mother_and_Dad.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Hank & Harriet - a pair of sox"
+   },
+   "kind": "reference",
+   "entity": "person.hank-harriet"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "the roads were oil"
+   },
+   "kind": "context",
+   "note": "Dirt roads were sprayed with oil to keep down dust and mud, a familiar practice in the Pennsylvania oil country too."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Womans Missionary Society"
+   },
+   "kind": "reference",
+   "entity": "organization.womans-missionary-society"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "One moon ago"
+   },
+   "kind": "reference",
+   "entity": "place.solomons-md",
+   "note": "Tom arrived at Solomons on Nov. 5, 1942, about a month earlier."
+  }
+ ]
+}

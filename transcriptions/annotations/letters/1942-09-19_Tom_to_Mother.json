@@ -1,0 +1,37 @@
+{
+ "letter": "1942-09-19_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Power's models"
+   },
+   "kind": "reference",
+   "entity": "organization.powers-agency"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Hickory"
+   },
+   "kind": "reference",
+   "entity": "person.hickory"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Isabel's letter"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "extending graduation until the 21st"
+   },
+   "kind": "reference",
+   "entity": "event.graduation-1942-10-21"
+  }
+ ]
+}

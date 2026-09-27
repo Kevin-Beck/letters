@@ -1,0 +1,37 @@
+{
+ "letter": "1942-11-09_Tom_to_Mother_Monday.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "in the last war"
+   },
+   "kind": "reference",
+   "entity": "event.world-war-i"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "we were commandos"
+   },
+   "kind": "context",
+   "note": "British Commandos and the new U.S. Army Rangers were celebrated in the 1942 press, and the idea of amphibious 'commando' work had a romantic appeal."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "slot machines"
+   },
+   "kind": "context",
+   "note": "Southern Maryland was known for its (legal in some counties) slot machines from the 1940s to the 1960s."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "nigger"
+   },
+   "kind": "content-note",
+   "note": "A racial slur for the Black pianist. It was common in white speech of the period and is kept as written as part of the historical record."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "letter": "1942-12-10_Tom_to_Folks.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "We anchored all night"
+   },
+   "kind": "reference",
+   "entity": "ship.lci-l-218",
+   "note": "Tom's crew was aboard the training ship LCI(L)-218 in the Chesapeake/Norfolk area.",
+   "confidence": "probable"
+  }
+ ]
+}

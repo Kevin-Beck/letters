@@ -1,0 +1,61 @@
+{
+ "letter": "Undated_Bill_Jameson_to_Mrs_Beck.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Pvt. William G. Jameson"
+   },
+   "kind": "reference",
+   "entity": "person.bill-jameson"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Co. F. 51st Engineers Combat Regt."
+   },
+   "kind": "reference",
+   "entity": "organization.51st-engineers"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Plattsburgh Barracks"
+   },
+   "kind": "reference",
+   "entity": "place.plattsburgh-barracks"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Janny's"
+   },
+   "kind": "reference",
+   "entity": "person.janny"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Isabel's"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Tom Banks"
+   },
+   "kind": "reference",
+   "entity": "person.tom-banks"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "officer's training or Air-force"
+   },
+   "kind": "context",
+   "note": "Army enlisted men could apply for Officer Candidate School or the Army Air Forces cadet program."
+  }
+ ]
+}

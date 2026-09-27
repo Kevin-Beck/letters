@@ -1,0 +1,109 @@
+{
+  "collection": "TBF1 Navy Letters / TBF0defective",
+  "description": "Letters from Tom, written during his WWII U.S. Navy service. This folder mostly holds incomplete letters (missing pages) and a duplicate scan.",
+  "transcribed": "2026-09-26",
+  "conventions": "Original spelling kept. [?] = uncertain reading; [crossed out] = struck-through text; [bracketed letters] = text cut off at the scan edge. Dates in YYYY-MM-DD. Filenames in this collection follow YYMMDD + page number.",
+  "letters": [
+    {
+      "original_files": ["420727pg2.jpg", "420727pg3.jpg"],
+      "transcription_file": "1942-07-27_Tom_to_Mother.txt",
+      "written_by": "Tom",
+      "written_to": "Mother (inferred; greeting page missing)",
+      "date": "1942-07-27",
+      "date_source": "filename only (dated first page missing)",
+      "other_dates_mentioned": ["August 1 (1942) - Bob Hines expected to be stationed there"],
+      "location": "Midshipman training (school not named). Mentions regiment inspections in full dress, a midshipman-run watch system, and a Naval Hospital.",
+      "complete": false,
+      "notes": "Page 1 is missing; pg2 begins mid-sentence and pg3 is marked '-2-'. Tom says he is from 'about 50 miles north' of Pittsburgh, near Butler and Karns City, PA. A fellow trainee, Armagost, is from Rimersburg, PA. 'The Eagle' is probably the Butler Eagle newspaper, which Tom says he doesn't want sent. 'On the tree' was midshipman-school slang for being on the list of failing students. People named: Armagost, 'the boy from Indiana' (appendicitis), Bob Hines."
+    },
+    {
+      "original_files": ["430108pg2.jpg"],
+      "transcription_file": "1943-01-08_Tom_to_Mother.txt",
+      "written_by": "Tom",
+      "written_to": "Mother (inferred; greeting page missing)",
+      "date": "1943-01-08",
+      "date_source": "filename only (dated first page missing)",
+      "other_dates_mentioned": [],
+      "location": "Somewhere in 'the South' (probably Texas; see the 1943-01-18 letter)",
+      "complete": false,
+      "notes": "Only the final page is present. Tom says it is cold and rainy, not what he expected of the South. He signs off with 'Please note new address', so he had recently been transferred."
+    },
+    {
+      "original_files": ["430118pg1.jpg", "430118pg3.jpg", "430118pg4.jpg"],
+      "transcription_file": "1943-01-18_Tom_to_Mother.txt",
+      "written_by": "Tom",
+      "written_to": "Mother",
+      "date": "1943-01-18",
+      "date_source": "written on letter ('Jan. 18, 1943')",
+      "other_dates_mentioned": [],
+      "location": "Texas (stated: 'My biggest disappointment in Texas is the weather')",
+      "complete": true,
+      "notes": "There is no pg2 scan, but the text runs straight from pg1 to pg3 ('If things turn out the way I expect / to happen'), so the letter appears complete. Topics: writing letters on a bed, Christmas cards catching up with him via '#218' (possibly a previous ship or unit number), money for a uniform and sunglasses, loaning money to unpaid men, expensive hotels in town, a girl he met ('a sailor has a girl in every port'), a 'Norther' cold spell, and possible trips for Mother to Florida or California. People named: Sprecher (whose letter Tom forgot to return)."
+    },
+    {
+      "original_files": ["430131pg1.jpg"],
+      "transcription_file": "1943-01-31_Tom_to_Mother.txt",
+      "written_by": "Tom",
+      "written_to": "Mother",
+      "date": "1943-01-31",
+      "date_source": "written on letter ('Jan. 31, 1943')",
+      "other_dates_mentioned": [],
+      "location": "Aboard a ship (not named)",
+      "complete": false,
+      "notes": "First page only; ends mid-sentence. Written on printed 'UNITED STATES NAVY' letterhead with a ship's-wheel and battleship design. Tom is being transferred to another ship because its executive officer is sick, which suggests Tom was an officer, likely replacing the XO. The ship may be USS LCI(L) 62, where he is by March 1943. People named: Margorie (spelled that way; plays basketball, probably a sister or relative)."
+    },
+    {
+      "original_files": ["430312pg1.jpg"],
+      "transcription_file": "1943-03-12_Tom_to_Mother.txt",
+      "written_by": "Tom",
+      "written_to": "Mother",
+      "date": "1943-03-12",
+      "date_source": "written on letter ('March 12, 1943')",
+      "other_dates_mentioned": ["1943-03-15 (continuation dated 'Mar. 15' within the same letter)"],
+      "location": "At sea aboard USS LCI(L) 62 (Landing Craft, Infantry (Large)), recently crossed the Equator",
+      "complete": false,
+      "notes": "TYPEWRITTEN, not handwritten. Heavy staining, and the scan cuts off the right edge of some lines. Only the first page is present; it ends at '(General Quarters)'. Tom describes crossing the Equator and being initiated into 'King Neptune's Court' (pollywog to 'moss-back'), shaving his head, taking noon sun sights for navigation, and standing 4-on/8-off watches. He mentions 'the life at Solomons', probably the Naval Amphibious Training Base at Solomons, Maryland, and hearing an Oklahoma radio station. The letter shows he was involved in navigation and ship's watches."
+    },
+    {
+      "original_files": ["430421pg1.jpg", "430421pg1a.jpg"],
+      "transcription_file": "1943-04-21_Tom_to_Mother.txt",
+      "written_by": "Tom",
+      "written_to": "Mother",
+      "date": "1943-04-21",
+      "date_source": "written on letter ('4/21/43')",
+      "other_dates_mentioned": [],
+      "location": "Overseas (not named)",
+      "complete": false,
+      "notes": "The two image files are duplicate scans of the same page. First page only; ends mid-word ('a cox', probably 'coxswain'). Tom says he censors the crew's mail, which confirms he was an officer. He jokes about his spelling and suggests the Navy make all sailors use typewriters. A small insertion above one line is only partly legible. Ink bleeds through from the back of the sheet."
+    },
+    {
+      "original_files": ["430425pg1.jpg", "430425pg2.jpg", "430425pg3.jpg"],
+      "transcription_file": "1943-04-25_Tom_to_Mother_and_All.txt",
+      "written_by": "Tom",
+      "written_to": "Mother & All (family)",
+      "date": "1943-04-25",
+      "date_source": "written on letter ('April 25, 1943')",
+      "other_dates_mentioned": ["Easter Sunday (1943-04-25; Easter 1943 did fall on April 25, which confirms the date)"],
+      "location": "Overseas/aboard ship in a warm climate (not named)",
+      "complete": false,
+      "notes": "Pages 1-3 are present, and page 3 ends mid-sentence, so at least one page is missing. Topics: Easter turkey dinner with Ritz-cracker stuffing, the 'Eng. officer' giving Tom his bacon, losing track of days, trying to forget the past and plan for the future, disillusionment with seeing foreign lands ('See America First'), radio news from the States, and packing away cold-weather gear. He recalls two cold weeks 'aboard ship at Little Creek' (Naval Amphibious Base Little Creek, Virginia)."
+    },
+    {
+      "original_files": ["Z Undated D Pg 1.jpg"],
+      "transcription_file": "Undated_D_Tom_to_Sis.txt",
+      "written_by": "Tom",
+      "written_to": "Sis (his sister; not named)",
+      "date": null,
+      "date_source": "undated; headed only 'Sunday,'",
+      "other_dates_mentioned": ["'Saturday' - the day before, when his sister visited him"],
+      "location": "A stateside Navy base (not named)",
+      "complete": false,
+      "notes": "Marked '(over)' at the bottom, but the back side was not scanned. Written on 'UNITED STATES NAVY' letterhead with an eagle, shield and anchors, which differs from the ship's-wheel letterhead of 1943-01-31. His sister visited him at the base on Saturday. He apologizes for being in a bad humor, says 'I think I will leave soon', and asks her to 'Tell the kid I said hello'. It was probably written during stateside training (1942 or early 1943), since a family visit was possible."
+    }
+  ],
+  "collection_notes": [
+    "All letters are signed 'Tom'.",
+    "Timeline shown by these letters: midshipman training (July 1942) -> Texas (January 1943) -> transfer to a new ship (end of January 1943) -> at sea aboard USS LCI(L) 62, crossing the Equator (March 1943) -> overseas (April 1943). Earlier training at Solomons, MD and Little Creek, VA is mentioned.",
+    "Seven of the eight letters are incomplete. The missing pages may be elsewhere in the parent 'TBF1 Navy Letters' folder or may be lost."
+  ]
+}

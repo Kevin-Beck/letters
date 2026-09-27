@@ -1,0 +1,54 @@
+{
+ "letter": "1943-12-25_Tom_to_Olive_and_Bob_Pelkey.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Dear Olive & Bob"
+   },
+   "kind": "reference",
+   "entity": "person.pelkeys"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "dehydrated"
+   },
+   "kind": "reference",
+   "entity": "military.dehydrated-food"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Dear Elva"
+   },
+   "kind": "reference",
+   "entity": "person.elva-beck",
+   "note": "The Pelkeys' note, which gives Tom's mother's first name."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "\"FLU\""
+   },
+   "kind": "context",
+   "note": "A significant influenza epidemic swept the U.S. in December 1943."
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "California fruits"
+   },
+   "kind": "reference",
+   "entity": "person.pelkeys"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Dr. Mortimer's"
+   },
+   "kind": "reference",
+   "entity": "person.mrs-mortimer"
+  }
+ ]
+}

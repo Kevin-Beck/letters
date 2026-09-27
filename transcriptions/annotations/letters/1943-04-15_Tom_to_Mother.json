@@ -1,0 +1,186 @@
+{
+ "letter": "1943-04-15_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "U.S.S. LCI(L)-62"
+   },
+   "kind": "reference",
+   "entity": "ship.lci-l-62"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Mail Call for the\nfirst time since we left the States"
+   },
+   "kind": "reference",
+   "entity": "event.voyage-1943",
+   "note": "The first mail in about ten weeks: 35-40 letters and 4 packages at once."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Izzy"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "George's grades"
+   },
+   "kind": "reference",
+   "entity": "person.george-beck"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "the draft"
+   },
+   "kind": "context",
+   "note": "Selective Service. In 1943 college men were being drafted, and George had to choose between waiting to be drafted and volunteering for a Navy program (he chose Navy V-12)."
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "Bill J."
+   },
+   "kind": "reference",
+   "entity": "person.bill-jameson"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Dick B."
+   },
+   "kind": "reference",
+   "entity": "person.dick"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "aviation cadets"
+   },
+   "kind": "reference",
+   "entity": "military.aviation-cadet"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Don W.'s"
+   },
+   "kind": "reference",
+   "entity": "person.don-w"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "regular Navy"
+   },
+   "kind": "reference",
+   "entity": "military.regular-navy"
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "Geo. W."
+   },
+   "kind": "reference",
+   "entity": "person.george-wagenhorst"
+  },
+  {
+   "id": "a12",
+   "quote": {
+    "exact": "honor roll at the office"
+   },
+   "kind": "context",
+   "note": "Employers kept 'honor rolls' of employees in the armed forces. Tom evidently worked for a company before the war, perhaps a family oil concern.",
+   "confidence": "probable"
+  },
+  {
+   "id": "a13",
+   "quote": {
+    "exact": "Harriet's baby"
+   },
+   "kind": "reference",
+   "entity": "person.hank-harriet"
+  },
+  {
+   "id": "a14",
+   "quote": {
+    "exact": "Mary Jane"
+   },
+   "kind": "reference",
+   "entity": "person.harriet-maryjane"
+  },
+  {
+   "id": "a15",
+   "quote": {
+    "exact": "U. Paul's chest"
+   },
+   "kind": "reference",
+   "entity": "person.uncle-paul"
+  },
+  {
+   "id": "a16",
+   "quote": {
+    "exact": "puffs up like Dad did"
+   },
+   "kind": "reference",
+   "entity": "person.john-a-beck",
+   "note": "The past tense is one of the hints that Dad had died.",
+   "confidence": "probable"
+  },
+  {
+   "id": "a17",
+   "quote": {
+    "exact": "Butler",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "place.butler-pa"
+  },
+  {
+   "id": "a18",
+   "quote": {
+    "exact": "Lucy McClung's"
+   },
+   "kind": "reference",
+   "entity": "person.mcclungs"
+  },
+  {
+   "id": "a19",
+   "quote": {
+    "exact": "Alaskan Highway"
+   },
+   "kind": "reference",
+   "entity": "culture.alaska-highway"
+  },
+  {
+   "id": "a20",
+   "quote": {
+    "exact": "our ship's seal"
+   },
+   "kind": "context",
+   "note": "The stationery was embossed 'DEPARTMENT OF THE NAVY / U.S.S. LCI(L)-62'."
+  },
+  {
+   "id": "a21",
+   "quote": {
+    "exact": "Pres. of Beck, Inc."
+   },
+   "kind": "reference",
+   "entity": "person.elva-beck"
+  },
+  {
+   "id": "a22",
+   "quote": {
+    "exact": "Fran will need a bridesmaid"
+   },
+   "kind": "reference",
+   "entity": "person.fran-beck"
+  }
+ ]
+}

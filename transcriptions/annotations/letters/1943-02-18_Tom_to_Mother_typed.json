@@ -1,0 +1,61 @@
+{
+ "letter": "1943-02-18_Tom_to_Mother_typed.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Chet Beard"
+   },
+   "kind": "reference",
+   "entity": "person.chet-beard"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Phidelphia"
+   },
+   "kind": "reference",
+   "entity": "place.philadelphia"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "John Jay boys"
+   },
+   "kind": "reference",
+   "entity": "place.john-jay-hall"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Jackie"
+   },
+   "kind": "reference",
+   "entity": "person.jackie"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "the oil being rationed"
+   },
+   "kind": "reference",
+   "entity": "culture.fuel-oil-rationing"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "bundling"
+   },
+   "kind": "context",
+   "note": "A joke about the old colonial courting custom of sharing a bed fully clothed (and bundled), here meaning 'keeping warm'."
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Al Wiengard"
+   },
+   "kind": "context",
+   "note": "Someone from home whose departure was apparently a story; not identified."
+  }
+ ]
+}

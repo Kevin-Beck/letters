@@ -1,0 +1,22 @@
+{
+ "letter": "1942-11-22_Tom_to_Sis_Betty_UndatedD.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Dear Sis"
+   },
+   "kind": "reference",
+   "entity": "person.betty"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Tell the kid I said hello"
+   },
+   "kind": "context",
+   "note": "Perhaps Betty's child or a younger family member (possibly 'Hickory').",
+   "confidence": "speculative"
+  }
+ ]
+}

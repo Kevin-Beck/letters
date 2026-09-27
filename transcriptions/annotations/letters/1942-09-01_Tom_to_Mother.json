@@ -1,0 +1,31 @@
+{
+ "letter": "1942-09-01_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "forgot about your birthday"
+   },
+   "kind": "reference",
+   "entity": "person.elva-beck",
+   "note": "Mother's birthday was in late August."
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Polk"
+   },
+   "kind": "content-note",
+   "entity": "place.polk-state-school",
+   "note": "A period joke comparing the instructors to residents of Polk State School, an institution for people with intellectual disabilities. Kept as written."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "We get a cruise on Thursday"
+   },
+   "kind": "context",
+   "note": "Practical seamanship training aboard small vessels in New York harbor."
+  }
+ ]
+}

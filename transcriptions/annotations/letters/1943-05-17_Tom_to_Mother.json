@@ -1,0 +1,37 @@
+{
+ "letter": "1943-05-17_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Marge's letters"
+   },
+   "kind": "reference",
+   "entity": "person.marge"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "personal clothing that we are sending home"
+   },
+   "kind": "context",
+   "note": "Crews in the tropics were told to send home or store woollens, blues and whites they would not need."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "the Club"
+   },
+   "kind": "reference",
+   "entity": "military.officers-club"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Betty"
+   },
+   "kind": "reference",
+   "entity": "person.betty"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "letter": "1942-11-06_Tom_to_Mother_arrived_Solomons.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "barges"
+   },
+   "kind": "reference",
+   "entity": "military.landing-craft"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Mrs. Mortimer"
+   },
+   "kind": "reference",
+   "entity": "person.mrs-mortimer"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "U.S. Naval Amphibious training Base"
+   },
+   "kind": "reference",
+   "entity": "place.solomons-md"
+  }
+ ]
+}

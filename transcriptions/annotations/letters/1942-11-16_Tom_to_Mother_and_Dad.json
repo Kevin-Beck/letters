@@ -1,0 +1,55 @@
+{
+ "letter": "1942-11-16_Tom_to_Mother_and_Dad.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "L.C.T. (landing craft - tanks)"
+   },
+   "kind": "reference",
+   "entity": "military.lct"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "\"takes the con\""
+   },
+   "kind": "reference",
+   "entity": "military.take-the-con"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "John's\nboat"
+   },
+   "kind": "reference",
+   "entity": "person.john-beck"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Fish Point",
+    "occurrence": 1
+   },
+   "kind": "context",
+   "note": "A point near the Solomons base on the Patuxent River or Chesapeake Bay used as a training mark; the exact location is not confirmed.",
+   "confidence": "speculative"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Who is the burdened vessel"
+   },
+   "kind": "reference",
+   "entity": "military.burdened-vessel"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "\"Meet her\""
+   },
+   "kind": "reference",
+   "entity": "military.meet-her"
+  }
+ ]
+}

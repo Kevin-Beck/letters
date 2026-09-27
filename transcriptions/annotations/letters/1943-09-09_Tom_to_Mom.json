@@ -1,0 +1,70 @@
+{
+ "letter": "1943-09-09_Tom_to_Mom.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Flotilla"
+   },
+   "kind": "reference",
+   "entity": "organization.lci-flotilla-5"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Geo. W."
+   },
+   "kind": "reference",
+   "entity": "person.george-wagenhorst"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Isabel"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "the movies",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "military.movie-boat"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Italy's action"
+   },
+   "kind": "reference",
+   "entity": "event.italian-armistice"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "New Guinea"
+   },
+   "kind": "reference",
+   "entity": "event.new-guinea-1943"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Jim Hoffman"
+   },
+   "kind": "reference",
+   "entity": "person.jim-hoffman"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Florella"
+   },
+   "kind": "reference",
+   "entity": "person.florella"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "letter": "1943-01-02_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "officers club at the Navy Yard"
+   },
+   "kind": "reference",
+   "entity": "place.portsmouth-va",
+   "note": "The Norfolk Navy Yard, in Portsmouth, Va."
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Houston"
+   },
+   "kind": "reference",
+   "entity": "place.houston"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Bill Jamison's"
+   },
+   "kind": "reference",
+   "entity": "person.bill-jameson"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Luke & Lena [?]"
+   },
+   "kind": "reference",
+   "entity": "person.luke-lena"
+  }
+ ]
+}

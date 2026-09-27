@@ -1,0 +1,39 @@
+{
+ "letter": "Undated_Dad_to_Tommy_Wednesday.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "John",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.john-beck"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "that oil investigation"
+   },
+   "kind": "context",
+   "note": "Not identified. In the late 1930s the oil industry faced several federal and state antitrust inquiries. Dad's summons suggests he was an oil producer or company officer.",
+   "confidence": "speculative"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "State"
+   },
+   "kind": "reference",
+   "entity": "organization.penn-state"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Dad."
+   },
+   "kind": "reference",
+   "entity": "person.john-a-beck"
+  }
+ ]
+}

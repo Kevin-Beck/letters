@@ -1,0 +1,128 @@
+{
+ "letter": "1943-08-31_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Joe"
+   },
+   "kind": "reference",
+   "entity": "person.joe"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Getting a daughter"
+   },
+   "kind": "reference",
+   "entity": "person.fran-beck",
+   "note": "John married Fran in August 1943."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "life begins at 40"
+   },
+   "kind": "reference",
+   "entity": "culture.life-begins-at-40"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "Bill"
+   },
+   "kind": "reference",
+   "entity": "person.bill-jameson"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Janny"
+   },
+   "kind": "reference",
+   "entity": "person.janny"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "that financial wizard, my adviser"
+   },
+   "kind": "reference",
+   "entity": "person.john-beck"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Mac",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "person.mac"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "the new Beck family"
+   },
+   "kind": "reference",
+   "entity": "person.fran-beck"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "living off\nthe Army"
+   },
+   "kind": "reference",
+   "entity": "military.army-rations"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "old money bags"
+   },
+   "kind": "reference",
+   "entity": "person.john-beck"
+  },
+  {
+   "id": "a11",
+   "quote": {
+    "exact": "Plink [?]"
+   },
+   "kind": "context",
+   "note": "An unidentified friend (reading uncertain)."
+  },
+  {
+   "id": "a12",
+   "quote": {
+    "exact": "$1685.00"
+   },
+   "kind": "reference",
+   "entity": "military.pay-officer",
+   "note": "About $31,000 in today's money, carried ashore in cash."
+  },
+  {
+   "id": "a13",
+   "quote": {
+    "exact": "disbursing officer"
+   },
+   "kind": "reference",
+   "entity": "military.pay-officer"
+  },
+  {
+   "id": "a14",
+   "quote": {
+    "exact": "30 day leave"
+   },
+   "kind": "context",
+   "note": "Men returning from a long overseas tour could expect about 30 days' leave."
+  },
+  {
+   "id": "a15",
+   "quote": {
+    "exact": "Izzy"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  }
+ ]
+}

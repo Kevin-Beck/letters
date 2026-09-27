@@ -1,0 +1,21 @@
+{
+ "letter": "1942-10-09_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Pittsburgh"
+   },
+   "kind": "reference",
+   "entity": "place.pittsburgh"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "an Admiral is reviewing us"
+   },
+   "kind": "context",
+   "note": "A formal parade review by a flag officer before graduation."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "letter": "1942-12-05_Tom_to_Mother_and_Dad.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "muster",
+    "occurrence": 1
+   },
+   "kind": "reference",
+   "entity": "military.muster"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "crew 3081"
+   },
+   "kind": "reference",
+   "entity": "military.crew-numbers"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "(I am the censor for my crew)"
+   },
+   "kind": "reference",
+   "entity": "military.censorship"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "U.S.S. - LCI(L) #218"
+   },
+   "kind": "reference",
+   "entity": "ship.lci-l-218"
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "c/o Postmaster"
+   },
+   "kind": "reference",
+   "entity": "military.postmaster-address"
+  }
+ ]
+}

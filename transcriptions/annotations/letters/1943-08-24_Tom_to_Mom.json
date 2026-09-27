@@ -1,0 +1,86 @@
+{
+ "letter": "1943-08-24_Tom_to_Mom.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Ernie Pyle"
+   },
+   "kind": "reference",
+   "entity": "culture.ernie-pyle"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "sea\ngoing barges"
+   },
+   "kind": "reference",
+   "entity": "military.lci"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "Time"
+   },
+   "kind": "reference",
+   "entity": "culture.time-magazine"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "stag party"
+   },
+   "kind": "reference",
+   "entity": "person.john-beck",
+   "note": "John's bachelor party before his wedding to Fran."
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "Nunks"
+   },
+   "kind": "context",
+   "note": "Unidentified, perhaps a nickname for an uncle or a family pet."
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "\"Boot\""
+   },
+   "kind": "reference",
+   "entity": "military.boot"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "Glenn Scott"
+   },
+   "kind": "reference",
+   "entity": "person.glenn-scott"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "Geo. Wagenhorst"
+   },
+   "kind": "reference",
+   "entity": "person.george-wagenhorst"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "Sally"
+   },
+   "kind": "reference",
+   "entity": "person.mari-sally"
+  },
+  {
+   "id": "a10",
+   "quote": {
+    "exact": "travel allowance from Norfolk\nto Houston"
+   },
+   "kind": "context",
+   "note": "Officers were reimbursed for travel under orders, but had to turn in their orders to claim it."
+  }
+ ]
+}

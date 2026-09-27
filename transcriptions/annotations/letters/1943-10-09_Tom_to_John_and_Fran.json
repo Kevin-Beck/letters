@@ -1,0 +1,78 @@
+{
+ "letter": "1943-10-09_Tom_to_John_and_Fran.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "Dear John & Fran"
+   },
+   "kind": "reference",
+   "entity": "person.fran-beck"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "Isabel's"
+   },
+   "kind": "reference",
+   "entity": "person.isabel"
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "can't use either rugs or curtains"
+   },
+   "kind": "context",
+   "note": "Wartime shortages: textile mills were making military goods, and furnishings were hard to buy."
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "pessimistic\nabout the oil future to be building a coal cellar"
+   },
+   "kind": "reference",
+   "entity": "culture.fuel-oil-rationing",
+   "note": "With heating oil rationed, many families converted back to coal. The joke has an edge for an oil-business family."
+  },
+  {
+   "id": "a5",
+   "quote": {
+    "exact": "powder eggs"
+   },
+   "kind": "reference",
+   "entity": "military.dehydrated-food"
+  },
+  {
+   "id": "a6",
+   "quote": {
+    "exact": "(collision mats)"
+   },
+   "kind": "reference",
+   "entity": "military.collision-mat"
+  },
+  {
+   "id": "a7",
+   "quote": {
+    "exact": "the shoe situation"
+   },
+   "kind": "reference",
+   "entity": "culture.shoe-rationing"
+  },
+  {
+   "id": "a8",
+   "quote": {
+    "exact": "scuttlebutt"
+   },
+   "kind": "reference",
+   "entity": "military.scuttlebutt"
+  },
+  {
+   "id": "a9",
+   "quote": {
+    "exact": "our relief"
+   },
+   "kind": "reference",
+   "entity": "military.relief"
+  }
+ ]
+}

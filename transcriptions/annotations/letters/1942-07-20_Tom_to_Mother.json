@@ -1,0 +1,37 @@
+{
+ "letter": "1942-07-20_Tom_to_Mother.txt",
+ "annotations": [
+  {
+   "id": "a1",
+   "quote": {
+    "exact": "sworn\nin as midshipmen"
+   },
+   "kind": "reference",
+   "entity": "military.midshipman"
+  },
+  {
+   "id": "a2",
+   "quote": {
+    "exact": "900 men"
+   },
+   "kind": "context",
+   "note": "About 900 men entered with Tom in July 1942; 753 were commissioned in October."
+  },
+  {
+   "id": "a3",
+   "quote": {
+    "exact": "\"on\nthe tree\""
+   },
+   "kind": "reference",
+   "entity": "military.on-the-tree"
+  },
+  {
+   "id": "a4",
+   "quote": {
+    "exact": "march them off"
+   },
+   "kind": "reference",
+   "entity": "military.demerits"
+  }
+ ]
+}
