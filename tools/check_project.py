@@ -9,7 +9,8 @@ Checks that
   - each 'rescan' entry names a real page of its letter;
   - each transcription's "Source images" header lists exactly its letter's
     scans, and its page markers name only those scans;
-  - the annotations still build (runs annotations/build_annotations.py).
+  - the annotations still build (runs annotations/build_annotations.py);
+  - the data embedded in viewer.html is up to date (tools/build_viewer.py).
 
 Exits non-zero if anything is wrong.
 """
@@ -22,7 +23,29 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 EXPECTED_TOP = {"README.md", "rename_log.csv", "annotations", "data", "delete",
-                "photos", "scans", "tools", "transcriptions", "Viewer_design.md", ".git"}
+                "photos", "scans", "tools", "transcriptions", "Viewer_design.md",
+                "viewer.html", ".git"}
+
+
+def check_viewer():
+    sys.dont_write_bytecode = True
+    sys.path.insert(0, str(ROOT / "tools"))
+    import build_viewer
+    try:
+        expected = build_viewer.build_data()
+    except build_viewer.BuildError as e:
+        return [f"tools/build_viewer.py failed: {e}"]
+    try:
+        embedded = build_viewer.read_embedded()
+    except json.JSONDecodeError as e:
+        return [f"viewer.html data block is not valid JSON: {e}"]
+    if embedded is None:
+        return ["viewer.html is missing or has no letters-data block"]
+    expected.pop("built", None)
+    embedded.pop("built", None)
+    if embedded != expected:
+        return ["viewer.html data is out of date; run tools/build_viewer.py"]
+    return []
 
 
 def main():
@@ -83,6 +106,8 @@ def main():
                            capture_output=True, text=True)
     if build.returncode:
         errors.append("annotations/build_annotations.py failed:\n" + build.stdout)
+    else:
+        errors += check_viewer()
 
     if errors:
         print("\n".join(errors))
